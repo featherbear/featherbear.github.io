@@ -4,6 +4,12 @@
  *
  * ------------------------------------------------------------------- 
  */
+
+
+/* Custom stuff */
+
+var imgMin = 1;
+var imgMax = 40;
 Math.randomRange = function(min, max) {
 	// When random isn't random enough - http://heyjavascript.com/improving-on-javascripts-random-numbers/		
 	if (min && max) {
@@ -18,8 +24,6 @@ Math.randomRange = function(min, max) {
 function changeBackground(i) {
 	$("#intro").css("background-image", "url('images/intro-bg (" + i + ").jpg')")
 }
-var imgMin = 1;
-var imgMax = 36;
 
 if ((q = parseInt((q = location.toString()).substr(q.indexOf("?") + 1))) >= imgMin && q <= imgMax) {
 	changeBackground(q);
