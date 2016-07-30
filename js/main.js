@@ -22,14 +22,11 @@ Math.randomRange = function(min, max) {
 }
 
 function changeBackground(i) {
+	i = i == undefined ? Math.randomRange(imgMin, imgMax) : i
 	$("#intro").css("background-image", "url('images/intro-bg (" + i + ").jpg')")
 }
 
-if ((q = parseInt((q = location.toString()).substr(q.indexOf("?") + 1))) >= imgMin && q <= imgMax) {
-	changeBackground(q);
-} else {
-	changeBackground(Math.randomRange(imgMin, imgMax));
-}
+changeBackground(((parseInt((q = location.toString()).substr(q.indexOf("?") + 1))) >= imgMin && q <= imgMax)?q:undefined);
 
 (function($) {
 
