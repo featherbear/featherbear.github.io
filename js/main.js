@@ -5,6 +5,7 @@
  * ------------------------------------------------------------------- 
  */
 Math.randomRange = function(min, max) {
+	// When random isn't random enough - http://heyjavascript.com/improving-on-javascripts-random-numbers/		
 	if (min && max) {
 		return (min + Math.floor(Math.random() * (max - min + 1)));
 	} else if (min) {
@@ -14,8 +15,16 @@ Math.randomRange = function(min, max) {
 	}
 }
 
-function changeBackground() {
-	$("#intro").css("background-image", "url('images/intro-bg (" + Math.randomRange(1, 36) + ").jpg')")
+function changeBackground(i) {
+	$("#intro").css("background-image", "url('images/intro-bg (" + i + ").jpg')")
+}
+var imgMin = 1;
+var imgMax = 36;
+
+if ((q = parseInt((q = location.toString()).substr(q.indexOf("?") + 1))) >= imgMin && q <= imgMax) {
+	changeBackground(q);
+} else {
+	changeBackground(Math.randomRange(imgMin, imgMax));
 }
 
 (function($) {
@@ -26,10 +35,6 @@ function changeBackground() {
 	/* Preloader
 	------------------------------------------------------ */
 	$(window).load(function() {
-		// When random isn't random enough - http://heyjavascript.com/improving-on-javascripts-random-numbers/
-
-
-		changeBackground();
 		// will first fade out the loading animation 
 		$("#loader").fadeOut("slow", function() {
 
