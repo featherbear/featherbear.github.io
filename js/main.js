@@ -13,7 +13,18 @@
 	/* Preloader
 	------------------------------------------------------ */ 
    $(window).load(function() {
+   // When random isn't random enough - http://heyjavascript.com/improving-on-javascripts-random-numbers/
+   Math.randomRange = function(min, max) {
+    if (min && max) {
+        return (min + Math.floor(Math.random() * (max - min + 1)));
+    } else if (min) {
+        return (Math.floor(Math.random() * min + 1))
+    } else {
+        return (Math.floor(Math.random() * 101));
+    }
+}
 
+   $("#intro").css("background-image","url('images/intro-bg (" + Math.randomRange(1,36)+").jpg')")
       // will first fade out the loading animation 
     	$("#loader").fadeOut("slow", function(){
 
