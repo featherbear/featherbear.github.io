@@ -1,13 +1,3 @@
-#backgroundChange {
-  cursor: pointer;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none; 
-  -ms-user-select: none;
-  user-select: none; 
-}
-
 /**
  * =================================================================== 
  *
@@ -2607,3 +2597,14 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+#backgroundChange {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none; 
+}
