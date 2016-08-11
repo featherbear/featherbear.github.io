@@ -26,7 +26,7 @@ function changeBackground(i) {
 	$("#intro").css("background-image", "url('images/bg/intro-bg (" + i + ").jpg')")
 }
 
-changeBackground(((parseInt((q = location.toString()).substr(q.indexOf("?") + 1))) >= imgMin && q <= imgMax)?q:undefined);
+changeBackground(((r=parseInt((q = location.toString()).substr(q.indexOf("?") + 1))) >= imgMin && r <= imgMax)?r:undefined);
 
 (function($) {
 
