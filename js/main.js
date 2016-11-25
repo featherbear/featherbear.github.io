@@ -28,6 +28,8 @@ function changeBackground(i) {
 
 changeBackground(((r=parseInt((q = location.toString()).substr(q.indexOf("?") + 1))) >= imgMin && r <= imgMax)?r:undefined);
 
+document.getElementById('backgroundChange').onclick=function(){changeBackground()};
+
 (function($) {
 
 	"use strict";
