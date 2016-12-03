@@ -9,7 +9,7 @@
 /* Custom stuff */
 
 var imgMin = 1;
-var imgMax = 87;
+var imgMax = 88;
 Math.randomRange = function(min, max) {
 	// When random isn't random enough - http://heyjavascript.com/improving-on-javascripts-random-numbers/		
 	if (min && max) {
