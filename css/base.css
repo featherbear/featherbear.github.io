@@ -869,3 +869,41 @@ textarea {
 }
 
 /*# sourceMappingURL=base.css.map */
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgba(136,136,136,0.3);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-family: "lora-regular", serif;
+    font-size: 2rem;
+    line-height: 1.8;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgba(136,136,136,0.3) transparent transparent;
+}
+
