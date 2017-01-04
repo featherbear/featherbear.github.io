@@ -22,13 +22,15 @@ Math.randomRange = function(min, max) {
 }
 
 function changeBackground(i) {
-	i = i == undefined ? Math.randomRange(imgMin, imgMax) : i
-	$("#intro").css("background-image", "url('images/bg/intro-bg (" + i + ").jpg')")
+    var img = new Image();
+    var i = i == undefined ? Math.randomRange(imgMin, imgMax) : i
+    img.src = "images/bg/intro-bg (" + i + ").jpg";
+    img.onload = function() {$("#intro").css("background-image", "url('" + img.src + "')")};
 }
 
 changeBackground(((r=parseInt((q = location.toString()).substr(q.indexOf("?") + 1))) >= imgMin && r <= imgMax)?r:undefined);
-
-document.getElementById('backgroundChange').onclick=function(){changeBackground()};
+var bgID = setInterval(function(){changeBackground()}, 10*1000);
+document.getElementById('backgroundChange').onclick=function(){clearInterval(bgID); changeBackground();};
 
 (function($) {
 

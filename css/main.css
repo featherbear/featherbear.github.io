@@ -158,6 +158,9 @@ p.lead {
 	line-height: 1.8;
 	color: #888888;
 }
+p.lead a {
+    color: #888888;
+}
 @media only screen and (max-width:768px) {
 	p.lead {
 		font-size: 1.7rem;
@@ -1305,6 +1308,11 @@ header .logo a {
 	display: table;
 	position: relative;
 	text-align: center;
+	-webkit-transition: background-image 0.8s ease-out;
+	transition: background-image 0.8s ease-out;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
 }
 .intro-overlay {
 	position: absolute;
