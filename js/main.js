@@ -22,7 +22,7 @@ var coverImage = {
   usedImages: [],
   uniqueImage: function() {
     var i = Math.randomRange(imgMin, imgMax);
-    if (this.usedImages.indexOf(i) > -1) return uniqueImage();
+    if (this.usedImages.indexOf(i) > -1) return this.uniqueImage();
     return i;
   },
 
