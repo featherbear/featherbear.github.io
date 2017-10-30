@@ -1,0 +1,95 @@
+a {
+		text-decoration: none;
+}
+
+/* Profile links - Font Awesome */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+#links li{
+	display: inline; 
+	list-style-type: none;
+}
+#links li a {
+	  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 3.3rem;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	color: grey;
+	
+}
+#links li a[href*=instagram]:before {
+  content: "\f16d";
+}
+
+#links li a[href*=linkedin]:before {
+  content: "\f0e1";
+}
+
+#links li a[href*=facebook]:before {
+  content: "\f09a";
+}
+
+#links li a[href*=skype]:before {
+  content: "\f17e";
+}
+#links li a[href*=github]:before {
+  content: "\f121";
+}
+/* End profile links */
+
+/* Profile sections */
+#sections {
+	position: absolute;
+	right: 0;	
+}
+#sections span{
+	display:block;
+	text-align: left;
+	font-size: 3.3vh;
+		padding: 0 3vw;
+
+_-webkit-clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%);
+_clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+	
+}
+
+#sections span a {
+	content: url(../menusvg.svg);
+	
+	height: 42px;
+	width: 400px;
+	_text-transform: lowercase;
+	_color: black;
+	    _background: url(../image.png) -20px -20px repeat;
+	   _-webkit-text-fill-color: transparent;
+    _-webkit-background-clip: text;
+}
+
+/*
+#sections span:nth-child(1) {
+	background-color: #5EC0E9;
+margin-left: -15vw;
+}
+#sections span:nth-child(2) {
+	background-color: #C64534;	
+	margin-left: -20vw;
+}
+#sections span:nth-child(3) {
+	background-color: #FCE659;
+	margin-left: -25vw;
+}
+#sections span:nth-child(4) {
+	background-color:  #9AC447;	
+	margin-left: -30vw;
+}*/
+/* End profile sections*/
+body {
+	background: url(../image.png);
+}
