@@ -49,46 +49,41 @@ a {
 	position: absolute;
 	right: 0;	
 }
-#sections span{
+#sections a span{
 	display:block;
-	text-align: left;
+	text-align: right;
 	font-size: 3.3vh;
-		padding: 0 3vw;
-
-_-webkit-clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%);
-_clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+		padding-left: 5vw;
+a_-webkit-clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%);
+clip-path: polygon(2vw 0, 100% 0%, 100% 100%, 0% 100%);
 	
 }
 
-#sections span a {
-	content: url(../menusvg.svg);
-	
-	height: 42px;
-	width: 400px;
-	_text-transform: lowercase;
-	_color: black;
-	    _background: url(../image.png) -20px -20px repeat;
-	   _-webkit-text-fill-color: transparent;
+#sections a span {
+
+	text-transform: lowercase;
+	color: white;
     _-webkit-background-clip: text;
-}
+	_-webkit-text-fill-color: transparent;
 
-/*
-#sections span:nth-child(1) {
+}
+#sections a:nth-child(1) span {
 	background-color: #5EC0E9;
 margin-left: -15vw;
+
 }
-#sections span:nth-child(2) {
+#sections a:nth-child(2) span {
 	background-color: #C64534;	
 	margin-left: -20vw;
 }
-#sections span:nth-child(3) {
+#sections a:nth-child(3) span {
 	background-color: #FCE659;
 	margin-left: -25vw;
 }
-#sections span:nth-child(4) {
+#sections a:nth-child(4) span  {
 	background-color:  #9AC447;	
 	margin-left: -30vw;
-}*/
+}
 /* End profile sections*/
 body {
 	background: url(../image.png);
