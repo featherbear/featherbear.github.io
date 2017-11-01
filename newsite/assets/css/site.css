@@ -1,90 +1,149 @@
-a {
-		text-decoration: none;
-}
-
-/* Profile links - Font Awesome */
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Coves';
+	src: url('../fonts/coves_bold-webfont.woff2') format('woff2'), url('../fonts/coves_bold-webfont.woff') format('woff'), url('../fonts/coves_light-webfont.woff2') format('woff2'), url('../fonts/coves_light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
-#links li{
-	display: inline; 
-	list-style-type: none;
+body {
+
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100vh;
+	_-webkit-filter: grayscale(100%);
+	/* Safari 6.0 - 9.0 */
+    
+	_filter: grayscale(100%);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-size: cover;
+	background-attachment: fixed;
+	font: normal normal normal 14px Coves;
+	margin: 0 auto;
 }
-#links li a {
-	  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: 3.3rem;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a {
+	text-decoration: none;
+}
+/* Profile side pane */
+#profile {
+	width: 16vw;
+	background-color: whitesmoke;
+	height: 100vh;
+	position: fixed;
+	padding: 4vh 1vw;
+}
+#profile img {
+	border-radius: 50%;
+	border: solid black;
+	content: url(../images/profilepic.jpg);
+	width: 15.5vw;
+	margin-bottom: 5vh;
+}
+#profile > span {
+	font-size: 5vw;
+	font-weight: bold;
+	line-height: 2.5vh;
+}
+#profile > span > span {
+	font-size: 1.3vw;
+	font-weight: normal;
+	display: block;
+	text-indent: 4vw;
 	color: grey;
-	
 }
-#links li a[href*=instagram]:before {
-  content: "\f16d";
+#profile div {
+	margin-top: 5vh;
 }
-
-#links li a[href*=linkedin]:before {
-  content: "\f0e1";
+#profile div a {
+	margin: 0.5vh auto;
+	display: inline-block;
+	text-rendering: auto;
+	color: grey;
+	opacity: 0.6;
+	-o-transition: opacity .5s;
+	-ms-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-webkit-transition: opacity .5s;
+	transition: opacity .5s;
 }
-
-#links li a[href*=facebook]:before {
-  content: "\f09a";
+#profile div a:hover {
+	opacity: 1;
 }
-
-#links li a[href*=skype]:before {
-  content: "\f17e";
+#profile div a:before {
+	background-size: cover;
+	content: '';
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle;
+	margin-right: 5px;
 }
-#links li a[href*=github]:before {
-  content: "\f121";
+#profile div a[href*=instagram]:before {
+	background-image: url(../icons/instagram.svg);
 }
-/* End profile links */
-
+#profile div a[href*=linkedin]:before {
+	background-image: url(../icons/linkedin-squircle.svg);
+}
+#profile div a[href*=facebook]:before {
+	background-image: url(../icons/facebook-squircle.svg);
+}
+#profile div a[href*=skype]:before {
+	background-image: url(../icons/skype.svg);
+}
+#profile div a[href*=github]:before {
+	background-image: url(../icons/code-squircle.svg);
+}
 /* Profile sections */
+
 #sections {
 	position: absolute;
-	right: 0;	
+	right: 0;
+	bottom: 0;
 }
-#sections a span{
-	display:block;
-	text-align: right;
-	font-size: 3.3vh;
-		padding-left: 5vw;
-a_-webkit-clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%);
-clip-path: polygon(2vw 0, 100% 0%, 100% 100%, 0% 100%);
-	
-}
-
 #sections a span {
-
+	display: block;
+	text-align: right !important;
+	font-size: 3vw;
+	padding-left: 2vw;
+	margin-left: 0.1vw;
+	-webkit-clip-path: polygon(2vw 0, 100% 0, 100% 100%, 0 100%);
+	clip-path: polygon(2vw 0, 100% 0%, 100% 100%, 0% 100%);
 	text-transform: lowercase;
 	color: white;
-    _-webkit-background-clip: text;
+	padding-right: 1vw;
+	margin-bottom: 15vh;
+	_-webkit-background-clip: text;
 	_-webkit-text-fill-color: transparent;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+	opacity: 0.6;
+}
+/*
+a:hover, a:hover span {
+    color: #9A1A4A;
+}
+*/
 
+#sections a span:hover {
+	opacity: 1;
+	_text-align: left !important;
 }
 #sections a:nth-child(1) span {
 	background-color: #5EC0E9;
-margin-left: -15vw;
-
+	margin-left: -15vw;
 }
 #sections a:nth-child(2) span {
-	background-color: #C64534;	
+	background-color: #C64534;
 	margin-left: -20vw;
 }
 #sections a:nth-child(3) span {
 	background-color: #FCE659;
 	margin-left: -25vw;
 }
-#sections a:nth-child(4) span  {
-	background-color:  #9AC447;	
+#sections a:nth-child(4) span {
+	background-color: #9AC447;
 	margin-left: -30vw;
 }
 /* End profile sections*/
-body {
-	background: url(../image.png);
-}
