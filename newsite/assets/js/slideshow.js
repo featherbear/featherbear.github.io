@@ -8,7 +8,7 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
-var cbpBGSlideshow = (function() {
+(function() {
 
 	var $slideshow = $( '#cbp-bislideshow' ),
 		$items = $slideshow.children( 'li' ),
@@ -120,6 +120,6 @@ var cbpBGSlideshow = (function() {
 		clearTimeout( slideshowtime );
 	}
 
-	return { init : init };
+	init();
 
 })();
