@@ -4,13 +4,13 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
 body {
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 100vh;
 	_-webkit-filter: grayscale(100%);
 	/* Safari 6.0 - 9.0 */
-    
 	_filter: grayscale(100%);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -19,13 +19,16 @@ body {
 	font: normal normal normal 14px Coves;
 	margin: 0 auto;
 }
+
 a {
 	text-decoration: none;
 }
+
 /* Profile side pane */
+
 #profile {
 	width: 18vw;
-	background-color: rgba(255,255,255,.75);
+	background-color: rgba(255, 255, 255, .75);
 	height: 100vh;
 	position: fixed;
 	left: 0;
@@ -37,36 +40,43 @@ a {
 	-webkit-transition: 1s;
 	transition: 1s;
 }
+
 #profile:hover {
 	background-color: whitesmoke;
 }
+
 #profile img {
 	border-radius: 50%;
 	content: url(../images/profilepic.jpg);
 	width: 100%;
 	margin: 5vh auto;
 }
-#profile > span {
+
+#profile>span {
 	font-size: 5vw;
 	font-weight: bold;
 	line-height: 2.5vh;
 }
-#profile > span > span {
+
+#profile>span>span {
 	font-size: 1.3vw;
 	font-weight: normal;
 	display: block;
 	text-indent: 4vw;
 	color: grey;
 }
+
 #profile div {
 	margin-top: 5vh;
 }
+
 #profile div span {
 	margin: 0.5vh auto;
 	display: block;
 	text-rendering: auto;
 	color: grey !important;
 }
+
 #profile div span a {
 	word-wrap: break-word;
 	font-size: 1.2em;
@@ -78,9 +88,11 @@ a {
 	-webkit-transition: opacity .5s;
 	transition: opacity .5s;
 }
+
 #profile div span a:hover {
 	opacity: 1;
 }
+
 #profile div span a:before {
 	background-size: cover;
 	content: '';
@@ -90,24 +102,31 @@ a {
 	vertical-align: middle;
 	margin-right: 5px;
 }
+
 #profile div span a[href*=mailto]:before {
 	background-image: url(../icons/mail-squircle.svg);
 }
+
 #profile div span a[href*=linkedin]:before {
 	background-image: url(../icons/linkedin-squircle.svg);
 }
+
 #profile div span a[href*=facebook]:before {
 	background-image: url(../icons/facebook-squircle.svg);
 }
+
 #profile div span a[href*=skype]:before {
 	background-image: url(../icons/skype.svg);
 }
+
 #profile div span a[href*=github]:before {
 	background-image: url(../icons/code-squircle.svg);
 }
+
 #profile div span a[href*=instagram]:before {
 	background-image: url(../icons/instagram.svg);
 }
+
 /* Profile sections */
 
 #sections {
@@ -115,6 +134,7 @@ a {
 	right: 0;
 	bottom: 0;
 }
+
 #sections a span {
 	display: block;
 	text-align: right !important;
@@ -137,6 +157,7 @@ a {
 	transition: .5s;
 	opacity: 0.5;
 }
+
 /*
 a:hover, a:hover span {
     color: #9A1A4A;
@@ -147,27 +168,33 @@ a:hover, a:hover span {
 	opacity: 1;
 	padding-right: 5vw;
 }
+
 #sections a:nth-child(1) span {
 	background-color: #5EC0E9;
 	margin-left: -15vw;
 }
+
 #sections a:nth-child(2) span {
 	background-color: #C64534;
 	margin-left: -20vw;
 }
+
 #sections a:nth-child(3) span {
 	background-color: #FFD166;
 	margin-left: -25vw;
 }
+
 #sections a:nth-child(4) span {
 	background-color: #9AC447;
 	margin-left: -30vw;
 }
+
 /* End profile sections*/
 
 #cbp-bislideshow {
 	filter: brightness(60%);
 }
-a:hover > #cbp-bislideshow {
+
+a:hover>#cbp-bislideshow {
 	opacity: 0.5;
 }
