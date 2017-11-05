@@ -9,11 +9,11 @@
 	<meta content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" name="keywords">
 	<meta content="Codrops" name="author">
 	<link href="../favicon.ico" rel="shortcut icon">
-	<link href="../assets/css/page-dev.css" rel="stylesheet" type="text/css">
-	<link href="../assets/css/codrops-ThumbnailGrid.css" rel="stylesheet" type="text/css">
-	<link href="../assets/css/header.css" rel="stylesheet" type="text/css">
 	<script src="../assets/js/modernizr.custom.js">
 	</script>
+	<link href="../assets/css/page-dev.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/header.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/codrops-ThumbnailGrid.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div class="container">
@@ -37,18 +37,24 @@
 		<script src="../assets/js/codrops-grid.js">
 		</script> 
 		<script>
-		    $(function() {
-		      var data = [];
-		      $.getJSON("../data/items-dev.json").success(
-		          function(res){data=res
-		      Grid.init();
-		    (loadMore = function() { Grid.addItems($(data.splice(0,10).map(function(s){return "<li><a href=\""+ s.href+ "\" data-largesrc=\""+s.src+"\" data-title=\""+s.title+"\" data-description=\""+s.desc+"\"><img src=\""+ s.thumb_src + "\" alt=\"" + s.title+ "\"/><\/a><\/li>"}).join("\n")).appendTo($('#og-grid'))); return data.length > 0 })
-		    ()
-		    scrollLoader(loadMore)
-		    })});
+		$(function() {
+		  var data = [];
+		  $.getJSON("../data/items-dev.json", function(res) {
+		      data = res;
+		      console.log("LOAD");
+		      var loadMore = function() {
+		          Grid.addItems($(data.splice(0, 10).map(function(s) {
+		              return "<li><a href=\"" + s.href + "\" data-largesrc=\"" + s.src + "\" data-title=\"" + s.title + "\" data-description=\"" + s.desc + "\"><img src=\"" + s.thumb_src + "\" alt=\"" + s.title + "\"/><\/a><\/li>"
+		          }).join("\n")).appendTo($('#og-grid')));
+		          return data.length > 0
+		      }
+		      Grid.init(undefined, loadMore);
+		      scrollLoader(loadMore);
+		  })
+		});
 		</script> 
 		<script src="../assets/js/header.js">
-		</script> 
+		</script>
 	</div>
 </body>
 </html>
