@@ -3,7 +3,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #f6f6f6;
+	background: #f4f4f4;
 	z-index: 10000;
 	height: 230px;
 	overflow: hidden;
@@ -47,6 +47,8 @@
 	float: right;
 }
 
+.cbp-af-header h1  a, .cbp-af-header h1 a:hover {color: #555 !important}
+
 .cbp-af-header nav a {
 	color: #aaa;
 	font-weight: 700;
@@ -55,7 +57,7 @@
 }
 
 .cbp-af-header nav a:hover {
-	color: #333;
+	color: #333 !important;
 }
 
 /* Transitions and class for reduced height */
@@ -126,11 +128,6 @@ html {
 	font-weight: 300;
 	font-size: 15px;
 	color: #333;
-}
-
-a {
-	color: #555;
-	text-decoration: none;
 }
 
 body {

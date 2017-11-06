@@ -4,14 +4,14 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<title>Thumbnail Grid with Expanding Preview</title>
+	<title>Programming | Andrew Wong || featherbear || bearbear12345</title>
 	<meta content="Thumbnail Grid with Expanding Preview" name="description">
 	<meta content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" name="keywords">
 	<meta content="Codrops" name="author">
 	<link href="../favicon.ico" rel="shortcut icon">
 	<script src="../assets/js/modernizr.custom.js">
 	</script>
-	<link href="../assets/css/page-dev.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/page-programming.css" rel="stylesheet" type="text/css">
 	<link href="../assets/css/header.css" rel="stylesheet" type="text/css">
 	<link href="../assets/css/codrops-ThumbnailGrid.css" rel="stylesheet" type="text/css">
 </head>
@@ -21,7 +21,7 @@
 			<div class="cbp-af-inner">
 				<h1><a href="../index.html">Andrew Wong</a></h1>
 				<nav>
-					<a href="#">Design</a> <a href="#">Audio / Visual</a> <a href="#">Photography</a> <a class="active" href="#">Programming</a>
+					<a href="../design">Design</a> <a href="../audiovisual">Audio / Visual</a> <a href="../photos">Photography</a> <a class="active" href=".">Programming</a>
 				</nav>
 			</div>
 		</div>
@@ -39,13 +39,13 @@
 		<script>
 		$(function() {
 		  var data = [];
-		  $.getJSON("../data/items-dev.json", function(res) {
+		  $.getJSON("../data/items-programming.json", function(res) {
 		      data = res;
 		      console.log("LOAD");
 		      var loadMore = function() {
 		          Grid.addItems($(data.splice(0, 10).map(function(s) {
 		              return "<li><a href=\"" + s.href + "\" data-largesrc=\"" + s.src + "\" data-title=\"" + s.title + "\" data-description=\"" + s.desc + "\"><img src=\"" + s.thumb_src + "\" alt=\"" + s.title + "\"/><\/a><\/li>"
-		          }).join("\n")).appendTo($('#og-grid')));
+		          }).join("")).appendTo($('#og-grid')));
 		          return data.length > 0
 		      }
 		      Grid.init(undefined, loadMore);

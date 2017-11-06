@@ -1,0 +1,41 @@
+[{
+	"cover": {
+		"image": "http://lorempixel.com/400/400",
+		"title": "Into the Wild",
+		"description": "Nature / Outdoors"
+	},
+	"content": [{
+		"src": "http://lorempixel.com/400/400",
+		"title": "1a"
+	}]
+}, {
+	"cover": {
+		"image": "http://lorempixel.com/400/400",
+		"title": "Study | Light",
+		"description": "Experimentation with light painting"
+	},
+	"content": [{
+		"src": "http://lorempixel.com/400/400",
+		"title": "2a"
+	},
+	{
+		"src": "http://lorempixel.com/400/400",
+		"title": "2b"
+	}]
+},
+{
+	"cover": {
+		"image": "http://lorempixel.com/400/400",
+		"title": "Adventure Log",
+		"description": "Miscellaneous photos"
+	},
+	"content": [{
+		"src": "http://lorempixel.com/400/400",
+		"title": "2a"
+	},
+	{
+		"src": "http://lorempixel.com/400/400",
+		"title": "2b"
+	}]
+}
+]

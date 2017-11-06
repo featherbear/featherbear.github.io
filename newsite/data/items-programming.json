@@ -1,0 +1,30 @@
+[
+{
+	"href": "http://featherbear.github.io/deliverytrack",
+	"thumb_src": "deliverytrack/thumb.png",
+	"src": "deliverytrack/thumb.png",
+	"title": "DeliveryTrack",
+	"desc": "Been a month since your shipment has been sent? Waiting for the postman to come to your doorstep? Track your deliveries with DeliveryTrack, a postal service delivery tracking aggregator!"
+},
+{
+	"href": "http://github.com/featherbear/OnCue",
+	"thumb_src": "http://github.com/featherbear/OnCue/raw/documentation/graphics/logo/icon.png",
+	"src": "http://github.com/featherbear/OnCue/raw/documentation/graphics/banner.png",
+	"title": "OnCue Projector",
+	"desc": "OnCue takes care of your keynote presentation slides and media playlists, make your presentations professional."
+}
+,{
+	"href": "http://github.com/featherbear/NotiHub",
+	"thumb_src": "",
+	"src": "",
+	"title": "NotiHub",
+	"desc": "Modular centralised Internet Of Things system"
+},{
+	"href": "http://github.com/featherbear/propresenter-local-sync-tool",
+	"thumb_src": "http://github.com/featherbear/propresenter-local-sync-tool/raw/master/logo.ico",
+	"src": "http://github.com/featherbear/propresenter-local-sync-tool/raw/master/logo.ico",
+	"title": "ProPresenter Local Sync Tool",
+	"desc": "Sync tool for ProPresenter 6 (Windows), since the builtin sync functions are buggy and broken..."
+}
+
+]
