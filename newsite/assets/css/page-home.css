@@ -1,8 +1,14 @@
 @font-face {
 	font-family: 'Coves';
-	src: url('../fonts/coves_bold-webfont.woff2') format('woff2'), url('../fonts/coves_bold-webfont.woff') format('woff'), url('../fonts/coves_light-webfont.woff2') format('woff2'), url('../fonts/coves_light-webfont.woff') format('woff');
+	src: url('../fonts/coves_light-webfont.woff2') format('woff2'), url('../fonts/coves_light-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
+}
+@font-face {
+	font-family: 'Coves';
+	src: url('../fonts/coves_bold-webfont.woff2') format('woff2'), url('../fonts/coves_bold-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;	
 }
 
 body {
@@ -125,6 +131,25 @@ a {
 
 #profile div span a[href*=instagram]:before {
 	background-image: url(../icons/instagram.svg);
+}
+
+#profile p {
+	text-align: center
+}
+
+#profile p a[href*=Resume] {
+	border: 4px solid #555;
+	color: #555;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+#profile p a[href*=Resume]:hover {
+	opacity: 0.7;
 }
 
 /* Profile sections */
