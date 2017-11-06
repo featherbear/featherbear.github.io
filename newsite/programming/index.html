@@ -4,14 +4,11 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<title>Programming | Andrew Wong || featherbear || bearbear12345</title>
-	<meta content="Thumbnail Grid with Expanding Preview" name="description">
-	<meta content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" name="keywords">
-	<meta content="Codrops" name="author">
+	<meta content="Programming portfolio" name="description">
+	<meta content="Andrew Wong" name="author">
+	<title>Programming - Andrew Wong | featherbear</title>
 	<link href="../favicon.ico" rel="shortcut icon">
-	<script src="../assets/js/modernizr.custom.js">
-	</script>
-	<link href="../assets/css/page-programming.css" rel="stylesheet" type="text/css">
+	<script src="../assets/js/modernizr.custom.js"></script>
 	<link href="../assets/css/header.css" rel="stylesheet" type="text/css">
 	<link href="../assets/css/codrops-ThumbnailGrid.css" rel="stylesheet" type="text/css">
 </head>
@@ -21,40 +18,20 @@
 			<div class="cbp-af-inner">
 				<h1><a href="../index.html">Andrew Wong</a></h1>
 				<nav>
-					<a href="../design">Design</a> <a href="../audiovisual">Audio / Visual</a> <a href="../photos">Photography</a> <a class="active" href=".">Programming</a>
+					<a href="../design">Design</a>
+					<a href="../audiovisual">Audio / Visual</a>
+					<a href="../photos">Photography</a>
+					<a class="active" href=".">Programming</a>
 				</nav>
 			</div>
 		</div>
 		<div class="main">
 			<ul class="og-grid" id="og-grid"></ul>
 		</div>
-		<script src="../assets/js/scrollLoader.js">
-		</script> 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
-		</script> 
-		<script src="../assets/js/jquery.imagesloaded.min.js">
-		</script> 
-		<script src="../assets/js/codrops-grid.js">
-		</script> 
-		<script>
-		$(function() {
-		  var data = [];
-		  $.getJSON("../data/items-programming.json", function(res) {
-		      data = res;
-		      console.log("LOAD");
-		      var loadMore = function() {
-		          Grid.addItems($(data.splice(0, 10).map(function(s) {
-		              return "<li><a href=\"" + s.href + "\" data-largesrc=\"" + s.src + "\" data-title=\"" + s.title + "\" data-description=\"" + s.desc + "\"><img src=\"" + s.thumb_src + "\" alt=\"" + s.title + "\"/><\/a><\/li>"
-		          }).join("")).appendTo($('#og-grid')));
-		          return data.length > 0
-		      }
-		      Grid.init(undefined, loadMore);
-		      scrollLoader(loadMore);
-		  })
-		});
-		</script> 
-		<script src="../assets/js/header.js">
-		</script>
+		<script src="../assets/js/scrollLoader.js"></script> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+		<script src="../assets/js/page-programming.js"></script> 
+		<script src="../assets/js/header.js"></script>
 	</div>
 </body>
 </html>

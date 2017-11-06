@@ -17,7 +17,7 @@
 	text-decoration: none;
 }
 .cbp-af-header .cbp-af-inner {
-	width: 90%;
+	width: 95%;
 	max-width: 69em;
 	margin: 0 auto;
 	padding: 0 1.875em;
@@ -56,7 +56,7 @@
 .cbp-af-header nav a {
 	color: #aaa;
 	font-weight: 700;
-	margin: 0 0 0 20px;
+	margin: 0 0 0 15px;
 	font-size: 1.4em;
 	text-transform: lowercase;
 }
@@ -105,6 +105,8 @@
 	}
 	.cbp-af-header.cbp-af-header-shrink h1, .cbp-af-header.cbp-af-header-shrink nav a {
 		line-height: 45px;
+		margin-top: 10px;
+		margin-bottom: -10px;
 	}
 	.cbp-af-header.cbp-af-header-shrink h1 {
 		font-size: 2em;

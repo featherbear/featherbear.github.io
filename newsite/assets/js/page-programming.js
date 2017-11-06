@@ -455,3 +455,18 @@ var Grid = (function() {
 		addItems: addItems
 	};
 })();
+$(function() {
+	var data = [];
+	$.getJSON("../data/items-programming.json", function(res) {
+		data = res;
+		console.log("LOAD");
+		var loadMore = function() {
+			Grid.addItems($(data.splice(0, 10).map(function(s) {
+				return "<li><a href=\"" + s.href + "\" data-largesrc=\"" + s.src + "\" data-title=\"" + s.title + "\" data-description=\"" + s.desc + "\"><img src=\"" + s.thumb_src + "\" alt=\"" + s.title + "\"/><\/a><\/li>"
+			}).join("")).appendTo($('#og-grid')));
+			return data.length > 0
+		}
+		Grid.init(undefined, loadMore);
+		scrollLoader(loadMore);
+	})
+});
