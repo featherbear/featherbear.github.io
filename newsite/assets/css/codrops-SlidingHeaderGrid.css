@@ -495,10 +495,3 @@ body {
 		font-size: 2em;
 	}
 }
-
-::-webkit-scrollbar {width: 5px;}
-::-webkit-scrollbar-thumb {background: #476c9b;}
-
-.hidescroll {
-overflow-y: hidden
-}

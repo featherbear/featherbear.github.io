@@ -137,7 +137,13 @@ html {
 	color: #333;
 }
 
-
 body {
 	margin-top: 230px !important;
+}
+
+::-webkit-scrollbar {width: 5px;}
+::-webkit-scrollbar-thumb {background: #476c9b;}
+
+.hidescroll {
+overflow-y: hidden
 }
