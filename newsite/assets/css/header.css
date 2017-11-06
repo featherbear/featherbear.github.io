@@ -12,6 +12,10 @@
 	transition: height 0.3s;
 }
 
+.cbp-af-header a {
+	color: #555;
+	text-decoration: none;
+}
 .cbp-af-header .cbp-af-inner {
 	width: 90%;
 	max-width: 69em;
@@ -54,6 +58,7 @@
 	font-weight: 700;
 	margin: 0 0 0 20px;
 	font-size: 1.4em;
+	text-transform: lowercase;
 }
 
 .cbp-af-header nav a:hover {
@@ -129,6 +134,7 @@ html {
 	font-size: 15px;
 	color: #333;
 }
+
 
 body {
 	margin-top: 230px !important;
