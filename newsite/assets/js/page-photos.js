@@ -1,4 +1,4 @@
-  $.getJSON("../data/items-photos.json", function(res) {
+$.getJSON("../data/items-photos.json", function(res) {
   	var nav = document.createElement('nav')
   	nav.className = 'thumb-nav'
   	for (var i = 1; i <= res.length; i++) {
@@ -44,6 +44,7 @@
   			title.innerText = s.title
   			var div = document.createElement('div')
   			div.className = "item"
+  			div.setAttribute('data-src', s.src.replace("_z_d.jpg","_b_d.jpg"))
   			div.appendChild(img)
   			div.appendChild(title)
   			section.appendChild(div)
@@ -57,8 +58,6 @@
   			navIcon_img.alt = res[i - 1].cover.title
   			navIcon_img.src = res[i - 1].cover.image
   			navIcon.appendChild(navIcon_img)
-			/* var navIcon_span = document.createElement('span')
-  			navIcon.appendChild(navIcon_span) */
 		nav.appendChild(navIcon)
   	}
   	document.body.appendChild(nav)
@@ -210,4 +209,13 @@
 
   	init();
 	classie.add(document.body, 'hidescroll')
+  	$(".items-wrap").lightGallery({download: false, loadYoutubeThumbnail: false, loadVimeoThumbnail: false, loadDailymotionThumbnail: false})
+  	$(".items-wrap").on('onBeforeOpen.lg', function(event, prevIndex, index) {
+        $('body').css('overflow', 'hidden')
+    });
+    $(".items-wrap").on('onBeforeClose.lg', function(event, prevIndex, index) {
+        $('body').css('overflow', 'auto')
+    });
   })
+
+  

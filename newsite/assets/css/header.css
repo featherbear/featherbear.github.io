@@ -4,7 +4,7 @@
 	left: 0;
 	width: 100%;
 	background: #f4f4f4;
-	z-index: 10000;
+	z-index: 500;
 	height: 230px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
@@ -143,6 +143,10 @@ body {
 
 ::-webkit-scrollbar {width: 5px;}
 ::-webkit-scrollbar-thumb {background: #476c9b;}
+
+a {
+	text-decoration: none;
+}
 
 .hidescroll {
 overflow-y: hidden

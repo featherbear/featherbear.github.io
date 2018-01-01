@@ -395,15 +395,17 @@ body {
 	border-width: 0 5px 10px;
 	background: #2a2e39;
 }
-
 .item__image {
+	object-fit: cover;
+	cursor: pointer;
 	position: absolute;
 	top: 50%;
 	min-height: 100%;
 	width: 100%;
+	max-width:100%;
 	opacity: 0.7;
-	-webkit-transform: translate3d(0, -50%, 0) scale3d(1.2, 1.2, 1);
-	transform: translate3d(0, -50%, 0) scale3d(1.2, 1.2, 1);
+	-webkit-transform: translate3d(0, -50%, 0) scale3d(1.1, 1.1, 1);
+	transform: translate3d(0, -50%, 0) scale3d(1.1, 1.1, 1);
 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
 	transition: transform 0.5s, opacity 0.5s;
 }
@@ -415,6 +417,7 @@ body {
 }
 
 .item__title {
+	pointer-events: none;
 	position: absolute;
 	bottom: 0;
 	margin: 0;

@@ -8,9 +8,8 @@
 	font-family: 'Coves';
 	src: url('../fonts/coves_bold-webfont.woff2') format('woff2'), url('../fonts/coves_bold-webfont.woff') format('woff');
 	font-weight: bold;
-	font-style: normal;	
+	font-style: normal;
 }
-
 body {
 	background-repeat: no-repeat;
 	background-position: center;
@@ -25,11 +24,9 @@ body {
 	font: normal normal normal 14px Coves;
 	margin: 0 auto;
 }
-
 a {
 	text-decoration: none;
 }
-
 /* Profile side pane */
 
 #profile {
@@ -40,50 +37,59 @@ a {
 	left: 0;
 	top: 0;
 	padding: 0 1vw;
-	-o-transition: 1s;
-	-ms-transition: 1s;
-	-moz-transition: 1s;
-	-webkit-transition: 1s;
-	transition: 1s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
 }
-
 #profile:hover {
 	background-color: whitesmoke;
 }
-
 #profile img {
 	border-radius: 50%;
 	content: url(../images/profilepic.jpg);
 	width: 100%;
 	margin: 5vh auto;
 }
+/* Name */
 
 #profile>span {
 	font-size: 5vw;
+	display: block;
 	font-weight: bold;
 	line-height: 2.5vh;
 }
-
 #profile>span>span {
 	font-size: 1.3vw;
 	font-weight: normal;
-	display: block;
+	display: inline-block;
 	text-indent: 4vw;
 	color: grey;
 }
+/* End name */
 
 #profile div {
 	margin-top: 5vh;
 }
-
-#profile div span {
+#profile div a {
 	margin: 0.5vh auto;
 	display: block;
 	text-rendering: auto;
 	color: grey !important;
 }
-
-#profile div span a {
+#profile div a>span:before {
+	background-size: cover;
+	display: inline-block;
+	content: "";
+	width: 2em;
+	height: 2em;
+	vertical-align: middle;
+}
+#profile div a span span {
+	margin-left: 5px;
+}
+#profile div a>span {
 	word-wrap: break-word;
 	font-size: 1.2em;
 	color: grey;
@@ -94,64 +100,43 @@ a {
 	-webkit-transition: opacity .5s;
 	transition: opacity .5s;
 }
-
-#profile div span a:hover {
+#profile div a span:hover {
 	opacity: 1;
 }
-
-#profile div span a:before {
-	background-size: cover;
-	content: '';
-	display: inline-block;
-	width: 2em;
-	height: 2em;
-	vertical-align: middle;
-	margin-right: 5px;
-}
-
-#profile div span a[href*=mailto]:before {
+#profile div a[href*=mailto]>span:before {
 	background-image: url(../icons/mail-squircle.svg);
 }
-
-#profile div span a[href*=linkedin]:before {
+#profile div a[href*=linkedin]>span:before {
 	background-image: url(../icons/linkedin-squircle.svg);
 }
-
-#profile div span a[href*=facebook]:before {
+#profile div a[href*=facebook]>span:before {
 	background-image: url(../icons/facebook-squircle.svg);
 }
-
-#profile div span a[href*=skype]:before {
+#profile div a[href*=skype]>span:before {
 	background-image: url(../icons/skype.svg);
 }
-
-#profile div span a[href*=github]:before {
+#profile div a[href*=github]>span:before {
 	background-image: url(../icons/code-squircle.svg);
 }
-
-#profile div span a[href*=instagram]:before {
+#profile div a[href*=instagram]>span:before {
 	background-image: url(../icons/instagram.svg);
 }
-
 #profile p {
-	text-align: center
+	text-align: center;
 }
-
 #profile p a[href*=Resume] {
 	border: 4px solid #555;
 	color: #555;
 	padding: 5px;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 	text-transform: uppercase;
-	transition: 0.3s;
+	transition: 0.5s;
 	display: inline-block;
 }
-
 #profile p a[href*=Resume]:hover {
 	opacity: 0.7;
 }
-
 /* Profile sections */
 
 #sections {
@@ -159,7 +144,6 @@ a {
 	right: 0;
 	bottom: 0;
 }
-
 #sections a span {
 	display: block;
 	text-align: right !important;
@@ -182,44 +166,50 @@ a {
 	transition: .5s;
 	opacity: 0.5;
 }
-
-/*
-a:hover, a:hover span {
-    color: #9A1A4A;
-}
-*/
-
 #sections a span:hover {
 	opacity: 1;
-	padding-right: 5vw;
+	/* padding-right: 5vw; */
 }
-
 #sections a:nth-child(1) span {
 	background-color: #5EC0E9;
 	margin-left: -15vw;
 }
-
 #sections a:nth-child(2) span {
 	background-color: #C64534;
 	margin-left: -20vw;
 }
-
 #sections a:nth-child(3) span {
 	background-color: #FFD166;
 	margin-left: -25vw;
 }
-
 #sections a:nth-child(4) span {
 	background-color: #9AC447;
 	margin-left: -30vw;
 }
+/* End profile sections */
 
-/* End profile sections*/
-
+@media screen and (orientation: portrait) {
+	#profile div a span span {
+		text-indent: -10000px;
+		position: absolute;
+	}
+	#profile div a {
+		text-align: center;
+	}
+	#profile p a[href*=Resume] {
+		font-size: 1em;
+	}
+	#profile>span {
+		text-align: center;
+		font-size: 1.5em;
+	}
+	#profile>span>span {
+		display: none
+	}
+}
 #cbp-bislideshow {
 	filter: brightness(60%);
 }
-
 a:hover>#cbp-bislideshow {
 	opacity: 0.5;
 }
