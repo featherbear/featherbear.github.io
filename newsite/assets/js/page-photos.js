@@ -34,7 +34,8 @@ $.getJSON("../data/items-photos.json", function(res) {
 		
   		var section = document.createElement('section')
   		section.className = "items-wrap"
-  		res[i - 1].content.map(function(s) {
+  		// Flip the order of the photos, so the photos entered in the data file last will appear first
+  		res[i - 1].content.reverse().map(function(s) {
   			var img = document.createElement('img');
   			img.src = s.src
   			img.alt = s.title

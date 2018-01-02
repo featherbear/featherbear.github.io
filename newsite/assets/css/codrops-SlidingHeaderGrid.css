@@ -397,7 +397,7 @@ body {
 }
 .item__image {
 	object-fit: cover;
-	cursor: pointer;
+	cursor: zoom-in;
 	position: absolute;
 	top: 50%;
 	min-height: 100%;
