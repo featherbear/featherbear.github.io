@@ -112,7 +112,7 @@
 	init();
 	
 	$('a').click(function(e) {
-		if (e.currentTarget.href.startsWith("//")) {
+		if (e.currentTarget.getAttribute('href').startsWith("//")) {
 			window.parent.location=e.currentTarget.href;
 		}
 	});
