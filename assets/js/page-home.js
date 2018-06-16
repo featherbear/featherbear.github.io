@@ -110,4 +110,10 @@
 		clearTimeout(slideshowtime);
 	}
 	init();
+	
+	$('a').click(function(e) {
+		if (e.currentTarget.href.startsWith("//")) {
+			window.parent.location=e.currentTarget.href;
+		}
+	});
 })();
