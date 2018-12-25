@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Python Tornado vs Flask &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="A &#39;battle&#39; of the Python web microframeworks" />
+  
+  <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
+  
+  <link rel="icon" type="image/png" href="../../img/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <link rel="stylesheet" href="../../css/xcode.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/latolatinfonts.css" />
+  
+  <style>
+    body {
+      background: #ecedef url("/blog/IMG_0072.jpg") repeat;
+    }
+  </style>
+  
+</head>
+  <body class="single-body">
+    <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="../../" class="nav-text">
+    [Back to Home]
+  </a></h1>
+  <div class="hamburger-menu">
+		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
+		<span></span>
+		<span></span>
+    <ul class="hamburger-menu-overlay">
+      <li><a href="../../" class="hamburger-menu-overlay-link">Home</a></li>
+      
+      
+			<li><a href="../../categories/ai" class="hamburger-menu-overlay-link">Ai</a></li>
+			
+			<li><a href="../../categories/audio/visual" class="hamburger-menu-overlay-link">Audio/visual</a></li>
+			
+			<li><a href="../../categories/life" class="hamburger-menu-overlay-link">Life</a></li>
+			
+			<li><a href="../../categories/networking" class="hamburger-menu-overlay-link">Networking</a></li>
+			
+			<li><a href="../../categories/photography" class="hamburger-menu-overlay-link">Photography</a></li>
+			
+			<li><a href="../../categories/python" class="hamburger-menu-overlay-link">Python</a></li>
+			
+			<li><a href="../../categories/unsw" class="hamburger-menu-overlay-link">Unsw</a></li>
+			
+			<li><a href="../../categories/webdev" class="hamburger-menu-overlay-link">Webdev</a></li>
+			
+    </ul>
+  </div>
+</nav>
+    <main class="content side-text-padding">
+      <article class="post dropcase">
+        <header class="post-header">
+        	<h1 class="post-title">Python Tornado vs Flask</h1>
+          <p class="post-date">Posted <time datetime="2018-11-24">Nov 24, 2018</time></p>
+        </header>
+        
+        
+
+<p>Python has two great web server libraries - <a href="http://flask.pocoo.org/">Flask</a> and <a href="https://www.tornadoweb.org/">Tornado</a>.</p>
+
+<h1 id="flask-vs-tornado">Flask vs Tornado</h1>
+
+<h2 id="why-flask">Why Flask</h2>
+
+<p>Flask has a much easier to use routing functionality, where you just need a Python decorator <code>@app.get(...)</code>.<br />
+In Tornado you need to set up a site router, and all these other things (<em>or I didn&rsquo;t do it right</em>)</p>
+
+<h2 id="why-tornado">Why Tornado</h2>
+
+<p>Tornado is a non-blocking server, which is able to handle multiple requests at the same time.<br />
+Flask is blocking, and does not perform well when multiple requests are received</p>
+
+<h1 id="porque-les-nos-dos">Porque les nos dos!?</h1>
+
+<p>Flask has the better routing engine than Tornado.<br />
+Tornado has the better server performance than Flask.</p>
+
+<p>So&hellip; why not use them both!</p>
+
+<p>Flask for the template engine (Routing + Jinja2 rendering)
+Tornado for the server</p>
+
+<blockquote>
+<p>If we only want to use Flask for Jinja rendering, we could just implement <a href="https://bibhasdn.com/blog/using-jinja2-as-the-template-engine-for-tornado-web-framework/">Jinja in Tornado</a> ourselves.</p>
+</blockquote>
+
+<hr />
+
+<h1 id="a-sync">(a)sync</h1>
+
+<p>When we talk about servers, two terms often pop up - synchronous and <strong>a</strong>synchronous.</p>
+
+<p>A <em>synchronous server</em> performs each operation in order.<br />
+An <em>asynchronous server</em> performs its operations as they please.</p>
+
+<p>Flask&rsquo;s inbuilt server is synchronous (blocking); meaning that newer requests not performed until the previous request is completed.<br />
+Tornado&rsquo;s inbuilt server is asynchronous (non-blocking); meaning that several requests can be handled at the same time.</p>
+
+<p>Hence, where a website might load many files (js, css, images, etc) - Tornado wins here.</p>
+
+<p>Although&hellip;<br />
+Flask&rsquo;s inbuilt server is <strong>not meant to be used for production environments</strong>, only development / testing. They recommend setting up a WSGI container, like Gunicorn.</p>
+
+      </article>
+      
+    </main>
+    <nav class="end-nav side-padding">
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="../../post/html-script-tags/" class="card blog-card" rel="bookmark" >
+    
+    <div class="card-img-container">
+      <p class="card-img-overlay">Next Article</p>
+      <img src="https://i.stack.imgur.com/wfL82.png" class="card-img">
+    </div>
+    
+  <article class="card-body">
+    <h2 class="card-title">HTML Script Tags</h2>
+    <p class="card-text">A handy diagram to explain the functionality of async and defer in &lt;script&gt; tags</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2018-11-24 1124:00">Nov 24, 2018</time></p>
+      <p>#WebDev </p>
+    </div>
+  </article>
+</a>
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="../../" class="card home-card" style="background-image: url( ZgotmplZ )" rel="bookmark" >
+  Home
+</a>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/core.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+  </body>
+</html>

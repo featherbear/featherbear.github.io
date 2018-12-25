@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unsw on Andrew&#39;s Blog</title>
+    <link>/categories/unsw/</link>
+    <description>Recent content in Unsw on Andrew&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Dec 2018 18:32:47 +1100</lastBuildDate>
+    
+	<atom:link href="/categories/unsw/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Secret Agent</title>
+      <link>/post/unsw-compclub2019summer/</link>
+      <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
+      
+      <guid>/post/unsw-compclub2019summer/</guid>
+      <description>What is UNSW CSE CompClub?
+ I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
+Last time (Winter 2018) I volunteered as a mentor - those people who would help guide the students.
+This time around I helped out as an organiser, in particular a content writer.
+That means that I get a whole day to do whatever the heck I want! Yeeeeet!</description>
+    </item>
+    
+    <item>
+      <title>UNSW COMP2521</title>
+      <link>/post/unsw-comp2521/</link>
+      <pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate>
+      
+      <guid>/post/unsw-comp2521/</guid>
+      <description>location.href = &#34;//featherbear.github.io/UNSW-COMP2521/&#34; </description>
+    </item>
+    
+    <item>
+      <title>UNSW COMP1521</title>
+      <link>/post/unsw-comp1521/</link>
+      <pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate>
+      
+      <guid>/post/unsw-comp1521/</guid>
+      <description>location.href = &#34;//featherbear.github.io/UNSW-COMP1521/&#34; </description>
+    </item>
+    
+    <item>
+      <title>School of Codecraft and Hackery</title>
+      <link>/post/unsw-compclub2018winter/</link>
+      <pubDate>Fri, 13 Jul 2018 18:52:17 +1100</pubDate>
+      
+      <guid>/post/unsw-compclub2018winter/</guid>
+      <description>Workshop Website
+Day One - Introduction to Python Day Two - Microbits Microbit by BBC is a small piece of hardware with all sorts of sensors and outputs.
+The uni purchased 20 of these!
+Unfortunately, the accelerometer module isn&amp;rsquo;t the best, and alot of the students couldn&amp;rsquo;t get one of the workshop instructions working.
+The first activity was to build a firefly, using the wireless radios on the Microbit.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+baseURL = ""
+publishDir = ".."
+
+relativeurls = true
+
+## https://github.com/htdvisser/hugo-base16-theme
+# https://github.com/josephhutch/aether
+theme = "aether"
+
+languageCode = "en-us"
+title = "Andrew's Blog"
+
+[params]
+brand = "[Back to Home]"
+description = "Musings of my life"
+# homeimg = ""
+bgimg = "/blog/IMG_0072.jpg"
+
+# Enable Chroma
+pygmentsCodeFences = true
+pygmentsUseClasses = true
