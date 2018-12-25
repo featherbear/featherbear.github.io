@@ -314,6 +314,13 @@ var Grid = (function() {
 				this.$href = $('<a href="#">Visit website</a>');
 				detailAppends.push(this.$href);
 			}
+			
+        // tbh should've written it all myself, extensibility aaaa
+				this.$blog = $('<a href="#">Visit blog post</a>');
+				detailAppends.push(this.$blog);
+        this.$project= $('<a href="#">Visit GitHub repo</a>');
+				detailAppends.push(this.$project);
+				
 			this.$details = $('<div class="og-details"></div>').append(detailAppends);
 			this.$loading = $('<div class="og-loading"></div>');
 			this.$fullimage = $('<div class="og-fullimg"></div>').append(this.$loading);
@@ -346,14 +353,36 @@ var Grid = (function() {
 				eldata = {
 					href: $itemEl.attr('href'),
 					largesrc: $itemEl.data('largesrc'),
+					project: $itemEl.data('project'),
+					blog: $itemEl.data('blog'),
 					title: $itemEl.data('title'),
-					description: $itemEl.data('description')
+					description: $itemEl.data('description').replace(/\n/g, "<br>")
 				};
+
 			this.$title.html(eldata.title);
 			this.$description.html(eldata.description);
-			if (settings.showVisitButton === true) {
+			if (settings.showVisitButton === true && eldata.href !== "undefined") {
 				this.$href.attr('href', eldata.href);
+				this.$href.show()
+			} else {
+        this.$href.hide()
 			}
+			
+			if (eldata.project !== "undefined") {
+        this.$project.attr('href', eldata.project);
+        this.$project.show();
+			} else {
+			  this.$project.hide();
+			}
+			
+			if (eldata.blog !== "undefined") {
+        this.$blog.attr('href', eldata.blog);
+        this.$blog.show();
+			} else {
+        this.$blog.hide();
+			}
+			
+			
 			var self = this;
 			// remove the current image in the preview
 			if (typeof self.$largeImg != 'undefined') {
@@ -462,10 +491,12 @@ $(function() {
 		console.log("LOAD");
 		var loadMore = function() {
 			Grid.addItems($(data.splice(0, 10).map(function(s) {
-				return "<li><a href=\"" + s.href + "\" data-largesrc=\"" + s.src + "\" data-title=\"" + s.title + "\" data-description=\"" + s.desc + "\"><img src=\"" + s.thumb_src + "\" alt=\"" + s.title + "\"/><\/a><\/li>"
+				return `<li><a href='${s.href}' data-largesrc='${s.src}' data-title='${s.title}' data-description="${s.desc}" data-project='${s.project}' data-blog='${s.blog}'><img src='${s.thumb_src}' alt='${s.title}'/><\/a><\/li>`
 			}).join("")).appendTo($('#og-grid')));
 			return data.length > 0
 		}
+		// .project
+		// .blog
 		Grid.init(undefined, loadMore);
 		scrollLoader(loadMore);
 	})

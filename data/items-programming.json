@@ -1,30 +1,66 @@
 [
 {
-	"href": "http://featherbear.github.io/deliverytrack",
-	"thumb_src": "deliverytrack/thumb.png",
-	"src": "deliverytrack/thumb.png",
+	"project": "//github.com/featherbear/SWEC-Dashboard",
+	"blog": "/blog/post/swec-bulletin-generator",
+	"thumb_src": "",
+	"src": "",
+	"title": "SWEC Bulletin Dashboard",
+	"desc": "A CMS for (my) church('s) bulletin creation workflow"
+},
+{
+	"href": "//github.com/featherbear/Whoops-There-Goes-My-AI",
+	"blog": "/blog/post/whoops-there-goes-my-ai",
+	"thumb_src": "",
+	"src": "",
+	"title": "Whoops! There Goes My AI",
+	"desc": "An *attempt* at coding a game AI."
+},
+{
+	"href": "//featherbear.github.io/UNSW-CompClub2019Summer-CTF",
+	"project": "//github.com/featherbear/UNSW-CompClub2019Summer-CTF",
+	"blog": "/blog/post/unsw-compclub2019summer",
+	"thumb_src": "",
+	"src": "",
+	"title": "UNSW CompClub 2019 Summer CTF",
+	"desc": "A custom Capture The Flag platform for the Security section of UNSW CompClub 2019 Summer Workshop."
+},
+{
+	"href": "http://featherbear.au.eu.org/pp6sdm",
+	"project": "//github.com/featherbear/propresenter-stagemessages",
+	"blog": "/blog/post/propresenter6-stage-display-messages-client",
+	"thumb_src": "",
+	"src": "",
+	"title": "ProPresentyer 6 - Stage Display Message Client",
+	"desc": "A custom Capture The Flag platform for the Security section of UNSW CompClub 2019 Summer Workshop."
+},
+{
+	"href": "//featherbear.github.io/deliverytrack",
+	"thumb_src": "thumbs/deliverytrack.png",
+	"src": "thumbs/deliverytrack.png",
 	"title": "DeliveryTrack",
 	"desc": "Been a month since your shipment has been sent? Waiting for the postman to come to your doorstep? Track your deliveries with DeliveryTrack, a postal service delivery tracking aggregator!"
 },
 {
-	"href": "http://github.com/featherbear/OnCue",
-	"thumb_src": "http://github.com/featherbear/OnCue/raw/documentation/graphics/logo/icon.png",
-	"src": "http://github.com/featherbear/OnCue/raw/documentation/graphics/banner.png",
+	"href": "//github.com/featherbear/OnCue",
+	"thumb_src": "//github.com/featherbear/OnCue/raw/documentation/graphics/logo/icon.png",
+	"src": "//github.com/featherbear/OnCue/raw/documentation/graphics/banner.png",
 	"title": "OnCue Projector",
-	"desc": "OnCue takes care of your keynote presentation slides and media playlists, make your presentations professional."
+	"desc": "OnCue takes care of your keynote presentation slides and media playlists, make your presentations professional.\nThis was my HSC Major Project for Software Design and Development... don't expect much."
 }
-,{
-	"href": "http://github.com/featherbear/NotiHub",
+,
+{
+	"href": "//github.com/featherbear/NotiHub",
 	"thumb_src": "",
 	"src": "",
 	"title": "NotiHub",
 	"desc": "Modular centralised Internet Of Things system"
-},{
-	"href": "http://github.com/featherbear/propresenter-local-sync-tool",
-	"thumb_src": "http://github.com/featherbear/propresenter-local-sync-tool/raw/master/logo.ico",
-	"src": "http://github.com/featherbear/propresenter-local-sync-tool/raw/master/logo.ico",
+}
+,
+{
+	"href": "//github.com/featherbear/propresenter-local-sync-tool",
+	"thumb_src": "//github.com/featherbear/propresenter-local-sync-tool/raw/master/logo.ico",
+	"src": "//github.com/featherbear/propresenter-local-sync-tool/raw/master/logo.ico",
 	"title": "ProPresenter Local Sync Tool",
 	"desc": "Sync tool for ProPresenter 6 (Windows), since the builtin sync functions are buggy and broken..."
 }
-
 ]
