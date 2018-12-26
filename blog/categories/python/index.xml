@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Andrew&#39;s Blog</title>
-    <link>/blog/categories/python/</link>
+    <link>/categories/python/</link>
     <description>Recent content in Python on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Dec 2018 18:33:35 +1100</lastBuildDate>
     
-	<atom:link href="/blog/categories/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SWEC Bulletin Generator</title>
-      <link>/blog/post/swec-bulletin-generator/</link>
+      <link>/post/swec-bulletin-generator/</link>
       <pubDate>Thu, 20 Dec 2018 18:33:35 +1100</pubDate>
       
-      <guid>/blog/post/swec-bulletin-generator/</guid>
+      <guid>/post/swec-bulletin-generator/</guid>
       <description>At the start of 2018 I wrote a Python script called swec-elvanto-automation.
 It was a set of task runners that would manage the automatic generation of the service bulletin, as well as pretty roster emails
 &amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware! It worked flawlessly, but it wasn&amp;rsquo;t user friendly.
@@ -25,10 +25,10 @@ And also, with my other commitments taking more time, I don&amp;rsquo;t want my 
     
     <item>
       <title>Secret Agent</title>
-      <link>/blog/post/unsw-compclub2019summer/</link>
+      <link>/post/unsw-compclub2019summer/</link>
       <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
       
-      <guid>/blog/post/unsw-compclub2019summer/</guid>
+      <guid>/post/unsw-compclub2019summer/</guid>
       <description>What is UNSW CSE CompClub?
  I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
 Last time (Winter 2018) I volunteered as a mentor - those people who would help guide the students.
@@ -38,10 +38,10 @@ That means that I get a whole day to do whatever the heck I want! Yeeeeet!</desc
     
     <item>
       <title>Python Tornado vs Flask</title>
-      <link>/blog/post/python-tornado-vs-flask/</link>
+      <link>/post/python-tornado-vs-flask/</link>
       <pubDate>Sat, 24 Nov 2018 01:27:03 +1100</pubDate>
       
-      <guid>/blog/post/python-tornado-vs-flask/</guid>
+      <guid>/post/python-tornado-vs-flask/</guid>
       <description>Python has two great web server libraries - Flask and Tornado.
 Flask vs Tornado Why Flask Flask has a much easier to use routing functionality, where you just need a Python decorator @app.get(...).
 In Tornado you need to set up a site router, and all these other things (or I didn&amp;rsquo;t do it right)
@@ -50,19 +50,24 @@ Why Tornado Tornado is a non-blocking server, which is able to handle multiple r
     
     <item>
       <title>Whoops There Goes My AI</title>
-      <link>/blog/post/whoops-there-goes-my-ai/</link>
+      <link>/post/whoops-there-goes-my-ai/</link>
       <pubDate>Mon, 22 Oct 2018 00:44:41 +1100</pubDate>
       
-      <guid>/blog/post/whoops-there-goes-my-ai/</guid>
-      <description></description>
+      <guid>/post/whoops-there-goes-my-ai/</guid>
+      <description>GitHub: featherbear/Whoops-There-Goes-My-AI
+ So there&amp;rsquo;s a game on the Google Play Store and Apple App Store called Whoops! There Goes My Orange.
+You play as an orange falling from the sky, and you have to avoid the red bars. Simple, right?
+Yep! But rage-inducing.
+Anyway, so I decided to have a crack at writing some sort of AI for this game&amp;hellip;
+It&amp;rsquo;d just be a collision avoidance algorithm&amp;hellip; not really an AI.</description>
     </item>
     
     <item>
       <title>School of Codecraft and Hackery</title>
-      <link>/blog/post/unsw-compclub2018winter/</link>
+      <link>/post/unsw-compclub2018winter/</link>
       <pubDate>Fri, 13 Jul 2018 18:52:17 +1100</pubDate>
       
-      <guid>/blog/post/unsw-compclub2018winter/</guid>
+      <guid>/post/unsw-compclub2018winter/</guid>
       <description>Workshop Website
 Day One - Introduction to Python Day Two - Microbits Microbit by BBC is a small piece of hardware with all sorts of sensors and outputs.
 The uni purchased 20 of these!

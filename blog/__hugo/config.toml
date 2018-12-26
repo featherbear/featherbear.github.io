@@ -1,4 +1,4 @@
-baseURL = "/blog/"
+baseURL = ""
 publishDir = ".."
 
 relativeurls = true
@@ -13,7 +13,7 @@ title = "Andrew's Blog"
 [params]
 brand = "[Back to Home]"
 description = "Musings of my life"
-# homeimg = ""
+# homeimg = "../greyHome.jng"
 bgimg = "/blog/IMG_0072.jpg"
 
 # Enable Chroma

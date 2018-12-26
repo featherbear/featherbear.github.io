@@ -5,7 +5,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Whoops There Goes My AI &middot; Andrew&#39;s Blog</title>
-  <meta name="description" content="" />
+  <meta name="description" content="if (aboutToCrash) dont();" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
   <link rel="stylesheet" href="../../css/style.css" />
   <link rel="stylesheet" href="../../css/xcode.css" />
@@ -59,18 +59,65 @@
           <p class="post-date">Posted <time datetime="2018-10-22">Oct 22, 2018</time></p>
         </header>
         
-        <figure class="post-figure">
-          <img src="">
-        </figure>
         
-        
+
+<blockquote>
+<p>GitHub: <a href="https://github.com/featherbear/Whoops-There-Goes-My-AI/">featherbear/Whoops-There-Goes-My-AI</a></p>
+</blockquote>
+
+<p>So there&rsquo;s a game on the <a href="https://play.google.com/store/apps/details?id=com.NoMossStudios.WhoopsThereGoesMyOrange">Google Play Store</a> and <a href="https://itunes.apple.com/au/app/whoops-there-goes-my-orange/id1439146494">Apple App Store</a> called <em>Whoops! There Goes My Orange</em>.</p>
+
+<p>You play as an orange falling from the sky, and you have to avoid the red bars. Simple, right?<br />
+Yep! But rage-inducing.</p>
+
+<p>Anyway, so I decided to have a crack at writing some sort of AI for this game&hellip;<br />
+It&rsquo;d just be a collision avoidance algorithm&hellip; not really an AI.</p>
+
+<h2 id="summarised-something-like-this">Summarised something like this</h2>
+
+<pre><code class="language-pseudo">if (aboutToCrash) {
+  dont();
+}
+</code></pre>
+
+<p>And here&rsquo;s a little demo&hellip;
+<video controls src="https://github.com/featherbear/Whoops-There-Goes-My-AI/blob/master/Demo.mp4?raw=true" style="width: 100%"></video></p>
+
+<hr />
+
+<p>The sort of data you&rsquo;d need for analysis&hellip;
+<img src="https://raw.githubusercontent.com/featherbear/Whoops-There-Goes-My-AI/master/docs/velcocity.png" alt="" />
+<img src="https://raw.githubusercontent.com/featherbear/Whoops-There-Goes-My-AI/master/docs/data.png" alt="" />
+<img src="https://raw.githubusercontent.com/featherbear/Whoops-There-Goes-My-AI/master/docs/effective%20player%20space.png" alt="" /></p>
+
+<hr />
+
+<p>Speaking of which&hellip;
+<img src="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/5d/73/bc/5d73bc2a-8f99-4cd2-ef20-3689ebcc8c1e/pr_source.jpg/690x0w.jpg" alt="" /></p>
+
+<p>Oh hey, that&rsquo;s me (#10)&hellip;<br />
+But wait, that&rsquo;s also me (#8), and me (#9)&hellip; &ndash;&gt; <em>wow I suck</em></p>
+
+<p>To store the high scores online, there must be some database&hellip;<br />
+If we have a look at the network activity from this application, we get this URL: <code>http://nomossgames.com/whoops/score.php</code>.</p>
+
+<p>It&rsquo;s got <strong>some</strong> sort of anti-spam prevention.<br />
+It requires a <code>secret</code> query argument, as well as a <code>secret</code> body argument (POST).</p>
+
+<p>So then I was able to do something like this:</p>
+
+<pre><code class="language-bash">curl &quot;http://nomossgames.com/whoops/score.php?secret=[QUERY_SECRET]&quot; -d &quot;score=26.16&amp;secret=[POST_SECRET]&amp;name=z5206677&quot;
+</code></pre>
+
+<p>And, tada! I&rsquo;m on the leaderboard!</p>
+
       </article>
       
     </main>
     <nav class="end-nav side-padding">
       
       <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="../../blog/post/rice-rally-2018-sydney/" class="card blog-card" rel="bookmark" >
+  href="../../post/rice-rally-2018-sydney/" class="card blog-card" rel="bookmark" >
     
     <div class="card-img-container">
       <p class="card-img-overlay">Next Article</p>
@@ -88,7 +135,7 @@
 </a>
       
       <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="../../" class="card home-card" style="background-image: url( /img/grey-cloud.jpg )" rel="bookmark" >
+  href="../../" class="card home-card" style="background-image: url( ../../img/home-img.png )" rel="bookmark" >
   Home
 </a>
     </nav>

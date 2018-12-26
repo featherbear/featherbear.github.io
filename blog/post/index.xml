@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Andrew&#39;s Blog</title>
-    <link>/blog/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Dec 2018 18:33:35 +1100</lastBuildDate>
     
-	<atom:link href="/blog/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SWEC Bulletin Generator</title>
-      <link>/blog/post/swec-bulletin-generator/</link>
+      <link>/post/swec-bulletin-generator/</link>
       <pubDate>Thu, 20 Dec 2018 18:33:35 +1100</pubDate>
       
-      <guid>/blog/post/swec-bulletin-generator/</guid>
+      <guid>/post/swec-bulletin-generator/</guid>
       <description>At the start of 2018 I wrote a Python script called swec-elvanto-automation.
 It was a set of task runners that would manage the automatic generation of the service bulletin, as well as pretty roster emails
 &amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware! It worked flawlessly, but it wasn&amp;rsquo;t user friendly.
@@ -25,10 +25,10 @@ And also, with my other commitments taking more time, I don&amp;rsquo;t want my 
     
     <item>
       <title>Secret Agent</title>
-      <link>/blog/post/unsw-compclub2019summer/</link>
+      <link>/post/unsw-compclub2019summer/</link>
       <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
       
-      <guid>/blog/post/unsw-compclub2019summer/</guid>
+      <guid>/post/unsw-compclub2019summer/</guid>
       <description>What is UNSW CSE CompClub?
  I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
 Last time (Winter 2018) I volunteered as a mentor - those people who would help guide the students.
@@ -38,28 +38,28 @@ That means that I get a whole day to do whatever the heck I want! Yeeeeet!</desc
     
     <item>
       <title>UNSW COMP2521</title>
-      <link>/blog/post/unsw-comp2521/</link>
+      <link>/post/unsw-comp2521/</link>
       <pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate>
       
-      <guid>/blog/post/unsw-comp2521/</guid>
+      <guid>/post/unsw-comp2521/</guid>
       <description>location.href = &#34;//featherbear.github.io/UNSW-COMP2521/&#34; </description>
     </item>
     
     <item>
       <title>PreSonus StudioLive 16</title>
-      <link>/blog/post/presonus-studiolive-16/</link>
+      <link>/post/presonus-studiolive-16/</link>
       <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
       
-      <guid>/blog/post/presonus-studiolive-16/</guid>
+      <guid>/post/presonus-studiolive-16/</guid>
       <description></description>
     </item>
     
     <item>
       <title>City Hunter</title>
-      <link>/blog/post/city-hunter/</link>
+      <link>/post/city-hunter/</link>
       <pubDate>Thu, 20 Dec 2018 17:44:45 +1100</pubDate>
       
-      <guid>/blog/post/city-hunter/</guid>
+      <guid>/post/city-hunter/</guid>
       <description>Uni holidays. Preoccupied myself with watching some Korean Drama.
 My friend recommended me some series called City Hunter.
 And&amp;hellip; it&amp;hellip; was&amp;hellip; alright actually!
@@ -72,10 +72,10 @@ One survives, then steals the newborn of a fallen comrade&amp;rsquo;s wife and r
     
     <item>
       <title>Neutrik EtherCON Kits</title>
-      <link>/blog/post/neutrik-ethercon-kits/</link>
+      <link>/post/neutrik-ethercon-kits/</link>
       <pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate>
       
-      <guid>/blog/post/neutrik-ethercon-kits/</guid>
+      <guid>/post/neutrik-ethercon-kits/</guid>
       <description>The PreSonus StudioLive 16 and StudioLive 24R have an EtherCON port for their AVB connection.
 You could forego the EtherCON connector and just connect an Ethernet cable, but I&amp;rsquo;ve had one occassion where a network stagebox got disconnected because the cable got kicked off.
 Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the Neutrik NE8MC-1.
@@ -84,10 +84,10 @@ Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the
     
     <item>
       <title>Behringer X-Touch Mini</title>
-      <link>/blog/post/behringer-xtouch-mini/</link>
+      <link>/post/behringer-xtouch-mini/</link>
       <pubDate>Mon, 17 Dec 2018 18:20:48 +1100</pubDate>
       
-      <guid>/blog/post/behringer-xtouch-mini/</guid>
+      <guid>/post/behringer-xtouch-mini/</guid>
       <description>Got my hands on a Behringer X-Touch Mini USB MIDI Controller (Yay for Facebook Marketplace).
 Will be using this in my Lightroom editing workflow!
 Configuration Changing the MIDI Mapping The X-Touch Mini has 12 white buttons. With two layers, that would give us 24 different buttons. However some of the buttons were mapped to the same MIDI control key aka - some buttons are duplicate. So firstly, we&amp;rsquo;ll need to remap the surface.</description>
@@ -95,10 +95,10 @@ Configuration Changing the MIDI Mapping The X-Touch Mini has 12 white buttons. W
     
     <item>
       <title>JavaScript Map</title>
-      <link>/blog/post/javascript-map/</link>
+      <link>/post/javascript-map/</link>
       <pubDate>Fri, 14 Dec 2018 17:20:18 +1100</pubDate>
       
-      <guid>/blog/post/javascript-map/</guid>
+      <guid>/post/javascript-map/</guid>
       <description>Don&amp;rsquo;t be lazy kids.
 Don&amp;rsquo;t [].map(parseInt)
 Do [].map(function(val) { parseInt(val) })
@@ -107,10 +107,10 @@ Also do [].map((val) =&amp;gt; parseInt(val))</description>
     
     <item>
       <title>z-index</title>
-      <link>/blog/post/z-index/</link>
+      <link>/post/z-index/</link>
       <pubDate>Sun, 25 Nov 2018 20:46:10 +1100</pubDate>
       
-      <guid>/blog/post/z-index/</guid>
+      <guid>/post/z-index/</guid>
       <description>Soooo, you can&amp;rsquo;t interact with an element that has a negative z-index.
  &amp;lt;div&amp;gt;A&amp;lt;/div&amp;gt; --&amp;gt; z-index of 5 &amp;lt;div&amp;gt;B&amp;lt;/div&amp;gt; --&amp;gt; z-index of -1  Even if A has pointer-events: none; you won&amp;rsquo;t be able to touch B
 &amp;lt;div&amp;gt;A&amp;lt;/div&amp;gt; --&amp;gt; z-index of 5 &amp;lt;div&amp;gt;B&amp;lt;/div&amp;gt; --&amp;gt; z-index of 0  Can touch B</description>
@@ -118,10 +118,10 @@ Also do [].map((val) =&amp;gt; parseInt(val))</description>
     
     <item>
       <title>Python Tornado vs Flask</title>
-      <link>/blog/post/python-tornado-vs-flask/</link>
+      <link>/post/python-tornado-vs-flask/</link>
       <pubDate>Sat, 24 Nov 2018 01:27:03 +1100</pubDate>
       
-      <guid>/blog/post/python-tornado-vs-flask/</guid>
+      <guid>/post/python-tornado-vs-flask/</guid>
       <description>Python has two great web server libraries - Flask and Tornado.
 Flask vs Tornado Why Flask Flask has a much easier to use routing functionality, where you just need a Python decorator @app.get(...).
 In Tornado you need to set up a site router, and all these other things (or I didn&amp;rsquo;t do it right)
@@ -130,10 +130,10 @@ Why Tornado Tornado is a non-blocking server, which is able to handle multiple r
     
     <item>
       <title>HTML Script Tags</title>
-      <link>/blog/post/html-script-tags/</link>
+      <link>/post/html-script-tags/</link>
       <pubDate>Sat, 24 Nov 2018 00:44:52 +1100</pubDate>
       
-      <guid>/blog/post/html-script-tags/</guid>
+      <guid>/post/html-script-tags/</guid>
       <description>Source - growingwiththeweb.com
 Summary &amp;lt;script&amp;gt; Block, load, run
 &amp;lt;script async&amp;gt; Load, run
@@ -142,10 +142,10 @@ Summary &amp;lt;script&amp;gt; Block, load, run
     
     <item>
       <title>Portforwarding with Shootback</title>
-      <link>/blog/post/portforwarding-with-shootback/</link>
+      <link>/post/portforwarding-with-shootback/</link>
       <pubDate>Mon, 12 Nov 2018 16:25:09 +1100</pubDate>
       
-      <guid>/blog/post/portforwarding-with-shootback/</guid>
+      <guid>/post/portforwarding-with-shootback/</guid>
       <description>WITHOUT SHADOWSOCKS
 ./master.py -m 0.0.0.0:58370 -c 0.0.0.0:8380 ./slaver.py -m direct.navhaxs.au.eu.org:58370  WITH SHADOWSOCKS
 ./master.py -m 127.0.0.1:58370 -c 0.0.0.0:8380` ss-tunnel -c /etc/shadowsocks/config.json -s direct.navhaxs.au.eu.org -l 58370 -L localhost:58370 -u ./slaver.py -m localhost:58370 -t localhost:8001  :: config.json
@@ -154,10 +154,10 @@ Summary &amp;lt;script&amp;gt; Block, load, run
     
     <item>
       <title>Portforwarding with SSH</title>
-      <link>/blog/post/portforwarding-with-ssh/</link>
+      <link>/post/portforwarding-with-ssh/</link>
       <pubDate>Mon, 12 Nov 2018 14:34:38 +1100</pubDate>
       
-      <guid>/blog/post/portforwarding-with-ssh/</guid>
+      <guid>/post/portforwarding-with-ssh/</guid>
       <description> $&amp;gt; ssh [SERVER] -L srcAddr:srcPort:dstAddr:dstPort
 listens on srcAddr:srcPort which results in [SERVER] connecting to dstAddr:dstPort
 &amp;gt; Useful for connecting to a device in a network
@@ -168,19 +168,19 @@ $&amp;gt; ssh [SERVER] -L srcPort:dstAddr:dstPort
     
     <item>
       <title>UNSW COMP1521</title>
-      <link>/blog/post/unsw-comp1521/</link>
+      <link>/post/unsw-comp1521/</link>
       <pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate>
       
-      <guid>/blog/post/unsw-comp1521/</guid>
+      <guid>/post/unsw-comp1521/</guid>
       <description>location.href = &#34;//featherbear.github.io/UNSW-COMP1521/&#34; </description>
     </item>
     
     <item>
       <title>[SCAM] Masters iPhone</title>
-      <link>/blog/post/masters-iphone/</link>
+      <link>/post/masters-iphone/</link>
       <pubDate>Thu, 01 Nov 2018 18:41:13 +1100</pubDate>
       
-      <guid>/blog/post/masters-iphone/</guid>
+      <guid>/post/masters-iphone/</guid>
       <description>EDIT: Well their Facebook page is down now, hurrah!
 You know the saying: &amp;ldquo;If it&amp;rsquo;s too good to be true, it probably is&amp;rdquo;.
 So my friend wanted to upgrade from their iPhone to a Galaxy S9+.
@@ -191,19 +191,24 @@ I found a few classifieds from a store called Masters iPhone - supposedly locate
     
     <item>
       <title>Whoops There Goes My AI</title>
-      <link>/blog/post/whoops-there-goes-my-ai/</link>
+      <link>/post/whoops-there-goes-my-ai/</link>
       <pubDate>Mon, 22 Oct 2018 00:44:41 +1100</pubDate>
       
-      <guid>/blog/post/whoops-there-goes-my-ai/</guid>
-      <description></description>
+      <guid>/post/whoops-there-goes-my-ai/</guid>
+      <description>GitHub: featherbear/Whoops-There-Goes-My-AI
+ So there&amp;rsquo;s a game on the Google Play Store and Apple App Store called Whoops! There Goes My Orange.
+You play as an orange falling from the sky, and you have to avoid the red bars. Simple, right?
+Yep! But rage-inducing.
+Anyway, so I decided to have a crack at writing some sort of AI for this game&amp;hellip;
+It&amp;rsquo;d just be a collision avoidance algorithm&amp;hellip; not really an AI.</description>
     </item>
     
     <item>
       <title>RICE Rally 2018 Sydney</title>
-      <link>/blog/post/rice-rally-2018-sydney/</link>
+      <link>/post/rice-rally-2018-sydney/</link>
       <pubDate>Sat, 18 Aug 2018 19:19:44 +1100</pubDate>
       
-      <guid>/blog/post/rice-rally-2018-sydney/</guid>
+      <guid>/post/rice-rally-2018-sydney/</guid>
       <description>In a world full of noise, how do we find what we&amp;rsquo;re really looking for?
  RICE Movement is a Christian organisation that brings the message of Jesus to high schoolers (of Australia, and now New Zealand too!)
 RICE Rally is their annual event, a big evangelical &amp;lsquo;rally&amp;rsquo;.
@@ -213,10 +218,10 @@ Our playground was three LED walls and two confidence monitors.</description>
     
     <item>
       <title>NewTek NDI</title>
-      <link>/blog/post/newtek-ndi/</link>
+      <link>/post/newtek-ndi/</link>
       <pubDate>Sun, 05 Aug 2018 19:19:35 +1100</pubDate>
       
-      <guid>/blog/post/newtek-ndi/</guid>
+      <guid>/post/newtek-ndi/</guid>
       <description>NewTek NDI is a really amazing actually suite of software designed to transport audio and video data over networks.
 Note: I recommend a gigabit connection between the producers and consumersss, as it easily saturates 100 MB/s with all settings max&amp;rsquo;d.
 I&amp;rsquo;ve been using it a while:
@@ -225,10 +230,10 @@ I&amp;rsquo;ve been using it a while:
     
     <item>
       <title>ProPresenter 6 Stage Display Messages</title>
-      <link>/blog/post/propresenter6-stage-display-messages-client/</link>
+      <link>/post/propresenter6-stage-display-messages-client/</link>
       <pubDate>Sat, 04 Aug 2018 23:14:04 +1100</pubDate>
       
-      <guid>/blog/post/propresenter6-stage-display-messages-client/</guid>
+      <guid>/post/propresenter6-stage-display-messages-client/</guid>
       <description>ProPresenter 6 is great!
 Except for the times when it&amp;rsquo;s not&amp;hellip; (then, it&amp;rsquo;s not great! [Wow who knew!])
 PP6 allows you to send stage messages remotely from the ProPresenter 6 iOS / Android app.
@@ -239,10 +244,10 @@ If only there was a HTML/JavaScript solution&amp;hellip; that&amp;rsquo;d really
     
     <item>
       <title>School of Codecraft and Hackery</title>
-      <link>/blog/post/unsw-compclub2018winter/</link>
+      <link>/post/unsw-compclub2018winter/</link>
       <pubDate>Fri, 13 Jul 2018 18:52:17 +1100</pubDate>
       
-      <guid>/blog/post/unsw-compclub2018winter/</guid>
+      <guid>/post/unsw-compclub2018winter/</guid>
       <description>Workshop Website
 Day One - Introduction to Python Day Two - Microbits Microbit by BBC is a small piece of hardware with all sorts of sensors and outputs.
 The uni purchased 20 of these!

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking on Andrew&#39;s Blog</title>
-    <link>/blog/categories/networking/</link>
+    <link>/categories/networking/</link>
     <description>Recent content in Networking on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Dec 2018 23:31:12 +1100</lastBuildDate>
     
-	<atom:link href="/blog/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Neutrik EtherCON Kits</title>
-      <link>/blog/post/neutrik-ethercon-kits/</link>
+      <link>/post/neutrik-ethercon-kits/</link>
       <pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate>
       
-      <guid>/blog/post/neutrik-ethercon-kits/</guid>
+      <guid>/post/neutrik-ethercon-kits/</guid>
       <description>The PreSonus StudioLive 16 and StudioLive 24R have an EtherCON port for their AVB connection.
 You could forego the EtherCON connector and just connect an Ethernet cable, but I&amp;rsquo;ve had one occassion where a network stagebox got disconnected because the cable got kicked off.
 Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the Neutrik NE8MC-1.
@@ -25,10 +25,10 @@ Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the
     
     <item>
       <title>Portforwarding with Shootback</title>
-      <link>/blog/post/portforwarding-with-shootback/</link>
+      <link>/post/portforwarding-with-shootback/</link>
       <pubDate>Mon, 12 Nov 2018 16:25:09 +1100</pubDate>
       
-      <guid>/blog/post/portforwarding-with-shootback/</guid>
+      <guid>/post/portforwarding-with-shootback/</guid>
       <description>WITHOUT SHADOWSOCKS
 ./master.py -m 0.0.0.0:58370 -c 0.0.0.0:8380 ./slaver.py -m direct.navhaxs.au.eu.org:58370  WITH SHADOWSOCKS
 ./master.py -m 127.0.0.1:58370 -c 0.0.0.0:8380` ss-tunnel -c /etc/shadowsocks/config.json -s direct.navhaxs.au.eu.org -l 58370 -L localhost:58370 -u ./slaver.py -m localhost:58370 -t localhost:8001  :: config.json
@@ -37,10 +37,10 @@ Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the
     
     <item>
       <title>Portforwarding with SSH</title>
-      <link>/blog/post/portforwarding-with-ssh/</link>
+      <link>/post/portforwarding-with-ssh/</link>
       <pubDate>Mon, 12 Nov 2018 14:34:38 +1100</pubDate>
       
-      <guid>/blog/post/portforwarding-with-ssh/</guid>
+      <guid>/post/portforwarding-with-ssh/</guid>
       <description> $&amp;gt; ssh [SERVER] -L srcAddr:srcPort:dstAddr:dstPort
 listens on srcAddr:srcPort which results in [SERVER] connecting to dstAddr:dstPort
 &amp;gt; Useful for connecting to a device in a network
@@ -51,10 +51,10 @@ $&amp;gt; ssh [SERVER] -L srcPort:dstAddr:dstPort
     
     <item>
       <title>ProPresenter 6 Stage Display Messages</title>
-      <link>/blog/post/propresenter6-stage-display-messages-client/</link>
+      <link>/post/propresenter6-stage-display-messages-client/</link>
       <pubDate>Sat, 04 Aug 2018 23:14:04 +1100</pubDate>
       
-      <guid>/blog/post/propresenter6-stage-display-messages-client/</guid>
+      <guid>/post/propresenter6-stage-display-messages-client/</guid>
       <description>ProPresenter 6 is great!
 Except for the times when it&amp;rsquo;s not&amp;hellip; (then, it&amp;rsquo;s not great! [Wow who knew!])
 PP6 allows you to send stage messages remotely from the ProPresenter 6 iOS / Android app.

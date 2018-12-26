@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on Andrew&#39;s Blog</title>
-    <link>/blog/categories/life/</link>
+    <link>/categories/life/</link>
     <description>Recent content in Life on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Dec 2018 17:44:45 +1100</lastBuildDate>
     
-	<atom:link href="/blog/categories/life/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/life/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>City Hunter</title>
-      <link>/blog/post/city-hunter/</link>
+      <link>/post/city-hunter/</link>
       <pubDate>Thu, 20 Dec 2018 17:44:45 +1100</pubDate>
       
-      <guid>/blog/post/city-hunter/</guid>
+      <guid>/post/city-hunter/</guid>
       <description>Uni holidays. Preoccupied myself with watching some Korean Drama.
 My friend recommended me some series called City Hunter.
 And&amp;hellip; it&amp;hellip; was&amp;hellip; alright actually!
@@ -29,10 +29,10 @@ One survives, then steals the newborn of a fallen comrade&amp;rsquo;s wife and r
     
     <item>
       <title>[SCAM] Masters iPhone</title>
-      <link>/blog/post/masters-iphone/</link>
+      <link>/post/masters-iphone/</link>
       <pubDate>Thu, 01 Nov 2018 18:41:13 +1100</pubDate>
       
-      <guid>/blog/post/masters-iphone/</guid>
+      <guid>/post/masters-iphone/</guid>
       <description>EDIT: Well their Facebook page is down now, hurrah!
 You know the saying: &amp;ldquo;If it&amp;rsquo;s too good to be true, it probably is&amp;rdquo;.
 So my friend wanted to upgrade from their iPhone to a Galaxy S9+.
@@ -43,10 +43,10 @@ I found a few classifieds from a store called Masters iPhone - supposedly locate
     
     <item>
       <title>RICE Rally 2018 Sydney</title>
-      <link>/blog/post/rice-rally-2018-sydney/</link>
+      <link>/post/rice-rally-2018-sydney/</link>
       <pubDate>Sat, 18 Aug 2018 19:19:44 +1100</pubDate>
       
-      <guid>/blog/post/rice-rally-2018-sydney/</guid>
+      <guid>/post/rice-rally-2018-sydney/</guid>
       <description>In a world full of noise, how do we find what we&amp;rsquo;re really looking for?
  RICE Movement is a Christian organisation that brings the message of Jesus to high schoolers (of Australia, and now New Zealand too!)
 RICE Rally is their annual event, a big evangelical &amp;lsquo;rally&amp;rsquo;.
