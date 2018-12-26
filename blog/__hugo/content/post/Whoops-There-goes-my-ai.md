@@ -27,6 +27,8 @@ if (aboutToCrash) {
 And here's a little demo...
 <video controls src="https://github.com/featherbear/Whoops-There-Goes-My-AI/blob/master/Demo.mp4?raw=true" style="width: 100%"></video>
 
+39.4 seconds, 2nd place - not bad!
+
 ---
 
 The sort of data you'd need for analysis...
@@ -40,7 +42,7 @@ Speaking of which...
 ![](https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/5d/73/bc/5d73bc2a-8f99-4cd2-ef20-3689ebcc8c1e/pr_source.jpg/690x0w.jpg)
 
 Oh hey, that's me (#10)...  
-But wait, that's also me (#8), and me (#9)... --> _wow I suck_
+But wait, that's also me (#8), and me (#9)... --> _wow I suck, even my AI (#2) beat me..._
 
 To store the high scores online, there must be some database...  
 If we have a look at the network activity from this application, we get this URL: `http://nomossgames.com/whoops/score.php`.  
