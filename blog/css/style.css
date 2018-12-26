@@ -434,3 +434,6 @@ header h1.list-header-title, nav.nav-bar h1 a, nav.pagination-nav a {
 .hamburger-menu span {
   background-color: #ecedef;
 }
+video {
+  width: 100%;
+}

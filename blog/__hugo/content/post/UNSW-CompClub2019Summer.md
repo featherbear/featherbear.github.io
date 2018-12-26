@@ -53,21 +53,24 @@ Anyway, so despite that, I had this "_great_" idea of also writing my own CTF si
 Server: [Tornado](https://www.tornadoweb.org/) (Python)  
 CSS: [Bulma](https://bulma.io)
 
-Tornado vs Flask  
+**Tornado vs Flask**  
 I could have just set up a WSGI container for Flask and called it a day, but might as well try out Tornado. I haven't used either frameworks for a while, so I decided to use Tornado, since it was faster to set up as a non-blocking server.
 
-Bulma vs Bootstrap  
+**Bulma vs Bootstrap**  
 To be honest, Bootstrap is way more polished and refined than Bulma.  
 I decided to use Bulma because I've been using it for another project.  
 This site had components similary needed to create for that other project.  
-So I uh, ~stole~ 'dutifully copied' that other code for this site.
+So I uh, <s>stole</s> 'dutifully copied' that other code for this site.
+
+---
 
 In terms of the site, it was definitely arduous and very time consuming...  
 But I definitely had fun designing it.  
 
-I grabbed a dotted world map, to which I could write some CSS so that the dot would grow red when hovered.  
-But to get a whole region to light up, I had to modify the SVG map, and that meant PATH TRACING! Aaah!
-
+I grabbed a dotted world map, to which I could write some CSS so that the dot would grow red when hovered. But to get a whole region to light up, I had to modify the SVG map, and that meant PATH TRACING! Aaah!
+<video autoplay loop muted src="2018-11-26 00-43-38.mov"></video>
+Results were pretty neat!
+<video autoplay loop muted src="received_1119077157.mp4" style="height: 50vh"></video>
 
 Take a look!  
 GitHub: [featherbear/UNSW-CompClub2019Summer-CTF](https://github.com/featherbear/UNSW-CompClub2019Summer-CTF)  
