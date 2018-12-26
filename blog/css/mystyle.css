@@ -1,0 +1,11 @@
+header h1.list-header-title, nav.nav-bar h1 a, nav.pagination-nav a {
+  color: #ecedef;
+}
+
+.hamburger-menu span {
+  background-color: #ecedef;
+}
+
+video {
+  width: 100%;
+}

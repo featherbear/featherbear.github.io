@@ -3,7 +3,7 @@ title: "NewTek NDI"
 date: 2018-08-05T19:19:35+11:00
 description: "The swiss-army-knife for audio/video over IP"
 categories: ["Audio/Visual"]
-featuredImage: ""
+featuredImage: "https://233b1d13b450eb6b33b4-ac2a33202ef9b63045cbb3afca178df8.ssl.cf1.rackcdn.com/images/Press_Release_Images/pr-ndi-2018.jpg"
 displayInMenu: false
 displayInList: true
 ---

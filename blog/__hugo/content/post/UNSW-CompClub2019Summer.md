@@ -3,12 +3,13 @@ title: "Secret Agent"
 date: 2018-12-20T18:32:47+11:00
 description: "UNSW CSE CompClub 2019 Summer Workshop"
 categories: ["UNSW", "Python", "WebDev"]
-featuredImage: ""
+featuredImage: "/post/unsw-compclub2019summer/compclub.logo.svg"
 displayInMenu: false
 displayInList: true
 ---
-
 > [What is UNSW CSE CompClub?](https://www.csesoc.unsw.edu.au/teams/compclub/)
+
+---
 
 I got the opportunity to take part in my uni computer society's highschool program (again)!  
 Last time (Winter 2018) I volunteered as a mentor - those people who would help guide the students.  

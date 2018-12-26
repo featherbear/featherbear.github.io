@@ -6,13 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Portforwarding with Shootback &middot; Andrew&#39;s Blog</title>
   <meta name="description" content="" />
-  
-  <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
-  
-  <link rel="icon" type="image/png" href="../../img/favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
   <link rel="stylesheet" href="../../css/style.css" />
   <link rel="stylesheet" href="../../css/xcode.css" />
+  <link rel="stylesheet" href="../../css/mystyle.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="../../css/latolatinfonts.css" />
   
@@ -62,35 +59,32 @@
           <p class="post-date">Posted <time datetime="2018-11-12">Nov 12, 2018</time></p>
         </header>
         
-        <figure class="post-figure">
-          <img src="">
-        </figure>
-        
-        <p>WITHOUT SHADOWSOCKS
-./master.py -m 0.0.0.0:58370 -c 0.0.0.0:8380
-./slaver.py -m direct.navhaxs.au.eu.org:58370</p>
+        <p>WITHOUT SHADOWSOCKS</p>
 
-<p>WITH SHADOWSOCKS
-./master.py -m 127.0.0.1:58370 -c 0.0.0.0:8380</p>
+<pre><code>./master.py -m 0.0.0.0:58370 -c 0.0.0.0:8380
+./slaver.py -m direct.navhaxs.au.eu.org:58370
+</code></pre>
 
-<dl>
-<dt>./slaver.py -m localhost:58370 -t localhost:8001</dt>
-</dl>
+<hr />
 
-<dl>
-<dt>./slaver.py -m localhost:58370 -t localhost:8001</dt>
-</dl>
+<p>WITH SHADOWSOCKS</p>
 
-<dl>
-<dt>./slaver.py -m localhost:58370 -t localhost:8001</dt>
-</dl>
+<pre><code>./master.py -m 127.0.0.1:58370 -c 0.0.0.0:8380`
 
-<p>:: config.json
-{
-    &ldquo;server_port&rdquo;: 58388,
-    &ldquo;password&rdquo;: &ldquo;&rdquo;,
-    &ldquo;method&rdquo;: &ldquo;aes-128-cfb&rdquo;,
-}</p>
+ss-tunnel -c /etc/shadowsocks/config.json -s direct.navhaxs.au.eu.org -l 58370 -L localhost:58370 -u
+./slaver.py -m localhost:58370 -t localhost:8001
+</code></pre>
+
+<hr />
+
+<p>:: config.json</p>
+
+<pre><code>{
+    &quot;server_port&quot;: 58388,
+    &quot;password&quot;: &quot;&quot;,
+    &quot;method&quot;: &quot;aes-128-cfb&quot;,
+}
+</code></pre>
 
 <p>// I mean we could&rsquo;ve always just used reverse ssh port forwarding</p>
 
@@ -100,12 +94,7 @@
     <nav class="end-nav side-padding">
       
       <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="../../post/portforwarding-with-ssh/" class="card blog-card" rel="bookmark" >
-    
-    <div class="card-img-container">
-      <p class="card-img-overlay">Next Article</p>
-      <img src="" class="card-img">
-    </div>
+  href="../../blog/post/portforwarding-with-ssh/" class="card blog-card" rel="bookmark" >
     
   <article class="card-body">
     <h2 class="card-title">Portforwarding with SSH</h2>

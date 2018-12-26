@@ -3,172 +3,172 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/swec-bulletin-generator/</loc>
+    <loc>/blog/post/swec-bulletin-generator/</loc>
     <lastmod>2018-12-20T18:33:35+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/unsw-compclub2019summer/</loc>
+    <loc>/blog/post/unsw-compclub2019summer/</loc>
     <lastmod>2018-12-20T18:32:47+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/unsw-comp2521/</loc>
+    <loc>/blog/post/unsw-comp2521/</loc>
     <lastmod>2018-12-20T18:21:10+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/presonus-studiolive-16/</loc>
+    <loc>/blog/post/presonus-studiolive-16/</loc>
     <lastmod>2018-12-20T18:20:04+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/city-hunter/</loc>
+    <loc>/blog/post/city-hunter/</loc>
     <lastmod>2018-12-20T17:44:45+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/neutrik-ethercon-kits/</loc>
+    <loc>/blog/post/neutrik-ethercon-kits/</loc>
     <lastmod>2018-12-19T23:31:12+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/behringer-xtouch-mini/</loc>
+    <loc>/blog/post/behringer-xtouch-mini/</loc>
     <lastmod>2018-12-17T18:20:48+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/javascript-map/</loc>
+    <loc>/blog/post/javascript-map/</loc>
     <lastmod>2018-12-14T17:20:18+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/z-index/</loc>
+    <loc>/blog/post/z-index/</loc>
     <lastmod>2018-11-25T20:46:10+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/python-tornado-vs-flask/</loc>
+    <loc>/blog/post/python-tornado-vs-flask/</loc>
     <lastmod>2018-11-24T01:27:03+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/html-script-tags/</loc>
+    <loc>/blog/post/html-script-tags/</loc>
     <lastmod>2018-11-24T00:44:52+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/portforwarding-with-shootback/</loc>
+    <loc>/blog/post/portforwarding-with-shootback/</loc>
     <lastmod>2018-11-12T16:25:09+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/portforwarding-with-ssh/</loc>
+    <loc>/blog/post/portforwarding-with-ssh/</loc>
     <lastmod>2018-11-12T14:34:38+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/unsw-comp1521/</loc>
+    <loc>/blog/post/unsw-comp1521/</loc>
     <lastmod>2018-11-05T18:21:05+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/masters-iphone/</loc>
+    <loc>/blog/post/masters-iphone/</loc>
     <lastmod>2018-11-01T18:41:13+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/whoops-there-goes-my-ai/</loc>
+    <loc>/blog/post/whoops-there-goes-my-ai/</loc>
     <lastmod>2018-10-22T00:44:41+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/rice-rally-2018-sydney/</loc>
+    <loc>/blog/post/rice-rally-2018-sydney/</loc>
     <lastmod>2018-08-18T19:19:44+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/newtek-ndi/</loc>
+    <loc>/blog/post/newtek-ndi/</loc>
     <lastmod>2018-08-05T19:19:35+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/propresenter6-stage-display-messages-client/</loc>
+    <loc>/blog/post/propresenter6-stage-display-messages-client/</loc>
     <lastmod>2018-08-04T23:14:04+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/unsw-compclub2018winter/</loc>
+    <loc>/blog/post/unsw-compclub2018winter/</loc>
     <lastmod>2018-07-13T18:52:17+11:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/ai/</loc>
+    <loc>/blog/categories/ai/</loc>
     <lastmod>2018-10-22T00:44:41+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/blog/</loc>
     <lastmod>2018-12-20T18:33:35+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/audio-visual/</loc>
+    <loc>/blog/categories/audio-visual/</loc>
     <lastmod>2018-12-20T18:20:04+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/blog/categories/</loc>
     <lastmod>2018-10-22T00:44:41+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/life/</loc>
+    <loc>/blog/categories/life/</loc>
     <lastmod>2018-12-20T17:44:45+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/networking/</loc>
+    <loc>/blog/categories/networking/</loc>
     <lastmod>2018-12-19T23:31:12+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/photography/</loc>
+    <loc>/blog/categories/photography/</loc>
     <lastmod>2018-12-17T18:20:48+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/blog/post/</loc>
     <lastmod>2018-12-20T18:33:35+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/python/</loc>
+    <loc>/blog/categories/python/</loc>
     <lastmod>2018-12-20T18:33:35+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/blog/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/unsw/</loc>
+    <loc>/blog/categories/unsw/</loc>
     <lastmod>2018-12-20T18:32:47+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/webdev/</loc>
+    <loc>/blog/categories/webdev/</loc>
     <lastmod>2018-12-20T18:33:35+11:00</lastmod>
     <priority>0</priority>
   </url>

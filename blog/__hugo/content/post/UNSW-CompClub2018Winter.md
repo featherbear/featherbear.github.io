@@ -3,7 +3,7 @@ title: "School of Codecraft and Hackery"
 date: 2018-07-13T18:52:17+11:00
 description: "UNSW CSE CompClub 2018 Winter Workshop"
 categories: ["UNSW", "Python", "WebDev"]
-featuredImage: ""
+featuredImage: "/post/unsw-compclub2019summer/compclub.logo.svg"
 displayInMenu: false
 displayInList: true
 ---

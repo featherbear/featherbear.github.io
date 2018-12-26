@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Andrew&#39;s Blog</title>
-    <link>/categories/</link>
+    <link>/blog/categories/</link>
     <description>Recent content in Categories on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Oct 2018 00:44:41 +1100</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ai</title>
-      <link>/categories/ai/</link>
+      <link>/blog/categories/ai/</link>
       <pubDate>Mon, 22 Oct 2018 00:44:41 +1100</pubDate>
       
-      <guid>/categories/ai/</guid>
+      <guid>/blog/categories/ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Audio/Visual</title>
-      <link>/categories/audio-visual/</link>
+      <link>/blog/categories/audio-visual/</link>
       <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
       
-      <guid>/categories/audio-visual/</guid>
+      <guid>/blog/categories/audio-visual/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>/categories/life/</link>
+      <link>/blog/categories/life/</link>
       <pubDate>Thu, 20 Dec 2018 17:44:45 +1100</pubDate>
       
-      <guid>/categories/life/</guid>
+      <guid>/blog/categories/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Networking</title>
-      <link>/categories/networking/</link>
+      <link>/blog/categories/networking/</link>
       <pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate>
       
-      <guid>/categories/networking/</guid>
+      <guid>/blog/categories/networking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photography</title>
-      <link>/categories/photography/</link>
+      <link>/blog/categories/photography/</link>
       <pubDate>Mon, 17 Dec 2018 18:20:48 +1100</pubDate>
       
-      <guid>/categories/photography/</guid>
+      <guid>/blog/categories/photography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>/categories/python/</link>
+      <link>/blog/categories/python/</link>
       <pubDate>Thu, 20 Dec 2018 18:33:35 +1100</pubDate>
       
-      <guid>/categories/python/</guid>
+      <guid>/blog/categories/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unsw</title>
-      <link>/categories/unsw/</link>
+      <link>/blog/categories/unsw/</link>
       <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
       
-      <guid>/categories/unsw/</guid>
+      <guid>/blog/categories/unsw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Webdev</title>
-      <link>/categories/webdev/</link>
+      <link>/blog/categories/webdev/</link>
       <pubDate>Thu, 20 Dec 2018 18:33:35 +1100</pubDate>
       
-      <guid>/categories/webdev/</guid>
+      <guid>/blog/categories/webdev/</guid>
       <description></description>
     </item>
     
