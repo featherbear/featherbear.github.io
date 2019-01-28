@@ -9,6 +9,9 @@ displayInList: true
 ---
 > [Read the whole CompClub 2019 Summer Workshop post](../unsw-compclub2019summer)
 
+GitHub: [featherbear/UNSW-CompClub2019Summer-CTF](https://github.com/featherbear/UNSW-CompClub2019Summer-CTF)  
+Demo: [featherbear.github.io/UNSW-CompClub2019Summer-CTF](https://featherbear.github.io/UNSW-CompClub2019Summer-CTF)
+
 ---
 
 During the [Winter 2018 Workshop](https://winter2018.compclub.com.au), the organiser for the security day coded up a CTF website.  
@@ -56,3 +59,9 @@ Results were pretty neat!
 Take a look!  
 GitHub: [featherbear/UNSW-CompClub2019Summer-CTF](https://github.com/featherbear/UNSW-CompClub2019Summer-CTF)  
 Demo: [featherbear.github.io/UNSW-CompClub2019Summer-CTF](https://featherbear.github.io/UNSW-CompClub2019Summer-CTF)
+
+---
+
+Performance
+So it turned out surprisingly very well. With at least 35 concurrent clients - there was no noticable server delay!
+Score!

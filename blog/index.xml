@@ -6,10 +6,68 @@
     <description>Recent content on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Dec 2018 18:33:35 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jan 2019 15:42:27 +1100</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Back to Firefox</title>
+      <link>/post/back-to-firefox/</link>
+      <pubDate>Sun, 27 Jan 2019 15:42:27 +1100</pubDate>
+      
+      <guid>/post/back-to-firefox/</guid>
+      <description>Why I left
+I stopped using Firefox in the late of November 2016, when Mozilla decided to pull the plug on, and severely restricted Firefox&amp;rsquo;s add-on platform, in favour of their WebExtensions API.
+This issue with this was that the WebExtensions API was relatively high-level - meaning that my favourite extensions (ie DownThemAll!) would cease to work, as they relied on low level access.
+ Not being able to use DownThemAll!</description>
+    </item>
+    
+    <item>
+      <title>Home Network Upgrade</title>
+      <link>/post/home-network-upgrade/</link>
+      <pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate>
+      
+      <guid>/post/home-network-upgrade/</guid>
+      <description>I love GumTree, have I ever told you that? (I also thoroughly enjoy Facebook marketplace too)
+Ubiquiti UniFi UAPs TEN DOLLARS EACH (No, not the ACs unfortunately.. the first ever ones.. but hey save $50 per piece)
+10&amp;frasl;100 not 10/100/1000 To my dismay, these APs were only 100FDX and not 1000FDX. But my old APs weren&amp;rsquo;t gigabit either. so it&amp;rsquo;s not like my network became worse
+80 8x Ubiquiti UniFi UAP 50 D-Link DGS-1210-28 40 MikroTik RouterBOARD RB1200 80 Dell PowerConnect 2848</description>
+    </item>
+    
+    <item>
+      <title>Floobits</title>
+      <link>/post/floobits/</link>
+      <pubDate>Fri, 11 Jan 2019 18:42:59 +1100</pubDate>
+      
+      <guid>/post/floobits/</guid>
+      <description>Group work is always &amp;hellip; interesting.
+For software development especially, there are so different many ways that you could write a procedure.
+And for the exact same procedure, there so many different syntactical nuances that could differ too.
+And that&amp;rsquo;s why style guides, and documentation is important!
+That said, my COMP2521 Assignment 2 (Fury of Dracula) was a group (pair) assignment.
+So, the obvious question is - who does what part, but more importantly; how do we edit together.</description>
+    </item>
+    
+    <item>
+      <title>Repl.it</title>
+      <link>/post/repl.it/</link>
+      <pubDate>Wed, 09 Jan 2019 14:12:31 +1100</pubDate>
+      
+      <guid>/post/repl.it/</guid>
+      <description>Repl.it
+Showing images
+Jinja flask https://aryaboudaie.com/python/technical/educational/web/flask/2018/10/17/flask.html Note - for using templates on repl.it, you need to have at least two python files in your workspace because of a bug. The second Python file can be completely empty, but that�s why I have the dummy.py file in the REPL.</description>
+    </item>
+    
+    <item>
+      <title>Tools of the Trade</title>
+      <link>/post/tools-of-the-trade/</link>
+      <pubDate>Thu, 03 Jan 2019 15:01:09 +1100</pubDate>
+      
+      <guid>/post/tools-of-the-trade/</guid>
+      <description>My Phone (Samsung S9+)  TripView Stocard Year in Pixels PhotoTime PowerAmp QMix-UC UC Surface Lightroom CC WiFiman F-Stop Contacts+ Messenger Messenger Lite BudgetBakers wallet Trello SimpleNote Squid Nine Folders Metronome by Soundbrenner Evie Authy bxActions GPS Status GPSLogger Joist Life360 Keepass2Android Mi Band Master MIFARE Classic Tool NewTek NDI OpenSimSim Google Play Rewards Sound Analyzer App Timely YouTube Vanced  My Computer My Laptop Adobe Premiere Pro CC Adobe Lightroom Classic CC Adobe Illustrator CC Adobe InDesign CC</description>
+    </item>
     
     <item>
       <title>SWEC Bulletin Generator</title>
@@ -29,11 +87,32 @@ And also, with my other commitments taking more time, I don&amp;rsquo;t want my 
       <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
       
       <guid>/post/unsw-compclub2019summer/</guid>
-      <description>What is UNSW CSE CompClub?
+      <description>Quick Links
+What is UNSW CSE CompClub?
+On writing a CTF server
  I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
 Last time (Winter 2018) I volunteered as a mentor - those people who would help guide the students.
 This time around I helped out as an organiser, in particular a content writer.
-That means that I get a whole day to do whatever the heck I want! Yeeeeet!</description>
+That means that I get a whole day to do whatever the heck I want!</description>
+    </item>
+    
+    <item>
+      <title>CompClub 2019 Summer CTF</title>
+      <link>/post/unsw-compclub2019summer-ctf/</link>
+      <pubDate>Thu, 20 Dec 2018 18:32:46 +1100</pubDate>
+      
+      <guid>/post/unsw-compclub2019summer-ctf/</guid>
+      <description>Read the whole CompClub 2019 Summer Workshop post
+ GitHub: featherbear/UNSW-CompClub2019Summer-CTF
+Demo: featherbear.github.io/UNSW-CompClub2019Summer-CTF
+During the Winter 2018 Workshop, the organiser for the security day coded up a CTF website.
+ Technologies
+Server: Flask (Python)
+CSS: Bootstrap
+Performance: RIP
+ Yeah so, Flask is a great Python web framework, with all of its routing magic.
+But running a server with Flask alone is not a good idea&amp;hellip;
+Flask should be run in a WSGI environment, but the inbuilt Flask server is not such.</description>
     </item>
     
     <item>
@@ -52,6 +131,15 @@ That means that I get a whole day to do whatever the heck I want! Yeeeeet!</desc
       
       <guid>/post/presonus-studiolive-16/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>SWEC Audio Mixer Upgrade</title>
+      <link>/post/swec-audio-mixer-upgrade/</link>
+      <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
+      
+      <guid>/post/swec-audio-mixer-upgrade/</guid>
+      <description>Item Type Price Link     [PreSonus StudioLive 24R Series III]() Stage Box/Console AU$1279.20 Product   8x TRS (m) to XLR (m) Cable $AU$19.92 eBay   4x TRS (m) to 2x TS (m) Cable AU$16.56 eBay   ARTcessories P16 XLR Patch Bay AU$149 Product   [PreSonus StudioLive 16 Series III]() Console AU$2399.20 Product   2x Neutrik NE8MC Cable Connector AU$11.</description>
     </item>
     
     <item>

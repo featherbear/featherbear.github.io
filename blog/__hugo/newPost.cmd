@@ -2,4 +2,4 @@
 cd %~dp0
 title Create new Hugo post
 set/pname=Enter post file name: 
-hugo new post/%name%
+hugo new "post/%name%"

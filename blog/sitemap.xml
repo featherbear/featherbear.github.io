@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/back-to-firefox/</loc>
+    <lastmod>2019-01-27T15:42:27+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/home-network-upgrade/</loc>
+    <lastmod>2019-01-13T21:01:21+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/floobits/</loc>
+    <lastmod>2019-01-11T18:42:59+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/repl.it/</loc>
+    <lastmod>2019-01-09T14:12:31+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/tools-of-the-trade/</loc>
+    <lastmod>2019-01-03T15:01:09+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/swec-bulletin-generator/</loc>
     <lastmod>2018-12-20T18:33:35+11:00</lastmod>
   </url>
@@ -13,12 +38,22 @@
   </url>
   
   <url>
+    <loc>/post/unsw-compclub2019summer-ctf/</loc>
+    <lastmod>2018-12-20T18:32:46+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/unsw-comp2521/</loc>
     <lastmod>2018-12-20T18:21:10+11:00</lastmod>
   </url>
   
   <url>
     <loc>/post/presonus-studiolive-16/</loc>
+    <lastmod>2018-12-20T18:20:04+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/swec-audio-mixer-upgrade/</loc>
     <lastmod>2018-12-20T18:20:04+11:00</lastmod>
   </url>
   
@@ -110,7 +145,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-12-20T18:33:35+11:00</lastmod>
+    <lastmod>2019-01-27T15:42:27+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -146,7 +181,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-12-20T18:33:35+11:00</lastmod>
+    <lastmod>2019-01-27T15:42:27+11:00</lastmod>
     <priority>0</priority>
   </url>
   

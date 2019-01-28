@@ -17,11 +17,32 @@
       <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
       
       <guid>/post/unsw-compclub2019summer/</guid>
-      <description>What is UNSW CSE CompClub?
+      <description>Quick Links
+What is UNSW CSE CompClub?
+On writing a CTF server
  I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
 Last time (Winter 2018) I volunteered as a mentor - those people who would help guide the students.
 This time around I helped out as an organiser, in particular a content writer.
-That means that I get a whole day to do whatever the heck I want! Yeeeeet!</description>
+That means that I get a whole day to do whatever the heck I want!</description>
+    </item>
+    
+    <item>
+      <title>CompClub 2019 Summer CTF</title>
+      <link>/post/unsw-compclub2019summer-ctf/</link>
+      <pubDate>Thu, 20 Dec 2018 18:32:46 +1100</pubDate>
+      
+      <guid>/post/unsw-compclub2019summer-ctf/</guid>
+      <description>Read the whole CompClub 2019 Summer Workshop post
+ GitHub: featherbear/UNSW-CompClub2019Summer-CTF
+Demo: featherbear.github.io/UNSW-CompClub2019Summer-CTF
+During the Winter 2018 Workshop, the organiser for the security day coded up a CTF website.
+ Technologies
+Server: Flask (Python)
+CSS: Bootstrap
+Performance: RIP
+ Yeah so, Flask is a great Python web framework, with all of its routing magic.
+But running a server with Flask alone is not a good idea&amp;hellip;
+Flask should be run in a WSGI environment, but the inbuilt Flask server is not such.</description>
     </item>
     
     <item>
