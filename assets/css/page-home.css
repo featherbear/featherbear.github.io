@@ -48,9 +48,15 @@ a {
 }
 #profile img {
 	border-radius: 50%;
-	content: url(../images/profilepic.jpg);
-	width: 100%;
 	margin: 5vh auto;
+	
+	/* content: url(../images/profilepic.jpg);
+	width: 100%; */
+	
+	background-image: url(../images/profilepic.jpg);
+	background-size: cover;
+	width: 18vw;
+	height: 18vw;
 }
 /* Name */
 

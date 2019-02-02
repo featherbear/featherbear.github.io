@@ -23,6 +23,7 @@
 
 .og-grid li > a img {
 	height: 250px;
+	width: 250px;
 }
 
 .og-grid li.og-expanded > a::after {

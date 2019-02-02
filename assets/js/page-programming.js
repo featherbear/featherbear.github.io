@@ -195,17 +195,14 @@ var Grid = (function() {
 	// the new items need to appended to the grid.
 	// after that call Grid.addItems(theItems);
 	function addItems($newitems) {
-		console.log("ADD")
 		$items = $items.add($newitems);
 		$newitems.each(function() {
-			console.log("PASS")
 			var $item = $(this);
 			$item.data({
 				offsetTop: $item.offset().top,
 				height: $item.height()
 			});
 		});
-		console.log("ADDITEMINIT")
 		initItemsEvents($newitems);
 	}
 	// saves the item´s offset top and height (if saveheight is true)
@@ -240,14 +237,10 @@ var Grid = (function() {
 	}
 
 	function initItemsEvents($items) {
-		console.log("INIT")
-		console.log($items)
 		$items.on('click', 'span.og-close', function() {
 			hidePreview();
 			return false;
 		}).children('a').on('click', function(e) {
-			console.log("CLICK!");
-			console.log(e);
 			var $item = $(this).parent();
 			// check if item already opened
 			current === $item.index() ? hidePreview() : showPreview($item);
@@ -487,13 +480,15 @@ var Grid = (function() {
 $(function() {
 	var data = [];
 	$.getJSON("../data/items-programming.json", function(res) {
+	  console.log("Fetched items-programming.json");
 		data = res;
-		console.log("LOAD");
 		var loadMore = function() {
 			Grid.addItems($(data.splice(0, 10).map(function(s) {
+        console.log(`  Adding ${s.title}`);
 				return `<li><a href='${s.href}' data-largesrc='${s.src}' data-title='${s.title}' data-description="${s.desc}" data-project='${s.project}' data-blog='${s.blog}'><img src='${s.thumb_src}' alt='${s.title}'/><\/a><\/li>`
 			}).join("")).appendTo($('#og-grid')));
-			return data.length > 0
+			
+			return data.length > 0;
 		}
 		// .project
 		// .blog
