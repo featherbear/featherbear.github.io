@@ -18,6 +18,7 @@ If only there was a HTML/JavaScript solution... that'd really come in handy...
 ... lol jk I'll write my own!
 
 See site -> [PP6 Stage Display Messages](http://featherbear.navhaxs.au.eu.org/pp6sdm)  
+![](screenshot.png)
 
 It works only on HTTP (no HTTPS), because PP6 is serving WebSocket, and not Secure WebSocket.  
 Browser security prevents a HTTPS site from accessing insecure resources.
