@@ -8,7 +8,7 @@ displayInMenu: false
 displayInList: true
 ---
 
-> My code can be found on GitHub: [featherbear/balloon-shooting-challenge](https://github.com/featherbear/balloon-shooting-challenge)
+> My code can be found on GitHub: [featherbear/smallbasic-balloon-shooting-game](https://github.com/featherbear/smallbasic-balloon-shooting-game)
 
 A while ago I applied for a position at a company which taught children how to code...  
 Today I got an email back with a programming challenge, let's have a crack at it!
@@ -129,7 +129,7 @@ Co-ordinates are anchored from the top left
 </details>
 
 # Coding Time
-> GitHub: [featherbear/balloon-shooting-challenge](https://github.com/featherbear/balloon-shooting-challenge)
+> GitHub: [featherbear/smallbasic-balloon-shooting-game](https://github.com/featherbear/smallbasic-balloon-shooting-game)
 
 
 The first thing to do was to set up the game window
