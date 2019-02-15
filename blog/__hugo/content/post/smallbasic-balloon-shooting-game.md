@@ -233,7 +233,7 @@ Otherwise, on the whole it works!!!
 
 # Final Thoughts
 Small Basic combines Microsoft's syntax ecosystem with something like Python's syntax to create a beautiful mess.  
-No I'm kidding, honestly it's a pitiful mess.  
+That's an overstatement though, Small Basic kinda sucks.
 
 **Firstly**, `arrays`.  
 The thing that shocks me the most - that you don't need to declare the type of the variable, but can instantly do `something["like"] = "this"` without even saying what `something` is.  
