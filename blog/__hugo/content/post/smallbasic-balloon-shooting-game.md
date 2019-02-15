@@ -247,6 +247,5 @@ But that said, Small Basic ***does*** have its quality - Especially having a gra
  
 But that also said, something like Python also has the `turtle` library.
 
-I think this will be my first, and last time using Small Basic.
 
-BaCk To ReAl PrOgRaMmInG iN hTmL.
+BaCk To ReAl PrOgRaMmInG iN hTmL
