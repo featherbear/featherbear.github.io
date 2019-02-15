@@ -3,7 +3,7 @@ title: "Balloon Shooting Challenge"
 date: 2019-02-15T16:27:36+11:00
 description: "Writing a game with Microsoft's Small Basic language!"
 categories: ["Programming"]
-featuredImage: ""
+featuredImage: "/post/smallbasic-balloon-shooting-game/Snipaste_2019-02-15_20-52-51.png"
 displayInMenu: false
 displayInList: true
 ---
@@ -225,8 +225,9 @@ The last steps were to implement the end game message, which would tell the play
 ---
 
 # Game Time
-![](Snipaste_2019-02-15_20-52-51.png)
-Because of my not-so-well-written hit detection algorithm, I experienced false-positive game ends - as I expected.  
+![](animation.gif)
+
+Because of my not-so-well-written hit detection algorithm, I sometimes experienced false-positive game ends - as I would expect.  
 
 Otherwise, on the whole it works!!!
 
