@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/balloon-shooting-challenge/</loc>
+    <lastmod>2019-02-15T16:27:36+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/python36-f-string/</loc>
+    <lastmod>2019-02-13T18:59:13+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/unifi-java/</loc>
+    <lastmod>2019-02-04T23:06:34+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/back-to-firefox/</loc>
     <lastmod>2019-01-27T15:42:27+11:00</lastmod>
   </url>
@@ -145,7 +160,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-27T15:42:27+11:00</lastmod>
+    <lastmod>2019-02-15T16:27:36+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -163,13 +178,13 @@
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2018-12-20T17:44:45+11:00</lastmod>
+    <lastmod>2019-01-27T15:42:27+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/networking/</loc>
-    <lastmod>2018-12-19T23:31:12+11:00</lastmod>
+    <lastmod>2019-02-04T23:06:34+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -181,13 +196,19 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-01-27T15:42:27+11:00</lastmod>
+    <lastmod>2019-02-15T16:27:36+11:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2019-02-15T16:27:36+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/python/</loc>
-    <lastmod>2018-12-20T18:33:35+11:00</lastmod>
+    <lastmod>2019-02-13T18:59:13+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -204,7 +225,7 @@
   
   <url>
     <loc>/categories/webdev/</loc>
-    <lastmod>2018-12-20T18:33:35+11:00</lastmod>
+    <lastmod>2019-01-09T14:12:31+11:00</lastmod>
     <priority>0</priority>
   </url>
   

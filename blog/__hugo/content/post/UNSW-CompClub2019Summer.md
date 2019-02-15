@@ -2,7 +2,7 @@
 title: "Secret Agent"
 date: 2018-12-20T18:32:47+11:00
 description: "UNSW CSE CompClub 2019 Summer Workshop"
-categories: ["UNSW", "Python", "WebDev"]
+categories: ["UNSW", "Python", "WebDev", "Programming"]
 featuredImage: "/post/unsw-compclub2019summer/compclub.logo.svg"
 displayInMenu: false
 displayInList: true

@@ -2,7 +2,7 @@
 title: "z-index"
 date: 2018-11-25T20:46:10+11:00
 description: "Negative z-indexes - Argh!"
-categories: ["WebDev"]
+categories: ["WebDev", "Programming"]
 displayInMenu: false
 displayInList: true
 ---

@@ -2,7 +2,7 @@
 title: "RICE Rally 2018 Sydney"
 date: 2018-08-18T19:19:44+11:00
 description: ""
-categories: ["Life", "Audio/Visual"]
+categories: ["Life", "Audio Visual"]
 featuredImage: "/post/rice-rally-2018-sydney/719-x-322-1.jpg"
 displayInMenu: false
 displayInList: true

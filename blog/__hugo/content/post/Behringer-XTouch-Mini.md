@@ -2,7 +2,7 @@
 title: "Behringer X-Touch Mini"
 date: 2018-12-17T18:20:48+11:00
 description: "A control surface for Lightroom!"
-categories: ["Audio/Visual", "Photography"]
+categories: ["Audio Visual", "Photography"]
 featuredImage: "https://media.musictri.be/media/PLM/data/images/products/P0B3M/1800Wx1800H/X-TOUCH-MINI_P0B3M_Top_L.png"
 displayInMenu: false
 displayInList: true

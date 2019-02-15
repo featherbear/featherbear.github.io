@@ -2,7 +2,7 @@
 title: "Home Network Upgrade"
 date: 2019-01-13T21:01:21+11:00
 description: ""
-categories: []
+categories: ["Networking", "Life"]
 featuredImage: ""
 displayInMenu: false
 displayInList: true

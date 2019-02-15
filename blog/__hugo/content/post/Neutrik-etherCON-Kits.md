@@ -2,7 +2,7 @@
 title: "Neutrik EtherCON Kits"
 date: 2018-12-19T23:31:12+11:00
 description: "DIY EtherCON!"
-categories: ["Audio/Visual", "Networking"]
+categories: ["Audio Visual", "Networking"]
 featuredImage: "https://www.neutrik.com/uploads/media/380x/09/2109-ethercon-cable-carrier.png?v=1-0"
 displayInMenu: false
 displayInList: true

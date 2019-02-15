@@ -2,7 +2,7 @@
 title: "ProPresenter 6 Stage Display Messages"
 date: 2018-08-04T23:14:04+11:00
 description: "A HTML interface for sending Stage Display messages to ProPresenter 6!"
-categories: ["Audio/Visual", "Networking", "WebDev"]
+categories: ["Audio Visual", "Networking", "WebDev", "Programming"]
 displayInMenu: false
 displayInList: true
 ---

@@ -2,7 +2,7 @@
 title: "CompClub 2019 Summer CTF"
 date: 2018-12-20T18:32:46+11:00
 description: "Hosting a Capture The Flag secgame"
-categories: ["UNSW", "Python", "WebDev"]
+categories: ["UNSW", "Python", "WebDev", "Programming"]
 featuredImage: "/post/unsw-compclub2019summer/compclub.logo.svg"
 displayInMenu: false
 displayInList: true

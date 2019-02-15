@@ -2,7 +2,7 @@
 title: "Whoops There Goes My AI"
 date: 2018-10-22T00:44:41+11:00
 description: "if (aboutToCrash) dont();"
-categories: ["Python", "AI"]
+categories: ["Python", "AI", "Programming"]
 displayInMenu: false
 displayInList: true
 ---

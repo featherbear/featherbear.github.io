@@ -2,7 +2,7 @@
 title: "JavaScript Map"
 date: 2018-12-14T17:20:18+11:00
 description: "Array map() takes a function with two parameters!"
-categories: ["WebDev"]
+categories: ["WebDev", "Programming"]
 displayInMenu: false
 displayInList: true
 ---

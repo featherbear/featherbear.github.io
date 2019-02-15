@@ -2,7 +2,7 @@
 title: "Floobits"
 date: 2019-01-11T18:42:59+11:00
 description: "Collaborative code editing!"
-categories: []
+categories: ["Programming"]
 featuredImage: "https://floobits.com/static/images/logos/logo_with_name.png"
 displayInMenu: false
 displayInList: true

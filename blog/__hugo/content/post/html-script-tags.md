@@ -2,7 +2,7 @@
 title: "HTML Script Tags"
 date: 2018-11-24T00:44:52+11:00
 description: "A handy diagram to explain the functionality of async and defer in <script> tags"
-categories: ["WebDev"]
+categories: ["WebDev", "Programming"]
 featuredImage: "https://i.stack.imgur.com/wfL82.png"
 displayInMenu: false
 displayInList: true

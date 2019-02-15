@@ -2,7 +2,7 @@
 title: "Python Tornado vs Flask"
 date: 2018-11-24T01:27:03+11:00
 description: "A 'battle' of the Python web microframeworks"
-categories: ["Python", "WebDev"]
+categories: ["Python", "WebDev", "Programming"]
 displayInMenu: false
 displayInList: true
 ---

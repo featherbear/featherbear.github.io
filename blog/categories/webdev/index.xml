@@ -6,10 +6,21 @@
     <description>Recent content in Webdev on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Dec 2018 18:33:35 +1100</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jan 2019 14:12:31 +1100</lastBuildDate>
     
 	<atom:link href="/categories/webdev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Repl.it</title>
+      <link>/post/repl.it/</link>
+      <pubDate>Wed, 09 Jan 2019 14:12:31 +1100</pubDate>
+      
+      <guid>/post/repl.it/</guid>
+      <description>Repl.it
+Showing images
+Jinja flask https://aryaboudaie.com/python/technical/educational/web/flask/2018/10/17/flask.html Note - for using templates on repl.it, you need to have at least two python files in your workspace because of a bug. The second Python file can be completely empty, but that�s why I have the dummy.py file in the REPL.</description>
+    </item>
     
     <item>
       <title>SWEC Bulletin Generator</title>

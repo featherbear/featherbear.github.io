@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Audio/Visual</title>
+      <title>Audio Visual</title>
       <link>/categories/audio-visual/</link>
       <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
       
@@ -32,7 +32,7 @@
     <item>
       <title>Life</title>
       <link>/categories/life/</link>
-      <pubDate>Thu, 20 Dec 2018 17:44:45 +1100</pubDate>
+      <pubDate>Sun, 27 Jan 2019 15:42:27 +1100</pubDate>
       
       <guid>/categories/life/</guid>
       <description></description>
@@ -41,7 +41,7 @@
     <item>
       <title>Networking</title>
       <link>/categories/networking/</link>
-      <pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate>
+      <pubDate>Mon, 04 Feb 2019 23:06:34 +1100</pubDate>
       
       <guid>/categories/networking/</guid>
       <description></description>
@@ -57,9 +57,18 @@
     </item>
     
     <item>
+      <title>Programming</title>
+      <link>/categories/programming/</link>
+      <pubDate>Fri, 15 Feb 2019 16:27:36 +1100</pubDate>
+      
+      <guid>/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>/categories/python/</link>
-      <pubDate>Thu, 20 Dec 2018 18:33:35 +1100</pubDate>
+      <pubDate>Wed, 13 Feb 2019 18:59:13 +1100</pubDate>
       
       <guid>/categories/python/</guid>
       <description></description>
@@ -77,7 +86,7 @@
     <item>
       <title>Webdev</title>
       <link>/categories/webdev/</link>
-      <pubDate>Thu, 20 Dec 2018 18:33:35 +1100</pubDate>
+      <pubDate>Wed, 09 Jan 2019 14:12:31 +1100</pubDate>
       
       <guid>/categories/webdev/</guid>
       <description></description>

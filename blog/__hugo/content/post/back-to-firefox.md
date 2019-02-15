@@ -2,7 +2,7 @@
 title: "Back to Firefox"
 date: 2019-01-27T15:42:27+11:00
 description: "Welcoming Mozilla Firefox back into my family."
-categories: []
+categories: ["Life"]
 featuredImage: ""
 displayInMenu: false
 displayInList: true

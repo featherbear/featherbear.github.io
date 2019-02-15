@@ -1,6 +1,7 @@
 ---
 title: "Repl.it"
 description: "RIPl.it - the rise and fall of online code sandboxes"
+categories: ["WebDev", "Programming"]
 date: 2019-01-09T14:12:31+11:00
 ---
 

@@ -6,10 +6,25 @@
     <description>Recent content in Python on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Dec 2018 18:33:35 +1100</lastBuildDate>
+    <lastBuildDate>Wed, 13 Feb 2019 18:59:13 +1100</lastBuildDate>
     
 	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python 3.6 F-strings</title>
+      <link>/post/python36-f-string/</link>
+      <pubDate>Wed, 13 Feb 2019 18:59:13 +1100</pubDate>
+      
+      <guid>/post/python36-f-string/</guid>
+      <description>PEP 498 introduced a new string formatting mechanism called Literal String Interpolation.
+We&amp;rsquo;ll call them F-strings, because of the leading f character that appears before the string literals.
+The PEP really says it all but sure we&amp;rsquo;ll go through it again, why not!
+Format: f &#39; &amp;lt;text&amp;gt; { &amp;lt;expression&amp;gt; &amp;lt;optional !s, !r, or !a&amp;gt; &amp;lt;optional : format specifier&amp;gt; } &amp;lt;text&amp;gt; ... &#39;
+Using string format
+nameVar = Andrew
+print(&amp;quot;Hello, {}!&amp;quot;.format(nameVar))</description>
+    </item>
     
     <item>
       <title>SWEC Bulletin Generator</title>

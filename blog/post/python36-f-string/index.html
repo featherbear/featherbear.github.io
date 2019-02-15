@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Python 3.6 F-strings &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="I finally looked at What&#39;s New in Python 3.6" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <link rel="stylesheet" href="../../css/xcode.css" />
+  <link rel="stylesheet" href="../../css/mystyle.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/latolatinfonts.css" />
+  
+  <style>
+    body {
+      background: #ecedef url("/blog/IMG_0072.jpg") repeat;
+    }
+  </style>
+  
+</head>
+  <body class="single-body">
+    <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="../../" class="nav-text">
+    [Back to Home]
+  </a></h1>
+  <div class="hamburger-menu">
+		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
+		<span></span>
+		<span></span>
+    <ul class="hamburger-menu-overlay">
+      <li><a href="../../" class="hamburger-menu-overlay-link">Home</a></li>
+      
+      
+			<li><a href="../../categories/ai" class="hamburger-menu-overlay-link">Ai</a></li>
+			
+			<li><a href="../../categories/audio-visual" class="hamburger-menu-overlay-link">Audio visual</a></li>
+			
+			<li><a href="../../categories/life" class="hamburger-menu-overlay-link">Life</a></li>
+			
+			<li><a href="../../categories/networking" class="hamburger-menu-overlay-link">Networking</a></li>
+			
+			<li><a href="../../categories/photography" class="hamburger-menu-overlay-link">Photography</a></li>
+			
+			<li><a href="../../categories/programming" class="hamburger-menu-overlay-link">Programming</a></li>
+			
+			<li><a href="../../categories/python" class="hamburger-menu-overlay-link">Python</a></li>
+			
+			<li><a href="../../categories/unsw" class="hamburger-menu-overlay-link">Unsw</a></li>
+			
+			<li><a href="../../categories/webdev" class="hamburger-menu-overlay-link">Webdev</a></li>
+			
+    </ul>
+  </div>
+</nav>
+    <main class="content side-text-padding">
+      <article class="post dropcase">
+        <header class="post-header">
+        	<h1 class="post-title">Python 3.6 F-strings</h1>
+          <p class="post-date">Posted <time datetime="2019-02-13">Feb 13, 2019</time></p>
+        </header>
+        
+        <figure class="post-figure">
+          <img src="">
+        </figure>
+        
+        <p><a href="https://www.python.org/dev/peps/pep-0498/">PEP 498</a> introduced a new string formatting mechanism called Literal String Interpolation.<br />
+We&rsquo;ll call them F-strings, because of the leading <code>f</code> character that appears before the string literals.</p>
+
+<hr />
+
+<p>The PEP really says it all but sure we&rsquo;ll go through it again, why not!</p>
+
+<p><strong>Format</strong>: <code>f ' &lt;text&gt; { &lt;expression&gt; &lt;optional !s, !r, or !a&gt; &lt;optional : format specifier&gt; } &lt;text&gt; ... '</code></p>
+
+<p><em>Using string format</em><br />
+<code>nameVar = Andrew</code><br />
+<code>print(&quot;Hello, {}!&quot;.format(nameVar))</code><br />
+&gt; Hello, Andrew!</p>
+
+<p><code>nameVar = Andrew</code><br />
+<code>print(&quot;Hello, {name}!&quot;.format(name=nameVar))</code><br />
+&gt; Hello, Andrew!</p>
+
+<p><em>Using %-formatting</em><br />
+<code>nameVar = Andrew</code><br />
+<code>print(&quot;Hello, %s!&quot; % nameVar)</code><br />
+&gt; Hello, Andrew!</p>
+
+<p><strong>Using f-strings</strong><br />
+<code>nameVar = Andrew</code><br />
+<code>print(f&quot;Hello, {nameVar}!&quot;)</code><br />
+&gt; Hello, Andrew!</p>
+
+<hr />
+
+<p><strong>Escaping f-strings</strong><br />
+What if we wanted to print out &ldquo;{var}&rdquo;<br />
+<code>print(f&quot;{{var}}&quot;)</code><br />
+&gt; {var}</p>
+
+<p>What if we wanted to print out &ldquo;{{var}}&rdquo;<br />
+<code>print(f&quot;{{{{var}}}}&quot;)</code><br />
+&gt; {{var}}</p>
+
+<hr />
+
+<p>In terms of speed, they&rsquo;re much faster than %-formatting and the str.format() function! (source: <a href="https://hackernoon.com/a-closer-look-at-how-python-f-strings-work-f197736b3bdb">Hacker Noon</a>)</p>
+
+      </article>
+      
+    </main>
+    <nav class="end-nav side-padding">
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="../../post/unifi-java/" class="card blog-card" rel="bookmark" >
+    
+    <div class="card-img-container">
+      <p class="card-img-overlay">Next Article</p>
+      <img src="" class="card-img">
+    </div>
+    
+  <article class="card-body">
+    <h2 class="card-title">Unifi Java</h2>
+    <p class="card-text"></p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2019-02-04 24:00">Feb 4, 2019</time></p>
+      <p>#Networking </p>
+    </div>
+  </article>
+</a>
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="../../" class="card home-card" style="background-image: url( ../../img/home-img.png )" rel="bookmark" >
+  Home
+</a>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/core.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+  </body>
+</html>

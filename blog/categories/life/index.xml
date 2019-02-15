@@ -6,10 +6,43 @@
     <description>Recent content in Life on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Dec 2018 17:44:45 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jan 2019 15:42:27 +1100</lastBuildDate>
     
 	<atom:link href="/categories/life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Back to Firefox</title>
+      <link>/post/back-to-firefox/</link>
+      <pubDate>Sun, 27 Jan 2019 15:42:27 +1100</pubDate>
+      
+      <guid>/post/back-to-firefox/</guid>
+      <description>Why I left
+I stopped using Firefox in the late of November 2016, when Mozilla decided to pull the plug on, and severely restricted Firefox&amp;rsquo;s add-on platform, in favour of their WebExtensions API.
+This issue with this was that the WebExtensions API was relatively high-level - meaning that my favourite extensions (ie DownThemAll!) would cease to work, as they relied on low level access.
+ Not being able to use DownThemAll!</description>
+    </item>
+    
+    <item>
+      <title>Home Network Upgrade</title>
+      <link>/post/home-network-upgrade/</link>
+      <pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate>
+      
+      <guid>/post/home-network-upgrade/</guid>
+      <description>I love GumTree, have I ever told you that? (I also thoroughly enjoy Facebook marketplace too)
+Ubiquiti UniFi UAPs TEN DOLLARS EACH (No, not the ACs unfortunately.. the first ever ones.. but hey save $50 per piece)
+10&amp;frasl;100 not 10/100/1000 To my dismay, these APs were only 100FDX and not 1000FDX. But my old APs weren&amp;rsquo;t gigabit either. so it&amp;rsquo;s not like my network became worse
+80 8x Ubiquiti UniFi UAP 50 D-Link DGS-1210-28 40 MikroTik RouterBOARD RB1200 80 Dell PowerConnect 2848</description>
+    </item>
+    
+    <item>
+      <title>Tools of the Trade</title>
+      <link>/post/tools-of-the-trade/</link>
+      <pubDate>Thu, 03 Jan 2019 15:01:09 +1100</pubDate>
+      
+      <guid>/post/tools-of-the-trade/</guid>
+      <description>My Phone (Samsung S9+)  TripView Stocard Year in Pixels PhotoTime PowerAmp QMix-UC UC Surface Lightroom CC WiFiman F-Stop Contacts+ Messenger Messenger Lite BudgetBakers wallet Trello SimpleNote Squid Nine Folders Metronome by Soundbrenner Evie Authy bxActions GPS Status GPSLogger Joist Life360 Keepass2Android Mi Band Master MIFARE Classic Tool NewTek NDI OpenSimSim Google Play Rewards Sound Analyzer App Timely YouTube Vanced  My Computer My Laptop Adobe Premiere Pro CC Adobe Lightroom Classic CC Adobe Illustrator CC Adobe InDesign CC</description>
+    </item>
     
     <item>
       <title>City Hunter</title>

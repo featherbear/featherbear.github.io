@@ -2,7 +2,7 @@
 title: "SWEC Bulletin Generator"
 date: 2018-12-20T18:33:35+11:00
 description: ""
-categories: ["Python", "WebDev"]
+categories: ["Python", "WebDev", "Programming"]
 featuredImage: ""
 displayInMenu: false
 displayInList: true

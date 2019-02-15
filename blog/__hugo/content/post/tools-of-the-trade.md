@@ -2,7 +2,7 @@
 title: "Tools of the Trade"
 date: 2019-01-03T15:01:09+11:00
 description: ""
-categories: []
+categories: ["Life"]
 featuredImage: ""
 displayInMenu: false
 displayInList: true

@@ -6,10 +6,47 @@
     <description>Recent content in Posts on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jan 2019 15:42:27 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 15 Feb 2019 16:27:36 +1100</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Balloon Shooting Challenge</title>
+      <link>/post/balloon-shooting-challenge/</link>
+      <pubDate>Fri, 15 Feb 2019 16:27:36 +1100</pubDate>
+      
+      <guid>/post/balloon-shooting-challenge/</guid>
+      <description>My code can be found on GitHub: featherbear/balloon-shooting-challenge
+ A while ago I applied for a position at a company which taught children how to code&amp;hellip;
+Today I got an email back with a programming challenge, let&amp;rsquo;s have a crack at it!
+ The Challenge (click to expand) In order to solve the challenge you will need to download and learn a new (and very simple) coding language, I hope you will enjoy the challenge.</description>
+    </item>
+    
+    <item>
+      <title>Python 3.6 F-strings</title>
+      <link>/post/python36-f-string/</link>
+      <pubDate>Wed, 13 Feb 2019 18:59:13 +1100</pubDate>
+      
+      <guid>/post/python36-f-string/</guid>
+      <description>PEP 498 introduced a new string formatting mechanism called Literal String Interpolation.
+We&amp;rsquo;ll call them F-strings, because of the leading f character that appears before the string literals.
+The PEP really says it all but sure we&amp;rsquo;ll go through it again, why not!
+Format: f &#39; &amp;lt;text&amp;gt; { &amp;lt;expression&amp;gt; &amp;lt;optional !s, !r, or !a&amp;gt; &amp;lt;optional : format specifier&amp;gt; } &amp;lt;text&amp;gt; ... &#39;
+Using string format
+nameVar = Andrew
+print(&amp;quot;Hello, {}!&amp;quot;.format(nameVar))</description>
+    </item>
+    
+    <item>
+      <title>Unifi Java</title>
+      <link>/post/unifi-java/</link>
+      <pubDate>Mon, 04 Feb 2019 23:06:34 +1100</pubDate>
+      
+      <guid>/post/unifi-java/</guid>
+      <description>So Java decided to update itself automatically even though I turned off automatic updates?
+Consequently there&amp;rsquo;s no firewall rule for the new unifi path so my UniFi SDN went MIA</description>
+    </item>
     
     <item>
       <title>Back to Firefox</title>
@@ -130,7 +167,11 @@ Flask should be run in a WSGI environment, but the inbuilt Flask server is not s
       <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
       
       <guid>/post/presonus-studiolive-16/</guid>
-      <description></description>
+      <description>Link Aux Mutes
+Unlinked - Each aux bus is independent to each other
+Main Mutes Auxes - Each aux bus is independent, but the Main channel mute will mute that channel on all aux buses
+All Aux Mute Link - All aux buses mute together, independent of the main mute
+Global Mute Link - All channel mutes link with all auxes</description>
     </item>
     
     <item>
