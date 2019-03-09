@@ -49,7 +49,8 @@ The beginner stream covered the fundamentals of Python - printing, input, string
 I helped out in the advanded stream, where they covered functions, global scope, and had a look into the `tkinter` library.
 
 ## Day Two - Game Development
-Day Two was game development - where they used `turtle` to make a snake (what.)
+Day Two was game development - where they used `turtle` to make a snake (what.)  
+[_related: post about repl.it_](../repl.it)
 
 ## Day Three - Microbits (Hardware)
 Students had a touch on programmable hardware, with the BBC Microbits
@@ -58,12 +59,14 @@ Students had a touch on programmable hardware, with the BBC Microbits
 Students used the Flask library along with the Google Maps and ipstack API to write an IP tracker.
 
 ## Day Five - Security
-I didn't get the chance to go over the HTTP vs HTTPS slides for the sake of time, but the LSB Steganography tutorial went well.
+I didn't get the chance to go over the HTTP vs HTTPS slides for the sake of time, but the LSB Steganography tutorial went well.  
+[_related: post about repl.it_](../repl.it)
+
 And CTF woo!
 
-Equal first place:  Max, H@ck3rP30ple
-Third place: Alex
-Fourth place: Exit
-Fifth place: FuzzyCat
-Sixth palce: thedarksideytb
+Equal first place:  Max, H@ck3rP30ple  
+Third place: Alex  
+Fourth place: Exit  
+Fifth place: FuzzyCat  
+Sixth place: thedarksideytb  
 

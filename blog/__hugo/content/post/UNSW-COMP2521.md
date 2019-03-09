@@ -7,4 +7,4 @@ displayInMenu: false
 displayInList: true
 ---
 
-<script>location.href = "//featherbear.github.io/UNSW-COMP2521/"</script>
+[Click here to go to the COMP2521 blog site](//featherbear.github.io/UNSW-COMP2521/)

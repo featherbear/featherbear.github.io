@@ -16,13 +16,12 @@ And that's why style guides, and documentation is important!
 
 ---
 
-That said, my [COMP2521 Assignment 2 (Fury of Dracula)](https://featherbear.github.io/UNSW-COMP2521/blog/post/ass02/) was a group (pair) assignment.  
+That said, my [COMP2521 Assignment 2 (Fury of Dracula)](https://featherbear.github.io/UNSW-COMP2521/blog/post/ass02/) was a group assignment.  
 
 So, the obvious question is - who does what part, but more importantly; how do we edit **together**.  
 
 The usual response would be something along the lines of "So that we don't overwrite each others' work, you do this file, and I do that file"  
 Or, use some sort of version control system like Git or SVN.  
-
 
 ...
 
@@ -34,17 +33,29 @@ The Small plan offers 5 private workspaces for USD$15/mo. But I'm poor so no tha
 Unlike the online code scratchpads like Codeshare, Floobits gives you a 'project view', allowing you to upload multiple files
 
 # IDE
-Atom, Sublime, JetBrains, Online Editor
+Floobits has IDE extensions for the 'most popular' editors: Atom, Sublime, and the JetBrains suite.  
+They also have an online in-browser editor!
+
+_No VS Code support though!?_
+
 
 # Flootty
-Something pretty cool with Floobits is that they have a collaborative terminal
-
+[flooty](https://github.com/Floobits/flootty) allows you to connect your terminal to the workspace, allowing other members to access your terminal.
 
 # Issues
-Sublime Text Editor went crazy with **SOURCE FILE CHANGED RELOAD PLS** messages (paraphrased.)
+Sublime Text Editor went crazy with **SOURCE FILE CHANGED RELOAD PLS** messages (paraphrased.)  
 Effectively it made it impossible to code together with my partner.  
 
 The compromise was that I would use my IDE, whilst my partner used the Floobits online editor (it's not bad!)
 
-(I have a tendency to press Ctrl+S alot..)
-Also (I think) pressing Ctrl+Z (Undo) plays up a bit.
+(I have a tendency to press `Ctrl`+`S` alot..)  
+Also (I think) pressing `Ctrl`+`Z` (Undo) plays up a bit.
+
+--- 
+# Summary
+It was something new and looked promising, but files got overwritten, it's not case sensitive (file naming), and a whole lot of small issues made Floobits a very scary experience.  
+
+I found myself having to take lots of snapshots of my code, as the code would magically get overwritten with content from another file.
+
+I'll try out VS Code Live Share next time...  
+_(or just implement proper version control practices...)_

@@ -1,92 +1,115 @@
 ---
 title: "Tools of the Trade"
 date: 2019-01-03T15:01:09+11:00
-description: ""
+description: "A list of apps that I use on my phone and computer"
 categories: ["Life"]
-featuredImage: ""
 displayInMenu: false
 displayInList: true
 ---
 
 # My Phone (Samsung S9+)
+<details>
+<summary>Click to open</summary>
+## Messaging / Calling
+* Contacts+
+* Android Messages
+* Messenger
+* Messenger Lite
+* WhatsApp
+
+## Travel
 * TripView
-* Stocard
-* Year in Pixels
+* GPS Status
+* GPSLogger
+
+## Networking
+* WiFiman
+
+## Multimedia
 * PhotoTime
 * PowerAmp
 * QMix-UC
 * UC Surface
-* Lightroom CC
-* WiFiman
 * F-Stop
-* Contacts+
-* Messenger
-* Messenger Lite
-* BudgetBakers wallet
+* Metronome by Soundbrenner
+* NewTek NDI
+* Sound Analyzer App
+* YouTube Vanced
+
+## Shopping
+* Stocard
+* BudgetBakers Wallet
+* Google Play Rewards
+
+## Health / Lifestyle
+* Year in Pixels
+
+## Productivity
 * Trello
-* SimpleNote
+* Simplenote
 * Squid
 * Nine Folders
-* Metronome by Soundbrenner
+* Joist 
+
+## Utilties
 * Evie
 * Authy
 * bxActions
-* GPS Status
-* GPSLogger
-* Joist 
 * Life360
 * Keepass2Android
 * Mi Band Master
-* MIFARE Classic Tool
-* NewTek NDI
 * OpenSimSim
-* Google Play Rewards
-* Sound Analyzer App
 * Timely
-* YouTube Vanced
+
+</details>
 
 # My Computer
+<details>
+<summary>Click to open</summary>
+## Multimedia
+* Paint.NET
+* Adobe Premiere Pro CC
+* Adobe Lightroom Classic CC
+* Adobe Illustrator CC
+* Adobe InDesign CC
 
-# My Laptop
+# Music / Video
+* AIMP
+* VLC Player
+* Ableton 9
+* Handbrake
+* Audacity
+* Mp3Tag
 
-Adobe Premiere Pro CC
-Adobe Lightroom Classic CC
-Adobe Illustrator CC
-Adobe InDesign CC
+## Syncing
+* Resilio Sync
 
-Paint.NET
-Snipaste
-Resilio Sync
+# Productivity
+* Microsoft Office
+* Notepad2-mod
+* Franz
 
-AIMP
+## Development
+* JetBrains PyCharm
+* JetBrains CLion
+* Visual Studio Code
+* SmartGit
+* PuTTY
+* VMWare Workstation
 
-Ableton 9
+## Admin
+* Pulseway
+* TeamViewer
 
-Handbrake
+## Misc
+* NetMeter
+* PolarClock
+* WinDirStat
+* Virtual Audio Cable
+* AMP WinOFF
+* WinRAR
+* 7-Zip
+* Snipaste
+* Everything
 
-Audacity
-Notepad2-mod
-
-SmartGit    --- SourceTree
-NetMeter
-PolarClock
-Pulseway
-PuTTY
-TeamViewer
-Virtual Audio Cable
-VLC
-VMWare Workstation
-WinDirStat
-AMP WinOFF
-WinRAR
-7-zip
-Sandboxie
-Mp3Tag
-Everything
-
-
-
-
-Franz
-
-
+</details>
