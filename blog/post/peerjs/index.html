@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>PeerJS Revived &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="P2P connections with JavaScript!" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <link rel="stylesheet" href="../../css/xcode.css" />
+  <link rel="stylesheet" href="../../css/mystyle.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../css/latolatinfonts.css" />
+  
+  <style>
+    body {
+      background: #ecedef url("/blog/IMG_0072.jpg") repeat;
+    }
+  </style>
+  
+</head>
+  <body class="single-body">
+    <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="../../" class="nav-text">
+    [Back to Home]
+  </a></h1>
+  <div class="hamburger-menu">
+		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
+		<span></span>
+		<span></span>
+    <ul class="hamburger-menu-overlay">
+      <li><a href="../../" class="hamburger-menu-overlay-link">Home</a></li>
+      
+      
+			<li><a href="../../categories/ai" class="hamburger-menu-overlay-link">Ai</a></li>
+			
+			<li><a href="../../categories/audio-visual" class="hamburger-menu-overlay-link">Audio visual</a></li>
+			
+			<li><a href="../../categories/life" class="hamburger-menu-overlay-link">Life</a></li>
+			
+			<li><a href="../../categories/networking" class="hamburger-menu-overlay-link">Networking</a></li>
+			
+			<li><a href="../../categories/photography" class="hamburger-menu-overlay-link">Photography</a></li>
+			
+			<li><a href="../../categories/programming" class="hamburger-menu-overlay-link">Programming</a></li>
+			
+			<li><a href="../../categories/python" class="hamburger-menu-overlay-link">Python</a></li>
+			
+			<li><a href="../../categories/unsw" class="hamburger-menu-overlay-link">Unsw</a></li>
+			
+			<li><a href="../../categories/webdev" class="hamburger-menu-overlay-link">Webdev</a></li>
+			
+    </ul>
+  </div>
+</nav>
+    <main class="content side-text-padding">
+      <article class="post dropcase">
+        <header class="post-header">
+        	<h1 class="post-title">PeerJS Revived</h1>
+          <p class="post-date">Posted <time datetime="2019-03-01">Mar 1, 2019</time></p>
+        </header>
+        
+        <p>Near the end of 2017, I <s>wrote</s> attempted to write a <a href="https://github.com/featherbear/deliverytrack">delivery tracker webpage</a> that would list all of my tracked packages and their status information.</p>
+
+<p>To sync my list of packages between my devices, I used a library called <a href="https://github.com/peers/peerjs/"><code>PeerJS</code></a> that established P2P connections between my devices to send and receive data.
+PeerJS was dormant since 2015, and amazingly it worked for the duration of my code.</p>
+
+<p>After a 3 year period of inactivity, PeerJS is back and alive (in active commits) so yay!</p>
+
+<p>I&rsquo;m using PeerJS in my Mafia game helper <a href="../jebabej"><code>Jebabej</code></a> to establish client-server connections between different the players and the host.</p>
+
+<hr />
+
+<p>The other options I was considering was <a href="https://github.com/priologic/easyrtc"><code>EasyRTC</code></a> and <a href="https://github.com/feross/simple-peer"><code>simple-peer</code></a></p>
+
+      </article>
+      
+    </main>
+    <nav class="end-nav side-padding">
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="../../post/jebabej/" class="card blog-card" rel="bookmark" >
+    
+  <article class="card-body">
+    <h2 class="card-title">Jebabej</h2>
+    <p class="card-text">Writing a Mafia game helper</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2019-02-28 228:00">Feb 28, 2019</time></p>
+      <p>#WebDev #Programming #Networking </p>
+    </div>
+  </article>
+</a>
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="../../" class="card home-card" style="background-image: url( ../../img/home-img.png )" rel="bookmark" >
+  Home
+</a>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/core.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+  </body>
+</html>

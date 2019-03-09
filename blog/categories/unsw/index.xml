@@ -6,10 +6,19 @@
     <description>Recent content in Unsw on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Dec 2018 18:32:47 +1100</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 09:00:00 +1100</lastBuildDate>
     
 	<atom:link href="/categories/unsw/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UNSW COMP2521</title>
+      <link>/post/unsw-comp1531/</link>
+      <pubDate>Mon, 18 Feb 2019 09:00:00 +1100</pubDate>
+      
+      <guid>/post/unsw-comp1531/</guid>
+      <description>Click here to go to the COMP1531 blog site</description>
+    </item>
     
     <item>
       <title>Secret Agent</title>
@@ -51,7 +60,7 @@ Flask should be run in a WSGI environment, but the inbuilt Flask server is not s
       <pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate>
       
       <guid>/post/unsw-comp2521/</guid>
-      <description>location.href = &#34;//featherbear.github.io/UNSW-COMP2521/&#34; </description>
+      <description>Click here to go to the COMP2521 blog site</description>
     </item>
     
     <item>
@@ -60,7 +69,7 @@ Flask should be run in a WSGI environment, but the inbuilt Flask server is not s
       <pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate>
       
       <guid>/post/unsw-comp1521/</guid>
-      <description>location.href = &#34;//featherbear.github.io/UNSW-COMP1521/&#34; </description>
+      <description>Click here to go to the COMP1521 blog site</description>
     </item>
     
     <item>

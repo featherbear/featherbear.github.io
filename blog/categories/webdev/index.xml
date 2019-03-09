@@ -6,10 +6,41 @@
     <description>Recent content in Webdev on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jan 2019 14:12:31 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2019 11:34:37 +1100</lastBuildDate>
     
 	<atom:link href="/categories/webdev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PeerJS Revived</title>
+      <link>/post/peerjs/</link>
+      <pubDate>Fri, 01 Mar 2019 11:34:37 +1100</pubDate>
+      
+      <guid>/post/peerjs/</guid>
+      <description>Near the end of 2017, I wrote attempted to write a delivery tracker webpage that would list all of my tracked packages and their status information.
+To sync my list of packages between my devices, I used a library called PeerJS that established P2P connections between my devices to send and receive data. PeerJS was dormant since 2015, and amazingly it worked for the duration of my code.
+After a 3 year period of inactivity, PeerJS is back and alive (in active commits) so yay!</description>
+    </item>
+    
+    <item>
+      <title>Jebabej</title>
+      <link>/post/jebabej/</link>
+      <pubDate>Thu, 28 Feb 2019 19:13:02 +1100</pubDate>
+      
+      <guid>/post/jebabej/</guid>
+      <description>Date: 28th February 2019
+Time: Some time around 7pm&amp;hellip;
+Location: UNSW CSE Level One Common Room
+&amp;nbsp;
+Person A: Let&amp;rsquo;s play Mafia!
+Person B: We only have four players&amp;hellip;
+Person A: That&amp;rsquo;s okay!
+Person C: Sorry guys I gotta go now
+Person A &amp;amp; B: Oh. &amp;nbsp;
+&amp;hellip; &amp;nbsp;
+Person D: Let&amp;rsquo;s make a Mafia app!
+ Introducing Jebabej!</description>
+    </item>
     
     <item>
       <title>Repl.it</title>
@@ -17,9 +48,12 @@
       <pubDate>Wed, 09 Jan 2019 14:12:31 +1100</pubDate>
       
       <guid>/post/repl.it/</guid>
-      <description>Repl.it
-Showing images
-Jinja flask https://aryaboudaie.com/python/technical/educational/web/flask/2018/10/17/flask.html Note - for using templates on repl.it, you need to have at least two python files in your workspace because of a bug. The second Python file can be completely empty, but that�s why I have the dummy.py file in the REPL.</description>
+      <description>Repl.it is an online code sandbox and IDE.
+It supports many languages, and makes demoing and prototyping code a piece of cake.
+It has some caveats though.
+PyGame There&amp;rsquo;s no PyGame environment available on repl.it, making any PyGame project impossible.
+Turtle The Turtle environment on repl.it is Python 2.7 - can&amp;rsquo;t teach Python 3.6 syntax here!
+Showing Images For the UNSW CompClub 2019 Summer Workshop, the Security workshop introduced students to LSB steganography.</description>
     </item>
     
     <item>
@@ -30,8 +64,9 @@ Jinja flask https://aryaboudaie.com/python/technical/educational/web/flask/2018/
       <guid>/post/swec-bulletin-generator/</guid>
       <description>At the start of 2018 I wrote a Python script called swec-elvanto-automation.
 It was a set of task runners that would manage the automatic generation of the service bulletin, as well as pretty roster emails
-&amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware! It worked flawlessly, but it wasn&amp;rsquo;t user friendly.
-And also, with my other commitments taking more time, I don&amp;rsquo;t want my involvement and role at my church to become &amp;gt;&amp;gt;&amp;gt;&amp;gt;irreplaceable&amp;lt;&amp;lt;&amp;lt;&amp;lt;.</description>
+&amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware!
+It worked flawlessly, but it wasn&amp;rsquo;t user friendly.
+And also, with my other commitments taking more time, I don&amp;rsquo;t want my involvement and role at my church to become irreplaceable.</description>
     </item>
     
     <item>
@@ -77,7 +112,7 @@ Flask should be run in a WSGI environment, but the inbuilt Flask server is not s
       <description>Don&amp;rsquo;t be lazy kids.
 Don&amp;rsquo;t [].map(parseInt)
 Do [].map(function(val) { parseInt(val) })
-Also do [].map((val) =&amp;gt; parseInt(val))</description>
+Also do [].map(val =&amp;gt; parseInt(val))</description>
     </item>
     
     <item>

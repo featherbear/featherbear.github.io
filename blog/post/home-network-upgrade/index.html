@@ -5,7 +5,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Home Network Upgrade &middot; Andrew&#39;s Blog</title>
-  <meta name="description" content="" />
+  <meta name="description" content="Retrofitting second hand equipment to make my network negligibly better" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
   <link rel="stylesheet" href="../../css/style.css" />
   <link rel="stylesheet" href="../../css/xcode.css" />
@@ -61,38 +61,46 @@
           <p class="post-date">Posted <time datetime="2019-01-13">Jan 13, 2019</time></p>
         </header>
         
-        <figure class="post-figure">
-          <img src="">
-        </figure>
-        
-        <p>I love GumTree, have I ever told you that?  (I also thoroughly enjoy Facebook marketplace too)</p>
+        <p><img src="20190112_142642.jpg" alt="" /></p>
 
-<p>Ubiquiti UniFi UAPs
-TEN DOLLARS EACH
-(No, not the ACs unfortunately.. the first ever ones.. but hey save $50 per piece)</p>
+<p>When I&rsquo;m bored I often find myself scrolling Gumtree and Facebook Marketplace for deals - audio gear, camera gear, furniture, and when in &lsquo;need&rsquo; - network gear!</p>
 
-<p><sup>10</sup>&frasl;<sub>100</sub> not 10/100/1000
-To my dismay, these APs were only 100FDX and not 1000FDX.
-But my old APs weren&rsquo;t gigabit either. so it&rsquo;s not like my network became worse</p>
+<p>So I found a classified on Gumtree&hellip;</p>
 
-<p>80 8x <a href="https://store.ubnt.com/products/unifi-ap">Ubiquiti UniFi UAP</a>
-50 <a href="https://www.dlink.com.au/business-solutions/DGS-1210-28-28-port-gigabit-websmart-switch">D-Link DGS-1210-28</a>
-40 <a href="https://mikrotik.com/product/RB1200">MikroTik RouterBOARD RB1200</a>
-80 <a href="https://www.dell.com/en-us/work/shop/cty/powerconnect-2848-switch/spd/powerconnect-2848">Dell PowerConnect 2848</a></p>
+<p>8x <u><strong><a href="https://store.ubnt.com/products/unifi-ap">Ubiquiti UniFi UAP</a></strong></u> - $10 each!!!<br />
+Unfortunately they were the UAP&rsquo;s not the UAP-AC&rsquo;s.<br />
+The UAP isn&rsquo;t 10/100/1000, which is a shame, but nor were my old APs (but.. awhh)<br />
+And hey, $50 savings per unit.</p>
 
-<p>mikrotik router os
-&gt; reset&hellip;. JOKES GOTTA OPEN
-&gt; philips p2 | HP ProLiant</p>
+<p><u><strong><a href="https://mikrotik.com/product/RB1200">MikroTik RouterBOARD RB1200</a></strong></u> - $40<br />
+An EOL MikroTik router - but still works flawlessly!<br />
+Getting this thing set up was a bit of a journey&hellip;</p>
 
-<p>Cisco</p>
+<p>Firstly the reset button at the back only does a power reset.<br />
+Unlike my old OpenWRT router, there&rsquo;s no 30/30/30 reset. Instead - you have to open up the router and short the reset contacts.<br />
+Okay so Philips head screwdriver out and&hellip; AAAAH I NEED A PHILIPS P2 HEAD.<br />
+Lucky my HP ProLiant MicroServer came with a Philip P2 tool - phew!</p>
 
-<p>Ubiquiti</p>
+<p>Secondly, there wasn&rsquo;t any DHCP host name DNS entry mapping functionality built in?<br />
+So I used <a href="https://forum.mikrotik.com/viewtopic.php?t=119469#">this</a> handy script (<em>Thanks dse</em>)!</p>
 
-<p><a href="https://forum.mikrotik.com/viewtopic.php?t=119469#">https://forum.mikrotik.com/viewtopic.php?t=119469#</a></p>
+<p><u><strong><a href="https://www.dlink.com.au/business-solutions/DGS-1210-28-28-port-gigabit-websmart-switch">D-Link DGS-1210-28</a></strong></u> - $50<br />
+A quiet (fanless) managed gigabit switch!<br />
+Over the time I&rsquo;ve used it, I&rsquo;ve felt like it has some issues with saving its settings&hellip;<br />
+After a power cycle, the DHCP/Static settings had reset and I was unable to connect to it</p>
 
-<p>Ikea Lack Table
-<a href="https://wiki.eth0.nl/index.php/LackRack">https://wiki.eth0.nl/index.php/LackRack</a>
-<a href="https://www.ikea.com/au/en/catalog/products/00352988/#/00352988">https://www.ikea.com/au/en/catalog/products/00352988/#/00352988</a></p>
+<p><u><strong><a href="https://www.dell.com/en-us/work/shop/cty/powerconnect-2848-switch/spd/powerconnect-2848">Dell PowerConnect 2848</a></strong></u> - $80<br />
+A 48 port managed gigabit switch&hellip; MAN THIS THING IS LOUD.<br />
+Into the church it goes</p>
+
+<hr />
+
+<p>So I was going to go to Ikea to buy the <a href="https://www.ikea.com/au/en/catalog/products/00352988/#/00352988">Lack Table</a> to make the <a href="https://wiki.eth0.nl/index.php/LackRack">Lack Rack</a>, but I ended up finding some pieces of wood in the garage that had basically just the right dimensions!!!</p>
+
+<p><img src="20190217_144006.jpg" alt="" />
+<img src="20190217_223814.jpg" alt="" /></p>
+
+<p>Yeet.</p>
 
       </article>
       

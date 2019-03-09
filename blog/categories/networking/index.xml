@@ -6,19 +6,54 @@
     <description>Recent content in Networking on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Feb 2019 23:06:34 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2019 11:34:37 +1100</lastBuildDate>
     
 	<atom:link href="/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Unifi Java</title>
+      <title>PeerJS Revived</title>
+      <link>/post/peerjs/</link>
+      <pubDate>Fri, 01 Mar 2019 11:34:37 +1100</pubDate>
+      
+      <guid>/post/peerjs/</guid>
+      <description>Near the end of 2017, I wrote attempted to write a delivery tracker webpage that would list all of my tracked packages and their status information.
+To sync my list of packages between my devices, I used a library called PeerJS that established P2P connections between my devices to send and receive data. PeerJS was dormant since 2015, and amazingly it worked for the duration of my code.
+After a 3 year period of inactivity, PeerJS is back and alive (in active commits) so yay!</description>
+    </item>
+    
+    <item>
+      <title>Jebabej</title>
+      <link>/post/jebabej/</link>
+      <pubDate>Thu, 28 Feb 2019 19:13:02 +1100</pubDate>
+      
+      <guid>/post/jebabej/</guid>
+      <description>Date: 28th February 2019
+Time: Some time around 7pm&amp;hellip;
+Location: UNSW CSE Level One Common Room
+&amp;nbsp;
+Person A: Let&amp;rsquo;s play Mafia!
+Person B: We only have four players&amp;hellip;
+Person A: That&amp;rsquo;s okay!
+Person C: Sorry guys I gotta go now
+Person A &amp;amp; B: Oh. &amp;nbsp;
+&amp;hellip; &amp;nbsp;
+Person D: Let&amp;rsquo;s make a Mafia app!
+ Introducing Jebabej!</description>
+    </item>
+    
+    <item>
+      <title>Unifi and Java</title>
       <link>/post/unifi-java/</link>
       <pubDate>Mon, 04 Feb 2019 23:06:34 +1100</pubDate>
       
       <guid>/post/unifi-java/</guid>
-      <description>So Java decided to update itself automatically even though I turned off automatic updates?
-Consequently there&amp;rsquo;s no firewall rule for the new unifi path so my UniFi SDN went MIA</description>
+      <description>Overnight Java decided to auto update itself even though I disabled automatic updates!?!
+Consequently there wasn&amp;rsquo;t a firewall rule for the new Java installation path so my UniFi SDN went MIA.
+That said, for my own future reference&amp;hellip;
+Admin username: To log into controller
+Device username: To log into devices (ssh, usg http) - unique per site
+Lesson learned - Don&amp;rsquo;t trust auto updaters D:</description>
     </item>
     
     <item>
@@ -27,10 +62,12 @@ Consequently there&amp;rsquo;s no firewall rule for the new unifi path so my Uni
       <pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate>
       
       <guid>/post/home-network-upgrade/</guid>
-      <description>I love GumTree, have I ever told you that? (I also thoroughly enjoy Facebook marketplace too)
-Ubiquiti UniFi UAPs TEN DOLLARS EACH (No, not the ACs unfortunately.. the first ever ones.. but hey save $50 per piece)
-10&amp;frasl;100 not 10/100/1000 To my dismay, these APs were only 100FDX and not 1000FDX. But my old APs weren&amp;rsquo;t gigabit either. so it&amp;rsquo;s not like my network became worse
-80 8x Ubiquiti UniFi UAP 50 D-Link DGS-1210-28 40 MikroTik RouterBOARD RB1200 80 Dell PowerConnect 2848</description>
+      <description>When I&amp;rsquo;m bored I often find myself scrolling Gumtree and Facebook Marketplace for deals - audio gear, camera gear, furniture, and when in &amp;lsquo;need&amp;rsquo; - network gear!
+So I found a classified on Gumtree&amp;hellip;
+8x Ubiquiti UniFi UAP - $10 each!!!
+Unfortunately they were the UAP&amp;rsquo;s not the UAP-AC&amp;rsquo;s.
+The UAP isn&amp;rsquo;t 10/100/1000, which is a shame, but nor were my old APs (but.. awhh)
+And hey, $50 savings per unit.</description>
     </item>
     
     <item>

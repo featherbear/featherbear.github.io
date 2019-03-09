@@ -62,10 +62,27 @@
         </header>
         
         <figure class="post-figure">
-          <img src="">
+          <img src="../../post/swec-audio-mixer-upgrade/20181115_165348.jpg">
         </figure>
         
         
+
+<p>My church recently went from an analog audio console (Yamaha MG24/14FX) to a digital console, the <a href="../presonus-studiolive-16">Presonus StudioLive 16</a>.</p>
+
+<h1 id="why-digital">Why digital?</h1>
+
+<ul>
+<li>A digital sound console packs a whole bunch of feature into a small(er than what an analogue system would need) form factor</li>
+<li>Software effects replace the need for purchasing hardware for each effect, which are both costly, and occupy physical space</li>
+<li>Presets and Scenes allow the mixer to recall specific layouts and settings, and to reset the channel configuration to a standard setup</li>
+<li>More inputs via a networked stagebox</li>
+<li>Remote control over USB and network</li>
+<li>Multitrack recording</li>
+<li>Simpler interface (well, less buttons and knobs)</li>
+<li>In-Ear Monitor capability</li>
+</ul>
+
+<h1 id="the-parts">The Parts</h1>
 
 <table>
 <thead>
@@ -79,8 +96,15 @@
 
 <tbody>
 <tr>
-<td>[PreSonus StudioLive 24R Series III]()</td>
-<td>Stage Box/Console</td>
+<td><a href="../presonus-studiolive-16">PreSonus StudioLive 16 Series III</a></td>
+<td>Console</td>
+<td>AU$2399.20</td>
+<td><a href="https://www.presonus.com/products/StudioLive-16">Product</a></td>
+</tr>
+
+<tr>
+<td><a href="../presonus-studiolive-16">PreSonus StudioLive 24R Series III</a></td>
+<td>Stage Box / Console</td>
 <td>AU$1279.20</td>
 <td><a href="https://www.presonus.com/products/StudioLive-24R">Product</a></td>
 </tr>
@@ -107,24 +131,10 @@
 </tr>
 
 <tr>
-<td>[PreSonus StudioLive 16 Series III]()</td>
-<td>Console</td>
-<td>AU$2399.20</td>
-<td><a href="https://www.presonus.com/products/StudioLive-16">Product</a></td>
-</tr>
-
-<tr>
 <td>2x Neutrik NE8MC</td>
 <td>Cable Connector</td>
 <td>AU$11.83</td>
 <td><a href="https://www.neutrik.com/en/product/ne8mc">Product</a></td>
-</tr>
-
-<tr>
-<td>?x Behringer PowerPlay PM1</td>
-<td>Belt Pack</td>
-<td>AU$52 x n</td>
-<td><a href="https://www.musictribe.com/Categories/Behringer/Signal-Processors/In-Ear-Monitoring/PM1/p/P0BKB">Product</a></td>
 </tr>
 
 <tr>
@@ -135,48 +145,79 @@
 </tr>
 
 <tr>
+<td>?x Behringer PowerPlay PM1</td>
+<td>Belt Pack</td>
+<td>AU$52 x n</td>
+<td><a href="https://www.musictribe.com/Categories/Behringer/Signal-Processors/In-Ear-Monitoring/PM1/p/P0BKB">Product</a></td>
+</tr>
+
+<tr>
 <td>XLR Cables</td>
 <td>Cable</td>
 <td>$$</td>
 <td>-</td>
 </tr>
-
-<tr>
-<td>Min 3RU rack</td>
-<td>$$</td>
-<td>-</td>
-<td></td>
-</tr>
 </tbody>
 </table>
 
-<h1 id="xlr-to-trs-cables">XLR to TRS Cables</h1>
+<h1 id="installation">Installation</h1>
 
-<p>TOO SHORT OH NO
-Spare microphone cable cuts lying around, and could make my own
-(My soldering iron is screwed up, the tip wasn&rsquo;t hot and I had to use the sides of the iron to do my soldering&hellip;)</p>
+<p>Installation took a little over 8 hours doing something like the following:</p>
 
-<p>I had some XLR to TS cables lying around, though on all of them pins 1 and 2 were bridged.
-I could have desoldered them
-Copper conductive tape
-But didn&rsquo;t want makeshift</p>
+<ul>
+<li>Running Ethernet cables</li>
+<li>Running speaker cables</li>
+<li>Putting things into the stage rack</li>
+<li>Installing mezzanine speaker pair</li>
+<li>Installing rear speaker pair</li>
+<li>Installing 4-zone speaker amplifier</li>
+<li>Setting up each channel strip on the mixer</li>
+<li>Customising the user layer on the mixer</li>
+<li>(slightly) Tuning the DSP</li>
+</ul>
 
-<p>[Diagram]</p>
+<p>And don&rsquo;t forget lunch - which my friend&rsquo;s mother kindly prepared for me!</p>
+
+<p><img src="20190119_124736.jpg" alt="" /></p>
 
 <h1 id="in-ear-monitoring">In-Ear Monitoring</h1>
 
+<p>Essentially I had two types of IEM mixes, 4 mono mixes and 4 stereo mixes.<br />
+For the mono mixes it was simple, a TRS (m) to XLR was sufficient<br />
+For the stereo mixes, I had to take two mono outputs, combine them into a stereo TRS, and convert it to an XLR cable.</p>
+
+<p><img src="24R-P16.png" alt="" /></p>
+
+<p>The Behringer PM1 belt packs use pin 1 for ground, and pins 2 &amp; 3 for left and right.<br />
+<em>Absolutely no standard for stereo over single XLR, huh.</em></p>
+
+<h1 id="24r-to-the-p16">24R to the P16</h1>
+
+<p>The StudioLive 24R had 12 balanced TRS outputs, which I wanted to connect to the the ARTcessories P16 XLR Patch Pay.<br />
+Note that these are mono outputs, so I had to purchase a few 2x TS (m) to TRS (f) cables</p>
+
+<h1 id="xlr-to-trs-cables">XLR to TRS Cables</h1>
+
+<p>The cables that I bought were TOO SHORT OH NO!</p>
+
+<p>I had spare microphone cable cuttings lying around, so thankfully I was able to make my own.<br />
+<em>(My soldering iron is screwed up, the tip wasn&rsquo;t hot and I had to use the sides of the iron to do my soldering&hellip;)</em>
+<img src="49819271_1961295177322481_8539253896302821376_n.jpg" alt="" /></p>
+
+<p>Alternatively, I had some XLR to TS cables lying around, though for all of them pins 1 and 2 were bridged.<br />
+I could have desoldered them, and used copper conductive tape to bridge pins 2 and 3, but I didn&rsquo;t want to makeshift it</p>
+
+<p>These cables were connected to the ARTcessories P16 XLR Patch Bay</p>
+
 <h2 id="pm1">PM1</h2>
 
-<p>No battery</p>
+<p>The Behringer PM1 is a battery-less belt back that takes in a &lsquo;Stereo XLR&rsquo; and converts it to a <sup>1</sup>&frasl;<sub>8</sub>&rdquo; TRS jack.<br />
+There&rsquo;s a volume knob for personal level control</p>
 
-<p>Single XLR stereo
-||
-Pin 1 - GND
-Pin 2 - Left
+<p><strong>Stereo XLR Pin-out</strong><br />
+Pin 1 - GND<br />
+Pin 2 - Left<br />
 Pin 3 - Right</p>
-
-<p>[](<a href="https://forums.prosoundweb.com/index.php/topic,158613.msg1456054.html#msg1456054">https://forums.prosoundweb.com/index.php/topic,158613.msg1456054.html#msg1456054</a>)
-<img src="Snipaste_2019-01-13_20-56-55.png" alt="" /></p>
 
       </article>
       

@@ -20,10 +20,25 @@
       <description>PEP 498 introduced a new string formatting mechanism called Literal String Interpolation.
 We&amp;rsquo;ll call them F-strings, because of the leading f character that appears before the string literals.
 The PEP really says it all but sure we&amp;rsquo;ll go through it again, why not!
-Format: f &#39; &amp;lt;text&amp;gt; { &amp;lt;expression&amp;gt; &amp;lt;optional !s, !r, or !a&amp;gt; &amp;lt;optional : format specifier&amp;gt; } &amp;lt;text&amp;gt; ... &#39;
+Format:
+f &#39; &amp;lt;text&amp;gt; { &amp;lt;expression&amp;gt; &amp;lt;optional !s, !r, or !a&amp;gt; &amp;lt;optional : format specifier&amp;gt; } &amp;lt;text&amp;gt; ... &#39;
 Using string format
 nameVar = Andrew
 print(&amp;quot;Hello, {}!&amp;quot;.format(nameVar))</description>
+    </item>
+    
+    <item>
+      <title>Repl.it</title>
+      <link>/post/repl.it/</link>
+      <pubDate>Wed, 09 Jan 2019 14:12:31 +1100</pubDate>
+      
+      <guid>/post/repl.it/</guid>
+      <description>Repl.it is an online code sandbox and IDE.
+It supports many languages, and makes demoing and prototyping code a piece of cake.
+It has some caveats though.
+PyGame There&amp;rsquo;s no PyGame environment available on repl.it, making any PyGame project impossible.
+Turtle The Turtle environment on repl.it is Python 2.7 - can&amp;rsquo;t teach Python 3.6 syntax here!
+Showing Images For the UNSW CompClub 2019 Summer Workshop, the Security workshop introduced students to LSB steganography.</description>
     </item>
     
     <item>
@@ -34,8 +49,9 @@ print(&amp;quot;Hello, {}!&amp;quot;.format(nameVar))</description>
       <guid>/post/swec-bulletin-generator/</guid>
       <description>At the start of 2018 I wrote a Python script called swec-elvanto-automation.
 It was a set of task runners that would manage the automatic generation of the service bulletin, as well as pretty roster emails
-&amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware! It worked flawlessly, but it wasn&amp;rsquo;t user friendly.
-And also, with my other commitments taking more time, I don&amp;rsquo;t want my involvement and role at my church to become &amp;gt;&amp;gt;&amp;gt;&amp;gt;irreplaceable&amp;lt;&amp;lt;&amp;lt;&amp;lt;.</description>
+&amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware!
+It worked flawlessly, but it wasn&amp;rsquo;t user friendly.
+And also, with my other commitments taking more time, I don&amp;rsquo;t want my involvement and role at my church to become irreplaceable.</description>
     </item>
     
     <item>

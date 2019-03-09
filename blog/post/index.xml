@@ -6,10 +6,50 @@
     <description>Recent content in Posts on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Feb 2019 16:27:36 +1100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2019 11:34:37 +1100</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PeerJS Revived</title>
+      <link>/post/peerjs/</link>
+      <pubDate>Fri, 01 Mar 2019 11:34:37 +1100</pubDate>
+      
+      <guid>/post/peerjs/</guid>
+      <description>Near the end of 2017, I wrote attempted to write a delivery tracker webpage that would list all of my tracked packages and their status information.
+To sync my list of packages between my devices, I used a library called PeerJS that established P2P connections between my devices to send and receive data. PeerJS was dormant since 2015, and amazingly it worked for the duration of my code.
+After a 3 year period of inactivity, PeerJS is back and alive (in active commits) so yay!</description>
+    </item>
+    
+    <item>
+      <title>Jebabej</title>
+      <link>/post/jebabej/</link>
+      <pubDate>Thu, 28 Feb 2019 19:13:02 +1100</pubDate>
+      
+      <guid>/post/jebabej/</guid>
+      <description>Date: 28th February 2019
+Time: Some time around 7pm&amp;hellip;
+Location: UNSW CSE Level One Common Room
+&amp;nbsp;
+Person A: Let&amp;rsquo;s play Mafia!
+Person B: We only have four players&amp;hellip;
+Person A: That&amp;rsquo;s okay!
+Person C: Sorry guys I gotta go now
+Person A &amp;amp; B: Oh. &amp;nbsp;
+&amp;hellip; &amp;nbsp;
+Person D: Let&amp;rsquo;s make a Mafia app!
+ Introducing Jebabej!</description>
+    </item>
+    
+    <item>
+      <title>UNSW COMP2521</title>
+      <link>/post/unsw-comp1531/</link>
+      <pubDate>Mon, 18 Feb 2019 09:00:00 +1100</pubDate>
+      
+      <guid>/post/unsw-comp1531/</guid>
+      <description>Click here to go to the COMP1531 blog site</description>
+    </item>
     
     <item>
       <title>Balloon Shooting Challenge</title>
@@ -32,20 +72,25 @@ Today I got an email back with a programming challenge, let&amp;rsquo;s have a c
       <description>PEP 498 introduced a new string formatting mechanism called Literal String Interpolation.
 We&amp;rsquo;ll call them F-strings, because of the leading f character that appears before the string literals.
 The PEP really says it all but sure we&amp;rsquo;ll go through it again, why not!
-Format: f &#39; &amp;lt;text&amp;gt; { &amp;lt;expression&amp;gt; &amp;lt;optional !s, !r, or !a&amp;gt; &amp;lt;optional : format specifier&amp;gt; } &amp;lt;text&amp;gt; ... &#39;
+Format:
+f &#39; &amp;lt;text&amp;gt; { &amp;lt;expression&amp;gt; &amp;lt;optional !s, !r, or !a&amp;gt; &amp;lt;optional : format specifier&amp;gt; } &amp;lt;text&amp;gt; ... &#39;
 Using string format
 nameVar = Andrew
 print(&amp;quot;Hello, {}!&amp;quot;.format(nameVar))</description>
     </item>
     
     <item>
-      <title>Unifi Java</title>
+      <title>Unifi and Java</title>
       <link>/post/unifi-java/</link>
       <pubDate>Mon, 04 Feb 2019 23:06:34 +1100</pubDate>
       
       <guid>/post/unifi-java/</guid>
-      <description>So Java decided to update itself automatically even though I turned off automatic updates?
-Consequently there&amp;rsquo;s no firewall rule for the new unifi path so my UniFi SDN went MIA</description>
+      <description>Overnight Java decided to auto update itself even though I disabled automatic updates!?!
+Consequently there wasn&amp;rsquo;t a firewall rule for the new Java installation path so my UniFi SDN went MIA.
+That said, for my own future reference&amp;hellip;
+Admin username: To log into controller
+Device username: To log into devices (ssh, usg http) - unique per site
+Lesson learned - Don&amp;rsquo;t trust auto updaters D:</description>
     </item>
     
     <item>
@@ -57,7 +102,7 @@ Consequently there&amp;rsquo;s no firewall rule for the new unifi path so my Uni
       <description>Why I left
 I stopped using Firefox in the late of November 2016, when Mozilla decided to pull the plug on, and severely restricted Firefox&amp;rsquo;s add-on platform, in favour of their WebExtensions API.
 This issue with this was that the WebExtensions API was relatively high-level - meaning that my favourite extensions (ie DownThemAll!) would cease to work, as they relied on low level access.
- Not being able to use DownThemAll!</description>
+Not being able to use DownThemAll! was a game changer for me - it was hands down the secret weapon under the sleeves of my Firefox vs Chrome war.</description>
     </item>
     
     <item>
@@ -66,10 +111,12 @@ This issue with this was that the WebExtensions API was relatively high-level - 
       <pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate>
       
       <guid>/post/home-network-upgrade/</guid>
-      <description>I love GumTree, have I ever told you that? (I also thoroughly enjoy Facebook marketplace too)
-Ubiquiti UniFi UAPs TEN DOLLARS EACH (No, not the ACs unfortunately.. the first ever ones.. but hey save $50 per piece)
-10&amp;frasl;100 not 10/100/1000 To my dismay, these APs were only 100FDX and not 1000FDX. But my old APs weren&amp;rsquo;t gigabit either. so it&amp;rsquo;s not like my network became worse
-80 8x Ubiquiti UniFi UAP 50 D-Link DGS-1210-28 40 MikroTik RouterBOARD RB1200 80 Dell PowerConnect 2848</description>
+      <description>When I&amp;rsquo;m bored I often find myself scrolling Gumtree and Facebook Marketplace for deals - audio gear, camera gear, furniture, and when in &amp;lsquo;need&amp;rsquo; - network gear!
+So I found a classified on Gumtree&amp;hellip;
+8x Ubiquiti UniFi UAP - $10 each!!!
+Unfortunately they were the UAP&amp;rsquo;s not the UAP-AC&amp;rsquo;s.
+The UAP isn&amp;rsquo;t 10/100/1000, which is a shame, but nor were my old APs (but.. awhh)
+And hey, $50 savings per unit.</description>
     </item>
     
     <item>
@@ -82,7 +129,7 @@ Ubiquiti UniFi UAPs TEN DOLLARS EACH (No, not the ACs unfortunately.. the first 
 For software development especially, there are so different many ways that you could write a procedure.
 And for the exact same procedure, there so many different syntactical nuances that could differ too.
 And that&amp;rsquo;s why style guides, and documentation is important!
-That said, my COMP2521 Assignment 2 (Fury of Dracula) was a group (pair) assignment.
+That said, my COMP2521 Assignment 2 (Fury of Dracula) was a group assignment.
 So, the obvious question is - who does what part, but more importantly; how do we edit together.</description>
     </item>
     
@@ -92,9 +139,12 @@ So, the obvious question is - who does what part, but more importantly; how do w
       <pubDate>Wed, 09 Jan 2019 14:12:31 +1100</pubDate>
       
       <guid>/post/repl.it/</guid>
-      <description>Repl.it
-Showing images
-Jinja flask https://aryaboudaie.com/python/technical/educational/web/flask/2018/10/17/flask.html Note - for using templates on repl.it, you need to have at least two python files in your workspace because of a bug. The second Python file can be completely empty, but that�s why I have the dummy.py file in the REPL.</description>
+      <description>Repl.it is an online code sandbox and IDE.
+It supports many languages, and makes demoing and prototyping code a piece of cake.
+It has some caveats though.
+PyGame There&amp;rsquo;s no PyGame environment available on repl.it, making any PyGame project impossible.
+Turtle The Turtle environment on repl.it is Python 2.7 - can&amp;rsquo;t teach Python 3.6 syntax here!
+Showing Images For the UNSW CompClub 2019 Summer Workshop, the Security workshop introduced students to LSB steganography.</description>
     </item>
     
     <item>
@@ -103,7 +153,8 @@ Jinja flask https://aryaboudaie.com/python/technical/educational/web/flask/2018/
       <pubDate>Thu, 03 Jan 2019 15:01:09 +1100</pubDate>
       
       <guid>/post/tools-of-the-trade/</guid>
-      <description>My Phone (Samsung S9+)  TripView Stocard Year in Pixels PhotoTime PowerAmp QMix-UC UC Surface Lightroom CC WiFiman F-Stop Contacts+ Messenger Messenger Lite BudgetBakers wallet Trello SimpleNote Squid Nine Folders Metronome by Soundbrenner Evie Authy bxActions GPS Status GPSLogger Joist Life360 Keepass2Android Mi Band Master MIFARE Classic Tool NewTek NDI OpenSimSim Google Play Rewards Sound Analyzer App Timely YouTube Vanced  My Computer My Laptop Adobe Premiere Pro CC Adobe Lightroom Classic CC Adobe Illustrator CC Adobe InDesign CC</description>
+      <description>My Phone (Samsung S9+)  Click to open
+Messaging / Calling  Contacts+ Android Messages Messenger Messenger Lite WhatsApp  Travel  TripView GPS Status GPSLogger  Networking  WiFiman  Multimedia  PhotoTime PowerAmp QMix-UC UC Surface F-Stop Metronome by Soundbrenner NewTek NDI Sound Analyzer App YouTube Vanced  Shopping  Stocard BudgetBakers Wallet Google Play Rewards  Health / Lifestyle  Year in Pixels  Productivity  Trello Simplenote Squid Nine Folders Joist  Utilties  Evie Authy bxActions Life360 Keepass2Android Mi Band Master OpenSimSim Timely</description>
     </item>
     
     <item>
@@ -114,8 +165,9 @@ Jinja flask https://aryaboudaie.com/python/technical/educational/web/flask/2018/
       <guid>/post/swec-bulletin-generator/</guid>
       <description>At the start of 2018 I wrote a Python script called swec-elvanto-automation.
 It was a set of task runners that would manage the automatic generation of the service bulletin, as well as pretty roster emails
-&amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware! It worked flawlessly, but it wasn&amp;rsquo;t user friendly.
-And also, with my other commitments taking more time, I don&amp;rsquo;t want my involvement and role at my church to become &amp;gt;&amp;gt;&amp;gt;&amp;gt;irreplaceable&amp;lt;&amp;lt;&amp;lt;&amp;lt;.</description>
+&amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware!
+It worked flawlessly, but it wasn&amp;rsquo;t user friendly.
+And also, with my other commitments taking more time, I don&amp;rsquo;t want my involvement and role at my church to become irreplaceable.</description>
     </item>
     
     <item>
@@ -158,7 +210,7 @@ Flask should be run in a WSGI environment, but the inbuilt Flask server is not s
       <pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate>
       
       <guid>/post/unsw-comp2521/</guid>
-      <description>location.href = &#34;//featherbear.github.io/UNSW-COMP2521/&#34; </description>
+      <description>Click here to go to the COMP2521 blog site</description>
     </item>
     
     <item>
@@ -167,11 +219,10 @@ Flask should be run in a WSGI environment, but the inbuilt Flask server is not s
       <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
       
       <guid>/post/presonus-studiolive-16/</guid>
-      <description>Link Aux Mutes
-Unlinked - Each aux bus is independent to each other
-Main Mutes Auxes - Each aux bus is independent, but the Main channel mute will mute that channel on all aux buses
-All Aux Mute Link - All aux buses mute together, independent of the main mute
-Global Mute Link - All channel mutes link with all auxes</description>
+      <description>My church recently bought a PreSonus StudioLive 16, and a PreSonus StudioLive 24R III as part of our Production upgrade plan.
+It was a fairly straightforward process to set up everything.
+A graphic equaliser with a visualiser was a big step up from the old Yamaha MG24/14FX mixer that used in the past
+Issues / Feature Requests Stagebox disconnect After a long period of the SL16 being turned off, the 24R (having been on for a week) wouldn&amp;rsquo;t be detected by the SL16.</description>
     </item>
     
     <item>
@@ -180,7 +231,8 @@ Global Mute Link - All channel mutes link with all auxes</description>
       <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
       
       <guid>/post/swec-audio-mixer-upgrade/</guid>
-      <description>Item Type Price Link     [PreSonus StudioLive 24R Series III]() Stage Box/Console AU$1279.20 Product   8x TRS (m) to XLR (m) Cable $AU$19.92 eBay   4x TRS (m) to 2x TS (m) Cable AU$16.56 eBay   ARTcessories P16 XLR Patch Bay AU$149 Product   [PreSonus StudioLive 16 Series III]() Console AU$2399.20 Product   2x Neutrik NE8MC Cable Connector AU$11.</description>
+      <description>My church recently went from an analog audio console (Yamaha MG24/14FX) to a digital console, the Presonus StudioLive 16.
+Why digital?  A digital sound console packs a whole bunch of feature into a small(er than what an analogue system would need) form factor Software effects replace the need for purchasing hardware for each effect, which are both costly, and occupy physical space Presets and Scenes allow the mixer to recall specific layouts and settings, and to reset the channel configuration to a standard setup More inputs via a networked stagebox Remote control over USB and network Multitrack recording Simpler interface (well, less buttons and knobs) In-Ear Monitor capability  The Parts    Item Type Price Link     PreSonus StudioLive 16 Series III Console AU$2399.</description>
     </item>
     
     <item>
@@ -231,7 +283,7 @@ Configuration Changing the MIDI Mapping The X-Touch Mini has 12 white buttons. W
       <description>Don&amp;rsquo;t be lazy kids.
 Don&amp;rsquo;t [].map(parseInt)
 Do [].map(function(val) { parseInt(val) })
-Also do [].map((val) =&amp;gt; parseInt(val))</description>
+Also do [].map(val =&amp;gt; parseInt(val))</description>
     </item>
     
     <item>
@@ -301,7 +353,7 @@ $&amp;gt; ssh [SERVER] -L srcPort:dstAddr:dstPort
       <pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate>
       
       <guid>/post/unsw-comp1521/</guid>
-      <description>location.href = &#34;//featherbear.github.io/UNSW-COMP1521/&#34; </description>
+      <description>Click here to go to the COMP1521 blog site</description>
     </item>
     
     <item>

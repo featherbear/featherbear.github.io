@@ -61,10 +61,6 @@
           <p class="post-date">Posted <time datetime="2019-02-13">Feb 13, 2019</time></p>
         </header>
         
-        <figure class="post-figure">
-          <img src="">
-        </figure>
-        
         <p><a href="https://www.python.org/dev/peps/pep-0498/">PEP 498</a> introduced a new string formatting mechanism called Literal String Interpolation.<br />
 We&rsquo;ll call them F-strings, because of the leading <code>f</code> character that appears before the string literals.</p>
 
@@ -72,7 +68,8 @@ We&rsquo;ll call them F-strings, because of the leading <code>f</code> character
 
 <p>The PEP really says it all but sure we&rsquo;ll go through it again, why not!</p>
 
-<p><strong>Format</strong>: <code>f ' &lt;text&gt; { &lt;expression&gt; &lt;optional !s, !r, or !a&gt; &lt;optional : format specifier&gt; } &lt;text&gt; ... '</code></p>
+<p><strong>Format</strong>:<br />
+<code>f ' &lt;text&gt; { &lt;expression&gt; &lt;optional !s, !r, or !a&gt; &lt;optional : format specifier&gt; } &lt;text&gt; ... '</code></p>
 
 <p><em>Using string format</em><br />
 <code>nameVar = Andrew</code><br />
@@ -106,7 +103,7 @@ What if we wanted to print out &ldquo;{var}&rdquo;<br />
 
 <hr />
 
-<p>In terms of speed, they&rsquo;re much faster than %-formatting and the str.format() function! (source: <a href="https://hackernoon.com/a-closer-look-at-how-python-f-strings-work-f197736b3bdb">Hacker Noon</a>)</p>
+<p>In terms of speed, they&rsquo;re much faster than <code>%-formatting</code> and the <code>str.format()</code> function! (source: <a href="https://hackernoon.com/a-closer-look-at-how-python-f-strings-work-f197736b3bdb">Hacker Noon</a>)</p>
 
       </article>
       
@@ -116,14 +113,9 @@ What if we wanted to print out &ldquo;{var}&rdquo;<br />
       <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="../../post/unifi-java/" class="card blog-card" rel="bookmark" >
     
-    <div class="card-img-container">
-      <p class="card-img-overlay">Next Article</p>
-      <img src="" class="card-img">
-    </div>
-    
   <article class="card-body">
-    <h2 class="card-title">Unifi Java</h2>
-    <p class="card-text"></p>
+    <h2 class="card-title">Unifi and Java</h2>
+    <p class="card-text">Trusting in the ability of programmers to implement working auto updaters</p>
     <div class="card-subtext muted-text">
       <p>Posted <time datetime="2019-02-04 24:00">Feb 4, 2019</time></p>
       <p>#Networking </p>
