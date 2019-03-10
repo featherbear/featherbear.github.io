@@ -1,5 +1,5 @@
 ---
-title: "UNSW COMP2521"
+title: "UNSW COMP1531"
 date: 2019-02-18T09:00:00+11:00
 description: "Software Engineering Fundamentals"
 categories: ["UNSW", "Programming"]
