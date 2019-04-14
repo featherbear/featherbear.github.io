@@ -6,435 +6,80 @@
     <description>Recent content on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2019 11:34:37 +1100</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 14:09:38 +1100</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Multi Messaging Apps</title>
+      <link>/post/multi-messaging-apps/</link>
+      <pubDate>Thu, 21 Mar 2019 14:09:38 +1100</pubDate>
+      
+      <guid>/post/multi-messaging-apps/</guid>
+      <description>The quest for the one app to rule them all</description>
+    </item><item>
+      <title>P5</title>
+      <link>/post/p5.js/</link>
+      <pubDate>Thu, 21 Mar 2019 01:21:23 +1100</pubDate>
+      
+      <guid>/post/p5.js/</guid>
+      <description></description>
+    </item><item>
       <title>PeerJS Revived</title>
       <link>/post/peerjs/</link>
       <pubDate>Fri, 01 Mar 2019 11:34:37 +1100</pubDate>
       
       <guid>/post/peerjs/</guid>
-      <description>Near the end of 2017, I wrote attempted to write a delivery tracker webpage that would list all of my tracked packages and their status information.
-To sync my list of packages between my devices, I used a library called PeerJS that established P2P connections between my devices to send and receive data. PeerJS was dormant since 2015, and amazingly it worked for the duration of my code.
-After a 3 year period of inactivity, PeerJS is back and alive (in active commits) so yay!</description>
-    </item>
-    
-    <item>
+      <description>P2P connections with JavaScript!</description>
+    </item><item>
       <title>Jebabej</title>
       <link>/post/jebabej/</link>
       <pubDate>Thu, 28 Feb 2019 19:13:02 +1100</pubDate>
       
       <guid>/post/jebabej/</guid>
-      <description>Date: 28th February 2019
-Time: Some time around 7pm&amp;hellip;
-Location: UNSW CSE Level One Common Room
-&amp;nbsp;
-Person A: Let&amp;rsquo;s play Mafia!
-Person B: We only have four players&amp;hellip;
-Person A: That&amp;rsquo;s okay!
-Person C: Sorry guys I gotta go now
-Person A &amp;amp; B: Oh. &amp;nbsp;
-&amp;hellip; &amp;nbsp;
-Person D: Let&amp;rsquo;s make a Mafia app!
- Introducing Jebabej!</description>
-    </item>
-    
-    <item>
+      <description>Writing a Mafia game helper</description>
+    </item><item>
       <title>UNSW COMP1531</title>
       <link>/post/unsw-comp1531/</link>
       <pubDate>Mon, 18 Feb 2019 09:00:00 +1100</pubDate>
       
       <guid>/post/unsw-comp1531/</guid>
-      <description>Click here to go to the COMP1531 blog site</description>
-    </item>
-    
-    <item>
+      <description>Software Engineering Fundamentals</description>
+    </item><item>
       <title>Balloon Shooting Challenge</title>
       <link>/post/smallbasic-balloon-shooting-game/</link>
       <pubDate>Fri, 15 Feb 2019 16:27:36 +1100</pubDate>
       
       <guid>/post/smallbasic-balloon-shooting-game/</guid>
-      <description>My code can be found on GitHub: featherbear/smallbasic-balloon-shooting-game
- A while ago I applied for a position at a company which taught children how to code&amp;hellip;
-Today I got an email back with a programming challenge, let&amp;rsquo;s have a crack at it!
- The Challenge (click to expand) In order to solve the challenge you will need to download and learn a new (and very simple) coding language, I hope you will enjoy the challenge.</description>
-    </item>
-    
-    <item>
+      <description>Writing a game with Microsoft&#39;s Small Basic language!</description>
+    </item><item>
       <title>Python 3.6 F-strings</title>
       <link>/post/python36-f-string/</link>
       <pubDate>Wed, 13 Feb 2019 18:59:13 +1100</pubDate>
       
       <guid>/post/python36-f-string/</guid>
-      <description>PEP 498 introduced a new string formatting mechanism called Literal String Interpolation.
-We&amp;rsquo;ll call them F-strings, because of the leading f character that appears before the string literals.
-The PEP really says it all but sure we&amp;rsquo;ll go through it again, why not!
-Format:
-f &#39; &amp;lt;text&amp;gt; { &amp;lt;expression&amp;gt; &amp;lt;optional !s, !r, or !a&amp;gt; &amp;lt;optional : format specifier&amp;gt; } &amp;lt;text&amp;gt; ... &#39;
-Using string format
-nameVar = Andrew
-print(&amp;quot;Hello, {}!&amp;quot;.format(nameVar))</description>
-    </item>
-    
-    <item>
+      <description>I finally looked at What&#39;s New in Python 3.6</description>
+    </item><item>
       <title>Unifi and Java</title>
       <link>/post/unifi-java/</link>
       <pubDate>Mon, 04 Feb 2019 23:06:34 +1100</pubDate>
       
       <guid>/post/unifi-java/</guid>
-      <description>Overnight Java decided to auto update itself even though I disabled automatic updates!?!
-Consequently there wasn&amp;rsquo;t a firewall rule for the new Java installation path so my UniFi SDN went MIA.
-That said, for my own future reference&amp;hellip;
-Admin username: To log into controller
-Device username: To log into devices (ssh, usg http) - unique per site
-Lesson learned - Don&amp;rsquo;t trust auto updaters D:</description>
-    </item>
-    
-    <item>
+      <description>Trusting in the ability of programmers to implement working auto updaters</description>
+    </item><item>
       <title>Back to Firefox</title>
       <link>/post/back-to-firefox/</link>
       <pubDate>Sun, 27 Jan 2019 15:42:27 +1100</pubDate>
       
       <guid>/post/back-to-firefox/</guid>
-      <description>Why I left
-I stopped using Firefox in the late of November 2016, when Mozilla decided to pull the plug on, and severely restricted Firefox&amp;rsquo;s add-on platform, in favour of their WebExtensions API.
-This issue with this was that the WebExtensions API was relatively high-level - meaning that my favourite extensions (ie DownThemAll!) would cease to work, as they relied on low level access.
-Not being able to use DownThemAll! was a game changer for me - it was hands down the secret weapon under the sleeves of my Firefox vs Chrome war.</description>
-    </item>
-    
-    <item>
+      <description>Welcoming Mozilla Firefox back into my family.</description>
+    </item><item>
       <title>Home Network Upgrade</title>
       <link>/post/home-network-upgrade/</link>
       <pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate>
       
       <guid>/post/home-network-upgrade/</guid>
-      <description>When I&amp;rsquo;m bored I often find myself scrolling Gumtree and Facebook Marketplace for deals - audio gear, camera gear, furniture, and when in &amp;lsquo;need&amp;rsquo; - network gear!
-So I found a classified on Gumtree&amp;hellip;
-8x Ubiquiti UniFi UAP - $10 each!!!
-Unfortunately they were the UAP&amp;rsquo;s not the UAP-AC&amp;rsquo;s.
-The UAP isn&amp;rsquo;t 10/100/1000, which is a shame, but nor were my old APs (but.. awhh)
-And hey, $50 savings per unit.</description>
+      <description>Retrofitting second hand equipment to make my network negligibly better</description>
     </item>
-    
-    <item>
-      <title>Floobits</title>
-      <link>/post/floobits/</link>
-      <pubDate>Fri, 11 Jan 2019 18:42:59 +1100</pubDate>
-      
-      <guid>/post/floobits/</guid>
-      <description>Group work is always &amp;hellip; interesting.
-For software development especially, there are so different many ways that you could write a procedure.
-And for the exact same procedure, there so many different syntactical nuances that could differ too.
-And that&amp;rsquo;s why style guides, and documentation is important!
-That said, my COMP2521 Assignment 2 (Fury of Dracula) was a group assignment.
-So, the obvious question is - who does what part, but more importantly; how do we edit together.</description>
-    </item>
-    
-    <item>
-      <title>Repl.it</title>
-      <link>/post/repl.it/</link>
-      <pubDate>Wed, 09 Jan 2019 14:12:31 +1100</pubDate>
-      
-      <guid>/post/repl.it/</guid>
-      <description>Repl.it is an online code sandbox and IDE.
-It supports many languages, and makes demoing and prototyping code a piece of cake.
-It has some caveats though.
-PyGame There&amp;rsquo;s no PyGame environment available on repl.it, making any PyGame project impossible.
-Turtle The Turtle environment on repl.it is Python 2.7 - can&amp;rsquo;t teach Python 3.6 syntax here!
-Showing Images For the UNSW CompClub 2019 Summer Workshop, the Security workshop introduced students to LSB steganography.</description>
-    </item>
-    
-    <item>
-      <title>Tools of the Trade</title>
-      <link>/post/tools-of-the-trade/</link>
-      <pubDate>Thu, 03 Jan 2019 15:01:09 +1100</pubDate>
-      
-      <guid>/post/tools-of-the-trade/</guid>
-      <description>My Phone (Samsung S9+)  Click to open
-Messaging / Calling  Contacts+ Android Messages Messenger Messenger Lite WhatsApp  Travel  TripView GPS Status GPSLogger  Networking  WiFiman  Multimedia  PhotoTime PowerAmp QMix-UC UC Surface F-Stop Metronome by Soundbrenner NewTek NDI Sound Analyzer App YouTube Vanced  Shopping  Stocard BudgetBakers Wallet Google Play Rewards  Health / Lifestyle  Year in Pixels  Productivity  Trello Simplenote Squid Nine Folders Joist  Utilties  Evie Authy bxActions Life360 Keepass2Android Mi Band Master OpenSimSim Timely</description>
-    </item>
-    
-    <item>
-      <title>SWEC Bulletin Generator</title>
-      <link>/post/swec-bulletin-generator/</link>
-      <pubDate>Thu, 20 Dec 2018 18:33:35 +1100</pubDate>
-      
-      <guid>/post/swec-bulletin-generator/</guid>
-      <description>At the start of 2018 I wrote a Python script called swec-elvanto-automation.
-It was a set of task runners that would manage the automatic generation of the service bulletin, as well as pretty roster emails
-&amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware!
-It worked flawlessly, but it wasn&amp;rsquo;t user friendly.
-And also, with my other commitments taking more time, I don&amp;rsquo;t want my involvement and role at my church to become irreplaceable.</description>
-    </item>
-    
-    <item>
-      <title>Secret Agent</title>
-      <link>/post/unsw-compclub2019summer/</link>
-      <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
-      
-      <guid>/post/unsw-compclub2019summer/</guid>
-      <description>Quick Links
-What is UNSW CSE CompClub?
-On writing a CTF server
- I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
-Last time (Winter 2018) I volunteered as a mentor - those people who would help guide the students.
-This time around I helped out as an organiser, in particular a content writer.
-That means that I get a whole day to do whatever the heck I want!</description>
-    </item>
-    
-    <item>
-      <title>CompClub 2019 Summer CTF</title>
-      <link>/post/unsw-compclub2019summer-ctf/</link>
-      <pubDate>Thu, 20 Dec 2018 18:32:46 +1100</pubDate>
-      
-      <guid>/post/unsw-compclub2019summer-ctf/</guid>
-      <description>Read the whole CompClub 2019 Summer Workshop post
- GitHub: featherbear/UNSW-CompClub2019Summer-CTF
-Demo: featherbear.github.io/UNSW-CompClub2019Summer-CTF
-During the Winter 2018 Workshop, the organiser for the security day coded up a CTF website.
- Technologies
-Server: Flask (Python)
-CSS: Bootstrap
-Performance: RIP
- Yeah so, Flask is a great Python web framework, with all of its routing magic.
-But running a server with Flask alone is not a good idea&amp;hellip;
-Flask should be run in a WSGI environment, but the inbuilt Flask server is not such.</description>
-    </item>
-    
-    <item>
-      <title>UNSW COMP2521</title>
-      <link>/post/unsw-comp2521/</link>
-      <pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate>
-      
-      <guid>/post/unsw-comp2521/</guid>
-      <description>Click here to go to the COMP2521 blog site</description>
-    </item>
-    
-    <item>
-      <title>PreSonus StudioLive 16</title>
-      <link>/post/presonus-studiolive-16/</link>
-      <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
-      
-      <guid>/post/presonus-studiolive-16/</guid>
-      <description>My church recently bought a PreSonus StudioLive 16, and a PreSonus StudioLive 24R III as part of our Production upgrade plan.
-It was a fairly straightforward process to set up everything.
-A graphic equaliser with a visualiser was a big step up from the old Yamaha MG24/14FX mixer that used in the past
-Issues / Feature Requests Stagebox disconnect After a long period of the SL16 being turned off, the 24R (having been on for a week) wouldn&amp;rsquo;t be detected by the SL16.</description>
-    </item>
-    
-    <item>
-      <title>SWEC Audio Mixer Upgrade</title>
-      <link>/post/swec-audio-mixer-upgrade/</link>
-      <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
-      
-      <guid>/post/swec-audio-mixer-upgrade/</guid>
-      <description>My church recently went from an analog audio console (Yamaha MG24/14FX) to a digital console, the Presonus StudioLive 16.
-Why digital?  A digital sound console packs a whole bunch of feature into a small(er than what an analogue system would need) form factor Software effects replace the need for purchasing hardware for each effect, which are both costly, and occupy physical space Presets and Scenes allow the mixer to recall specific layouts and settings, and to reset the channel configuration to a standard setup More inputs via a networked stagebox Remote control over USB and network Multitrack recording Simpler interface (well, less buttons and knobs) In-Ear Monitor capability  The Parts    Item Type Price Link     PreSonus StudioLive 16 Series III Console AU$2399.</description>
-    </item>
-    
-    <item>
-      <title>City Hunter</title>
-      <link>/post/city-hunter/</link>
-      <pubDate>Thu, 20 Dec 2018 17:44:45 +1100</pubDate>
-      
-      <guid>/post/city-hunter/</guid>
-      <description>Uni holidays. Preoccupied myself with watching some Korean Drama.
-My friend recommended me some series called City Hunter.
-And&amp;hellip; it&amp;hellip; was&amp;hellip; alright actually!
-I even watched some bits at 1x speed!
- Spoiler Time
-Some Koreans go and do a secret mission in North Korea.
-They complete their objective, but their gov chucks a sneaky and abandons them.
-One survives, then steals the newborn of a fallen comrade&amp;rsquo;s wife and raises him up.</description>
-    </item>
-    
-    <item>
-      <title>Neutrik EtherCON Kits</title>
-      <link>/post/neutrik-ethercon-kits/</link>
-      <pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate>
-      
-      <guid>/post/neutrik-ethercon-kits/</guid>
-      <description>The PreSonus StudioLive 16 and StudioLive 24R have an EtherCON port for their AVB connection.
-You could forego the EtherCON connector and just connect an Ethernet cable, but I&amp;rsquo;ve had one occassion where a network stagebox got disconnected because the cable got kicked off.
-Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the Neutrik NE8MC-1.
-(Didn&amp;rsquo;t need the CAT6 series, which would&amp;rsquo;ve been the NE8MX6 series)</description>
-    </item>
-    
-    <item>
-      <title>Behringer X-Touch Mini</title>
-      <link>/post/behringer-xtouch-mini/</link>
-      <pubDate>Mon, 17 Dec 2018 18:20:48 +1100</pubDate>
-      
-      <guid>/post/behringer-xtouch-mini/</guid>
-      <description>Got my hands on a Behringer X-Touch Mini USB MIDI Controller (Yay for Facebook Marketplace).
-Will be using this in my Lightroom editing workflow!
-Configuration Changing the MIDI Mapping The X-Touch Mini has 12 white buttons. With two layers, that would give us 24 different buttons. However some of the buttons were mapped to the same MIDI control key aka - some buttons are duplicate. So firstly, we&amp;rsquo;ll need to remap the surface.</description>
-    </item>
-    
-    <item>
-      <title>JavaScript Map</title>
-      <link>/post/javascript-map/</link>
-      <pubDate>Fri, 14 Dec 2018 17:20:18 +1100</pubDate>
-      
-      <guid>/post/javascript-map/</guid>
-      <description>Don&amp;rsquo;t be lazy kids.
-Don&amp;rsquo;t [].map(parseInt)
-Do [].map(function(val) { parseInt(val) })
-Also do [].map(val =&amp;gt; parseInt(val))</description>
-    </item>
-    
-    <item>
-      <title>z-index</title>
-      <link>/post/z-index/</link>
-      <pubDate>Sun, 25 Nov 2018 20:46:10 +1100</pubDate>
-      
-      <guid>/post/z-index/</guid>
-      <description>Soooo, you can&amp;rsquo;t interact with an element that has a negative z-index.
- &amp;lt;div&amp;gt;A&amp;lt;/div&amp;gt; --&amp;gt; z-index of 5 &amp;lt;div&amp;gt;B&amp;lt;/div&amp;gt; --&amp;gt; z-index of -1  Even if A has pointer-events: none; you won&amp;rsquo;t be able to touch B
-&amp;lt;div&amp;gt;A&amp;lt;/div&amp;gt; --&amp;gt; z-index of 5 &amp;lt;div&amp;gt;B&amp;lt;/div&amp;gt; --&amp;gt; z-index of 0  Can touch B</description>
-    </item>
-    
-    <item>
-      <title>Python Tornado vs Flask</title>
-      <link>/post/python-tornado-vs-flask/</link>
-      <pubDate>Sat, 24 Nov 2018 01:27:03 +1100</pubDate>
-      
-      <guid>/post/python-tornado-vs-flask/</guid>
-      <description>Python has two great web server libraries - Flask and Tornado.
-Flask vs Tornado Why Flask Flask has a much easier to use routing functionality, where you just need a Python decorator @app.get(...).
-In Tornado you need to set up a site router, and all these other things (or I didn&amp;rsquo;t do it right)
-Why Tornado Tornado is a non-blocking server, which is able to handle multiple requests at the same time.</description>
-    </item>
-    
-    <item>
-      <title>HTML Script Tags</title>
-      <link>/post/html-script-tags/</link>
-      <pubDate>Sat, 24 Nov 2018 00:44:52 +1100</pubDate>
-      
-      <guid>/post/html-script-tags/</guid>
-      <description>Source - growingwiththeweb.com
-Summary &amp;lt;script&amp;gt; Block, load, run
-&amp;lt;script async&amp;gt; Load, run
-&amp;lt;script defer&amp;gt; Load, wait, run</description>
-    </item>
-    
-    <item>
-      <title>Portforwarding with Shootback</title>
-      <link>/post/portforwarding-with-shootback/</link>
-      <pubDate>Mon, 12 Nov 2018 16:25:09 +1100</pubDate>
-      
-      <guid>/post/portforwarding-with-shootback/</guid>
-      <description>WITHOUT SHADOWSOCKS
-./master.py -m 0.0.0.0:58370 -c 0.0.0.0:8380 ./slaver.py -m direct.navhaxs.au.eu.org:58370  WITH SHADOWSOCKS
-./master.py -m 127.0.0.1:58370 -c 0.0.0.0:8380` ss-tunnel -c /etc/shadowsocks/config.json -s direct.navhaxs.au.eu.org -l 58370 -L localhost:58370 -u ./slaver.py -m localhost:58370 -t localhost:8001  :: config.json
-{ &amp;quot;server_port&amp;quot;: 58388, &amp;quot;password&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;method&amp;quot;: &amp;quot;aes-128-cfb&amp;quot;, }  // I mean we could&amp;rsquo;ve always just used reverse ssh port forwarding</description>
-    </item>
-    
-    <item>
-      <title>Portforwarding with SSH</title>
-      <link>/post/portforwarding-with-ssh/</link>
-      <pubDate>Mon, 12 Nov 2018 14:34:38 +1100</pubDate>
-      
-      <guid>/post/portforwarding-with-ssh/</guid>
-      <description> $&amp;gt; ssh [SERVER] -L srcAddr:srcPort:dstAddr:dstPort
-listens on srcAddr:srcPort which results in [SERVER] connecting to dstAddr:dstPort
-&amp;gt; Useful for connecting to a device in a network
-$&amp;gt; ssh [SERVER] -L srcPort:dstAddr:dstPort
-[SERVER] listens on srcPort which is connecting to connecting to dstAddr:dstPort
--R? </description>
-    </item>
-    
-    <item>
-      <title>UNSW COMP1521</title>
-      <link>/post/unsw-comp1521/</link>
-      <pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate>
-      
-      <guid>/post/unsw-comp1521/</guid>
-      <description>Click here to go to the COMP1521 blog site</description>
-    </item>
-    
-    <item>
-      <title>[SCAM] Masters iPhone</title>
-      <link>/post/masters-iphone/</link>
-      <pubDate>Thu, 01 Nov 2018 18:41:13 +1100</pubDate>
-      
-      <guid>/post/masters-iphone/</guid>
-      <description>EDIT: Well their Facebook page is down now, hurrah!
-You know the saying: &amp;ldquo;If it&amp;rsquo;s too good to be true, it probably is&amp;rdquo;.
-So my friend wanted to upgrade from their iPhone to a Galaxy S9+.
-Personally, I don&amp;rsquo;t really care much about getting brand new goods (exceptions exist), so off to the races!
-Hopped on eBay, Gumtree and Facebook Marketplace to check for some sweet deals.
-I found a few classifieds from a store called Masters iPhone - supposedly located in Western Australia.</description>
-    </item>
-    
-    <item>
-      <title>Whoops There Goes My AI</title>
-      <link>/post/whoops-there-goes-my-ai/</link>
-      <pubDate>Mon, 22 Oct 2018 00:44:41 +1100</pubDate>
-      
-      <guid>/post/whoops-there-goes-my-ai/</guid>
-      <description>GitHub: featherbear/Whoops-There-Goes-My-AI
- So there&amp;rsquo;s a game on the Google Play Store and Apple App Store called Whoops! There Goes My Orange.
-You play as an orange falling from the sky, and you have to avoid the red bars. Simple, right?
-Yep! But rage-inducing.
-Anyway, so I decided to have a crack at writing some sort of AI for this game&amp;hellip;
-It&amp;rsquo;d just be a collision avoidance algorithm&amp;hellip; not really an AI.</description>
-    </item>
-    
-    <item>
-      <title>RICE Rally 2018 Sydney</title>
-      <link>/post/rice-rally-2018-sydney/</link>
-      <pubDate>Sat, 18 Aug 2018 19:19:44 +1100</pubDate>
-      
-      <guid>/post/rice-rally-2018-sydney/</guid>
-      <description>In a world full of noise, how do we find what we&amp;rsquo;re really looking for?
- RICE Movement is a Christian organisation that brings the message of Jesus to high schoolers (of Australia, and now New Zealand too!)
-RICE Rally is their annual event, a big evangelical &amp;lsquo;rally&amp;rsquo;.
-I got the opportunity to serve with my brother in the Production team (that is, lyrics and projection).
-Our playground was three LED walls and two confidence monitors.</description>
-    </item>
-    
-    <item>
-      <title>NewTek NDI</title>
-      <link>/post/newtek-ndi/</link>
-      <pubDate>Sun, 05 Aug 2018 19:19:35 +1100</pubDate>
-      
-      <guid>/post/newtek-ndi/</guid>
-      <description>NewTek NDI is a really amazing actually suite of software designed to transport audio and video data over networks.
-Note: I recommend a gigabit connection between the producers and consumersss, as it easily saturates 100 MB/s with all settings max&amp;rsquo;d.
-I&amp;rsquo;ve been using it a while:
- Screen recording Laptop screen streaming - Scan Converter on the laptop, Virtual Input on the desktop RICE Rally 2018 - Use OBS to create composites from several NDI sources  Software Scan Converter Share your computer screen, or a region of the screen</description>
-    </item>
-    
-    <item>
-      <title>ProPresenter 6 Stage Display Messages</title>
-      <link>/post/propresenter6-stage-display-messages-client/</link>
-      <pubDate>Sat, 04 Aug 2018 23:14:04 +1100</pubDate>
-      
-      <guid>/post/propresenter6-stage-display-messages-client/</guid>
-      <description>ProPresenter 6 is great!
-Except for the times when it&amp;rsquo;s not&amp;hellip; (then, it&amp;rsquo;s not great! [Wow who knew!])
-PP6 allows you to send stage messages remotely from the ProPresenter 6 iOS / Android app.
-Unfortunately that application is a bit clunky, and there&amp;rsquo;s no Windows / desktop app&amp;hellip;
- RICE Rally 2018 was coming up, and I needed some way to send Stage Display messages via my laptop.
-If only there was a HTML/JavaScript solution&amp;hellip; that&amp;rsquo;d really come in handy&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>School of Codecraft and Hackery</title>
-      <link>/post/unsw-compclub2018winter/</link>
-      <pubDate>Fri, 13 Jul 2018 18:52:17 +1100</pubDate>
-      
-      <guid>/post/unsw-compclub2018winter/</guid>
-      <description>Workshop Website
-Day One - Introduction to Python Day Two - Microbits Microbit by BBC is a small piece of hardware with all sorts of sensors and outputs.
-The uni purchased 20 of these!
-Unfortunately, the accelerometer module isn&amp;rsquo;t the best, and alot of the students couldn&amp;rsquo;t get one of the workshop instructions working.
-The first activity was to build a firefly, using the wireless radios on the Microbit.</description>
-    </item>
-    
   </channel>
 </rss>

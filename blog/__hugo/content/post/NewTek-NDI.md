@@ -9,7 +9,7 @@ displayInList: true
 ---
 
 [NewTek NDI](javascript:alert(\'Not implemented\')) is a really amazing actually suite of software designed to transport audio and video data over networks.  
-_Note: I recommend a gigabit connection between the producers and consumersss, as it easily saturates 100 MB/s with all settings max'd._
+_Note: I recommend a gigabit connection between the producers and consumers, as it easily saturates 100 MB/s with all settings max'd._
 
 
 I've been using it a while:

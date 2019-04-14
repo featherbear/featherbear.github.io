@@ -6,51 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Posts &middot; Andrew&#39;s Blog</title>
   <meta name="description" content="" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-  <link rel="stylesheet" href="../../../css/style.css" />
-  <link rel="stylesheet" href="../../../css/xcode.css" />
-  <link rel="stylesheet" href="../../../css/mystyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
-  <link rel="stylesheet" href="../../../css/latolatinfonts.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <link rel="alternate" type="application/rss+xml" href="../../../post/index.xml" title="Andrew's Blog" />
   
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-107434487-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
   <style>
     body {
       background: #ecedef url("/blog/IMG_0072.jpg") repeat;
     }
   </style>
-  
 </head>
   <body class="list-body">
     <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="../../../" class="nav-text">
-    [Back to Home]
-  </a></h1>
+  <h1 class="nav-header"><a href="" class="nav-text">[Back to Home]</a></h1>
   <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="../../../" class="hamburger-menu-overlay-link">Home</a></li>
-      
-      
-			<li><a href="../../../categories/ai" class="hamburger-menu-overlay-link">Ai</a></li>
-			
-			<li><a href="../../../categories/audio-visual" class="hamburger-menu-overlay-link">Audio visual</a></li>
-			
-			<li><a href="../../../categories/life" class="hamburger-menu-overlay-link">Life</a></li>
-			
-			<li><a href="../../../categories/networking" class="hamburger-menu-overlay-link">Networking</a></li>
-			
-			<li><a href="../../../categories/photography" class="hamburger-menu-overlay-link">Photography</a></li>
-			
-			<li><a href="../../../categories/programming" class="hamburger-menu-overlay-link">Programming</a></li>
-			
-			<li><a href="../../../categories/python" class="hamburger-menu-overlay-link">Python</a></li>
-			
-			<li><a href="../../../categories/unsw" class="hamburger-menu-overlay-link">Unsw</a></li>
-			
-			<li><a href="../../../categories/webdev" class="hamburger-menu-overlay-link">Webdev</a></li>
-			
+    <button onclick="hamburgerMenuPressed.call(this)" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+    <ul id="menu" class="hamburger-menu-overlay">
+      <li><a href="" class="hamburger-menu-overlay-link">Home</a></li>
+      <li><a href="categories/ai" class="hamburger-menu-overlay-link">Ai</a></li><li><a href="categories/audio-visual" class="hamburger-menu-overlay-link">Audio visual</a></li><li><a href="categories/life" class="hamburger-menu-overlay-link">Life</a></li><li><a href="categories/networking" class="hamburger-menu-overlay-link">Networking</a></li><li><a href="categories/photography" class="hamburger-menu-overlay-link">Photography</a></li><li><a href="categories/programming" class="hamburger-menu-overlay-link">Programming</a></li><li><a href="categories/python" class="hamburger-menu-overlay-link">Python</a></li><li><a href="categories/unsw" class="hamburger-menu-overlay-link">Unsw</a></li><li><a href="categories/webdev" class="hamburger-menu-overlay-link">Webdev</a></li>
     </ul>
   </div>
 </nav>
@@ -59,9 +47,34 @@
         <p class="list-header-subtext"></p>
         <h1 class="list-header-title">Posts</h1>
       </header>
-      
-      
       <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="../../../post/floobits/" class="card blog-card" rel="bookmark" >
+    <div class="card-img-container">
+      <picture>
+        <source srcset="https://floobits.com/static/images/logos/logo_with_name.png">
+        <img src="https://floobits.com/static/images/logos/logo_with_name.png" class="card-img" >
+      </picture>
+    </div>
+  <article class="card-body">
+    <h2 class="card-title">Floobits</h2>
+    <p class="card-text">Collaborative code editing!</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2019-01-11">Jan 11, 2019</time></p>
+      <p>#Programming </p>
+    </div>
+  </article>
+</a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="../../../post/repl.it/" class="card blog-card" rel="bookmark" >
+    
+  <article class="card-body">
+    <h2 class="card-title">Repl.it</h2>
+    <p class="card-text">RIP l.it - the rise and fall of online code sandboxes</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2019-01-09">Jan 9, 2019</time></p>
+      <p>#WebDev #Programming #Python </p>
+    </div>
+  </article>
+</a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="../../../post/tools-of-the-trade/" class="card blog-card" rel="bookmark" >
     
   <article class="card-body">
@@ -72,9 +85,7 @@
       <p>#Life </p>
     </div>
   </article>
-</a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+</a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="../../../post/swec-bulletin-generator/" class="card blog-card" rel="bookmark" >
     
   <article class="card-body">
@@ -85,15 +96,14 @@
       <p>#Python #WebDev #Programming </p>
     </div>
   </article>
-</a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+</a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="../../../post/unsw-compclub2019summer/" class="card blog-card" rel="bookmark" >
-    
     <div class="card-img-container">
-      <img src="../../../post/unsw-compclub2019summer/compclub.logo.svg" class="card-img">
+      <picture>
+        <source srcset="../../../post/unsw-compclub2019summer/compclub.logo.svg">
+        <img src="../../../post/unsw-compclub2019summer/compclub.logo.svg" class="card-img" >
+      </picture>
     </div>
-    
   <article class="card-body">
     <h2 class="card-title">Secret Agent</h2>
     <p class="card-text">UNSW CSE CompClub 2019 Summer Workshop</p>
@@ -102,15 +112,14 @@
       <p>#UNSW #Python #WebDev #Programming </p>
     </div>
   </article>
-</a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+</a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="../../../post/unsw-compclub2019summer-ctf/" class="card blog-card" rel="bookmark" >
-    
     <div class="card-img-container">
-      <img src="../../../post/unsw-compclub2019summer/compclub.logo.svg" class="card-img">
+      <picture>
+        <source srcset="../../../post/unsw-compclub2019summer/compclub.logo.svg">
+        <img src="../../../post/unsw-compclub2019summer/compclub.logo.svg" class="card-img" >
+      </picture>
     </div>
-    
   <article class="card-body">
     <h2 class="card-title">CompClub 2019 Summer CTF</h2>
     <p class="card-text">Hosting a Capture The Flag secgame</p>
@@ -119,9 +128,7 @@
       <p>#UNSW #Python #WebDev #Programming </p>
     </div>
   </article>
-</a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+</a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="../../../post/unsw-comp2521/" class="card blog-card" rel="bookmark" >
     
   <article class="card-body">
@@ -132,9 +139,7 @@
       <p>#UNSW #Programming </p>
     </div>
   </article>
-</a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+</a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="../../../post/presonus-studiolive-16/" class="card blog-card" rel="bookmark" >
     
   <article class="card-body">
@@ -148,15 +153,14 @@ Issues / Feature Requests Stagebox disconnect After a long period of the SL16 be
       <p>#Audio Visual </p>
     </div>
   </article>
-</a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+</a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="../../../post/swec-audio-mixer-upgrade/" class="card blog-card" rel="bookmark" >
-    
     <div class="card-img-container">
-      <img src="../../../post/swec-audio-mixer-upgrade/20181115_165348.jpg" class="card-img">
+      <picture>
+        <source srcset="../../../post/swec-audio-mixer-upgrade/20181115_165348.jpg">
+        <img src="../../../post/swec-audio-mixer-upgrade/20181115_165348.jpg" class="card-img" >
+      </picture>
     </div>
-    
   <article class="card-body">
     <h2 class="card-title">SWEC Audio Mixer Upgrade</h2>
     <p class="card-text">Hello, digital!</p>
@@ -165,15 +169,14 @@ Issues / Feature Requests Stagebox disconnect After a long period of the SL16 be
       <p>#Audio Visual </p>
     </div>
   </article>
-</a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+</a><a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="../../../post/city-hunter/" class="card blog-card" rel="bookmark" >
-    
     <div class="card-img-container">
-      <img src="../../../post/city-hunter/cover.png" class="card-img">
+      <picture>
+        <source srcset="../../../post/city-hunter/cover.png">
+        <img src="../../../post/city-hunter/cover.png" class="card-img" >
+      </picture>
     </div>
-    
   <article class="card-body">
     <h2 class="card-title">City Hunter</h2>
     <p class="card-text"></p>
@@ -183,54 +186,16 @@ Issues / Feature Requests Stagebox disconnect After a long period of the SL16 be
     </div>
   </article>
 </a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="../../../post/neutrik-ethercon-kits/" class="card blog-card" rel="bookmark" >
-    
-    <div class="card-img-container">
-      <img src="https://www.neutrik.com/uploads/media/380x/09/2109-ethercon-cable-carrier.png?v=1-0" class="card-img">
-    </div>
-    
-  <article class="card-body">
-    <h2 class="card-title">Neutrik EtherCON Kits</h2>
-    <p class="card-text">DIY EtherCON!</p>
-    <div class="card-subtext muted-text">
-      <p>Posted <time datetime="2018-12-19">Dec 19, 2018</time></p>
-      <p>#Audio Visual #Networking </p>
-    </div>
-  </article>
-</a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="../../../post/behringer-xtouch-mini/" class="card blog-card" rel="bookmark" >
-    
-    <div class="card-img-container">
-      <img src="https://media.musictri.be/media/PLM/data/images/products/P0B3M/1800Wx1800H/X-TOUCH-MINI_P0B3M_Top_L.png" class="card-img">
-    </div>
-    
-  <article class="card-body">
-    <h2 class="card-title">Behringer X-Touch Mini</h2>
-    <p class="card-text">A control surface for Lightroom!</p>
-    <div class="card-subtext muted-text">
-      <p>Posted <time datetime="2018-12-17">Dec 17, 2018</time></p>
-      <p>#Audio Visual #Photography </p>
-    </div>
-  </article>
-</a>
-      
     </main>
-    
     <nav class="pagination-nav side-padding">
       <a href="../../../post/" class="pagination-newer">&lt; Newer Posts</a>
       <a href="../../../post/page/3/" class="pagination-older">Older Posts &gt;</a>
     </nav>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="../../../js/core.js"></script>
+<script src="js/core.js"></script>
 <script>
   hljs.initHighlightingOnLoad();
 </script>

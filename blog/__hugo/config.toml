@@ -3,12 +3,13 @@ publishDir = ".."
 
 relativeurls = true
 
-## https://github.com/htdvisser/hugo-base16-theme
 # https://github.com/josephhutch/aether
 theme = "aether"
 
 languageCode = "en-us"
 title = "Andrew's Blog"
+
+googleAnalytics = "UA-107434487-3"
 
 [params]
 brand = "[Back to Home]"

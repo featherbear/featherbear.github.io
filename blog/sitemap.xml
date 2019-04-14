@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/multi-messaging-apps/</loc>
+    <lastmod>2019-03-21T14:09:38+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/p5.js/</loc>
+    <lastmod>2019-03-21T01:21:23+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/peerjs/</loc>
     <lastmod>2019-03-01T11:34:37+11:00</lastmod>
   </url>
@@ -175,7 +185,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-01T11:34:37+11:00</lastmod>
+    <lastmod>2019-03-21T14:09:38+11:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,7 +221,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-03-01T11:34:37+11:00</lastmod>
+    <lastmod>2019-03-21T14:09:38+11:00</lastmod>
     <priority>0</priority>
   </url>
   

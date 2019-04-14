@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Unsw on Andrew&#39;s Blog</title>
+    <title>Unsw - Andrew&#39;s Blog</title>
     <link>/categories/unsw/</link>
     <description>Recent content in Unsw on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Feb 2019 09:00:00 +1100</lastBuildDate>
     
-	<atom:link href="/categories/unsw/index.xml" rel="self" type="application/rss+xml" />
-    
+        <atom:link href="/categories/unsw/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>UNSW COMP1531</title>
@@ -17,73 +16,42 @@
       <pubDate>Mon, 18 Feb 2019 09:00:00 +1100</pubDate>
       
       <guid>/post/unsw-comp1531/</guid>
-      <description>Click here to go to the COMP1531 blog site</description>
-    </item>
-    
-    <item>
+      <description>Software Engineering Fundamentals</description>
+    </item><item>
       <title>Secret Agent</title>
       <link>/post/unsw-compclub2019summer/</link>
       <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
       
       <guid>/post/unsw-compclub2019summer/</guid>
-      <description>Quick Links
-What is UNSW CSE CompClub?
-On writing a CTF server
- I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
-Last time (Winter 2018) I volunteered as a mentor - those people who would help guide the students.
-This time around I helped out as an organiser, in particular a content writer.
-That means that I get a whole day to do whatever the heck I want!</description>
-    </item>
-    
-    <item>
+      <description>UNSW CSE CompClub 2019 Summer Workshop</description>
+    </item><item>
       <title>CompClub 2019 Summer CTF</title>
       <link>/post/unsw-compclub2019summer-ctf/</link>
       <pubDate>Thu, 20 Dec 2018 18:32:46 +1100</pubDate>
       
       <guid>/post/unsw-compclub2019summer-ctf/</guid>
-      <description>Read the whole CompClub 2019 Summer Workshop post
- GitHub: featherbear/UNSW-CompClub2019Summer-CTF
-Demo: featherbear.github.io/UNSW-CompClub2019Summer-CTF
-During the Winter 2018 Workshop, the organiser for the security day coded up a CTF website.
- Technologies
-Server: Flask (Python)
-CSS: Bootstrap
-Performance: RIP
- Yeah so, Flask is a great Python web framework, with all of its routing magic.
-But running a server with Flask alone is not a good idea&amp;hellip;
-Flask should be run in a WSGI environment, but the inbuilt Flask server is not such.</description>
-    </item>
-    
-    <item>
+      <description>Hosting a Capture The Flag secgame</description>
+    </item><item>
       <title>UNSW COMP2521</title>
       <link>/post/unsw-comp2521/</link>
       <pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate>
       
       <guid>/post/unsw-comp2521/</guid>
-      <description>Click here to go to the COMP2521 blog site</description>
-    </item>
-    
-    <item>
+      <description>Data Structures and Algorithms course at UNSW</description>
+    </item><item>
       <title>UNSW COMP1521</title>
       <link>/post/unsw-comp1521/</link>
       <pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate>
       
       <guid>/post/unsw-comp1521/</guid>
-      <description>Click here to go to the COMP1521 blog site</description>
-    </item>
-    
-    <item>
+      <description>Computer Systems Fundamentals course at UNSW</description>
+    </item><item>
       <title>School of Codecraft and Hackery</title>
       <link>/post/unsw-compclub2018winter/</link>
       <pubDate>Fri, 13 Jul 2018 18:52:17 +1100</pubDate>
       
       <guid>/post/unsw-compclub2018winter/</guid>
-      <description>Workshop Website
-Day One - Introduction to Python Day Two - Microbits Microbit by BBC is a small piece of hardware with all sorts of sensors and outputs.
-The uni purchased 20 of these!
-Unfortunately, the accelerometer module isn&amp;rsquo;t the best, and alot of the students couldn&amp;rsquo;t get one of the workshop instructions working.
-The first activity was to build a firefly, using the wireless radios on the Microbit.</description>
+      <description>UNSW CSE CompClub 2018 Winter Workshop</description>
     </item>
-    
   </channel>
 </rss>

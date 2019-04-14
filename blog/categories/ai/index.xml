@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ai on Andrew&#39;s Blog</title>
+    <title>Ai - Andrew&#39;s Blog</title>
     <link>/categories/ai/</link>
     <description>Recent content in Ai on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Oct 2018 00:44:41 +1100</lastBuildDate>
     
-	<atom:link href="/categories/ai/index.xml" rel="self" type="application/rss+xml" />
-    
+        <atom:link href="/categories/ai/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Whoops There Goes My AI</title>
@@ -17,13 +16,7 @@
       <pubDate>Mon, 22 Oct 2018 00:44:41 +1100</pubDate>
       
       <guid>/post/whoops-there-goes-my-ai/</guid>
-      <description>GitHub: featherbear/Whoops-There-Goes-My-AI
- So there&amp;rsquo;s a game on the Google Play Store and Apple App Store called Whoops! There Goes My Orange.
-You play as an orange falling from the sky, and you have to avoid the red bars. Simple, right?
-Yep! But rage-inducing.
-Anyway, so I decided to have a crack at writing some sort of AI for this game&amp;hellip;
-It&amp;rsquo;d just be a collision avoidance algorithm&amp;hellip; not really an AI.</description>
+      <description>if (aboutToCrash) dont();</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Audio Visual on Andrew&#39;s Blog</title>
+    <title>Audio Visual - Andrew&#39;s Blog</title>
     <link>/categories/audio-visual/</link>
     <description>Recent content in Audio Visual on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Dec 2018 18:20:04 +1100</lastBuildDate>
     
-	<atom:link href="/categories/audio-visual/index.xml" rel="self" type="application/rss+xml" />
-    
+        <atom:link href="/categories/audio-visual/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>PreSonus StudioLive 16</title>
@@ -21,79 +20,48 @@
 It was a fairly straightforward process to set up everything.
 A graphic equaliser with a visualiser was a big step up from the old Yamaha MG24/14FX mixer that used in the past
 Issues / Feature Requests Stagebox disconnect After a long period of the SL16 being turned off, the 24R (having been on for a week) wouldn&amp;rsquo;t be detected by the SL16.</description>
-    </item>
-    
-    <item>
+    </item><item>
       <title>SWEC Audio Mixer Upgrade</title>
       <link>/post/swec-audio-mixer-upgrade/</link>
       <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
       
       <guid>/post/swec-audio-mixer-upgrade/</guid>
-      <description>My church recently went from an analog audio console (Yamaha MG24/14FX) to a digital console, the Presonus StudioLive 16.
-Why digital?  A digital sound console packs a whole bunch of feature into a small(er than what an analogue system would need) form factor Software effects replace the need for purchasing hardware for each effect, which are both costly, and occupy physical space Presets and Scenes allow the mixer to recall specific layouts and settings, and to reset the channel configuration to a standard setup More inputs via a networked stagebox Remote control over USB and network Multitrack recording Simpler interface (well, less buttons and knobs) In-Ear Monitor capability  The Parts    Item Type Price Link     PreSonus StudioLive 16 Series III Console AU$2399.</description>
-    </item>
-    
-    <item>
+      <description>Hello, digital!</description>
+    </item><item>
       <title>Neutrik EtherCON Kits</title>
       <link>/post/neutrik-ethercon-kits/</link>
       <pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate>
       
       <guid>/post/neutrik-ethercon-kits/</guid>
-      <description>The PreSonus StudioLive 16 and StudioLive 24R have an EtherCON port for their AVB connection.
-You could forego the EtherCON connector and just connect an Ethernet cable, but I&amp;rsquo;ve had one occassion where a network stagebox got disconnected because the cable got kicked off.
-Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the Neutrik NE8MC-1.
-(Didn&amp;rsquo;t need the CAT6 series, which would&amp;rsquo;ve been the NE8MX6 series)</description>
-    </item>
-    
-    <item>
+      <description>DIY EtherCON!</description>
+    </item><item>
       <title>Behringer X-Touch Mini</title>
       <link>/post/behringer-xtouch-mini/</link>
       <pubDate>Mon, 17 Dec 2018 18:20:48 +1100</pubDate>
       
       <guid>/post/behringer-xtouch-mini/</guid>
-      <description>Got my hands on a Behringer X-Touch Mini USB MIDI Controller (Yay for Facebook Marketplace).
-Will be using this in my Lightroom editing workflow!
-Configuration Changing the MIDI Mapping The X-Touch Mini has 12 white buttons. With two layers, that would give us 24 different buttons. However some of the buttons were mapped to the same MIDI control key aka - some buttons are duplicate. So firstly, we&amp;rsquo;ll need to remap the surface.</description>
-    </item>
-    
-    <item>
+      <description>A control surface for Lightroom!</description>
+    </item><item>
       <title>RICE Rally 2018 Sydney</title>
       <link>/post/rice-rally-2018-sydney/</link>
       <pubDate>Sat, 18 Aug 2018 19:19:44 +1100</pubDate>
       
       <guid>/post/rice-rally-2018-sydney/</guid>
-      <description>In a world full of noise, how do we find what we&amp;rsquo;re really looking for?
- RICE Movement is a Christian organisation that brings the message of Jesus to high schoolers (of Australia, and now New Zealand too!)
-RICE Rally is their annual event, a big evangelical &amp;lsquo;rally&amp;rsquo;.
-I got the opportunity to serve with my brother in the Production team (that is, lyrics and projection).
-Our playground was three LED walls and two confidence monitors.</description>
-    </item>
-    
-    <item>
+      <description></description>
+    </item><item>
       <title>NewTek NDI</title>
       <link>/post/newtek-ndi/</link>
       <pubDate>Sun, 05 Aug 2018 19:19:35 +1100</pubDate>
       
       <guid>/post/newtek-ndi/</guid>
-      <description>NewTek NDI is a really amazing actually suite of software designed to transport audio and video data over networks.
-Note: I recommend a gigabit connection between the producers and consumersss, as it easily saturates 100 MB/s with all settings max&amp;rsquo;d.
-I&amp;rsquo;ve been using it a while:
- Screen recording Laptop screen streaming - Scan Converter on the laptop, Virtual Input on the desktop RICE Rally 2018 - Use OBS to create composites from several NDI sources  Software Scan Converter Share your computer screen, or a region of the screen</description>
-    </item>
-    
-    <item>
+      <description>The swiss-army-knife for audio/video over IP</description>
+    </item><item>
       <title>ProPresenter 6 Stage Display Messages</title>
       <link>/post/propresenter6-stage-display-messages-client/</link>
       <pubDate>Sat, 04 Aug 2018 23:14:04 +1100</pubDate>
       
       <guid>/post/propresenter6-stage-display-messages-client/</guid>
-      <description>ProPresenter 6 is great!
-Except for the times when it&amp;rsquo;s not&amp;hellip; (then, it&amp;rsquo;s not great! [Wow who knew!])
-PP6 allows you to send stage messages remotely from the ProPresenter 6 iOS / Android app.
-Unfortunately that application is a bit clunky, and there&amp;rsquo;s no Windows / desktop app&amp;hellip;
- RICE Rally 2018 was coming up, and I needed some way to send Stage Display messages via my laptop.
-If only there was a HTML/JavaScript solution&amp;hellip; that&amp;rsquo;d really come in handy&amp;hellip;</description>
+      <description>A HTML interface for sending Stage Display messages to ProPresenter 6!</description>
     </item>
-    
   </channel>
 </rss>

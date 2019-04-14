@@ -6,64 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Neutrik EtherCON Kits &middot; Andrew&#39;s Blog</title>
   <meta name="description" content="DIY EtherCON!" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-  <link rel="stylesheet" href="../../css/style.css" />
-  <link rel="stylesheet" href="../../css/xcode.css" />
-  <link rel="stylesheet" href="../../css/mystyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
-  <link rel="stylesheet" href="../../css/latolatinfonts.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
   
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-107434487-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
   <style>
     body {
       background: #ecedef url("/blog/IMG_0072.jpg") repeat;
     }
   </style>
-  
 </head>
   <body class="single-body">
     <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="../../" class="nav-text">
-    [Back to Home]
-  </a></h1>
+  <h1 class="nav-header"><a href="" class="nav-text">[Back to Home]</a></h1>
   <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="../../" class="hamburger-menu-overlay-link">Home</a></li>
-      
-      
-			<li><a href="../../categories/ai" class="hamburger-menu-overlay-link">Ai</a></li>
-			
-			<li><a href="../../categories/audio-visual" class="hamburger-menu-overlay-link">Audio visual</a></li>
-			
-			<li><a href="../../categories/life" class="hamburger-menu-overlay-link">Life</a></li>
-			
-			<li><a href="../../categories/networking" class="hamburger-menu-overlay-link">Networking</a></li>
-			
-			<li><a href="../../categories/photography" class="hamburger-menu-overlay-link">Photography</a></li>
-			
-			<li><a href="../../categories/programming" class="hamburger-menu-overlay-link">Programming</a></li>
-			
-			<li><a href="../../categories/python" class="hamburger-menu-overlay-link">Python</a></li>
-			
-			<li><a href="../../categories/unsw" class="hamburger-menu-overlay-link">Unsw</a></li>
-			
-			<li><a href="../../categories/webdev" class="hamburger-menu-overlay-link">Webdev</a></li>
-			
+    <button onclick="hamburgerMenuPressed.call(this)" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+    <ul id="menu" class="hamburger-menu-overlay">
+      <li><a href="" class="hamburger-menu-overlay-link">Home</a></li>
+      <li><a href="categories/ai" class="hamburger-menu-overlay-link">Ai</a></li><li><a href="categories/audio-visual" class="hamburger-menu-overlay-link">Audio visual</a></li><li><a href="categories/life" class="hamburger-menu-overlay-link">Life</a></li><li><a href="categories/networking" class="hamburger-menu-overlay-link">Networking</a></li><li><a href="categories/photography" class="hamburger-menu-overlay-link">Photography</a></li><li><a href="categories/programming" class="hamburger-menu-overlay-link">Programming</a></li><li><a href="categories/python" class="hamburger-menu-overlay-link">Python</a></li><li><a href="categories/unsw" class="hamburger-menu-overlay-link">Unsw</a></li><li><a href="categories/webdev" class="hamburger-menu-overlay-link">Webdev</a></li>
     </ul>
   </div>
 </nav>
     <main class="content side-text-padding">
-      <article class="post dropcase">
+      <article class="post ">
         <header class="post-header">
         	<h1 class="post-title">Neutrik EtherCON Kits</h1>
           <p class="post-date">Posted <time datetime="2018-12-19">Dec 19, 2018</time></p>
         </header>
         
-        <figure class="post-figure">
-          <img src="https://www.neutrik.com/uploads/media/380x/09/2109-ethercon-cable-carrier.png?v=1-0">
-        </figure>
+        <picture class="post-figure">
+            <source srcset="https://www.neutrik.com/uploads/media/380x/09/2109-ethercon-cable-carrier.png?v=1-0">
+          <img src="https://www.neutrik.com/uploads/media/380x/09/2109-ethercon-cable-carrier.png?v=1-0" >
+        </picture>
         
         <p>The <a href="./PreSonus-StudioLive-16">PreSonus StudioLive 16</a> and StudioLive 24R have an EtherCON port for their AVB connection.<br />
 You could forego the EtherCON connector and just connect an Ethernet cable, but I&rsquo;ve had one occassion where a network stagebox got disconnected because the cable got kicked off.</p>
@@ -84,7 +72,10 @@ The NE8MC-1 is for <strong>unassembled / unterminated</strong> cables - you need
     
     <div class="card-img-container">
       <p class="card-img-overlay">Next Article</p>
-      <img src="https://media.musictri.be/media/PLM/data/images/products/P0B3M/1800Wx1800H/X-TOUCH-MINI_P0B3M_Top_L.png" class="card-img">
+      <picture>
+        <source srcset="https://media.musictri.be/media/PLM/data/images/products/P0B3M/1800Wx1800H/X-TOUCH-MINI_P0B3M_Top_L.png">
+        <img src="https://media.musictri.be/media/PLM/data/images/products/P0B3M/1800Wx1800H/X-TOUCH-MINI_P0B3M_Top_L.png" class="card-img" >
+      </picture>
     </div>
     
   <article class="card-body">
@@ -98,16 +89,15 @@ The NE8MC-1 is for <strong>unassembled / unterminated</strong> cables - you need
 </a>
       
       <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="../../" class="card home-card" style="background-image: url( ../../img/home-img.png )" rel="bookmark" >
+  href="" class="card home-card" style="background-image: url( img/grey-cloud.jpg )" rel="bookmark" >
   Home
 </a>
     </nav>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="../../js/core.js"></script>
+<script src="js/core.js"></script>
 <script>
   hljs.initHighlightingOnLoad();
 </script>
