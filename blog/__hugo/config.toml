@@ -15,7 +15,7 @@ googleAnalytics = "UA-107434487-3"
 brand = "[Back to Home]"
 description = "Musings of my life"
 # homeimg = "../greyHome.jng"
-bgimg = "/blog/IMG_0072.jpg"
+bgimg = "IMG_0072.jpg"
 
 # Enable Chroma
 pygmentsCodeFences = true
