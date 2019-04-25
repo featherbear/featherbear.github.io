@@ -6,11 +6,18 @@
     <description>Recent content in Posts on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Mar 2019 14:09:38 +1100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Apr 2019 23:17:45 +1000</lastBuildDate>
     
         <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>So You Want to Be a Python Expert? | PyData Seattle 2017</title>
+      <link>/post/so-you-want-to-be-a-python-expert-pydata-seattle-2017/</link>
+      <pubDate>Wed, 24 Apr 2019 23:17:45 +1000</pubDate>
+      
+      <guid>/post/so-you-want-to-be-a-python-expert-pydata-seattle-2017/</guid>
+      <description>Things you should know as as a Python expert</description>
+    </item><item>
       <title>Multi Messaging Apps</title>
       <link>/post/multi-messaging-apps/</link>
       <pubDate>Thu, 21 Mar 2019 14:09:38 +1100</pubDate>
@@ -73,13 +80,6 @@
       
       <guid>/post/back-to-firefox/</guid>
       <description>Welcoming Mozilla Firefox back into my family.</description>
-    </item><item>
-      <title>Home Network Upgrade</title>
-      <link>/post/home-network-upgrade/</link>
-      <pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate>
-      
-      <guid>/post/home-network-upgrade/</guid>
-      <description>Retrofitting second hand equipment to make my network negligibly better</description>
     </item>
   </channel>
 </rss>
