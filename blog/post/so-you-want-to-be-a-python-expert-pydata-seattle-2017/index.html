@@ -1,6 +1,6 @@
 <!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>So You Want to Be a Python Expert? | PyData Seattle 2017 &middot; Andrew&#39;s Blog</title><meta name=description content="Things you should know as as a Python expert"><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-107434487-3','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css><link href=/blog/assets/prism.js/prism.css rel=stylesheet><script defer src=/blog/assets/prism.js/prism.js onload="let path;Prism.plugins.autoloader.languages_path=((path=this.getAttribute('src')).substring(0,path.lastIndexOf('/')))+'/languages/'"></script><script defer src=https://use.fontawesome.com/releases/v5.3.1/js/all.js></script><link rel=stylesheet href=/blog/css/site.css><style>body{background-image:url(/blog/IMG_0072.jpg)}</style><script defer src=/blog/js/site.js></script></head><body class=has-navbar-fixed-top><nav class="navbar is-fixed-top is-unselectable" role=navigation aria-label="main navigation"><div class=container><div class=navbar-brand><a class="navbar-item has-text-grey-darker is-size-3" href=/blog/>andrew wong</a>
 <a role=button class="navbar-burger burger" aria-label=menu aria-expanded=false data-target=navmenu><span aria-hidden=true></span><span aria-hidden=true></span><span aria-hidden=true></span></a></div><div id=navmenu class=navbar-menu><div class=navbar-end><a class="navbar-item has-text-grey" href=/blog/about>about me</a><div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-black-ter is-arrowless" href=/blog/>blog</a><div class=navbar-dropdown><a href=/blog/categories/ai class=navbar-item>ai</a><a href=/blog/categories/audio-visual class=navbar-item>audio-visual</a><a href=/blog/categories/life class=navbar-item>life</a><a href=/blog/categories/networking class=navbar-item>networking</a><a href=/blog/categories/photography class=navbar-item>photography</a><a href=/blog/categories/programming class=navbar-item>programming</a><a href=/blog/categories/python class=navbar-item>python</a><a href=/blog/categories/unsw class=navbar-item>unsw</a><a href=/blog/categories/webdev class=navbar-item>webdev</a></div></div><a class="navbar-item has-text-grey" href=/blog/photos>photography</a>
-<a class="navbar-item has-text-grey" href=/blog/programming>programming</a></div></div></div></nav><main class=container><header class="hero is-info" style=background-image:url(https://thumbs.dreamstime.com/z/sad-abandoned-dog-middle-road-high-contrast-imag-image-78764609.jpg) parallax><div class=hero-body><div class=container><h1 class=title>So You Want to Be a Python Expert? | PyData Seattle 2017</h1><h2 class=subtitle>Posted <time datetime=2019-04-24>Apr 24, 2019</time></h2></div></div></header><article id=content><p>So I got bored and decided to watch <a href="https://www.youtube.com/watch?v=cKPlPJyQrt4">this video</a><div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden><iframe src=//www.youtube.com/embed/cKPlPJyQrt4 style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe></div></p><p>These were the things covered in the presentation:</p><hr><h1 id=using-data-model-methods>Using data model methods</h1><p>Or [double] underscore functions&hellip;</p><p>The Python data model is a means by which we can implement protocols, that have abstract meaning depending on the object</p><p>For example, the methods:</p><ul><li><code>__init__</code></li><li><code>__new__</code></li><li><code>__add__</code></li><li><code>__str__</code></li><li><code>__repr__</code></li></ul><p><strong>Aside</strong><br>There also exists class methods, and static methods.<br>Class methods are bound to a class rather than an instance of an object, and look like the following</p><pre><code class=language-python3>class dummy():
+<a class="navbar-item has-text-grey" href=/blog/programming>programming</a></div></div></div></nav><main class=container><header class="hero is-info"><div class=hero-body><div class=container><h1 class=title>So You Want to Be a Python Expert? | PyData Seattle 2017</h1><h2 class=subtitle>Posted <time datetime=2019-04-24>Apr 24, 2019</time></h2></div></div></header><article id=content><p>So I got bored and decided to watch <a href="https://www.youtube.com/watch?v=cKPlPJyQrt4">this video</a><div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden><iframe src=//www.youtube.com/embed/cKPlPJyQrt4 style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe></div></p><p>These were the things covered in the presentation&hellip;</p><hr><h1 id=using-data-model-methods>Using data model methods</h1><p>Or (double-)underscore functions&hellip;</p><p>The Python data model is a means by which we can implement protocols that have abstract meaning that is dependent on the object</p><p>For example, the methods:</p><ul><li><code>__init__</code></li><li><code>__new__</code></li><li><code>__add__</code></li><li><code>__str__</code></li><li><code>__repr__</code></li></ul><p>&nbsp;</p><p><strong>Aside</strong><br>There also exists class methods, and static methods.<br><strong>Class methods</strong> are bound to a class rather than an instance of an object, and look like the following</p><pre><code class=language-python3>class dummy():
   @classmethod
   def createThisClass(cls):
     return cls()
@@ -8,7 +8,7 @@
 
 dummy.createThisClass()
 dummy().createThisClass()
-</code></pre><p>Static methods are methods that exist within a class, but are not bounded to the scope of a class nor an object instance.</p><pre><code class=language-python3>class dummy():
+</code></pre><p><strong>Static methods</strong> are methods that exist within a class, but are not bounded to the scope of a class nor an object instance.</p><pre><code class=language-python3>class dummy():
   @staticmethod
   def doSomething():
     #             ^ notice there is no `self` parameter
@@ -16,7 +16,7 @@ dummy().createThisClass()
 
 dummy.doSomething()
 dummy().doSomething()
-</code></pre><h1 id=metaclasses>Metaclasses</h1><p>Metaclasses are classes derived from the class <code>type</code> that allow derived types to be intercepted</p><p><em>Consider a library that will be subclassed in user code<br>A derived class is able to enforce a constraint on the base class<br>ie <code>assert hasattr(Base, 'foo'), &quot;Uh oh, it broke!&quot;</code></em></p><p>But how could we check if a derived class has a method defined&hellip;</p><pre><code class=language-python3>class BaseMeta(type):
+</code></pre><h1 id=metaclasses>Metaclasses</h1><p><em>Consider a library that will be subclassed in user code<br>A derived class is able to enforce a constraint on the base class</em><br>ie <code>assert hasattr(Base, 'foo'), &quot;Uh oh, it broke!&quot;</code></p><p>But how could we check if a derived class has a method defined&hellip;</p><p>Metaclasses are classes derived from the class <code>type</code> that allow derived types to be intercepted</p><pre><code class=language-python3>class BaseMeta(type):
   def __new__(cls, name, bases, body):
     if not 'bar' in body: raise TypeError()
     return super().__new__(cls, name, bases, body)
@@ -24,19 +24,27 @@ dummy().doSomething()
 class Base(metaclass=BaseMeta):
   def foo():
     return self.bar()
+
+# A TypeError will be raised and will not allow the Base class to be defined!
 </code></pre><hr><p><code>__init_class__</code> (PEP 487)</p><p>Called when a class is inherited from another class</p><pre><code class=language-python3>def __init_subclass__(cls, *a, **kw):
   return super().__init_subclass__(cls, *a, **kw)
-</code></pre><hr><p><strong>Aside</strong>:<br>We could also use the abstract method library in Python to prevent code from being run, however this will only cause failure during production</p><p><code>from abc import ABC, abstractmethod</code></p><hr><p>The unused approach:<br>Like the other data model methods, there exists a function <code>builtins.__build_class__</code> which hooks into the building of a class.<br>We could wrap around this function to check that, if a class inherits Base, it has has methods defined</p><h1 id=decorators>Decorators</h1><pre><code class=language-python3>def decorator_function(fn):
+</code></pre><hr><p>We could also use the abstract method library in Python to prevent code from being run, however this will only cause failure during runtime.</p><pre><code class=language-python3>from abc import ABC, abstractmethod
+</code></pre><hr><p><strong>The unused approach:</strong><br>Like the other data model methods, there exists a function <code>builtins.__build_class__</code> which hooks into the building of a class.<br>We could wrap around this function to check that, if a class inherits Base, it has has methods defined.</p><h1 id=decorators>Decorators</h1><pre><code class=language-python3>def decorator_function(fn):
   def function_wrapper(*args, **kwargs):
     return fn(*args, **kwargs)
   return function_wrapper
-</code></pre><p>A decorator is Python syntax to represent <code>func = wrapper(func)</code><br>Create a new function that takes in an original function</p><p>We could even write a wrapper that calls another function n times</p><h1 id=generators>Generators</h1><p>eager - gives you everything<br>// For queuing states</p><p>ie in the below code, we are unable to start processing the queue until it is all completed</p><pre><code class=language-python3>from time import sleep
+</code></pre><p>A decorator is Python syntax to represent <code>func = wrapper(func)</code><br>i.e Create a new function that takes in a function and returns another function</p><p>We could use this to time the execution of a function, or even make a function repeat <code>n</code> times!</p><h1 id=generators>Generators</h1><p>Eager evaluation of code can be bad.</p><p>i.e In the below code, we are unable to start processing the queue until it is all completed</p><pre><code class=language-python3>from time import sleep
 def compute():
   rv = []
   for i in range(10):
     rv.append(i)
     sleep(0.5)
-</code></pre><p>// yield does not actually execute the code until the previous item is retrieved</p><p>If we didn&rsquo;t use yield, we would do something like</p><pre><code class=language-python3>class Compute:
+</code></pre><p>We can improve this code and use the <code>yield</code> keyword</p><pre><code class=language-python3>from time import sleep
+def compute():
+  for i in range(10):
+    yield i
+    sleep(0.5)
+</code></pre><p>When we call the <code>compute</code> function, we are returned a generator object.<br>Only when the generator is iterated through, does the code after the yield statement execute.<br>Essentially, <code>yield</code>ing a value (or even <code>yield</code>ing nothing) pauses the code, and hands control back to the user (code)!</p><p><em>// TLDR; Yield does not actually execute the code until the previous item is retrieved</em></p><p>If we didn&rsquo;t use yield, we would do something like</p><pre><code class=language-python3>class Compute:
   def __iter__(self):
     self.last = 0
     return self
@@ -47,28 +55,28 @@ def compute():
       raise StopIteration()
     sleep(0.5)
     return rv
-</code></pre><p>But - we don&rsquo;t even need to use a generator to return values<br>We could use it as a sequence</p><p>Lazy-divide</p><pre><code class=language-python3>def api()
+</code></pre><hr><p>We don&rsquo;t even need a generator to return values&hellip; - We could use it as a sequence</p><p><strong>Lazy-divide</strong></p><pre><code class=language-python3>def api()
   first()
   yield
   second()
   yield
   third()
-</code></pre><p>We might not yield a value, but we yield control back to the user</p><h1 id=context-managers>Context Managers</h1><p>Setup and teardown</p><p>When we open a file, we have to close it</p><pre><code class=language-python3>f = open('file', 'r')
+</code></pre><p>We might not yield a value, but we yield control back to the user</p><h1 id=context-managers>Context Managers</h1><p>For all file interactions in Python, we need to open and close that file - mandatory setup and teardown.</p><pre><code class=language-python3>f = open('file', 'r')
 f.close()
-</code></pre><p>There exists a context manager for opening files</p><pre><code class=language-python3>with open('file', 'r') as f:
+</code></pre><p>To simplify our code, there exists a mechanism known as a context manager.</p><pre><code class=language-python3>with open('file', 'r') as f:
   doSomething()
   # f.close() performed automatically during the teardown
-</code></pre><p>Essentially</p><pre><code class=language-python3>with ctx() as x:
+</code></pre><p>Context managers handle the setup and teardown of data structures for us.</p><p>Behind the scenes, a context manager would perform the below</p><pre><code class=language-python3>with ctx() as x:
   pass
   
-#################
+### IS THE SAME AS ###
 
 x = ctx().__enter__()
 try:
   ...
 finally:
   x.__exit__()
-</code></pre><p>We can use a context manager with a generator</p><pre><code>class ctx:
+</code></pre><p>To modify the parameters of a context generator, we would modify the <code>__call__</code> data model method</p><pre><code class=language-python3>class ctx:
   def __call__(self, *args, **kwargs):
     self.args, self.kwargs = args, kwargs
     return self
@@ -76,17 +84,18 @@ finally:
     pass
   def __exit__(self):
     pass
-</code></pre><p>This allows us to pass in variables into our context generator</p><pre><code class=language-python3>ctxObj = ctx()
+
+
+ctxObj = ctx()
 with ctxObj() as x:
   pass
-</code></pre><p>JKTHOUGH
-There exists a decorator function <code>contextlib.contextmanager</code> which turns a generator into a context manager</p><pre><code class=language-python3>from contextlib import contextmanager
+</code></pre><p><strong>jk though!</strong></p><p>There exists a decorator function <code>contextlib.contextmanager</code> which turns a generator into a context manager</p><pre><code class=language-python3>from contextlib import contextmanager
 
 @contextmanager
-def soemthing(arg):
+def something(arg):
   doSomething(arg)
   try:
     yield
   finally:
     doSomethingElse()
-</code></pre></article></main><div class=container><h1 class="title has-text-grey-lighter">More posts</h1><div class=listArticle><a href=/blog/post/web-components/><article class=media><div class=media-content><h2 class="title is-marginless">Web Components</h2><div class=level><div class=level-left><p class=subtitle></p></div><div class=level-right><p>Posted <time datetime=2019-04-26>Apr 26, 2019</time></p></div></div></div></article><p class=is-unselectable></p></a></div><div class=listArticle><a href=/blog/post/multi-messaging-apps/><article class=media><div class=media-content><h2 class="title is-marginless">Multi Messaging Apps</h2><div class=level><div class=level-left><p class=subtitle>The quest for the one app to rule them all</p></div><div class=level-right><p>Posted <time datetime=2019-03-21>Mar 21, 2019</time></p></div></div></div></article><p class=is-unselectable></p></a></div></div><div id=scroll-nav></div><footer class=footer><nav class="breadcrumb is-right" aria-label=breadcrumbs><ul><li><a href=/blog/>blog</a></li><li><a href=../>blog</a></li><li><a href=../../>post</a></li><li class=is-active><a href=# aria-current=page>so-you-want-to-be-a-python-expert-pydata-seattle-2017</a></li></ul></nav><figure class="image is-128x128" style="margin:0 auto"><img src=/blog/logo.png></figure></footer><script>{let max=document.body.scrollHeight-window.innerHeight;window.addEventListener('scroll',function(){document.getElementById('scroll-nav').style.width=`${this.scrollY/max*100}%`});document.getElementById('scroll-nav').style.width=`${window.scrollY/max*100}%`}</script></body></html>
+</code></pre></article></main><div class=container><h1 class="title has-text-grey-lighter">More posts</h1><div class=listArticle><a href=/blog/post/gourmet-burgers/><article class=media><figure class=media-left><p class="image is-128x128"><img src=https://featherbear.github.io/UNSW-COMP1531/blog/post/assign/view_home.png></p></figure><div class=media-content><h2 class="title is-marginless">Gourmet Burgers</h2><div class=level><div class=level-left><p class=subtitle>A online ordering system for a UNSW's COMP1531 Python/Flask assignment</p></div><div class=level-right><p>Posted <time datetime=2019-04-25>Apr 25, 2019</time></p></div></div></div></article><p class=is-unselectable><a href=/blog/categories/programming><span class="tag is-info">#Programming</span></a> <a href=/blog/categories/networking><span class="tag is-info">#Networking</span></a> <a href=/blog/categories/unsw><span class="tag is-info">#UNSW</span></a> <a href=/blog/categories/webdev><span class="tag is-info">#WebDev</span></a></p></a></div><div class=listArticle><a href=/blog/post/multi-messaging-apps/><article class=media><div class=media-content><h2 class="title is-marginless">Multi Messaging Apps</h2><div class=level><div class=level-left><p class=subtitle>The quest for the one app to rule them all</p></div><div class=level-right><p>Posted <time datetime=2019-03-21>Mar 21, 2019</time></p></div></div></div></article><p class=is-unselectable></p></a></div></div><div id=scroll-nav></div><footer class=footer><nav class="breadcrumb is-right" aria-label=breadcrumbs><ul><li><a href=../../>blog</a></li><li><a href=../>post</a></li><li class=is-active><a href=# aria-current=page>so-you-want-to-be-a-python-expert-pydata-seattle-2017</a></li></ul></nav><hr><figure class="image is-128x128" style="margin:0 auto"><img src=/blog/logo.png></figure></footer><script>{let max=document.body.scrollHeight-window.innerHeight;window.addEventListener('scroll',function(){document.getElementById('scroll-nav').style.width=`${this.scrollY/max*100}%`});document.getElementById('scroll-nav').style.width=`${window.scrollY/max*100}%`}</script></body></html>
