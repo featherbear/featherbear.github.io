@@ -1,6 +1,0 @@
-[submodule "blog/__hugo/themes/aether"]
-	path = blog/__hugo/themes/aether
-	url = https://github.com/josephhutch/aether.git
-[submodule "blog/__hugo/themes/hugo-theme-myhugo"]
-	path = blog/__hugo/themes/hugo-theme-myhugo
-	url = git@github.com:featherbear/hugo-theme-myhugo.git
