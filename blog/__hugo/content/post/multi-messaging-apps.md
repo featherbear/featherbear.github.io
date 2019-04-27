@@ -8,22 +8,25 @@ displayInMenu: false
 displayInList: true
 ---
 
+> _ELECTRON AND WEBKIT ARGH. GIVE ME MY RAM BACK_
+
+---
+
 With so many messaging platforms and work-related productivity services popping up left, right and centre it becomes a hassle to keep so many browser tabs or desktop apps open.
 
 I've been using Franz for the past couple of years, and sometimes when I try to drag and drop an image into the Facebook Messenger tab, it crashes.
 
+The competitors:
 
+* Franz
+* Station
+* Rambox
+* Manageyum
 
-Franz
+Comparison Aspects:
 
-Station
-
-Rambox - price platform
-
-Manageyum
-
-FOSS
-Price
-Custom App / URL
-Features
-Extensibility
+* FOSS
+* Price
+* Custom App
+* Features
+* Extensibility
