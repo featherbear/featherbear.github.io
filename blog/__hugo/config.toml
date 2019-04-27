@@ -11,7 +11,7 @@ googleAnalytics = "UA-107434487-3"
 
 [params]
 description = "Musings of my life"
-bgImg = "/blog/IMG_0072.jpg"
+bgImg = "IMG_0072.jpg"
 brandImg = "logo.png"
 brand = "andrew wong"
 
