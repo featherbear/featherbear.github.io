@@ -14,17 +14,16 @@ description = "Musings of my life"
 bgImg = "IMG_0072.jpg"
 brandImg = "logo.png"
 brand = "andrew wong"
-
-[[menu.main]]
-  name = "blog"
-  url = "_blog_"
-[[menu.main]]
+[[params.links]]
   name = "about me"
-  url = "/about"
-[[menu.main]]
+  path = "/about"
+[[params.links]]
+  name = "blog"
+  path = "_blog_"
+[[params.links]]
   name = "photography"
-  url = "/photos"
-[[menu.main]]
+  path = "/photos"
+[[params.links]]
   name = "programming"
-  url = "/programming"
+  path = "/programming"
 
