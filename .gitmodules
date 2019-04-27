@@ -1,0 +1,3 @@
+[submodule "blog/__hugo/themes/hugo-theme-myhugo"]
+	path = blog/__hugo/themes/hugo-theme-myhugo
+	url = https://github.com/featherbear/hugo-theme-myhugo.git
