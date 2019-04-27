@@ -1,71 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Networking - Andrew&#39;s Blog</title>
-    <link>/categories/networking/</link>
-    <description>Recent content in Networking on Andrew&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2019 11:34:37 +1100</lastBuildDate>
-    
-        <atom:link href="/categories/networking/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>PeerJS Revived</title>
-      <link>/post/peerjs/</link>
-      <pubDate>Fri, 01 Mar 2019 11:34:37 +1100</pubDate>
-      
-      <guid>/post/peerjs/</guid>
-      <description>P2P connections with JavaScript!</description>
-    </item><item>
-      <title>Jebabej</title>
-      <link>/post/jebabej/</link>
-      <pubDate>Thu, 28 Feb 2019 19:13:02 +1100</pubDate>
-      
-      <guid>/post/jebabej/</guid>
-      <description>Writing a Mafia game helper</description>
-    </item><item>
-      <title>Unifi and Java</title>
-      <link>/post/unifi-java/</link>
-      <pubDate>Mon, 04 Feb 2019 23:06:34 +1100</pubDate>
-      
-      <guid>/post/unifi-java/</guid>
-      <description>Trusting in the ability of programmers to implement working auto updaters</description>
-    </item><item>
-      <title>Home Network Upgrade</title>
-      <link>/post/home-network-upgrade/</link>
-      <pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate>
-      
-      <guid>/post/home-network-upgrade/</guid>
-      <description>Retrofitting second hand equipment to make my network negligibly better</description>
-    </item><item>
-      <title>Neutrik EtherCON Kits</title>
-      <link>/post/neutrik-ethercon-kits/</link>
-      <pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate>
-      
-      <guid>/post/neutrik-ethercon-kits/</guid>
-      <description>DIY EtherCON!</description>
-    </item><item>
-      <title>Portforwarding with Shootback</title>
-      <link>/post/portforwarding-with-shootback/</link>
-      <pubDate>Mon, 12 Nov 2018 16:25:09 +1100</pubDate>
-      
-      <guid>/post/portforwarding-with-shootback/</guid>
-      <description></description>
-    </item><item>
-      <title>Portforwarding with SSH</title>
-      <link>/post/portforwarding-with-ssh/</link>
-      <pubDate>Mon, 12 Nov 2018 14:34:38 +1100</pubDate>
-      
-      <guid>/post/portforwarding-with-ssh/</guid>
-      <description></description>
-    </item><item>
-      <title>ProPresenter 6 Stage Display Messages</title>
-      <link>/post/propresenter6-stage-display-messages-client/</link>
-      <pubDate>Sat, 04 Aug 2018 23:14:04 +1100</pubDate>
-      
-      <guid>/post/propresenter6-stage-display-messages-client/</guid>
-      <description>A HTML interface for sending Stage Display messages to ProPresenter 6!</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Networking on Andrew&#39;s Blog</title><link>/blog/categories/networking/</link><description>Recent content in Networking on Andrew&#39;s Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2019 11:34:37 +1100</lastBuildDate><atom:link href="/blog/categories/networking/index.xml" rel="self" type="application/rss+xml"/><item><title>PeerJS Revived</title><link>/blog/post/peerjs/</link><pubDate>Fri, 01 Mar 2019 11:34:37 +1100</pubDate><guid>/blog/post/peerjs/</guid><description>Near the end of 2017, I wrote attempted to write a delivery tracker webpage that would list all of my tracked packages and their status information.
+To sync my list of packages between my devices, I used a library called PeerJS that established P2P connections between my devices to send and receive data. PeerJS was dormant since 2015, and amazingly it worked for the duration of my code.
+After a 3 year period of inactivity, PeerJS is back and alive (in active commits) so yay!</description></item><item><title>Jebabej</title><link>/blog/post/jebabej/</link><pubDate>Thu, 28 Feb 2019 19:13:02 +1100</pubDate><guid>/blog/post/jebabej/</guid><description>Date: 28th February 2019
+Time: Some time around 7pm&amp;hellip;
+Location: UNSW CSE Level One Common Room
+&amp;nbsp;
+Person A: Let&amp;rsquo;s play Mafia!
+Person B: We only have four players&amp;hellip;
+Person A: That&amp;rsquo;s okay!
+Person C: Sorry guys I gotta go now
+Person A &amp;amp; B: Oh. &amp;nbsp;
+&amp;hellip; &amp;nbsp;
+Person D: Let&amp;rsquo;s make a Mafia app!
+Introducing Jebabej!</description></item><item><title>Unifi and Java</title><link>/blog/post/unifi-java/</link><pubDate>Mon, 04 Feb 2019 23:06:34 +1100</pubDate><guid>/blog/post/unifi-java/</guid><description>Overnight Java decided to auto update itself even though I disabled automatic updates!?!
+Consequently there wasn&amp;rsquo;t a firewall rule for the new Java installation path so my UniFi SDN went MIA.
+That said, for my own future reference&amp;hellip;
+Admin username: To log into controller
+Device username: To log into devices (ssh, usg http) - unique per site
+Lesson learned - Don&amp;rsquo;t trust auto updaters D:</description></item><item><title>Home Network Upgrade</title><link>/blog/post/home-network-upgrade/</link><pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate><guid>/blog/post/home-network-upgrade/</guid><description>When I&amp;rsquo;m bored I often find myself scrolling Gumtree and Facebook Marketplace for deals - audio gear, camera gear, furniture, and when in &amp;lsquo;need&amp;rsquo; - network gear!
+So I found a classified on Gumtree&amp;hellip;
+8x Ubiquiti UniFi UAP - $10 each!!!
+Unfortunately they were the UAP&amp;rsquo;s not the UAP-AC&amp;rsquo;s.
+The UAP isn&amp;rsquo;t 10/100/1000, which is a shame, but nor were my old APs (but.. awhh)
+And hey, $50 savings per unit.</description></item><item><title>Neutrik EtherCON Kits</title><link>/blog/post/neutrik-ethercon-kits/</link><pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate><guid>/blog/post/neutrik-ethercon-kits/</guid><description>The PreSonus StudioLive 16 and StudioLive 24R have an EtherCON port for their AVB connection.
+You could forego the EtherCON connector and just connect an Ethernet cable, but I&amp;rsquo;ve had one occassion where a network stagebox got disconnected because the cable got kicked off.
+Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the Neutrik NE8MC-1.
+(Didn&amp;rsquo;t need the CAT6 series, which would&amp;rsquo;ve been the NE8MX6 series)</description></item><item><title>Portforwarding with Shootback</title><link>/blog/post/portforwarding-with-shootback/</link><pubDate>Mon, 12 Nov 2018 16:25:09 +1100</pubDate><guid>/blog/post/portforwarding-with-shootback/</guid><description>WITHOUT SHADOWSOCKS
+./master.py -m 0.0.0.0:58370 -c 0.0.0.0:8380 ./slaver.py -m direct.navhaxs.au.eu.org:58370 WITH SHADOWSOCKS
+./master.py -m 127.0.0.1:58370 -c 0.0.0.0:8380` ss-tunnel -c /etc/shadowsocks/config.json -s direct.navhaxs.au.eu.org -l 58370 -L localhost:58370 -u ./slaver.py -m localhost:58370 -t localhost:8001 :: config.json
+{ &amp;quot;server_port&amp;quot;: 58388, &amp;quot;password&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;method&amp;quot;: &amp;quot;aes-128-cfb&amp;quot;, } // I mean we could&amp;rsquo;ve always just used reverse ssh port forwarding</description></item><item><title>Portforwarding with SSH</title><link>/blog/post/portforwarding-with-ssh/</link><pubDate>Mon, 12 Nov 2018 14:34:38 +1100</pubDate><guid>/blog/post/portforwarding-with-ssh/</guid><description> $&amp;gt; ssh [SERVER] -L srcAddr:srcPort:dstAddr:dstPort
+listens on srcAddr:srcPort which results in [SERVER] connecting to dstAddr:dstPort
+&amp;gt; Useful for connecting to a device in a network
+$&amp;gt; ssh [SERVER] -L srcPort:dstAddr:dstPort
+[SERVER] listens on srcPort which is connecting to connecting to dstAddr:dstPort
+-R?</description></item><item><title>ProPresenter 6 Stage Display Messages</title><link>/blog/post/propresenter6-stage-display-messages-client/</link><pubDate>Sat, 04 Aug 2018 23:14:04 +1100</pubDate><guid>/blog/post/propresenter6-stage-display-messages-client/</guid><description>ProPresenter 6 is great!
+Except for the times when it&amp;rsquo;s not&amp;hellip; (then, it&amp;rsquo;s not great! [Wow who knew!])
+PP6 allows you to send stage messages remotely from the ProPresenter 6 iOS / Android app.
+Unfortunately that application is a bit clunky, and there&amp;rsquo;s no Windows / desktop app&amp;hellip;
+RICE Rally 2018 was coming up, and I needed some way to send Stage Display messages via my laptop.
+If only there was a HTML/JavaScript solution&amp;hellip; that&amp;rsquo;d really come in handy&amp;hellip;</description></item></channel></rss>

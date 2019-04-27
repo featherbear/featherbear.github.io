@@ -3,8 +3,7 @@ title: "So You Want to Be a Python Expert? | PyData Seattle 2017"
 date: 2019-04-24T23:17:45+10:00
 description: "Things you should know as as a Python expert"
 categories: []
-_featuredImage: ""
-_featuredImageDescription: ""
+featuredImage: "https://thumbs.dreamstime.com/z/sad-abandoned-dog-middle-road-high-contrast-imag-image-78764609.jpg"
 displayInMenu: false
 displayInList: true
 ---

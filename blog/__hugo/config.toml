@@ -1,10 +1,8 @@
-baseURL = ""
+baseURL = "/blog/"
 publishDir = ".."
 
-relativeurls = true
-
 # https://github.com/josephhutch/aether
-theme = "aether"
+theme = "hugo-theme-myhugo"
 
 languageCode = "en-us"
 title = "Andrew's Blog"
@@ -12,11 +10,21 @@ title = "Andrew's Blog"
 googleAnalytics = "UA-107434487-3"
 
 [params]
-brand = "[Back to Home]"
 description = "Musings of my life"
-# homeimg = "../greyHome.jng"
-bgimg = "IMG_0072.jpg"
+bgImg = "/blog/IMG_0072.jpg"
+brandImg = "logo.png"
+brand = "andrew wong"
 
-# Enable Chroma
-pygmentsCodeFences = true
-pygmentsUseClasses = true
+[[menu.main]]
+  name = "blog"
+  url = "_blog_"
+[[menu.main]]
+  name = "about me"
+  url = "/about"
+[[menu.main]]
+  name = "photography"
+  url = "/photos"
+[[menu.main]]
+  name = "programming"
+  url = "/programming"
+

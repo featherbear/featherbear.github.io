@@ -1,0 +1,72 @@
+header.hero[parallax] {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#scroll-nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #6ba6dd;
+  height: 3px;
+  box-shadow: 0 0 10px #6ba6dd;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+main header {
+  margin-top: 30px !important;
+}
+
+main.container {
+  display: flex;
+  flex-direction: column;
+}
+main #content {
+  background-color: white;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+ 
+.listArticle {
+  background-color: white;
+  padding: 10px;
+  border-radius: 2px;
+  margin-bottom: 20px
+}
+
+.listArticle p.image {
+    height: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+  margin-top: 30px;
+}
