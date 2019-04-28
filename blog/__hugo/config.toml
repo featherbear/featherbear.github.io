@@ -1,4 +1,4 @@
-baseURL = "/blog/"
+baseURL = "http://featherbear.github.io/blog/"
 publishDir = ".."
 
 # https://github.com/josephhutch/aether
@@ -15,11 +15,11 @@ bgImg = "IMG_0072.jpg"
 brandImg = "logo.png"
 brand = "andrew wong"
 [[params.links]]
-  name = "about me"
-  path = "/about"
-[[params.links]]
   name = "blog"
   path = "_blog_"
+[[params.links]]
+  name = "about me"
+  path = "/about"
 [[params.links]]
   name = "photography"
   path = "/photos"

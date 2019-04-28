@@ -31,6 +31,7 @@ main header {
 main.container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 main #content {
   background-color: white;
