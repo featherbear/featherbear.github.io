@@ -9,7 +9,7 @@ breadcrumb: true
 ---
 
 <div style="text-align: center;">
-<video style="max-width: 760px" src="https://featherbear.github.io/UNSW-COMP1531/blog/post/assign/view_menu.mp4" autoplay="" loop="" muted="" data-vscid="a9zt1hpe7"></video>
+<video src="https://featherbear.github.io/UNSW-COMP1531/blog/post/assign/view_menu.mp4" autoplay loop muted></video>
 </div>
 
 This semester I had a group assignment where we had to create an online ordering system for a ficticious company called GourmetBurgers.  
