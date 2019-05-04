@@ -16,7 +16,12 @@ displayInList: true
 ---
 I got the opportunity to serve with my [brother](//navhaxs.au.eu.org) in the Production team (that is, lyrics and projection).
 
-Our playground was three LED walls and two confidence monitors.  
+Our playground was three LED walls (and two confidence monitors)!!!  
+
+![](IMG_20180818_185849.jpg)
+
+---
+
 ![](Snipaste_2018-12-26_22-08-56.png)
 ![](Stage Plan + Details 1.png)
 

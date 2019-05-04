@@ -2,7 +2,7 @@
 title: "Svelete"
 date: 2019-04-28T16:00:50+10:00
 description: ""
-categories: []
+categories: ["WebDev", "Programming"]
 featuredImage: ""
 displayInList: true
 breadcrumb: true

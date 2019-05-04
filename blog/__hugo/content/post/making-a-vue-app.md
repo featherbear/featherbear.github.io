@@ -1,7 +1,7 @@
 ---
 title: "Making a Vue App"
 date: 2019-04-25T18:10:39+10:00
-description: "<s>Revive</s> Rewrite the dead"
+description: "Revive, no... Rewrite the dead"
 categories: ["Programming", "WebDev"]
 featuredImage: ""
 displayInList: true
