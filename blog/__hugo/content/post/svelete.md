@@ -6,5 +6,6 @@ categories: ["WebDev", "Programming"]
 featuredImage: ""
 displayInList: true
 breadcrumb: true
+draft: true
 ---
 https://www.youtube.com/watch?v=043h4ugAj4c
