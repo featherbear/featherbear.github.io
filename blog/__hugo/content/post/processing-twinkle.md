@@ -10,6 +10,7 @@ breadcrumb: true
 
 > GitHub: https://github.com/featherbear/processing-twinkle
 
+Played around abit with [p5.js](https://p5js.org/), a Javascript implementation of the Processing language.
 
 <iframe src="https://featherbear.github.io/processing-twinkle/"></iframe>
 <style>

@@ -8,7 +8,7 @@ displayInList: true
 draft: true
 ---
 
-[Vue]:http://vuejs.org
+[Vue]: http://vuejs.org
 I had been meaning to recreate my personal website with the [Vue] framework, but it never happened.  
 And lowkey it probably won't ever happen.
 
@@ -26,11 +26,15 @@ First was sourcing the assets and libraries that I needed.
 
 * iCalendar parser - [ical.js](https://www.npmjs.com/package/ical.js)
 * Time library - [luxon](https://www.npmjs.com/package/luxon)
+* Calendar widget - [vue-cal](https://antoniandre.github.io/vue-cal/)
 
 ---
 
 Reading the Buefy documentation, it recommended to create the app using [Nuxt.js](https://nuxtjs.org/).
 
+EDIT: Fun story, I got rid of Nuxt because it made my site feel too... clunky
+<details>
+<summary>If you still want to read...</summary>
 > [Nuxt.js](https://nuxtjs.org/) is a "framework for Vue".  
 _A framework for frameworks??? Why!?_  
 &nbsp;  
@@ -55,15 +59,33 @@ Okay, sure, whatever.
 ? Choose a package manager: npm
 ```
 
+</details>
+
+# Code
+Next was to mash some keys on keyboard and write up the HTML code.  
+
+## Fetching the calendar data
+
+Because of Cross-Origin request policies, the browser won't be able to fetch the iCal file from Google Calendar, where my calendar data is stored.  
+Consequently, I have to use a CORS proxy (in my case, [`cors-anywhere`](https://github.com/Rob--W/cors-anywhere/))
+
+## Parsing the calendar data
+
+After fetching the data, I had to parse the iCal data into some format that I can use with [vue-cal](https://antoniandre.github.io/vue-cal/).  
+I adapted some [code from this guy](https://www.raymondcamden.com/2017/08/24/serverless-ical-parsing) and integrated [luxon](https://www.npmjs.com/package/luxon), so that I could work with times and dates easier.
+
+## The display
+
+Finally was putting the calendar data into the calendar itself.  
+Using [vue-cal](https://antoniandre.github.io/vue-cal/) was simple and straight-forward(s enough) to use.
+
+There is also a "Right now" box, which shows the events that are currently happening (to the minute).  
+Each minnute this activity box updates
+
 ---
 
-# Single-file Components
-With website frameworks, we are able to define our own elements with custom tag names. They then get converted (either dynamically or during compilation) into the base HTML element. To organise my DOM components, they would be stored in separate .vue files  
+And so there you have it, I finally ***touched*** on [Vue].  
+I definitely did not use [Vue] to its full potential, and basically just used it because the [vue-cal](https://antoniandre.github.io/vue-cal/) library needs it.  
+I could've just found another calendar library without [Vue] as a dependency.
 
-[Read More: vuejs.org/.../single-file-components.html](https://vuejs.org/v2/guide/single-file-components.html)
-
-# Workbox
-
-# Vuex
-Vuex is "a state management pattern + library for Vue.js applications"  
-In my eyes, it's basically a data storage and persitence model - a Vue implementation of localStorage and sessionStorage
+So here's the result of this little activity: [What you doing?](https://featherbear.github.io/wyd/)

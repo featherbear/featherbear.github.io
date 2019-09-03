@@ -12,9 +12,9 @@ displayInList: true
 <summary>Click to open</summary>
 ## Messaging / Calling
 * Contacts+
-* Android Messages
-* Messenger
-* Messenger Lite
+* Google Messages
+* Facebook Messenger
+* Facebook Messenger Lite
 * WhatsApp
 
 ## Travel
@@ -28,8 +28,6 @@ displayInList: true
 ## Multimedia
 * PhotoTime
 * PowerAmp
-* QMix-UC
-* UC Surface
 * F-Stop
 * Metronome by Soundbrenner
 * NewTek NDI
@@ -48,7 +46,7 @@ displayInList: true
 * Trello
 * Simplenote
 * Squid
-* Nine Folders
+* Nine Email
 * Joist 
 
 ## Utilties
@@ -58,8 +56,8 @@ displayInList: true
 * Life360
 * Keepass2Android
 * Mi Band Master
-* OpenSimSim
 * Timely
+* Resilio Sync
 
 </details>
 

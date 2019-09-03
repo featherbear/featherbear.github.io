@@ -62,6 +62,14 @@ Demo: [featherbear.github.io/UNSW-CompClub2019Summer-CTF](https://featherbear.gi
 
 ---
 
-Performance
-So it turned out surprisingly very well. With at least 35 concurrent clients - there was no noticable server delay!
+**Deployment**
+
+The below is a diagram of how one might use nginx with this server to achieve a HTTPS connection
+
+![](20190618_022148.jpg)
+
+---
+
+**Performance**  
+So it turned out surprisingly very well. With at least 35 concurrent clients - there was no noticable server delay!  
 Score!

@@ -26,6 +26,8 @@ td[align=center] {
 
 ---
 
+> Download the QLC+ fixture I made (12 Channel): [Lampwin-Mini-LED-Spot-30W.qxf](./Lampwin-Mini-LED-Spot-30W.qxf)
+
 I recently purchased two [Chinese brand moving heads](https://www.ebay.com.au/itm/2x-30W-RGBW-LED-Moving-Head-Light-DMX512-Stage-Party-DJ-Pub-Bar-Show-Lighting-AU/202635836645?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649) from [eBay](https://www.ebay.com.au/itm/2x-30W-RGBW-LED-Moving-Head-Light-DMX512-Stage-Party-DJ-Pub-Bar-Show-Lighting-AU/202635836645?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649)
 
 I was not expecting to receive quality, but I did receive amusement and amazement as to how much enjoyment $70 could bring me. As a stage production guy, you know quality when you see it. This definitely was not quality, but it was indeed well built.
