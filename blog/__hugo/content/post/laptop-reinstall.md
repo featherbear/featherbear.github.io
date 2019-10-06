@@ -73,7 +73,10 @@ In addition, I use [this gorgeous minimal theme](https://github.com/EvanPurkhise
 
 Disable all text, remove the buttons, delete extra boot entries, and voila!
 
+{{% center %}}
 ![](20190829_211721.jpg)
+{{% /center %}}
+
 
 ---
 
@@ -89,5 +92,8 @@ Geez.
 
 Also, a friendly reminder never to use real answers.  
 Microsoft has been pushing for online accounts, which negatively means that if your account gets compromised, your computer too is compromised.
+
+{{% image-fullwidth %}}
 ![](security.jpeg)
+{{% /image-fullwidth %}}
 

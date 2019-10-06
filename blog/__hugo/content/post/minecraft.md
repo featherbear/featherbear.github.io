@@ -26,9 +26,9 @@ We played with the [Feed The Beast](https://www.feed-the-beast.com/) modpack, an
 I got into server administration - running servers, and contributing to [Bukkit](https://bukkit.org/) plugins.  
 In fact I helped write Minecraft Server Dashboard - [Website](https://navhaxs.au.eu.org/minecraft-dashboard/) [Minecraft Forums](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1265318-)
 &nbsp;  
-I also managed a server called FreakyNova, owned by some guy in Norway.
+I also managed a server called FreakyNova, owned by some guy in Norway.  
 &nbsp;  
-**But that was years ago**.
+**But that was years ago**.  
 &nbsp;  
 I stopped playing Minecraft in around 2013, right before [Microsoft acquired Minecraft](https://techcrunch.com/2014/09/15/microsoft-has-acquired-minecraft/).  
 I think the angsty 'me' thought that the game would fall into ruin, I was upset that Notch (game founder) had sold **and left** the company.  
@@ -38,10 +38,12 @@ I think the angsty 'me' thought that the game would fall into ruin, I was upset 
 Fast forwards to today, around 6 years later... it looks like they're not doing that bad.  
 So in a bid to procrastinate from [university](../unsw), I decided to download Minecraft and give it another go.
 
+{{% image-fullwidth %}}
 ![](2019-08-25_19.03.39.png)
 ![](2019-08-25_19.29.39.png)
 ![](2019-08-25_19.19.57.png)
-Screenshots: [OptiFine](https://optifine.net/) + [BSL Shaders](https://bitslablab.com/)
+{{% /image-fullwidth %}}
+_Screenshots taken with [OptiFine](https://optifine.net/) + [BSL Shaders](https://bitslablab.com/)_
 
 Alot has stayed the same, especially that blocky pixel feel.  
 Although install shaders and it's a whole new world.
