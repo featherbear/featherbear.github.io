@@ -8,12 +8,12 @@ displayInList: true
 breadcrumb: true
 ---
 
-![](20190824_141701.jpg)
+![](20190824_141701.jpg) ![](20190824_124606.jpg) ![](20190824_092357.jpg)
 
 
 I'm [back at it again](../rice-rally-2018-sydney) doing vision playback for RICE Rally 2019 at ICC Sydney!
 
-![](20190824_124606.jpg)
+
 
 **Technologies**:
 

@@ -88,6 +88,9 @@ We purchased a replacement motherboard (an Intel i7-8650U and 8GB of RAM for onl
 
 Geez.
 
+EDIT: 06/10/2019  
+After a month of running, I'm happy to say that everything is back to normal, and running smoothly!!!
+
 ---
 
 Also, a friendly reminder never to use real answers.  
