@@ -1,7 +1,7 @@
 ---
 title: "UNSW COMP2521"
 date: 2018-12-20T18:21:10+11:00
-description: "Data Structures and Algorithms course at UNSW"
+description: "Data Structures and Algorithms"
 categories: ["UNSW", "Programming"]
 displayInMenu: false
 displayInList: true

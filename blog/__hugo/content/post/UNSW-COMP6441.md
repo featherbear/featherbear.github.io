@@ -1,7 +1,7 @@
 ---
 title: "UNSW COMP6441"
 date: 2019-06-03T23:29:19+10:00
-description: "Security Engineering and Cyber Security course at UNSW"
+description: "Security Engineering and Cyber Security"
 categories: ["UNSW"]
 displayInMenu: false
 displayInList: true
