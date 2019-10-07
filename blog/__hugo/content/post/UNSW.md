@@ -22,5 +22,4 @@ showCategoriesInList: false
 
 ---
 
-[COMP3161](//featherbear.github.io/UNSW-COMP3161/) - Concepts of Programming Languages (unofficial) (2019 Session Three)  
 [COMP3331](//featherbear.github.io/UNSW-COMP3331/) - Computer Networks and Applications (unofficial) (2019 Session Three)  
