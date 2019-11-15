@@ -1,4 +1,392 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>PreSonus StudioLive API &middot; Andrew&#39;s Blog</title><meta name=description content="Exploring the PreSonus StudioLive III network control protocol"><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-107434487-3','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css><link href=/blog/assets/prism.js/prism.css rel=stylesheet><script defer src=/blog/assets/prism.js/prism.js onload="let path;Prism.plugins.autoloader.languages_path=((path=this.getAttribute('src')).substring(0,path.lastIndexOf('/')))+'/languages/'"></script><script defer src=https://use.fontawesome.com/releases/v5.3.1/js/all.js></script><link rel=stylesheet href=/blog/css/site.css><style>body{background-image:url(/blog/IMG_0072.jpg)}</style><script defer src=/blog/js/site.js></script></head><body class=has-navbar-fixed-top><nav class="navbar is-fixed-top is-unselectable" role=navigation aria-label="main navigation"><div class=container><div class=navbar-brand><a class="navbar-item has-text-grey-darker is-size-3" href=http://featherbear.github.io/blog/>andrew wong</a>
-<a role=button class="navbar-burger burger" aria-label=menu aria-expanded=false data-target=navmenu><span aria-hidden=true></span><span aria-hidden=true></span><span aria-hidden=true></span></a></div><div id=navmenu class=navbar-menu><div class=navbar-end><div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-black-ter is-arrowless" href=http://featherbear.github.io/blog/>blog</a><div class=navbar-dropdown><a href=/blog/categories/ai class=navbar-item>ai</a><a href=/blog/categories/audio-visual class=navbar-item>audio-visual</a><a href=/blog/categories/life class=navbar-item>life</a><a href=/blog/categories/networking class=navbar-item>networking</a><a href=/blog/categories/photography class=navbar-item>photography</a><a href=/blog/categories/programming class=navbar-item>programming</a><a href=/blog/categories/python class=navbar-item>python</a><a href=/blog/categories/unsw class=navbar-item>unsw</a><a href=/blog/categories/webdev class=navbar-item>webdev</a></div></div><a class="navbar-item has-text-grey" href=/about>about me</a>
-<a class="navbar-item has-text-grey" href=/photos>photography</a>
-<a class="navbar-item has-text-grey" href=/programming>programming</a></div></div></div></nav><main class=container><header class="hero is-info"><div class=hero-body><div class=container><h1 class=title>PreSonus StudioLive API</h1><h2 class=subtitle>Posted <time datetime=2019-05-13>May 13, 2019</time></h2></div></div></header><article id=content><blockquote><p><a href=https://github.com/featherbear/PreSonus-StudioLive-API><i class="fab fa-github" aria-hidden=true></i>GitHub: github.com/featherbear/PreSonus-StudioLive-API</a></p></blockquote><p>I wanted to add functionality to the PreSonus StudioLive 16 Series III](../PreSonus-StudioLive-16) console. For example, to fade the level of a channel instead of instant (un)muting.<br>There is no MIDI interface for the console - so we would have to emulate the network messages sent from their <a href=https://www.presonus.com/products/uc-surface>UC Surface</a> app.</p><h1 id=connection>Connection</h1><p>The console listens on TCP <code>53000</code></p><p>KeepAlive packets are sent periodically every 1 second.</p><h1 id=packet>Packet</h1><p>Each packet starts with <code>0x55 0x43 0x00 0x01</code><br>Followed by the length (short) (little-endian) of the payload<br>Followed by a message code (2 bytes)<br>Then some sort connection verification <code>__ 0x00 __ 0x00</code></p><h2 id=message-codes>Message Codes</h2><table><thead><tr><th align=left>API Event Name</th><th align=center>ASCII</th><th align=center>Byte Code</th></tr></thead><tbody><tr><td align=left>KeepAlive</td><td align=center>KA</td><td align=center><code>0x75</code> <code>0x65</code></td></tr><tr><td align=left>Hello</td><td align=center>UM</td><td align=center><code>0x85</code> <code>0x77</code></td></tr><tr><td align=left>JSON</td><td align=center>JM</td><td align=center><code>0x74</code> <code>0x77</code></td></tr><tr><td align=left>Setting</td><td align=center>PV</td><td align=center><code>0x80</code> <code>0x86</code></td></tr><tr><td align=left>Settings2</td><td align=center>PL</td><td align=center><code>0x80</code> <code>0x76</code></td></tr><tr><td align=left>FileResource</td><td align=center>FR</td><td align=center><code>0x70</code> <code>0x82</code></td></tr><tr><td align=left>FileResource2</td><td align=center>FD</td><td align=center><code>0x70</code> <code>0x68</code></td></tr><tr><td align=left>UNKNOWN_REPLY</td><td align=center>BO</td><td align=center><code>0x66</code> <code>0x79</code></td></tr><tr><td align=left>CompressedUnknown</td><td align=center>CK</td><td align=center><code>0x67</code> <code>0x75</code></td></tr></tbody></table><h1 id=metering>Metering</h1><p>Metering data is transmitted via UDP from the console, to a port requested by the client.</p><p>The metering data looks something like this:</p><style>table{width:100%;border-collapse:collapse}td{padding:3px;border:1px solid #a7a7a7}td[align=center],th{text-align:center}</style><table><thead><tr><th align=center>0-3</th><th align=center>4-5</th><th align=center>6-7</th><th align=center>7-11</th><th align=center>12-15</th><th align=center>16-19</th><th align=center>20&hellip;</th></tr></thead><tbody><tr><td align=center>head</td><td align=center>length</td><td align=center>code</td><td align=center>conn</td><td align=center>levl</td><td align=center>???</td><td align=center>data</td></tr></tbody></table><p>The <code>length</code> bytes don&rsquo;t seem to match up with the size of the payload.<br>And I don&rsquo;t know that bytes <code>16-19</code> refer to</p><p><img src=Snipaste_2019-05-13_17-24-53.png alt></p></article></main><div class=container><h1 class="title has-text-grey-lighter">More posts</h1><div class=listArticle><a href=http://featherbear.github.io/blog/post/wyse-cx0/><article class=media><div class=media-content><h2 class="title is-marginless">Wyse CX0 C10LE</h2><div class=level><div class=level-left><p class=subtitle>Second-hand thin clients!</p></div><div class=level-right><p>Posted <time datetime=2019-05-19>May 19, 2019</time></p></div></div></div></article><div class="is-unselectable categories"><a href=/blog/categories/life><span class="tag is-info">#Life</span></a></div></a></div><div class=listArticle><a href=http://featherbear.github.io/blog/post/screen-protectors/><article class=media><div class=media-content><h2 class="title is-marginless">Screen Protectors</h2><div class=level><div class=level-left><p class=subtitle>An endless cycle of buying screen protectors</p></div><div class=level-right><p>Posted <time datetime=2019-05-02>May 2, 2019</time></p></div></div></div></article><div class="is-unselectable categories"><a href=/blog/categories/life><span class="tag is-info">#Life</span></a></div></a></div></div><div id=scroll-nav></div><footer class=footer><nav class="breadcrumb is-right" aria-label=breadcrumbs><ul><li><a href=../../>blog</a></li><li><a href=../>post</a></li><li class=is-active><a href=# aria-current=page>presonus-studiolive-api</a></li></ul></nav><hr><figure class="image is-128x128 logo" style="margin:0 auto"><img src=/blog/logo.png></figure></footer><link rel=stylesheet href=/blog/assets/luminous.js/luminous-basic.min.css><script src=/blog/assets/luminous.js/Luminous.min.js></script><script type=text/javascript>document.querySelectorAll("#content img").forEach(e=>new Luminous(e,{sourceAttribute:"src"}))</script><script src=/blog/assets/elevator.js/elevator.min.js></script><script type=text/javascript>var elevator=new Elevator({element:document.querySelector(".footer .logo"),mainAudio:'\/blog\/assets\/elevator.js\/elevator.mp3',endAudio:'\/blog\/assets\/elevator.js\/ding.mp3'});</script><script>{let max=document.body.scrollHeight-window.innerHeight;window.addEventListener('scroll',function(){document.getElementById('scroll-nav').style.width=`${this.scrollY/max*100}%`});document.getElementById('scroll-nav').style.width=`${window.scrollY/max*100}%`}</script></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>PreSonus StudioLive API &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="Exploring the PreSonus StudioLive III network control protocol" />
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-107434487-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+  <link href="/blog/assets/prism.js/prism.css" rel="stylesheet" />
+<script defer src="/blog/assets/prism.js/prism.js" onload="let path; Prism.plugins.autoloader.languages_path = ((path = this.getAttribute('src')).substring(0,path.lastIndexOf('/'))) + '/languages/'"></script>
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="/blog/css/site.css" />
+  <style>
+    body {
+      background-image: url("/blog/IMG_0072.jpg");
+    }
+  </style>
+  <script defer src="/blog/js/site.js"></script>
+</head>
+  <body class="has-navbar-fixed-top">
+  
+<nav class="navbar is-fixed-top is-unselectable" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-grey-darker is-size-3" href="http://featherbear.github.io/blog/">
+        andrew wong
+        
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navmenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navmenu" class="navbar-menu">
+      <div class="navbar-end">
+        
+        
+          
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link has-text-black-ter is-arrowless" href="http://featherbear.github.io/blog/">blog</a>
+                <div class="navbar-dropdown">
+                    <a href="/blog/categories/ai" class="navbar-item">ai</a><a href="/blog/categories/audio-visual" class="navbar-item">audio-visual</a><a href="/blog/categories/life" class="navbar-item">life</a><a href="/blog/categories/networking" class="navbar-item">networking</a><a href="/blog/categories/photography" class="navbar-item">photography</a><a href="/blog/categories/programming" class="navbar-item">programming</a><a href="/blog/categories/python" class="navbar-item">python</a><a href="/blog/categories/unsw" class="navbar-item">unsw</a><a href="/blog/categories/webdev" class="navbar-item">webdev</a>
+                    
+                    
+                </div>
+            </div>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/about">about me</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/photos">photography</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/programming">programming</a>
+          
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <main class="container">
+    <header class="hero is-info" >
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">PreSonus StudioLive API</h1>
+            
+            <h2 class="subtitle">Posted <time datetime="2019-05-13">May 13, 2019</time></h2>
+            
+          </div>
+        </div>
+      </header>
+    <article id="content">
+
+<blockquote>
+<p><a href="https://github.com/featherbear/PreSonus-StudioLive-API"><i class="fab fa-github" aria-hidden="true"></i> GitHub: github.com/featherbear/PreSonus-StudioLive-API</a></p>
+</blockquote>
+
+<p>I wanted to add functionality to the PreSonus StudioLive 16 Series III](../PreSonus-StudioLive-16) console. For example, to fade the level of a channel instead of instant (un)muting.<br />
+There is no MIDI interface for the console - so we would have to emulate the network messages sent from their <a href="https://www.presonus.com/products/uc-surface">UC Surface</a> app.</p>
+
+<h1 id="connection">Connection</h1>
+
+<p>The console listens on TCP <code>53000</code></p>
+
+<p>KeepAlive packets are sent periodically every 1 second.</p>
+
+<h1 id="packet">Packet</h1>
+
+<p>Each packet starts with <code>0x55 0x43 0x00 0x01</code><br />
+Followed by the length (short) (little-endian) of the payload<br />
+Followed by a message code (2 bytes)<br />
+Then some sort connection verification <code>__ 0x00 __ 0x00</code></p>
+
+<h2 id="message-codes">Message Codes</h2>
+
+<table>
+<thead>
+<tr>
+<th align="left">API Event Name</th>
+<th align="center">ASCII</th>
+<th align="center">Byte Code</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">KeepAlive</td>
+<td align="center">KA</td>
+<td align="center"><code>0x75</code> <code>0x65</code></td>
+</tr>
+
+<tr>
+<td align="left">Hello</td>
+<td align="center">UM</td>
+<td align="center"><code>0x85</code> <code>0x77</code></td>
+</tr>
+
+<tr>
+<td align="left">JSON</td>
+<td align="center">JM</td>
+<td align="center"><code>0x74</code> <code>0x77</code></td>
+</tr>
+
+<tr>
+<td align="left">Setting</td>
+<td align="center">PV</td>
+<td align="center"><code>0x80</code> <code>0x86</code></td>
+</tr>
+
+<tr>
+<td align="left">Settings2</td>
+<td align="center">PL</td>
+<td align="center"><code>0x80</code> <code>0x76</code></td>
+</tr>
+
+<tr>
+<td align="left">FileResource</td>
+<td align="center">FR</td>
+<td align="center"><code>0x70</code> <code>0x82</code></td>
+</tr>
+
+<tr>
+<td align="left">FileResource2</td>
+<td align="center">FD</td>
+<td align="center"><code>0x70</code> <code>0x68</code></td>
+</tr>
+
+<tr>
+<td align="left">UNKNOWN_REPLY</td>
+<td align="center">BO</td>
+<td align="center"><code>0x66</code> <code>0x79</code></td>
+</tr>
+
+<tr>
+<td align="left">CompressedUnknown</td>
+<td align="center">CK</td>
+<td align="center"><code>0x67</code> <code>0x75</code></td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="metering">Metering</h1>
+
+<p>Metering data is transmitted via UDP from the console, to a port requested by the client.</p>
+
+<p>The metering data looks something like this:</p>
+
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+td {
+ padding: 3px;
+ border: 1px solid #A7A7A7;
+}
+
+td[align=center], th {
+  text-align: center;
+}
+</style>
+
+<table>
+<thead>
+<tr>
+<th align="center">0-3</th>
+<th align="center">4-5</th>
+<th align="center">6-7</th>
+<th align="center">7-11</th>
+<th align="center">12-15</th>
+<th align="center">16-19</th>
+<th align="center">20&hellip;</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">head</td>
+<td align="center">length</td>
+<td align="center">code</td>
+<td align="center">conn</td>
+<td align="center">levl</td>
+<td align="center">???</td>
+<td align="center">data</td>
+</tr>
+</tbody>
+</table>
+
+<p>The <code>length</code> bytes don&rsquo;t seem to match up with the size of the payload.<br />
+And I don&rsquo;t know that bytes <code>16-19</code> refer to</p>
+
+<p><img src="Snipaste_2019-05-13_17-24-53.png" alt="" /></p>
+</article>
+  </main>
+
+  <div class="container">
+    <h1 class="title has-text-grey-lighter">More posts</h1>
+    
+      <div class="listArticle">
+  <a href="http://featherbear.github.io/blog/post/wyse-cx0/">
+    <article class="media">
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">Wyse CX0 C10LE</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">Second-hand thin clients!</p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="2019-05-19">May 19, 2019</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/life" >
+          <span class="tag is-info">#Life</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+
+    
+      <div class="listArticle">
+  <a href="http://featherbear.github.io/blog/post/screen-protectors/">
+    <article class="media">
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">Screen Protectors</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">An endless cycle of buying screen protectors</p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="2019-05-02">May 2, 2019</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/life" >
+          <span class="tag is-info">#Life</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+  </div>
+    <div id="scroll-nav"></div>
+    <footer class="footer">
+  
+  <nav class="breadcrumb is-right" aria-label="breadcrumbs">
+    <ul>
+      
+      
+      
+
+      
+      
+
+      
+
+      
+      
+      
+      
+      <li>
+        
+        <a href="../../">blog</a>
+      </li>
+      
+      
+      
+      
+      
+      <li>
+        
+        <a href="../">post</a>
+      </li>
+      
+      
+      
+      
+      
+      <li class="is-active">
+        <a href="#" aria-current="page">presonus-studiolive-api</a>
+      </li>
+      
+      
+    </ul>
+  </nav>
+  <hr>
+  
+  
+    <figure class="image is-128x128 logo" style="margin: 0 auto;">
+      <img src="/blog/logo.png">
+    </figure>
+  
+</footer>
+
+    <link rel="stylesheet" href="/blog/assets/luminous.js/luminous-basic.min.css" />
+<script src='/blog/assets/luminous.js/Luminous.min.js'></script>
+<script type="text/javascript">
+document.querySelectorAll("#content img").forEach(e => new Luminous(e , {
+    sourceAttribute: "src"
+  })
+)
+</script>
+
+<script src='/blog/assets/elevator.js/elevator.min.js'></script>
+<script type="text/javascript">
+  var elevator = new Elevator({
+    element: document.querySelector(".footer .logo"),
+    mainAudio: '\/blog\/assets\/elevator.js\/elevator.mp3',
+    endAudio: '\/blog\/assets\/elevator.js\/ding.mp3'
+  });
+</script>
+
+
+    <script>
+      {
+        let max = document.body.scrollHeight - window.innerHeight;
+        window.addEventListener('scroll', function() {
+          document.getElementById('scroll-nav').style.width = `${this.scrollY / max * 100}%`
+        });
+        document.getElementById('scroll-nav').style.width = `${window.scrollY / max * 100}%`
+      }
+    </script>
+  </body>
+</html>

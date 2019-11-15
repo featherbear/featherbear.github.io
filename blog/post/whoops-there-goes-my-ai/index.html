@@ -1,14 +1,320 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>Whoops There Goes My AI &middot; Andrew&#39;s Blog</title><meta name=description content="if (aboutToCrash) dont();"><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-107434487-3','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css><link href=/blog/assets/prism.js/prism.css rel=stylesheet><script defer src=/blog/assets/prism.js/prism.js onload="let path;Prism.plugins.autoloader.languages_path=((path=this.getAttribute('src')).substring(0,path.lastIndexOf('/')))+'/languages/'"></script><script defer src=https://use.fontawesome.com/releases/v5.3.1/js/all.js></script><link rel=stylesheet href=/blog/css/site.css><style>body{background-image:url(/blog/IMG_0072.jpg)}</style><script defer src=/blog/js/site.js></script></head><body class=has-navbar-fixed-top><nav class="navbar is-fixed-top is-unselectable" role=navigation aria-label="main navigation"><div class=container><div class=navbar-brand><a class="navbar-item has-text-grey-darker is-size-3" href=http://featherbear.github.io/blog/>andrew wong</a>
-<a role=button class="navbar-burger burger" aria-label=menu aria-expanded=false data-target=navmenu><span aria-hidden=true></span><span aria-hidden=true></span><span aria-hidden=true></span></a></div><div id=navmenu class=navbar-menu><div class=navbar-end><div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-black-ter is-arrowless" href=http://featherbear.github.io/blog/>blog</a><div class=navbar-dropdown><a href=/blog/categories/ai class=navbar-item>ai</a><a href=/blog/categories/audio-visual class=navbar-item>audio-visual</a><a href=/blog/categories/life class=navbar-item>life</a><a href=/blog/categories/networking class=navbar-item>networking</a><a href=/blog/categories/photography class=navbar-item>photography</a><a href=/blog/categories/programming class=navbar-item>programming</a><a href=/blog/categories/python class=navbar-item>python</a><a href=/blog/categories/unsw class=navbar-item>unsw</a><a href=/blog/categories/webdev class=navbar-item>webdev</a></div></div><a class="navbar-item has-text-grey" href=/about>about me</a>
-<a class="navbar-item has-text-grey" href=/photos>photography</a>
-<a class="navbar-item has-text-grey" href=/programming>programming</a></div></div></div></nav><main class=container><header class="hero is-info"><div class=hero-body><div class=container><h1 class=title>Whoops There Goes My AI</h1><h2 class=subtitle>Posted <time datetime=2018-10-22>Oct 22, 2018</time></h2></div></div></header><article id=content><blockquote><p>GitHub: <a href=https://github.com/featherbear/Whoops-There-Goes-My-AI/>featherbear/Whoops-There-Goes-My-AI</a></p></blockquote><p>So there&rsquo;s a game on the <a href="https://play.google.com/store/apps/details?id=com.NoMossStudios.WhoopsThereGoesMyOrange">Google Play Store</a> and <a href=https://itunes.apple.com/au/app/whoops-there-goes-my-orange/id1439146494>Apple App Store</a> called <em>Whoops! There Goes My Orange</em>.</p><p>You play as an orange falling from the sky, and you have to avoid the red bars. Simple, right?<br>Yep! But rage-inducing.</p><p>Anyway, so I decided to have a crack at writing some sort of AI for this game&hellip;<br>It&rsquo;d just be a collision avoidance algorithm&hellip; not really an AI.</p><h2 id=summarised-something-like-this>Summarised something like this</h2><pre><code class=language-pseudo>if (aboutToCrash) {
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Whoops There Goes My AI &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="if (aboutToCrash) dont();" />
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-107434487-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+  <link href="/blog/assets/prism.js/prism.css" rel="stylesheet" />
+<script defer src="/blog/assets/prism.js/prism.js" onload="let path; Prism.plugins.autoloader.languages_path = ((path = this.getAttribute('src')).substring(0,path.lastIndexOf('/'))) + '/languages/'"></script>
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="/blog/css/site.css" />
+  <style>
+    body {
+      background-image: url("/blog/IMG_0072.jpg");
+    }
+  </style>
+  <script defer src="/blog/js/site.js"></script>
+</head>
+  <body class="has-navbar-fixed-top">
+  
+<nav class="navbar is-fixed-top is-unselectable" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-grey-darker is-size-3" href="http://featherbear.github.io/blog/">
+        andrew wong
+        
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navmenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navmenu" class="navbar-menu">
+      <div class="navbar-end">
+        
+        
+          
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link has-text-black-ter is-arrowless" href="http://featherbear.github.io/blog/">blog</a>
+                <div class="navbar-dropdown">
+                    <a href="/blog/categories/ai" class="navbar-item">ai</a><a href="/blog/categories/audio-visual" class="navbar-item">audio-visual</a><a href="/blog/categories/life" class="navbar-item">life</a><a href="/blog/categories/networking" class="navbar-item">networking</a><a href="/blog/categories/photography" class="navbar-item">photography</a><a href="/blog/categories/programming" class="navbar-item">programming</a><a href="/blog/categories/python" class="navbar-item">python</a><a href="/blog/categories/unsw" class="navbar-item">unsw</a><a href="/blog/categories/webdev" class="navbar-item">webdev</a>
+                    
+                    
+                </div>
+            </div>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/about">about me</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/photos">photography</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/programming">programming</a>
+          
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <main class="container">
+    <header class="hero is-info" >
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">Whoops There Goes My AI</h1>
+            
+            <h2 class="subtitle">Posted <time datetime="2018-10-22">Oct 22, 2018</time></h2>
+            
+          </div>
+        </div>
+      </header>
+    <article id="content">
+
+<blockquote>
+<p>GitHub: <a href="https://github.com/featherbear/Whoops-There-Goes-My-AI/">featherbear/Whoops-There-Goes-My-AI</a></p>
+</blockquote>
+
+<p>So there&rsquo;s a game on the <a href="https://play.google.com/store/apps/details?id=com.NoMossStudios.WhoopsThereGoesMyOrange">Google Play Store</a> and <a href="https://itunes.apple.com/au/app/whoops-there-goes-my-orange/id1439146494">Apple App Store</a> called <em>Whoops! There Goes My Orange</em>.</p>
+
+<p>You play as an orange falling from the sky, and you have to avoid the red bars. Simple, right?<br />
+Yep! But rage-inducing.</p>
+
+<p>Anyway, so I decided to have a crack at writing some sort of AI for this game&hellip;<br />
+It&rsquo;d just be a collision avoidance algorithm&hellip; not really an AI.</p>
+
+<h2 id="summarised-something-like-this">Summarised something like this</h2>
+
+<pre><code class="language-pseudo">if (aboutToCrash) {
   dont();
 }
-</code></pre><p>And here&rsquo;s a little demo&hellip;
-<video controls src="https://github.com/featherbear/Whoops-There-Goes-My-AI/blob/master/Demo.mp4?raw=true" style=width:100%></video></p><p>39.4 seconds, 2nd place - not bad!</p><hr><p>The sort of data you&rsquo;d need for analysis&hellip;
-<img src=https://raw.githubusercontent.com/featherbear/Whoops-There-Goes-My-AI/master/docs/velcocity.png alt>
-<img src=https://raw.githubusercontent.com/featherbear/Whoops-There-Goes-My-AI/master/docs/data.png alt>
-<img src=https://raw.githubusercontent.com/featherbear/Whoops-There-Goes-My-AI/master/docs/effective%20player%20space.png alt></p><hr><p>Speaking of which&hellip;
-<img src=https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/5d/73/bc/5d73bc2a-8f99-4cd2-ef20-3689ebcc8c1e/pr_source.jpg/690x0w.jpg alt></p><p>Oh hey, that&rsquo;s me (#10)&hellip;<br>But wait, that&rsquo;s also me (#8), and me (#9)&hellip; &ndash;&gt; <em>wow I suck, even my AI (#2) beat me&hellip;</em></p><p>To store the high scores online, there must be some database&hellip;<br>If we have a look at the network activity from this application, we get this URL: <code>http://nomossgames.com/whoops/score.php</code>.</p><p>It&rsquo;s got <strong>some</strong> sort of anti-spam prevention.<br>It requires a <code>secret</code> query argument, as well as a <code>secret</code> body argument (POST).</p><p>So then I was able to do something like this:</p><pre><code class=language-bash>curl &quot;http://nomossgames.com/whoops/score.php?secret=[QUERY_SECRET]&quot; -d &quot;score=26.16&amp;secret=[POST_SECRET]&amp;name=z5206677&quot;
-</code></pre><p>And, tada! I&rsquo;m on the leaderboard!</p></article></main><div class=container><h1 class="title has-text-grey-lighter">More posts</h1><div class=listArticle><a href=http://featherbear.github.io/blog/post/masters-iphone/><article class=media><figure class=media-left><p class="image is-128x128"><img src=/blog/post/masters-iphone/cover.png></p></figure><div class=media-content><h2 class="title is-marginless">[SCAM] Masters iPhone</h2><div class=level><div class=level-left><p class=subtitle></p></div><div class=level-right><p>Posted <time datetime=2018-11-01>Nov 1, 2018</time></p></div></div></div></article><div class="is-unselectable categories"><a href=/blog/categories/life><span class="tag is-info">#Life</span></a></div></a></div><div class=listArticle><a href=http://featherbear.github.io/blog/post/rice-rally-2018-sydney/><article class=media><figure class=media-left><p class="image is-128x128"><img src=/blog/post/rice-rally-2018-sydney/719-x-322-1.jpg></p></figure><div class=media-content><h2 class="title is-marginless">RICE Rally 2018 Sydney</h2><div class=level><div class=level-left><p class=subtitle></p></div><div class=level-right><p>Posted <time datetime=2018-08-18>Aug 18, 2018</time></p></div></div></div></article><div class="is-unselectable categories"><a href=/blog/categories/life><span class="tag is-info">#Life</span></a>
-<a href=/blog/categories/audio-visual><span class="tag is-info">#Audio Visual</span></a></div></a></div></div><div id=scroll-nav></div><footer class=footer><nav class="breadcrumb is-right" aria-label=breadcrumbs><ul><li><a href=../../>blog</a></li><li><a href=../>post</a></li><li class=is-active><a href=# aria-current=page>whoops-there-goes-my-ai</a></li></ul></nav><hr><figure class="image is-128x128 logo" style="margin:0 auto"><img src=/blog/logo.png></figure></footer><link rel=stylesheet href=/blog/assets/luminous.js/luminous-basic.min.css><script src=/blog/assets/luminous.js/Luminous.min.js></script><script type=text/javascript>document.querySelectorAll("#content img").forEach(e=>new Luminous(e,{sourceAttribute:"src"}))</script><script src=/blog/assets/elevator.js/elevator.min.js></script><script type=text/javascript>var elevator=new Elevator({element:document.querySelector(".footer .logo"),mainAudio:'\/blog\/assets\/elevator.js\/elevator.mp3',endAudio:'\/blog\/assets\/elevator.js\/ding.mp3'});</script><script>{let max=document.body.scrollHeight-window.innerHeight;window.addEventListener('scroll',function(){document.getElementById('scroll-nav').style.width=`${this.scrollY/max*100}%`});document.getElementById('scroll-nav').style.width=`${window.scrollY/max*100}%`}</script></body></html>
+</code></pre>
+
+<p>And here&rsquo;s a little demo&hellip;
+<video controls src="https://github.com/featherbear/Whoops-There-Goes-My-AI/blob/master/Demo.mp4?raw=true" style="width: 100%"></video></p>
+
+<p>39.4 seconds, 2nd place - not bad!</p>
+
+<hr />
+
+<p>The sort of data you&rsquo;d need for analysis&hellip;
+<img src="https://raw.githubusercontent.com/featherbear/Whoops-There-Goes-My-AI/master/docs/velcocity.png" alt="" />
+<img src="https://raw.githubusercontent.com/featherbear/Whoops-There-Goes-My-AI/master/docs/data.png" alt="" />
+<img src="https://raw.githubusercontent.com/featherbear/Whoops-There-Goes-My-AI/master/docs/effective%20player%20space.png" alt="" /></p>
+
+<hr />
+
+<p>Speaking of which&hellip;
+<img src="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/5d/73/bc/5d73bc2a-8f99-4cd2-ef20-3689ebcc8c1e/pr_source.jpg/690x0w.jpg" alt="" /></p>
+
+<p>Oh hey, that&rsquo;s me (#10)&hellip;<br />
+But wait, that&rsquo;s also me (#8), and me (#9)&hellip; &ndash;&gt; <em>wow I suck, even my AI (#2) beat me&hellip;</em></p>
+
+<p>To store the high scores online, there must be some database&hellip;<br />
+If we have a look at the network activity from this application, we get this URL: <code>http://nomossgames.com/whoops/score.php</code>.</p>
+
+<p>It&rsquo;s got <strong>some</strong> sort of anti-spam prevention.<br />
+It requires a <code>secret</code> query argument, as well as a <code>secret</code> body argument (POST).</p>
+
+<p>So then I was able to do something like this:</p>
+
+<pre><code class="language-bash">curl &quot;http://nomossgames.com/whoops/score.php?secret=[QUERY_SECRET]&quot; -d &quot;score=26.16&amp;secret=[POST_SECRET]&amp;name=z5206677&quot;
+</code></pre>
+
+<p>And, tada! I&rsquo;m on the leaderboard!</p>
+</article>
+  </main>
+
+  <div class="container">
+    <h1 class="title has-text-grey-lighter">More posts</h1>
+    
+      <div class="listArticle">
+  <a href="http://featherbear.github.io/blog/post/masters-iphone/">
+    <article class="media">
+      
+        <figure class="media-left">
+          <p class="image is-128x128">
+            <img src="/blog/post/masters-iphone/cover.png">
+          </p>
+        </figure>
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">[SCAM] Masters iPhone</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle"></p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="2018-11-01">Nov 1, 2018</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/life" >
+          <span class="tag is-info">#Life</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+
+    
+      <div class="listArticle">
+  <a href="http://featherbear.github.io/blog/post/rice-rally-2018-sydney/">
+    <article class="media">
+      
+        <figure class="media-left">
+          <p class="image is-128x128">
+            <img src="/blog/post/rice-rally-2018-sydney/719-x-322-1.jpg">
+          </p>
+        </figure>
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">RICE Rally 2018 Sydney</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle"></p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="2018-08-18">Aug 18, 2018</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/life" >
+          <span class="tag is-info">#Life</span>
+        </a>
+      
+        <a href="/blog/categories/audio-visual" >
+          <span class="tag is-info">#Audio Visual</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+  </div>
+    <div id="scroll-nav"></div>
+    <footer class="footer">
+  
+  <nav class="breadcrumb is-right" aria-label="breadcrumbs">
+    <ul>
+      
+      
+      
+
+      
+      
+
+      
+
+      
+      
+      
+      
+      <li>
+        
+        <a href="../../">blog</a>
+      </li>
+      
+      
+      
+      
+      
+      <li>
+        
+        <a href="../">post</a>
+      </li>
+      
+      
+      
+      
+      
+      <li class="is-active">
+        <a href="#" aria-current="page">whoops-there-goes-my-ai</a>
+      </li>
+      
+      
+    </ul>
+  </nav>
+  <hr>
+  
+  
+    <figure class="image is-128x128 logo" style="margin: 0 auto;">
+      <img src="/blog/logo.png">
+    </figure>
+  
+</footer>
+
+    <link rel="stylesheet" href="/blog/assets/luminous.js/luminous-basic.min.css" />
+<script src='/blog/assets/luminous.js/Luminous.min.js'></script>
+<script type="text/javascript">
+document.querySelectorAll("#content img").forEach(e => new Luminous(e , {
+    sourceAttribute: "src"
+  })
+)
+</script>
+
+<script src='/blog/assets/elevator.js/elevator.min.js'></script>
+<script type="text/javascript">
+  var elevator = new Elevator({
+    element: document.querySelector(".footer .logo"),
+    mainAudio: '\/blog\/assets\/elevator.js\/elevator.mp3',
+    endAudio: '\/blog\/assets\/elevator.js\/ding.mp3'
+  });
+</script>
+
+
+    <script>
+      {
+        let max = document.body.scrollHeight - window.innerHeight;
+        window.addEventListener('scroll', function() {
+          document.getElementById('scroll-nav').style.width = `${this.scrollY / max * 100}%`
+        });
+        document.getElementById('scroll-nav').style.width = `${window.scrollY / max * 100}%`
+      }
+    </script>
+  </body>
+</html>

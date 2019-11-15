@@ -1,33 +1,164 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UNSW on Andrew&#39;s Blog</title><link>http://featherbear.github.io/blog/categories/unsw/</link><description>Recent content in UNSW on Andrew&#39;s Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2019 09:18:21 +1000</lastBuildDate><atom:link href="http://featherbear.github.io/blog/categories/unsw/index.xml" rel="self" type="application/rss+xml"/><item><title>SECedu Summit 2019</title><link>http://featherbear.github.io/blog/post/secedu-summit-2019/</link><pubDate>Fri, 20 Sep 2019 09:18:21 +1000</pubDate><guid>http://featherbear.github.io/blog/post/secedu-summit-2019/</guid><description>Keynote: Richard Buckland - UNSW How do you create rascals?
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UNSW on Andrew&#39;s Blog</title>
+    <link>http://featherbear.github.io/blog/categories/unsw/</link>
+    <description>Recent content in UNSW on Andrew&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Sep 2019 09:18:21 +1000</lastBuildDate>
+    
+	<atom:link href="http://featherbear.github.io/blog/categories/unsw/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SECedu Summit 2019</title>
+      <link>http://featherbear.github.io/blog/post/secedu-summit-2019/</link>
+      <pubDate>Fri, 20 Sep 2019 09:18:21 +1000</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/secedu-summit-2019/</guid>
+      <description>Keynote: Richard Buckland - UNSW How do you create rascals?
 Teaching each other
 Keynote: Rachel Noble - ACSC &amp;ldquo;There&amp;rsquo;s a human mind behind every computer&amp;rdquo; EXP
-More than a Hacker - Developing Interdisciplinary Cyber Security Graduates What are the problems/risks with specialists? How do you maintain your ability in a field where technology is rapidly changing and evolving. Narow Should Cyber Security be taught in schools? The newer generation are born into technology Technology is too readily available and accessible, and privacy is too often traded for convenience How do you attract high school students to the field of Cyber Security?</description></item><item><title>Course-crashing UNSW COMP3331</title><link>http://featherbear.github.io/blog/post/unsw-comp3331/</link><pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate><guid>http://featherbear.github.io/blog/post/unsw-comp3331/</guid><description>Click here to go to the COMP3331 blog site</description></item><item><title>UNSW COMP2511</title><link>http://featherbear.github.io/blog/post/unsw-comp2511/</link><pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate><guid>http://featherbear.github.io/blog/post/unsw-comp2511/</guid><description>Click here to go to the COMP2511 blog site</description></item><item><title>UNSW MATH3411</title><link>http://featherbear.github.io/blog/post/unsw-math3411/</link><pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate><guid>http://featherbear.github.io/blog/post/unsw-math3411/</guid><description>Click here to go to the MATH3411 blog site</description></item><item><title>UNSW COMP6441</title><link>http://featherbear.github.io/blog/post/unsw-comp6441/</link><pubDate>Mon, 03 Jun 2019 23:29:19 +1000</pubDate><guid>http://featherbear.github.io/blog/post/unsw-comp6441/</guid><description>Click here to go to the COMP6441 blog site</description></item><item><title>Gourmet Burgers</title><link>http://featherbear.github.io/blog/post/gourmet-burgers/</link><pubDate>Thu, 25 Apr 2019 09:07:16 +1100</pubDate><guid>http://featherbear.github.io/blog/post/gourmet-burgers/</guid><description>This semester I had a group assignment where we had to create an online ordering system for a ficticious company called GourmetBurgers.
+More than a Hacker - Developing Interdisciplinary Cyber Security Graduates What are the problems/risks with specialists?  How do you maintain your ability in a field where technology is rapidly changing and evolving. Narow  Should Cyber Security be taught in schools?  The newer generation are born into technology Technology is too readily available and accessible, and privacy is too often traded for convenience  How do you attract high school students to the field of Cyber Security?</description>
+    </item>
+    
+    <item>
+      <title>Course-crashing UNSW COMP3331</title>
+      <link>http://featherbear.github.io/blog/post/unsw-comp3331/</link>
+      <pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw-comp3331/</guid>
+      <description>Click here to go to the COMP3331 blog site</description>
+    </item>
+    
+    <item>
+      <title>UNSW COMP2511</title>
+      <link>http://featherbear.github.io/blog/post/unsw-comp2511/</link>
+      <pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw-comp2511/</guid>
+      <description>Click here to go to the COMP2511 blog site</description>
+    </item>
+    
+    <item>
+      <title>UNSW MATH3411</title>
+      <link>http://featherbear.github.io/blog/post/unsw-math3411/</link>
+      <pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw-math3411/</guid>
+      <description>Click here to go to the MATH3411 blog site</description>
+    </item>
+    
+    <item>
+      <title>UNSW COMP6441</title>
+      <link>http://featherbear.github.io/blog/post/unsw-comp6441/</link>
+      <pubDate>Mon, 03 Jun 2019 23:29:19 +1000</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw-comp6441/</guid>
+      <description>Click here to go to the COMP6441 blog site</description>
+    </item>
+    
+    <item>
+      <title>Gourmet Burgers</title>
+      <link>http://featherbear.github.io/blog/post/gourmet-burgers/</link>
+      <pubDate>Thu, 25 Apr 2019 09:07:16 +1100</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/gourmet-burgers/</guid>
+      <description>This semester I had a group assignment where we had to create an online ordering system for a ficticious company called GourmetBurgers.
 Albeit it being a group assignment, and alot of waiting for my partners to finish their code; overall I found this assignment really fun to complete!
 Especially to get a nice UI that would ultimately contribute towards 0% of my grade!
-Check out the full post here: featherbear.</description></item><item><title>UNSW COMP1531</title><link>http://featherbear.github.io/blog/post/unsw-comp1531/</link><pubDate>Mon, 18 Feb 2019 09:00:00 +1100</pubDate><guid>http://featherbear.github.io/blog/post/unsw-comp1531/</guid><description>Click here to go to the COMP1531 blog site</description></item><item><title>Secret Agent</title><link>http://featherbear.github.io/blog/post/unsw-compclub2019summer/</link><pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate><guid>http://featherbear.github.io/blog/post/unsw-compclub2019summer/</guid><description>Quick Links
+ Check out the full post here: featherbear.</description>
+    </item>
+    
+    <item>
+      <title>UNSW COMP1531</title>
+      <link>http://featherbear.github.io/blog/post/unsw-comp1531/</link>
+      <pubDate>Mon, 18 Feb 2019 09:00:00 +1100</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw-comp1531/</guid>
+      <description>Click here to go to the COMP1531 blog site</description>
+    </item>
+    
+    <item>
+      <title>Secret Agent</title>
+      <link>http://featherbear.github.io/blog/post/unsw-compclub2019summer/</link>
+      <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw-compclub2019summer/</guid>
+      <description>Quick Links
 What is UNSW CSE CompClub?
 On writing a CTF server
-I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
+ I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
 Last time (Winter 2018) I volunteered as a mentor - those people who would help guide the students.
 This time around I helped out as an organiser, in particular a content writer.
-That means that I get a whole day to do whatever the heck I want!</description></item><item><title>CompClub 2019 Summer CTF</title><link>http://featherbear.github.io/blog/post/unsw-compclub2019summer-ctf/</link><pubDate>Thu, 20 Dec 2018 18:32:46 +1100</pubDate><guid>http://featherbear.github.io/blog/post/unsw-compclub2019summer-ctf/</guid><description>Read the whole CompClub 2019 Summer Workshop post
-GitHub: featherbear/UNSW-CompClub2019Summer-CTF
+That means that I get a whole day to do whatever the heck I want!</description>
+    </item>
+    
+    <item>
+      <title>CompClub 2019 Summer CTF</title>
+      <link>http://featherbear.github.io/blog/post/unsw-compclub2019summer-ctf/</link>
+      <pubDate>Thu, 20 Dec 2018 18:32:46 +1100</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw-compclub2019summer-ctf/</guid>
+      <description>Read the whole CompClub 2019 Summer Workshop post
+ GitHub: featherbear/UNSW-CompClub2019Summer-CTF
 Demo: featherbear.github.io/UNSW-CompClub2019Summer-CTF
 During the Winter 2018 Workshop, the organiser for the security day coded up a CTF website.
-Technologies
+ Technologies
 Server: Flask (Python)
 CSS: Bootstrap
 Performance: RIP
-Yeah so, Flask is a great Python web framework, with all of its routing magic.
+ Yeah so, Flask is a great Python web framework, with all of its routing magic.
 But running a server with Flask alone is not a good idea&amp;hellip;
-Flask should be run in a WSGI environment, but the inbuilt Flask server is not such.</description></item><item><title>UNSW COMP2521</title><link>http://featherbear.github.io/blog/post/unsw-comp2521/</link><pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate><guid>http://featherbear.github.io/blog/post/unsw-comp2521/</guid><description>Click here to go to the COMP2521 blog site</description></item><item><title>UNSW COMP1521</title><link>http://featherbear.github.io/blog/post/unsw-comp1521/</link><pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate><guid>http://featherbear.github.io/blog/post/unsw-comp1521/</guid><description>Click here to go to the COMP1521 blog site</description></item><item><title>School of Codecraft and Hackery</title><link>http://featherbear.github.io/blog/post/unsw-compclub2018winter/</link><pubDate>Fri, 13 Jul 2018 18:52:17 +1100</pubDate><guid>http://featherbear.github.io/blog/post/unsw-compclub2018winter/</guid><description>Workshop Website
+Flask should be run in a WSGI environment, but the inbuilt Flask server is not such.</description>
+    </item>
+    
+    <item>
+      <title>UNSW COMP2521</title>
+      <link>http://featherbear.github.io/blog/post/unsw-comp2521/</link>
+      <pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw-comp2521/</guid>
+      <description>Click here to go to the COMP2521 blog site</description>
+    </item>
+    
+    <item>
+      <title>UNSW COMP1521</title>
+      <link>http://featherbear.github.io/blog/post/unsw-comp1521/</link>
+      <pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw-comp1521/</guid>
+      <description>Click here to go to the COMP1521 blog site</description>
+    </item>
+    
+    <item>
+      <title>School of Codecraft and Hackery</title>
+      <link>http://featherbear.github.io/blog/post/unsw-compclub2018winter/</link>
+      <pubDate>Fri, 13 Jul 2018 18:52:17 +1100</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw-compclub2018winter/</guid>
+      <description>Workshop Website
 Day One - Introduction to Python Day Two - Microbits Microbit by BBC is a small piece of hardware with all sorts of sensors and outputs.
 The uni purchased 20 of these!
 Unfortunately, the accelerometer module isn&amp;rsquo;t the best, and alot of the students couldn&amp;rsquo;t get one of the workshop instructions working.
-The first activity was to build a firefly, using the wireless radios on the Microbit.</description></item><item><title>UNSW Courses</title><link>http://featherbear.github.io/blog/post/unsw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://featherbear.github.io/blog/post/unsw/</guid><description>COMP1521 - Computer Systems Fundamentals (2018 Session Two)
+The first activity was to build a firefly, using the wireless radios on the Microbit.</description>
+    </item>
+    
+    <item>
+      <title>UNSW Courses</title>
+      <link>http://featherbear.github.io/blog/post/unsw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://featherbear.github.io/blog/post/unsw/</guid>
+      <description>COMP1521 - Computer Systems Fundamentals (2018 Session Two)
 COMP1531 - Software Engineering Fundamentals (2019 Session One)
 COMP2521 - Data Structures and Algorithms (2019 Summer Session)
 COMP6441 - Security Engineering and Cyber Security (2019 Session Two)
 MATH3411 - Information, Codes and Ciphers (2019 Session Three)
 COMP2511 - Object-Oriented Design &amp;amp; Programming (2019 Session Three)
-COMP3331 - Computer Networks and Applications (unofficial) (2019 Session Three)</description></item></channel></rss>
+COMP3331 - Computer Networks and Applications (unofficial) (2019 Session Three)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,15 +1,237 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>School of Codecraft and Hackery &middot; Andrew&#39;s Blog</title><meta name=description content="UNSW CSE CompClub 2018 Winter Workshop"><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-107434487-3','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css><link href=/blog/assets/prism.js/prism.css rel=stylesheet><script defer src=/blog/assets/prism.js/prism.js onload="let path;Prism.plugins.autoloader.languages_path=((path=this.getAttribute('src')).substring(0,path.lastIndexOf('/')))+'/languages/'"></script><script defer src=https://use.fontawesome.com/releases/v5.3.1/js/all.js></script><link rel=stylesheet href=/blog/css/site.css><style>body{background-image:url(/blog/IMG_0072.jpg)}</style><script defer src=/blog/js/site.js></script></head><body class=has-navbar-fixed-top><nav class="navbar is-fixed-top is-unselectable" role=navigation aria-label="main navigation"><div class=container><div class=navbar-brand><a class="navbar-item has-text-grey-darker is-size-3" href=http://featherbear.github.io/blog/>andrew wong</a>
-<a role=button class="navbar-burger burger" aria-label=menu aria-expanded=false data-target=navmenu><span aria-hidden=true></span><span aria-hidden=true></span><span aria-hidden=true></span></a></div><div id=navmenu class=navbar-menu><div class=navbar-end><div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-black-ter is-arrowless" href=http://featherbear.github.io/blog/>blog</a><div class=navbar-dropdown><a href=/blog/categories/ai class=navbar-item>ai</a><a href=/blog/categories/audio-visual class=navbar-item>audio-visual</a><a href=/blog/categories/life class=navbar-item>life</a><a href=/blog/categories/networking class=navbar-item>networking</a><a href=/blog/categories/photography class=navbar-item>photography</a><a href=/blog/categories/programming class=navbar-item>programming</a><a href=/blog/categories/python class=navbar-item>python</a><a href=/blog/categories/unsw class=navbar-item>unsw</a><a href=/blog/categories/webdev class=navbar-item>webdev</a></div></div><a class="navbar-item has-text-grey" href=/about>about me</a>
-<a class="navbar-item has-text-grey" href=/photos>photography</a>
-<a class="navbar-item has-text-grey" href=/programming>programming</a></div></div></div></nav><main class=container><header class="hero is-info" style=background-image:url(/blog/post/unsw-compclub2019summer/compclub.logo.svg) parallax><div class=hero-body><div class=container><h1 class=title>School of Codecraft and Hackery</h1><h2 class=subtitle>Posted <time datetime=2018-07-13>Jul 13, 2018</time></h2></div></div></header><article id=content><p><a href=https://winter2018.compclub.com.au>Workshop Website</a></p><h2 id=day-one-introduction-to-python>Day One - Introduction to Python</h2><h2 id=day-two-microbits>Day Two - Microbits</h2><p><a href=https://microbit.org>Microbit by BBC</a> is a small piece of hardware with all sorts of sensors and outputs.<br>The uni purchased 20 of these!<br>Unfortunately, the accelerometer module isn&rsquo;t the best, and alot of the students couldn&rsquo;t get one of the workshop instructions working.</p><p>The first activity was to build a <a href=https://ncase.me/fireflies/>firefly</a>, using the wireless radios on the Microbit.<br>When the button is pressed, the LEDs would light up, <a href=https://ncase.me/fireflies/>also lighting up other nearby Microbits</a>.</p><blockquote><p>So&hellip; I could write a radio spammer&hellip; <a href="javascript:alert('Not implemented!')">hmmmm</a>.</p></blockquote><p>The second objective of the day was to build a reflex game - where you time how long it takes you to press the button from when some event happens.<br>Most students used the LED as the event soure, a few used audio cues.</p><blockquote><p>This activity was a good way to slowly ease the idea about &lsquo;hacking the system&rsquo; - if you hold the button before the game starts, you could win with 0ms on the clock.</p></blockquote><p>The last objective was to create some sort of Bop-It game, with the button and sensors.</p><hr><p>Some of the older kids didn&rsquo;t really want to do these stuff as it was abit menial.. I&rsquo;d think so too.<br>So instead they decided to transcribe the Mii Channel theme song for the Microbit&hellip;</p><blockquote><p>I decided to join in the fun.
-![]()</p></blockquote><h2 id=day-three-game-development>Day Three - Game Development</h2><p><a href=https://www.pygame.org>Pygame</a> is a graphics/game library for Python that gives us a canvas to put things on!<br>The students created their own version of Space Invaders; coding in the player, the enemies and missiles!</p><p>There were a few challenge activities, such as being able to shoot missiles.</p><blockquote><p>See my version of the game: <a href=https://github.com/featherbear/UNSW-CompClub2018Winter-SpaceInvaders>GitHub</a></p></blockquote><h2 id=day-four-website-development>Day Four - Website Development</h2><p><a href=http://flask.pocoo.org/>Flask</a> is a Python web microframework that allows people to serve (non-static) websites.<br><a href=//pythonanywhere.com>PythonAnywhere</a> kindly gave us some free accounts on their Education plan :)</p><p>In terms of content, we didn&rsquo;t follow what was written - because the actual person who had written the content.. was erm&hellip; MIA.<br>So instead of making a blog site (w/ SQL), we just taught the basics of website development and got people to make a page of whatever they wanted</p><h2 id=day-five-security>Day Five - Security</h2><p>The last day of the workshop (nooo) was security day, where they talked about lockpicking, ciphers and then hosted a small Capture the Flag game.<br>I felt that ciphers were a bit hard to teach to highschoolers (especially a whole class), because if you don&rsquo;t understand one bit, you&rsquo;ve immediately fallen behind the rest of the class.<br>And&hellip; cryptograpy in general is quite brain intensive..</p><p>The CTF was fun, although we had one <a href=../unsw-compclub2018summer>technical issue</a> with the server. (_Don&rsquo;t use Flask&rsquo;s development server in production!)</p><p><details></p><h1 id=winter-compclub-2018-ctf>Winter CompClub 2018 CTF</h1><h2 id=if-else>if else</h2><p>Flag: <code>FLAG{MAGIC_STICK}</code><br>Follow the logic of the code</p><h2 id=welcome>Welcome</h2><p>Flag: <code>FLAG{F0UND_Y0U!}</code><br>There is a code hidden on the door frame of the computer labs</p><h2 id=notice-read-me>NOTICE: READ ME</h2><p>Flag: <code>FLAG{THIS}</code><br>Flag in the description</p><h2 id=bad-magic>Bad Magic</h2><p>Flag: <code>FLAG{St4y_Saf3}</code><br>There is JavaScript in the challenge page that makes the page go back, or turns white. Disable JavaScript to continue (or just look at the source code)</p><h2 id=plain-sight>Plain Sight</h2><p>Flag: <code>FLAG{CAN_U_SEE_ME}</code><br>The flag is hidden in white font. Select the text to find it (or just look at the source code)</p><h2 id=parse-the-parcel>Parse the Parcel</h2><p>Flag: <code>FLAG{ITS_WRITE_HERE}</code><br>The flag is encoded in the given <a href=https://en.wikipedia.org/wiki/Base64>Base64</a> string (without padding). Use a Base64 decoder
-JavaScript has the function <code>atob(string)</code></p><h2 id=the-official-flag>The Official Flag</h2><p>Flag: <code>FLAG{WIZARD}</code><br>Inspect the hex codes of each colour and combine them together.</p><p>Colour One: #464C41<br>Colour Two: #477B57<br>Colour Three: #495A41<br>Colour Four: #52447D</p><p>Combine the hex codes into the string 464C41477B57495A4152447D</p><p>Convert this series of hex numbers into ASCII to get the flag</p><h2 id=watch-v-redl2uetpvo>watch?v=rEdl2Uetpvo</h2><p>Flag: <code>FLAG{1T_always_B3gins_w1th_Rec0n}</code><br>There is a flag in the browser cookies of the workshop&rsquo;s <a href=https://winter.compclub.com.au/>main site</a></p><h2 id=needle-in-the-stack>Needle in the Stack</h2><p>Flag: <code>FLAG{U5e_A_MaGneT_to_finD_N3eDles}</code><br>Remove every second letter in the block of text and search for the flag</p><p>Doing a regex for <code>/F.L.A.G.{.+?}/</code> we get <code>F1L2A3G4{5U657e8_9A0_1M2a3G4n5e6T7_8t9o0_1f2i3n4D5_6N332e1D2l3e4s5}</code></p><pre><code>var flag_obfs = &quot;F1L2A3G4{5U657e8_9A0_1M2a3G4n5e6T7_8t9o0_1f2i3n4D5_6N332e1D2l3e4s5}&quot;;
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>School of Codecraft and Hackery &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="UNSW CSE CompClub 2018 Winter Workshop" />
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-107434487-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+  <link href="/blog/assets/prism.js/prism.css" rel="stylesheet" />
+<script defer src="/blog/assets/prism.js/prism.js" onload="let path; Prism.plugins.autoloader.languages_path = ((path = this.getAttribute('src')).substring(0,path.lastIndexOf('/'))) + '/languages/'"></script>
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="/blog/css/site.css" />
+  <style>
+    body {
+      background-image: url("/blog/IMG_0072.jpg");
+    }
+  </style>
+  <script defer src="/blog/js/site.js"></script>
+</head>
+  <body class="has-navbar-fixed-top">
+  
+<nav class="navbar is-fixed-top is-unselectable" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-grey-darker is-size-3" href="http://featherbear.github.io/blog/">
+        andrew wong
+        
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navmenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navmenu" class="navbar-menu">
+      <div class="navbar-end">
+        
+        
+          
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link has-text-black-ter is-arrowless" href="http://featherbear.github.io/blog/">blog</a>
+                <div class="navbar-dropdown">
+                    <a href="/blog/categories/ai" class="navbar-item">ai</a><a href="/blog/categories/audio-visual" class="navbar-item">audio-visual</a><a href="/blog/categories/life" class="navbar-item">life</a><a href="/blog/categories/networking" class="navbar-item">networking</a><a href="/blog/categories/photography" class="navbar-item">photography</a><a href="/blog/categories/programming" class="navbar-item">programming</a><a href="/blog/categories/python" class="navbar-item">python</a><a href="/blog/categories/unsw" class="navbar-item">unsw</a><a href="/blog/categories/webdev" class="navbar-item">webdev</a>
+                    
+                    
+                </div>
+            </div>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/about">about me</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/photos">photography</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/programming">programming</a>
+          
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <main class="container">
+    <header class="hero is-info" style="background-image: url('/blog/post/unsw-compclub2019summer/compclub.logo.svg')" parallax>
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">School of Codecraft and Hackery</h1>
+            
+            <h2 class="subtitle">Posted <time datetime="2018-07-13">Jul 13, 2018</time></h2>
+            
+          </div>
+        </div>
+      </header>
+    <article id="content">
+
+<p><a href="https://winter2018.compclub.com.au">Workshop Website</a></p>
+
+<h2 id="day-one-introduction-to-python">Day One - Introduction to Python</h2>
+
+<h2 id="day-two-microbits">Day Two - Microbits</h2>
+
+<p><a href="https://microbit.org">Microbit by BBC</a> is a small piece of hardware with all sorts of sensors and outputs.<br />
+The uni purchased 20 of these!<br />
+Unfortunately, the accelerometer module isn&rsquo;t the best, and alot of the students couldn&rsquo;t get one of the workshop instructions working.</p>
+
+<p>The first activity was to build a <a href="https://ncase.me/fireflies/">firefly</a>, using the wireless radios on the Microbit.<br />
+When the button is pressed, the LEDs would light up, <a href="https://ncase.me/fireflies/">also lighting up other nearby Microbits</a>.</p>
+
+<blockquote>
+<p>So&hellip; I could write a radio spammer&hellip; <a href="javascript:alert('Not implemented!')">hmmmm</a>.</p>
+</blockquote>
+
+<p>The second objective of the day was to build a reflex game - where you time how long it takes you to press the button from when some event happens.<br />
+Most students used the LED as the event soure, a few used audio cues.</p>
+
+<blockquote>
+<p>This activity was a good way to slowly ease the idea about &lsquo;hacking the system&rsquo; - if you hold the button before the game starts, you could win with 0ms on the clock.</p>
+</blockquote>
+
+<p>The last objective was to create some sort of Bop-It game, with the button and sensors.</p>
+
+<hr />
+
+<p>Some of the older kids didn&rsquo;t really want to do these stuff as it was abit menial.. I&rsquo;d think so too.<br />
+So instead they decided to transcribe the Mii Channel theme song for the Microbit&hellip;</p>
+
+<blockquote>
+<p>I decided to join in the fun.
+![]()</p>
+</blockquote>
+
+<h2 id="day-three-game-development">Day Three - Game Development</h2>
+
+<p><a href="https://www.pygame.org">Pygame</a> is a graphics/game library for Python that gives us a canvas to put things on!<br />
+The students created their own version of Space Invaders; coding in the player, the enemies and missiles!</p>
+
+<p>There were a few challenge activities, such as being able to shoot missiles.</p>
+
+<blockquote>
+<p>See my version of the game: <a href="https://github.com/featherbear/UNSW-CompClub2018Winter-SpaceInvaders">GitHub</a></p>
+</blockquote>
+
+<h2 id="day-four-website-development">Day Four - Website Development</h2>
+
+<p><a href="http://flask.pocoo.org/">Flask</a> is a Python web microframework that allows people to serve (non-static) websites.<br />
+<a href="//pythonanywhere.com">PythonAnywhere</a> kindly gave us some free accounts on their Education plan :)</p>
+
+<p>In terms of content, we didn&rsquo;t follow what was written - because the actual person who had written the content.. was erm&hellip; MIA.<br />
+So instead of making a blog site (w/ SQL), we just taught the basics of website development and got people to make a page of whatever they wanted</p>
+
+<h2 id="day-five-security">Day Five - Security</h2>
+
+<p>The last day of the workshop (nooo) was security day, where they talked about lockpicking, ciphers and then hosted a small Capture the Flag game.<br />
+I felt that ciphers were a bit hard to teach to highschoolers (especially a whole class), because if you don&rsquo;t understand one bit, you&rsquo;ve immediately fallen behind the rest of the class.<br />
+And&hellip; cryptograpy in general is quite brain intensive..</p>
+
+<p>The CTF was fun, although we had one <a href="../unsw-compclub2018summer">technical issue</a> with the server. (_Don&rsquo;t use Flask&rsquo;s development server in production!)</p>
+
+<p><details></p>
+
+<h1 id="winter-compclub-2018-ctf">Winter CompClub 2018 CTF</h1>
+
+<h2 id="if-else">if else</h2>
+
+<p>Flag: <code>FLAG{MAGIC_STICK}</code><br />
+Follow the logic of the code</p>
+
+<h2 id="welcome">Welcome</h2>
+
+<p>Flag: <code>FLAG{F0UND_Y0U!}</code><br />
+There is a code hidden on the door frame of the computer labs</p>
+
+<h2 id="notice-read-me">NOTICE: READ ME</h2>
+
+<p>Flag: <code>FLAG{THIS}</code><br />
+Flag in the description</p>
+
+<h2 id="bad-magic">Bad Magic</h2>
+
+<p>Flag: <code>FLAG{St4y_Saf3}</code><br />
+There is JavaScript in the challenge page that makes the page go back, or turns white. Disable JavaScript to continue (or just look at the source code)</p>
+
+<h2 id="plain-sight">Plain Sight</h2>
+
+<p>Flag: <code>FLAG{CAN_U_SEE_ME}</code><br />
+The flag is hidden in white font. Select the text to find it (or just look at the source code)</p>
+
+<h2 id="parse-the-parcel">Parse the Parcel</h2>
+
+<p>Flag: <code>FLAG{ITS_WRITE_HERE}</code><br />
+The flag is encoded in the given <a href="https://en.wikipedia.org/wiki/Base64">Base64</a> string (without padding). Use a Base64 decoder
+JavaScript has the function <code>atob(string)</code></p>
+
+<h2 id="the-official-flag">The Official Flag</h2>
+
+<p>Flag: <code>FLAG{WIZARD}</code><br />
+Inspect the hex codes of each colour and combine them together.</p>
+
+<p>Colour One: #464C41<br />
+Colour Two: #477B57<br />
+Colour Three: #495A41<br />
+Colour Four: #52447D</p>
+
+<p>Combine the hex codes into the string 464C41477B57495A4152447D</p>
+
+<p>Convert this series of hex numbers into ASCII to get the flag</p>
+
+<h2 id="watch-v-redl2uetpvo">watch?v=rEdl2Uetpvo</h2>
+
+<p>Flag: <code>FLAG{1T_always_B3gins_w1th_Rec0n}</code><br />
+There is a flag in the browser cookies of the workshop&rsquo;s <a href="https://winter.compclub.com.au/">main site</a></p>
+
+<h2 id="needle-in-the-stack">Needle in the Stack</h2>
+
+<p>Flag: <code>FLAG{U5e_A_MaGneT_to_finD_N3eDles}</code><br />
+Remove every second letter in the block of text and search for the flag</p>
+
+<p>Doing a regex for <code>/F.L.A.G.{.+?}/</code> we get <code>F1L2A3G4{5U657e8_9A0_1M2a3G4n5e6T7_8t9o0_1f2i3n4D5_6N332e1D2l3e4s5}</code></p>
+
+<pre><code>var flag_obfs = &quot;F1L2A3G4{5U657e8_9A0_1M2a3G4n5e6T7_8t9o0_1f2i3n4D5_6N332e1D2l3e4s5}&quot;;
 var flag = &quot;&quot;;
 for (var i = 0; i &lt; flag_obfs.length; i++) {
 	flag += i % 2 == 0 ? flag_obfs[i] : &quot;&quot;;
 }
 console.log(flag);
-</code></pre><h2 id=trick32>Trick32</h2><p>Flag: <code>FLAG{TransP0sit1on_mainT4n5_Fr3quenC1es}</code><br>Switch every two letters</p><pre><code>var flag_obfs = &quot;LFGAT {arsn 0Pis1 tnom_ iaTnn 4_5rF q3euC ne1}s&quot;;
+</code></pre>
+
+<h2 id="trick32">Trick32</h2>
+
+<p>Flag: <code>FLAG{TransP0sit1on_mainT4n5_Fr3quenC1es}</code><br />
+Switch every two letters</p>
+
+<pre><code>var flag_obfs = &quot;LFGAT {arsn 0Pis1 tnom_ iaTnn 4_5rF q3euC ne1}s&quot;;
 var flag = flag_obfs.replace(/ /g, &quot;&quot;).split(&quot;&quot;);
 for (var i = 1; i &lt; flag.length; i += 2) {
 	var temp = flag[i-1];
@@ -17,7 +239,16 @@ for (var i = 1; i &lt; flag.length; i += 2) {
 	flag[i] = temp;
 }
 console.log(flag.join(&quot;&quot;))
-</code></pre><h2 id=tag-javascrypt>#tag javascrypt</h2><p>Flag: <code>FLAG{sp3llb0und}</code><br>Enter the string <em>qah0oyy3cf</em> into the URL hash / anchor.</p><p>This string is a Rot13 cipher that has been reversed</p><pre><code>const flag = &quot;FLAG{sp3llb0und}&quot;
+</code></pre>
+
+<h2 id="tag-javascrypt">#tag javascrypt</h2>
+
+<p>Flag: <code>FLAG{sp3llb0und}</code><br />
+Enter the string <em>qah0oyy3cf</em> into the URL hash / anchor.</p>
+
+<p>This string is a Rot13 cipher that has been reversed</p>
+
+<pre><code>const flag = &quot;FLAG{sp3llb0und}&quot;
 var flag_rot = flag.replace(/[a-zA-Z]/g,function(a){return String.fromCharCode((&quot;Z&quot;&gt;=a?90:122)&gt;=(a=a.charCodeAt(0)+13)?a:a-26)})
 // &quot;SYNT{fc3yyo0haq}&quot;
 
@@ -26,8 +257,72 @@ var flag_rot = flag.replace(/[a-zA-Z]/g,function(a){return String.fromCharCode((
 
 !location.hash[1]&amp;&amp;alert(&quot;Tag, you're it!\n(hint hint)&quot;);
 (window.onhashchange=()=&gt;(__ = (_ = location.hash).substr(1)) &amp;&amp; alert(__ != '\x71\x61\x68\x30\x6f\x79\x79\x33\x63\x66' ? &quot;Nope, try again.&quot; : (&quot;Flag: &quot; + (&quot;SYNT{&quot; + __.split(&quot;&quot;).reverse().join(&quot;&quot;) + &quot;}&quot;).replace(/[a-zA-Z]/gi, s =&gt; String.fromCharCode(s.charCodeAt(0) + (s.toLowerCase() &lt; 'n' ? 13 : -13))))))()
-</code></pre><blockquote><p><a href=http://jscrew.it/>#jscrew.it</a></p></blockquote><h2 id=pandora-s-box>Pandora&rsquo;s Box</h2><p>Flag: <code>FLAG{magical}</code><br>The flag is the second last word of the question description</p><h2 id=lost-in-numbers>Lost in Numbers</h2><p>Flag: <code>FLAG{36}</code><br>1 + 2 + 3 + 4 + <strong>5</strong> = 15<br>1 + 5 = 6<br>6^2 = 36</p><h2 id=jittery-negotiations>Jittery Negotiations</h2><p>Flag: <code>FLAG{caffeinated(Kim,Kim)+1}</code><br>Given the two objects that we have, we won&rsquo;t be able to make the return value of <code>caffeinated(..., ...)</code> true&hellip; so we&rsquo;ll cheat and add one!
-In Python, any non-zero number is considered true</p><h2 id=no-greek-in-ascii>No Greek in ASCII</h2><p>Flag: <code>FLAG{bry@gmail.c?m}</code><br>Note - the ? is the Greek lowercase omicron, not the English letter o</p><h2 id=the-first-one>The First One</h2><p>Flag: <code>FLAG{4nd_wh3re_2_f1nd_th4m}</code><br>On the Encryption slides</p><h2 id=untrained-vision-inner-peace>Untrained Vision, Inner Peace</h2><p>Flag: ``</p><h2 id=steganography-steganography>Steganography Steganography</h2><p>Flag: <code>FLAG{Hipsters}</code><br>Hidden flag on the Encryption slides.<br>Every first letter: feel loss and grief {Hiding in plain sight troubles every reasonable scientist}</p><h2 id=scamander-s-flea>Scamander&rsquo;s Flea</h2><p>Flag: ``</p><h2 id=dementor-massacre>Dementor Massacre</h2><p>Flag: ``</p><h2 id=sneaky-squ1rr3l-1>Sneaky SQu1rr3L 1</h2><p>Flag: <code>FLAG{join_the_dark_artz}</code><br>SQL Injection! Thankfully there is debug information which allows us to more easily understand what injections we are performing</p><p>Inject this into the username field: <code>' OR 1--</code></p><h2 id=borderline-impossible>Borderline Impossible</h2><p>Flag: <code>FLAG{MII-MES}</code></p><p>It&rsquo;s actually quite possible! Hints are in the question. The numbers we see point to the character in the code. The number right after the character points to the next one&hellip; Rinse and repeat!</p><pre><code># # Embed our flag and hints
+</code></pre>
+
+<blockquote>
+<p><a href="http://jscrew.it/">#jscrew.it</a></p>
+</blockquote>
+
+<h2 id="pandora-s-box">Pandora&rsquo;s Box</h2>
+
+<p>Flag: <code>FLAG{magical}</code><br />
+The flag is the second last word of the question description</p>
+
+<h2 id="lost-in-numbers">Lost in Numbers</h2>
+
+<p>Flag: <code>FLAG{36}</code><br />
+1 + 2 + 3 + 4 + <strong>5</strong> = 15<br />
+1 + 5 = 6<br />
+6^2 = 36</p>
+
+<h2 id="jittery-negotiations">Jittery Negotiations</h2>
+
+<p>Flag: <code>FLAG{caffeinated(Kim,Kim)+1}</code><br />
+Given the two objects that we have, we won&rsquo;t be able to make the return value of <code>caffeinated(..., ...)</code> true&hellip; so we&rsquo;ll cheat and add one!
+In Python, any non-zero number is considered true</p>
+
+<h2 id="no-greek-in-ascii">No Greek in ASCII</h2>
+
+<p>Flag: <code>FLAG{bry@gmail.c?m}</code><br />
+Note - the ? is the Greek lowercase omicron, not the English letter o</p>
+
+<h2 id="the-first-one">The First One</h2>
+
+<p>Flag: <code>FLAG{4nd_wh3re_2_f1nd_th4m}</code><br />
+On the Encryption slides</p>
+
+<h2 id="untrained-vision-inner-peace">Untrained Vision, Inner Peace</h2>
+
+<p>Flag: ``</p>
+
+<h2 id="steganography-steganography">Steganography Steganography</h2>
+
+<p>Flag: <code>FLAG{Hipsters}</code><br />
+Hidden flag on the Encryption slides.<br />
+Every first letter: feel loss and grief {Hiding in plain sight troubles every reasonable scientist}</p>
+
+<h2 id="scamander-s-flea">Scamander&rsquo;s Flea</h2>
+
+<p>Flag: ``</p>
+
+<h2 id="dementor-massacre">Dementor Massacre</h2>
+
+<p>Flag: ``</p>
+
+<h2 id="sneaky-squ1rr3l-1">Sneaky SQu1rr3L 1</h2>
+
+<p>Flag: <code>FLAG{join_the_dark_artz}</code><br />
+SQL Injection! Thankfully there is debug information which allows us to more easily understand what injections we are performing</p>
+
+<p>Inject this into the username field: <code>' OR 1--</code></p>
+
+<h2 id="borderline-impossible">Borderline Impossible</h2>
+
+<p>Flag: <code>FLAG{MII-MES}</code></p>
+
+<p>It&rsquo;s actually quite possible! Hints are in the question. The numbers we see point to the character in the code. The number right after the character points to the next one&hellip; Rinse and repeat!</p>
+
+<pre><code># # Embed our flag and hints
 # 5 x x x x F 2 x L 6 x x x x x A 6 x x x x x G 1 { 3 x x M 3 x x I 5 x x x x I 9 x x x x x x x x - 2 x M 4 x x x E 1 S 3 x x }
 ## Pad the string to make it 64 pairs
 # 5 x x x x F 2 x L 6 x x x x x A 6 x x x x x G 1 { 3 x x M 3 x x I 5 x x x x I 9 x x x x x x x x - 2 x M 4 x x x E 1 S 3 x x } 00
@@ -46,7 +341,173 @@ for i in range(len(string)):
     string[i] = random.choice(fudge)
 
 print(&quot; &quot;.join(string))
-</code></pre><p>35 42 38 38 4A 46 32 44 4C 36 42 34 59 32 32 41 36 55 54 44 36 4A 47 31 7B 33 49 32 4D 33 39 4F 49 35 56 50 59 5A 49 39 54 37 5A 58 36 33 35 38 2D 32 56 4D 34 45 2D 38 45 31 53 33 45 48 7D 00</p><p><details></p><h1 id=that-being-said>That being said</h1><p>My face is on the new HS1917 brochure!<br>HS1917 is a computing course for year 10-12 students in high school; not that I had the opportunity to do it :(</p><p><a href="https://www.futurestudents.unsw.edu.au/sites/default/files/uploads/High%20School%20Computing.pdf?_cldee=bGFyYS5oYXJkeTFAZGV0Lm5zdy5lZHUuYXU%3D&amp;recipientid=contact-1ee35817fe4be711811ce0071b67ac71-eb1f81f0dd2c42759fc04268e29468ca&amp;utm_source=ClickDimensions&amp;utm_medium=email&amp;utm_campaign=Future%20Student%20Newsletter&amp;esid=ec70af98-a3f6-e811-a973-000d3ae12cc3">https://www.futurestudents.unsw.edu.au/sites/default/files/uploads/High%20School%20Computing.pdf?_cldee=bGFyYS5oYXJkeTFAZGV0Lm5zdy5lZHUuYXU%3D&amp;recipientid=contact-1ee35817fe4be711811ce0071b67ac71-eb1f81f0dd2c42759fc04268e29468ca&amp;utm_source=ClickDimensions&amp;utm_medium=email&amp;utm_campaign=Future%20Student%20Newsletter&amp;esid=ec70af98-a3f6-e811-a973-000d3ae12cc3</a></p></article></main><div class=container><h1 class="title has-text-grey-lighter">More posts</h1><div class=listArticle><a href=http://featherbear.github.io/blog/post/propresenter6-stage-display-messages-client/><article class=media><div class=media-content><h2 class="title is-marginless">ProPresenter 6 Stage Display Messages</h2><div class=level><div class=level-left><p class=subtitle>A HTML interface for sending Stage Display messages to ProPresenter 6!</p></div><div class=level-right><p>Posted <time datetime=2018-08-04>Aug 4, 2018</time></p></div></div></div></article><div class="is-unselectable categories"><a href=/blog/categories/audio-visual><span class="tag is-info">#Audio Visual</span></a>
-<a href=/blog/categories/networking><span class="tag is-info">#Networking</span></a>
-<a href=/blog/categories/webdev><span class="tag is-info">#WebDev</span></a>
-<a href=/blog/categories/programming><span class="tag is-info">#Programming</span></a></div></a></div><div class=listArticle><a href=http://featherbear.github.io/blog/post/unsw/><article class=media><div class=media-content><h2 class="title is-marginless">UNSW Courses</h2><div class=level><div class=level-left><p class=subtitle>Portal to all of my course blogs</p></div></div></div></article></div></a></div></div><div id=scroll-nav></div><footer class=footer><nav class="breadcrumb is-right" aria-label=breadcrumbs><ul><li><a href=../../>blog</a></li><li><a href=../>post</a></li><li class=is-active><a href=# aria-current=page>unsw-compclub2018winter</a></li></ul></nav><hr><figure class="image is-128x128 logo" style="margin:0 auto"><img src=/blog/logo.png></figure></footer><link rel=stylesheet href=/blog/assets/luminous.js/luminous-basic.min.css><script src=/blog/assets/luminous.js/Luminous.min.js></script><script type=text/javascript>document.querySelectorAll("#content img").forEach(e=>new Luminous(e,{sourceAttribute:"src"}))</script><script src=/blog/assets/elevator.js/elevator.min.js></script><script type=text/javascript>var elevator=new Elevator({element:document.querySelector(".footer .logo"),mainAudio:'\/blog\/assets\/elevator.js\/elevator.mp3',endAudio:'\/blog\/assets\/elevator.js\/ding.mp3'});</script><script>{let max=document.body.scrollHeight-window.innerHeight;window.addEventListener('scroll',function(){document.getElementById('scroll-nav').style.width=`${this.scrollY/max*100}%`});document.getElementById('scroll-nav').style.width=`${window.scrollY/max*100}%`}</script></body></html>
+</code></pre>
+
+<p>35 42 38 38 4A 46 32 44 4C 36 42 34 59 32 32 41 36 55 54 44 36 4A 47 31 7B 33 49 32 4D 33 39 4F 49 35 56 50 59 5A 49 39 54 37 5A 58 36 33 35 38 2D 32 56 4D 34 45 2D 38 45 31 53 33 45 48 7D 00</p>
+
+<p><details></p>
+
+<h1 id="that-being-said">That being said</h1>
+
+<p>My face is on the new HS1917 brochure!<br />
+HS1917 is a computing course for year 10-12 students in high school; not that I had the opportunity to do it :(</p>
+
+<p><a href="https://www.futurestudents.unsw.edu.au/sites/default/files/uploads/High%20School%20Computing.pdf?_cldee=bGFyYS5oYXJkeTFAZGV0Lm5zdy5lZHUuYXU%3D&amp;recipientid=contact-1ee35817fe4be711811ce0071b67ac71-eb1f81f0dd2c42759fc04268e29468ca&amp;utm_source=ClickDimensions&amp;utm_medium=email&amp;utm_campaign=Future%20Student%20Newsletter&amp;esid=ec70af98-a3f6-e811-a973-000d3ae12cc3">https://www.futurestudents.unsw.edu.au/sites/default/files/uploads/High%20School%20Computing.pdf?_cldee=bGFyYS5oYXJkeTFAZGV0Lm5zdy5lZHUuYXU%3D&amp;recipientid=contact-1ee35817fe4be711811ce0071b67ac71-eb1f81f0dd2c42759fc04268e29468ca&amp;utm_source=ClickDimensions&amp;utm_medium=email&amp;utm_campaign=Future%20Student%20Newsletter&amp;esid=ec70af98-a3f6-e811-a973-000d3ae12cc3</a></p>
+</article>
+  </main>
+
+  <div class="container">
+    <h1 class="title has-text-grey-lighter">More posts</h1>
+    
+      <div class="listArticle">
+  <a href="http://featherbear.github.io/blog/post/propresenter6-stage-display-messages-client/">
+    <article class="media">
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">ProPresenter 6 Stage Display Messages</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">A HTML interface for sending Stage Display messages to ProPresenter 6!</p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="2018-08-04">Aug 4, 2018</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/audio-visual" >
+          <span class="tag is-info">#Audio Visual</span>
+        </a>
+      
+        <a href="/blog/categories/networking" >
+          <span class="tag is-info">#Networking</span>
+        </a>
+      
+        <a href="/blog/categories/webdev" >
+          <span class="tag is-info">#WebDev</span>
+        </a>
+      
+        <a href="/blog/categories/programming" >
+          <span class="tag is-info">#Programming</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+
+    
+      <div class="listArticle">
+  <a href="http://featherbear.github.io/blog/post/unsw/">
+    <article class="media">
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">UNSW Courses</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">Portal to all of my course blogs</p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+  </div>
+    <div id="scroll-nav"></div>
+    <footer class="footer">
+  
+  <nav class="breadcrumb is-right" aria-label="breadcrumbs">
+    <ul>
+      
+      
+      
+
+      
+      
+
+      
+
+      
+      
+      
+      
+      <li>
+        
+        <a href="../../">blog</a>
+      </li>
+      
+      
+      
+      
+      
+      <li>
+        
+        <a href="../">post</a>
+      </li>
+      
+      
+      
+      
+      
+      <li class="is-active">
+        <a href="#" aria-current="page">unsw-compclub2018winter</a>
+      </li>
+      
+      
+    </ul>
+  </nav>
+  <hr>
+  
+  
+    <figure class="image is-128x128 logo" style="margin: 0 auto;">
+      <img src="/blog/logo.png">
+    </figure>
+  
+</footer>
+
+    <link rel="stylesheet" href="/blog/assets/luminous.js/luminous-basic.min.css" />
+<script src='/blog/assets/luminous.js/Luminous.min.js'></script>
+<script type="text/javascript">
+document.querySelectorAll("#content img").forEach(e => new Luminous(e , {
+    sourceAttribute: "src"
+  })
+)
+</script>
+
+<script src='/blog/assets/elevator.js/elevator.min.js'></script>
+<script type="text/javascript">
+  var elevator = new Elevator({
+    element: document.querySelector(".footer .logo"),
+    mainAudio: '\/blog\/assets\/elevator.js\/elevator.mp3',
+    endAudio: '\/blog\/assets\/elevator.js\/ding.mp3'
+  });
+</script>
+
+
+    <script>
+      {
+        let max = document.body.scrollHeight - window.innerHeight;
+        window.addEventListener('scroll', function() {
+          document.getElementById('scroll-nav').style.width = `${this.scrollY / max * 100}%`
+        });
+        document.getElementById('scroll-nav').style.width = `${window.scrollY / max * 100}%`
+      }
+    </script>
+  </body>
+</html>
