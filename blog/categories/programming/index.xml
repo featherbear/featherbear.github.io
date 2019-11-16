@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Andrew&#39;s Blog</title>
-    <link>/categories/programming/</link>
+    <link>/blog/categories/programming/</link>
     <description>Recent content in Programming on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Nov 2019 00:17:54 +1100</lastBuildDate>
     
-	<atom:link href="/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Laptop Dock</title>
-      <link>/post/laptop-dock/</link>
+      <link>/blog/post/laptop-dock/</link>
       <pubDate>Sat, 16 Nov 2019 00:17:54 +1100</pubDate>
       
-      <guid>/post/laptop-dock/</guid>
+      <guid>/blog/post/laptop-dock/</guid>
       <description>November was the month of spending for me. From preparing Christmas gifts, to being too eager and impatient to wait for Black Friday / Cyber Monday sales (But do they even happen down here in Australia???).
  2x Mi Band 4 smart watches
 1x Shure SE215 earphones
@@ -28,10 +28,10 @@
     
     <item>
       <title>Filmstrip Messages</title>
-      <link>/post/filmstrip-messages/</link>
+      <link>/blog/post/filmstrip-messages/</link>
       <pubDate>Sat, 26 Oct 2019 21:47:30 +1100</pubDate>
       
-      <guid>/post/filmstrip-messages/</guid>
+      <guid>/blog/post/filmstrip-messages/</guid>
       <description>About two weeks ago, I stumbled upon Codrops&amp;rsquo; Photo Booth Strips project, and I reckon it looked pretty sweet.
 Diagonal scrolling, how cool!
 So I decided to write my own as an exercise.
@@ -42,10 +42,10 @@ I&amp;rsquo;m quite proud of how it turned out :)</description>
     
     <item>
       <title>Hover Buttons</title>
-      <link>/post/hover-buttons/</link>
+      <link>/blog/post/hover-buttons/</link>
       <pubDate>Mon, 14 Oct 2019 18:57:36 +1100</pubDate>
       
-      <guid>/post/hover-buttons/</guid>
+      <guid>/blog/post/hover-buttons/</guid>
       <description>So I made a little website demo to show CSS hovering animations.
 It&amp;rsquo;s pretty cool! Usually you would add your transition: ... on an element&amp;hellip;
 But, if you apply it on the :hover or :not(:hover) selectors, you can make the transition happen only during hover-enter or hover-exit events!
@@ -56,28 +56,28 @@ See it here!
     
     <item>
       <title>Course-crashing UNSW COMP3331</title>
-      <link>/post/unsw-comp3331/</link>
+      <link>/blog/post/unsw-comp3331/</link>
       <pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate>
       
-      <guid>/post/unsw-comp3331/</guid>
+      <guid>/blog/post/unsw-comp3331/</guid>
       <description>Click here to go to the COMP3331 blog site</description>
     </item>
     
     <item>
       <title>UNSW COMP2511</title>
-      <link>/post/unsw-comp2511/</link>
+      <link>/blog/post/unsw-comp2511/</link>
       <pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate>
       
-      <guid>/post/unsw-comp2511/</guid>
+      <guid>/blog/post/unsw-comp2511/</guid>
       <description>Click here to go to the COMP2511 blog site</description>
     </item>
     
     <item>
       <title>Tabby Cat</title>
-      <link>/post/tabby-cat/</link>
+      <link>/blog/post/tabby-cat/</link>
       <pubDate>Mon, 24 Jun 2019 16:17:56 +1000</pubDate>
       
-      <guid>/post/tabby-cat/</guid>
+      <guid>/blog/post/tabby-cat/</guid>
       <description>My friend introduced me to the Tabby Cat cult club.
 It&amp;rsquo;s a browser extension for Chrome and Firefox which shows you a cute animal as your new tab page.
 Essentially, as you open more tabs , you unlock new toys (and characters *).
@@ -87,10 +87,10 @@ function shouldPickNewGoody(visits) { if (visits === 1) { return true; } else if
     
     <item>
       <title>Processing.js - Twinkle Tiles!</title>
-      <link>/post/processing-twinkle/</link>
+      <link>/blog/post/processing-twinkle/</link>
       <pubDate>Mon, 29 Apr 2019 20:55:07 +1000</pubDate>
       
-      <guid>/post/processing-twinkle/</guid>
+      <guid>/blog/post/processing-twinkle/</guid>
       <description>GitHub: https://github.com/featherbear/processing-twinkle
  Played around abit with p5.js, a Javascript implementation of the Processing language.
   iframe { width: 100vw; height: 100vh;
@@ -99,10 +99,10 @@ function shouldPickNewGoody(visits) { if (visits === 1) { return true; } else if
     
     <item>
       <title>My Very Own Hugo Theme</title>
-      <link>/post/my-very-own-hugo-theme/</link>
+      <link>/blog/post/my-very-own-hugo-theme/</link>
       <pubDate>Fri, 26 Apr 2019 02:06:39 +1000</pubDate>
       
-      <guid>/post/my-very-own-hugo-theme/</guid>
+      <guid>/blog/post/my-very-own-hugo-theme/</guid>
       <description>I&amp;rsquo;ve been using the awesome Aether theme on this blog for about 4 months.
 Whilst there was alot of desirable aspects, it sort of didn&amp;rsquo;t entirely work with my posts&amp;hellip; And I didn&amp;rsquo;t know how to customise Hugo&amp;hellip;
 So the solution? Make your own theme!
@@ -112,10 +112,10 @@ In the usual fashion, I used Bulma for my CSS framework.</description>
     
     <item>
       <title>Web Components</title>
-      <link>/post/web-components/</link>
+      <link>/blog/post/web-components/</link>
       <pubDate>Thu, 25 Apr 2019 23:32:25 +1000</pubDate>
       
-      <guid>/post/web-components/</guid>
+      <guid>/blog/post/web-components/</guid>
       <description>Scroll Nav / Scroll Spy
 Page progress bar - ie the red loder bar on YouTube
 Gradients
@@ -125,10 +125,10 @@ Parallax - Where the background of some content moves at a different rate than t
     
     <item>
       <title>Gourmet Burgers</title>
-      <link>/post/gourmet-burgers/</link>
+      <link>/blog/post/gourmet-burgers/</link>
       <pubDate>Thu, 25 Apr 2019 09:07:16 +1100</pubDate>
       
-      <guid>/post/gourmet-burgers/</guid>
+      <guid>/blog/post/gourmet-burgers/</guid>
       <description>This semester I had a group assignment where we had to create an online ordering system for a ficticious company called GourmetBurgers.
 Albeit it being a group assignment, and alot of waiting for my partners to finish their code; overall I found this assignment really fun to complete!
 Especially to get a nice UI that would ultimately contribute towards 0% of my grade!
@@ -137,10 +137,10 @@ Especially to get a nice UI that would ultimately contribute towards 0% of my gr
     
     <item>
       <title>So You Want to Be a Python Expert? | PyData Seattle 2017</title>
-      <link>/post/so-you-want-to-be-a-python-expert-pydata-seattle-2017/</link>
+      <link>/blog/post/so-you-want-to-be-a-python-expert-pydata-seattle-2017/</link>
       <pubDate>Wed, 24 Apr 2019 23:17:45 +1000</pubDate>
       
-      <guid>/post/so-you-want-to-be-a-python-expert-pydata-seattle-2017/</guid>
+      <guid>/blog/post/so-you-want-to-be-a-python-expert-pydata-seattle-2017/</guid>
       <description>So I got bored and decided to watch this video   These were the things covered in the presentation&amp;hellip;
 Using data model methods Or (double-)underscore functions&amp;hellip;
 The Python data model is a means by which we can implement protocols that have abstract meaning that is dependent on the object
@@ -152,10 +152,10 @@ There also exists class methods, and static methods.</description>
     
     <item>
       <title>Arduino - WiFi DMX</title>
-      <link>/post/arduino-wifi-dmx/</link>
+      <link>/blog/post/arduino-wifi-dmx/</link>
       <pubDate>Sat, 20 Apr 2019 21:58:58 +1000</pubDate>
       
-      <guid>/post/arduino-wifi-dmx/</guid>
+      <guid>/blog/post/arduino-wifi-dmx/</guid>
       <description>At the start of 2018, I built a cheap wireless DMX receiver as a parting &amp;lsquo;gift&amp;rsquo; to my high school (Heck, I even wrote a training manual).
 Their system had i s s u e s.
 Two broken lighting consoles, and the DMX cable that connects from the control room was damaged due to water damage.
@@ -165,10 +165,10 @@ So something had to be done!
     
     <item>
       <title>Lampwin Moving Heads</title>
-      <link>/post/lampwin-moving-heads/</link>
+      <link>/blog/post/lampwin-moving-heads/</link>
       <pubDate>Sat, 20 Apr 2019 00:33:51 +1000</pubDate>
       
-      <guid>/post/lampwin-moving-heads/</guid>
+      <guid>/blog/post/lampwin-moving-heads/</guid>
       <description>/**TODO - Custom theme CSS for images and tables**/ table { width: 100%; border-collapse: collapse; } td { padding: 3px; border: 1px solid #A7A7A7; } td[align=center] { text-align: center; }   Download the QLC+ fixture I made (12 Channel): Lampwin-Mini-LED-Spot-30W.qxf
  I recently purchased two Chinese brand moving heads from eBay
 I was not expecting to receive quality, but I did receive amusement and amazement as to how much enjoyment $70 could bring me.</description>
@@ -176,10 +176,10 @@ I was not expecting to receive quality, but I did receive amusement and amazemen
     
     <item>
       <title>PeerJS Revived</title>
-      <link>/post/peerjs/</link>
+      <link>/blog/post/peerjs/</link>
       <pubDate>Fri, 01 Mar 2019 11:34:37 +1100</pubDate>
       
-      <guid>/post/peerjs/</guid>
+      <guid>/blog/post/peerjs/</guid>
       <description>Near the end of 2017, I wrote attempted to write a delivery tracker webpage that would list all of my tracked packages and their status information.
 To sync my list of packages between my devices, I used a library called PeerJS that established P2P connections between my devices to send and receive data. PeerJS was dormant since 2015, and amazingly it worked for the duration of my code.
 After a 3 year period of inactivity, PeerJS is back and alive (in active commits) so yay!</description>
@@ -187,10 +187,10 @@ After a 3 year period of inactivity, PeerJS is back and alive (in active commits
     
     <item>
       <title>Jebabej</title>
-      <link>/post/jebabej/</link>
+      <link>/blog/post/jebabej/</link>
       <pubDate>Thu, 28 Feb 2019 19:13:02 +1100</pubDate>
       
-      <guid>/post/jebabej/</guid>
+      <guid>/blog/post/jebabej/</guid>
       <description>Date: 28th February 2019
 Time: Some time around 7pm&amp;hellip;
 Location: UNSW CSE Level One Common Room
@@ -207,19 +207,19 @@ Person D: Let&amp;rsquo;s make a Mafia app!
     
     <item>
       <title>UNSW COMP1531</title>
-      <link>/post/unsw-comp1531/</link>
+      <link>/blog/post/unsw-comp1531/</link>
       <pubDate>Mon, 18 Feb 2019 09:00:00 +1100</pubDate>
       
-      <guid>/post/unsw-comp1531/</guid>
+      <guid>/blog/post/unsw-comp1531/</guid>
       <description>Click here to go to the COMP1531 blog site</description>
     </item>
     
     <item>
       <title>Balloon Shooting Challenge</title>
-      <link>/post/smallbasic-balloon-shooting-game/</link>
+      <link>/blog/post/smallbasic-balloon-shooting-game/</link>
       <pubDate>Fri, 15 Feb 2019 16:27:36 +1100</pubDate>
       
-      <guid>/post/smallbasic-balloon-shooting-game/</guid>
+      <guid>/blog/post/smallbasic-balloon-shooting-game/</guid>
       <description>My code can be found on GitHub: featherbear/smallbasic-balloon-shooting-game
  A while ago I applied for a position at a company which taught children how to code&amp;hellip;
 Today I got an email back with a programming challenge, let&amp;rsquo;s have a crack at it!
@@ -228,10 +228,10 @@ Today I got an email back with a programming challenge, let&amp;rsquo;s have a c
     
     <item>
       <title>Python 3.6 F-strings</title>
-      <link>/post/python36-f-string/</link>
+      <link>/blog/post/python36-f-string/</link>
       <pubDate>Wed, 13 Feb 2019 18:59:13 +1100</pubDate>
       
-      <guid>/post/python36-f-string/</guid>
+      <guid>/blog/post/python36-f-string/</guid>
       <description>PEP 498 introduced a new string formatting mechanism called Literal String Interpolation.
 We&amp;rsquo;ll call them F-strings, because of the leading f character that appears before the string literals.
 The PEP really says it all but sure we&amp;rsquo;ll go through it again, why not!
@@ -244,10 +244,10 @@ print(&amp;quot;Hello, {}!&amp;quot;.format(nameVar))</description>
     
     <item>
       <title>Floobits</title>
-      <link>/post/floobits/</link>
+      <link>/blog/post/floobits/</link>
       <pubDate>Fri, 11 Jan 2019 18:42:59 +1100</pubDate>
       
-      <guid>/post/floobits/</guid>
+      <guid>/blog/post/floobits/</guid>
       <description>Group work is always &amp;hellip; interesting.
 For software development especially, there are so different many ways that you could write a procedure.
 And for the exact same procedure, there so many different syntactical nuances that could differ too.
@@ -258,10 +258,10 @@ So, the obvious question is - who does what part, but more importantly; how do w
     
     <item>
       <title>Repl.it</title>
-      <link>/post/repl.it/</link>
+      <link>/blog/post/repl.it/</link>
       <pubDate>Wed, 09 Jan 2019 14:12:31 +1100</pubDate>
       
-      <guid>/post/repl.it/</guid>
+      <guid>/blog/post/repl.it/</guid>
       <description>Repl.it is an online code sandbox and IDE.
 It supports many languages, and makes demoing and prototyping code a piece of cake.
 It has some caveats though.
@@ -272,10 +272,10 @@ Showing Images For the UNSW CompClub 2019 Summer Workshop, the Security workshop
     
     <item>
       <title>SWEC Bulletin Generator</title>
-      <link>/post/swec-bulletin-generator/</link>
+      <link>/blog/post/swec-bulletin-generator/</link>
       <pubDate>Thu, 20 Dec 2018 18:33:35 +1100</pubDate>
       
-      <guid>/post/swec-bulletin-generator/</guid>
+      <guid>/blog/post/swec-bulletin-generator/</guid>
       <description>At the start of 2018 I wrote a Python script called swec-elvanto-automation.
 It was a set of task runners that would manage the automatic generation of the service bulletin, as well as pretty roster emails
 &amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware!
@@ -285,10 +285,10 @@ And also, with my other commitments taking more time, I don&amp;rsquo;t want my 
     
     <item>
       <title>Secret Agent</title>
-      <link>/post/unsw-compclub2019summer/</link>
+      <link>/blog/post/unsw-compclub2019summer/</link>
       <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
       
-      <guid>/post/unsw-compclub2019summer/</guid>
+      <guid>/blog/post/unsw-compclub2019summer/</guid>
       <description>Quick Links
 What is UNSW CSE CompClub?
 On writing a CTF server
@@ -300,10 +300,10 @@ That means that I get a whole day to do whatever the heck I want!</description>
     
     <item>
       <title>CompClub 2019 Summer CTF</title>
-      <link>/post/unsw-compclub2019summer-ctf/</link>
+      <link>/blog/post/unsw-compclub2019summer-ctf/</link>
       <pubDate>Thu, 20 Dec 2018 18:32:46 +1100</pubDate>
       
-      <guid>/post/unsw-compclub2019summer-ctf/</guid>
+      <guid>/blog/post/unsw-compclub2019summer-ctf/</guid>
       <description>Read the whole CompClub 2019 Summer Workshop post
  GitHub: featherbear/UNSW-CompClub2019Summer-CTF
 Demo: featherbear.github.io/UNSW-CompClub2019Summer-CTF
@@ -319,19 +319,19 @@ Flask should be run in a WSGI environment, but the inbuilt Flask server is not s
     
     <item>
       <title>UNSW COMP2521</title>
-      <link>/post/unsw-comp2521/</link>
+      <link>/blog/post/unsw-comp2521/</link>
       <pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate>
       
-      <guid>/post/unsw-comp2521/</guid>
+      <guid>/blog/post/unsw-comp2521/</guid>
       <description>Click here to go to the COMP2521 blog site</description>
     </item>
     
     <item>
       <title>JavaScript Map</title>
-      <link>/post/javascript-map/</link>
+      <link>/blog/post/javascript-map/</link>
       <pubDate>Fri, 14 Dec 2018 17:20:18 +1100</pubDate>
       
-      <guid>/post/javascript-map/</guid>
+      <guid>/blog/post/javascript-map/</guid>
       <description>Don&amp;rsquo;t be lazy kids.
 Don&amp;rsquo;t [].map(parseInt)
 Do [].map(function(val) { parseInt(val) })
@@ -340,10 +340,10 @@ Also do [].map(val =&amp;gt; parseInt(val))</description>
     
     <item>
       <title>z-index</title>
-      <link>/post/z-index/</link>
+      <link>/blog/post/z-index/</link>
       <pubDate>Sun, 25 Nov 2018 20:46:10 +1100</pubDate>
       
-      <guid>/post/z-index/</guid>
+      <guid>/blog/post/z-index/</guid>
       <description>Soooo, you can&amp;rsquo;t interact with an element that has a negative z-index.
  &amp;lt;div&amp;gt;A&amp;lt;/div&amp;gt; --&amp;gt; z-index of 5 &amp;lt;div&amp;gt;B&amp;lt;/div&amp;gt; --&amp;gt; z-index of -1  Even if A has pointer-events: none; you won&amp;rsquo;t be able to touch B
 &amp;lt;div&amp;gt;A&amp;lt;/div&amp;gt; --&amp;gt; z-index of 5 &amp;lt;div&amp;gt;B&amp;lt;/div&amp;gt; --&amp;gt; z-index of 0  Can touch B</description>
@@ -351,10 +351,10 @@ Also do [].map(val =&amp;gt; parseInt(val))</description>
     
     <item>
       <title>Python Tornado vs Flask</title>
-      <link>/post/python-tornado-vs-flask/</link>
+      <link>/blog/post/python-tornado-vs-flask/</link>
       <pubDate>Sat, 24 Nov 2018 01:27:03 +1100</pubDate>
       
-      <guid>/post/python-tornado-vs-flask/</guid>
+      <guid>/blog/post/python-tornado-vs-flask/</guid>
       <description>Python has two great web server libraries - Flask and Tornado.
 Flask vs Tornado Why Flask Flask has a much easier to use routing functionality, where you just need a Python decorator @app.get(...).
 In Tornado you need to set up a site router, and all these other things (or I didn&amp;rsquo;t do it right)
@@ -363,10 +363,10 @@ Why Tornado Tornado is a non-blocking server, which is able to handle multiple r
     
     <item>
       <title>HTML Script Tags</title>
-      <link>/post/html-script-tags/</link>
+      <link>/blog/post/html-script-tags/</link>
       <pubDate>Sat, 24 Nov 2018 00:44:52 +1100</pubDate>
       
-      <guid>/post/html-script-tags/</guid>
+      <guid>/blog/post/html-script-tags/</guid>
       <description>Source - growingwiththeweb.com
 Summary &amp;lt;script&amp;gt; Block, load, run
 &amp;lt;script async&amp;gt; Load, run
@@ -375,19 +375,19 @@ Summary &amp;lt;script&amp;gt; Block, load, run
     
     <item>
       <title>UNSW COMP1521</title>
-      <link>/post/unsw-comp1521/</link>
+      <link>/blog/post/unsw-comp1521/</link>
       <pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate>
       
-      <guid>/post/unsw-comp1521/</guid>
+      <guid>/blog/post/unsw-comp1521/</guid>
       <description>Click here to go to the COMP1521 blog site</description>
     </item>
     
     <item>
       <title>Whoops There Goes My AI</title>
-      <link>/post/whoops-there-goes-my-ai/</link>
+      <link>/blog/post/whoops-there-goes-my-ai/</link>
       <pubDate>Mon, 22 Oct 2018 00:44:41 +1100</pubDate>
       
-      <guid>/post/whoops-there-goes-my-ai/</guid>
+      <guid>/blog/post/whoops-there-goes-my-ai/</guid>
       <description>GitHub: featherbear/Whoops-There-Goes-My-AI
  So there&amp;rsquo;s a game on the Google Play Store and Apple App Store called Whoops! There Goes My Orange.
 You play as an orange falling from the sky, and you have to avoid the red bars. Simple, right?
@@ -398,10 +398,10 @@ It&amp;rsquo;d just be a collision avoidance algorithm&amp;hellip; not really an
     
     <item>
       <title>ProPresenter 6 Stage Display Messages</title>
-      <link>/post/propresenter6-stage-display-messages-client/</link>
+      <link>/blog/post/propresenter6-stage-display-messages-client/</link>
       <pubDate>Sat, 04 Aug 2018 23:14:04 +1100</pubDate>
       
-      <guid>/post/propresenter6-stage-display-messages-client/</guid>
+      <guid>/blog/post/propresenter6-stage-display-messages-client/</guid>
       <description>ProPresenter 6 is great!
 Except for the times when it&amp;rsquo;s not&amp;hellip; (then, it&amp;rsquo;s not great! [Wow who knew!])
 PP6 allows you to send stage messages remotely from the ProPresenter 6 iOS / Android app.
@@ -412,10 +412,10 @@ If only there was a HTML/JavaScript solution&amp;hellip; that&amp;rsquo;d really
     
     <item>
       <title>School of Codecraft and Hackery</title>
-      <link>/post/unsw-compclub2018winter/</link>
+      <link>/blog/post/unsw-compclub2018winter/</link>
       <pubDate>Fri, 13 Jul 2018 18:52:17 +1100</pubDate>
       
-      <guid>/post/unsw-compclub2018winter/</guid>
+      <guid>/blog/post/unsw-compclub2018winter/</guid>
       <description>Workshop Website
 Day One - Introduction to Python Day Two - Microbits Microbit by BBC is a small piece of hardware with all sorts of sensors and outputs.
 The uni purchased 20 of these!

@@ -1,4 +1,4 @@
-# baseURL = "http://featherbear.github.io/blog/"
+baseURL = "/blog/"
 publishDir = ".."
 
 # https://github.com/josephhutch/aether
