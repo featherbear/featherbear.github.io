@@ -15,7 +15,7 @@ While arduously waiting for my group partner to do his part, I decided to sit do
 
 ![](https://raw.githubusercontent.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/master/demo_advanced.gif)
 
-![](https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/blob/master/demo_boulders.gif)
+![](https://raw.githubusercontent.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/master/demo_boulders.gif)
 
 One challenge in getting this application to work was capturing key presses.  
 Java reads its lines in buffers / strings of characters rather than single characters one at a time.  
