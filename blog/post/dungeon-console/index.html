@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>Processing.js - Twinkle Tiles! &middot; Andrew&#39;s Blog</title>
-  <meta name="description" content="" />
+  <title>Dungeon Console &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="Going the &#34;extra mile&#34; for assignments" />
   
 <script type="application/javascript">
 var doNotTrack = false;
@@ -85,46 +85,51 @@ if (!doNotTrack) {
     <header class="hero is-info" >
         <div class="hero-body">
           <div class="container">
-            <h1 class="title">Processing.js - Twinkle Tiles!</h1>
+            <h1 class="title">Dungeon Console</h1>
             
-            <h2 class="subtitle">Posted <time datetime="2019-04-29">Apr 29, 2019</time></h2>
+            <h2 class="subtitle">Posted <time datetime="2019-11-16">Nov 16, 2019</time></h2>
             
           </div>
         </div>
       </header>
-    <article id="content"><blockquote>
-<p><i class="fab fa-github" aria-hidden="true"></i> GitHub: <a href="https://github.com/featherbear/processing-twinkle">https://github.com/featherbear/processing-twinkle</a></p>
+    <article id="content"><p>For my <a href="https://featherbear.github.io/UNSW-COMP2511">COMP2511</a> course, I was given a group assignment to make a dungeon crawler type of game in Java. As an &ldquo;Object-Oriented design focused&rdquo; course, the backend was to be made in Java, with a front-end written in JavaFX.</p>
+
+<p>The aim of the game was to complete different goals and challenges to finish the level&hellip; Killing the enemies, picking up treasure, activating all switches, reaching the exit - or perhaps a combination of all of them.</p>
+
+<p>While arduously waiting for my group partner to do his part, I decided to sit down and make another frontend for the game - a completely text-based, terminal version of the game which could even be played over telnet or SSH!</p>
+
+<blockquote>
+<p><a href="https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/"><i class="fab fa-github" aria-hidden="true"></i> GitHub: github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/</a></p>
 </blockquote>
 
-<p>Played around abit with <a href="https://p5js.org/">p5.js</a>, a Javascript implementation of the Processing language.</p>
+<p><img src="https://raw.githubusercontent.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/master/demo_advanced.gif" alt="" /></p>
 
-<p><iframe src="https://featherbear.github.io/processing-twinkle/"></iframe>
-<style>
-iframe {
-  width: 100vw;
-  height: 100vh;</p>
+<p><img src="https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/blob/master/demo_boulders.gif" alt="" /></p>
 
-<p>}
-</style></p>
+<hr />
+
+<p>Whilst I had written the majority of the backend without reliance of JavaFX, there were some useful classes (namely the <code>BooleanProperty</code> and <code>IntegerProperty</code> classes). If I have time to kill, I might implement my own property change listeners so I can remove JavaFX as a dependency on the backend, and only for the JavaFX UI.</p>
 </article>
   </main>
 
   <div class="container">
     <h1 class="title has-text-grey-lighter">More posts</h1>
     
+
+    
       <div class="listArticle">
-  <a href="/blog/post/screen-protectors/">
+  <a href="/blog/post/laptop-dock/">
     <article class="media">
       
       <div class="media-content">
-        <h2 class="title is-marginless">Screen Protectors</h2>
+        <h2 class="title is-marginless">Laptop Dock</h2>
         <div class="level">
           <div class="level-left">
-            <p class="subtitle">An endless cycle of buying screen protectors</p>
+            <p class="subtitle">Finally connecting my laptop to my monitors...</p>
           </div>
           
           <div class="level-right">
-            <p>Posted <time datetime="2019-05-02">May 2, 2019</time></p>
+            <p>Posted <time datetime="2019-11-16">Nov 16, 2019</time></p>
           </div>
           
         </div>
@@ -137,43 +142,8 @@ iframe {
           <span class="tag is-info">#Life</span>
         </a>
       
-    
-    </div>
-  </a>
-</div>
-
-
-
-    
-
-    
-      <div class="listArticle">
-  <a href="/blog/post/my-very-own-hugo-theme/">
-    <article class="media">
-      
-      <div class="media-content">
-        <h2 class="title is-marginless">My Very Own Hugo Theme</h2>
-        <div class="level">
-          <div class="level-left">
-            <p class="subtitle">Making a theme for my blog - this very site!</p>
-          </div>
-          
-          <div class="level-right">
-            <p>Posted <time datetime="2019-04-26">Apr 26, 2019</time></p>
-          </div>
-          
-        </div>
-      </div>
-    </article>
-    
-      <div class="is-unselectable categories">
-      
         <a href="/blog/categories/programming" >
           <span class="tag is-info">#Programming</span>
-        </a>
-      
-        <a href="/blog/categories/webdev" >
-          <span class="tag is-info">#WebDev</span>
         </a>
       
     
@@ -222,7 +192,7 @@ iframe {
       
       
       <li class="is-active">
-        <a href="#" aria-current="page">processing-twinkle</a>
+        <a href="#" aria-current="page">dungeon-console</a>
       </li>
       
       

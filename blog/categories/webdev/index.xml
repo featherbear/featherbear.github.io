@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Webdev on Andrew&#39;s Blog</title>
+    <title>WebDev on Andrew&#39;s Blog</title>
     <link>/blog/categories/webdev/</link>
-    <description>Recent content in Webdev on Andrew&#39;s Blog</description>
+    <description>Recent content in WebDev on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Oct 2019 21:47:30 +1100</lastBuildDate>
@@ -35,7 +35,7 @@ I&amp;rsquo;m quite proud of how it turned out :)</description>
 It&amp;rsquo;s pretty cool! Usually you would add your transition: ... on an element&amp;hellip;
 But, if you apply it on the :hover or :not(:hover) selectors, you can make the transition happen only during hover-enter or hover-exit events!
 See it here!
- GitHub
+  GitHub
  </description>
     </item>
     

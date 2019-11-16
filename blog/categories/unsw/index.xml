@@ -6,10 +6,20 @@
     <description>Recent content in UNSW on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2019 09:18:21 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Nov 2019 17:15:24 +1100</lastBuildDate>
     
 	<atom:link href="/blog/categories/unsw/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dungeon Console</title>
+      <link>/blog/post/dungeon-console/</link>
+      <pubDate>Sat, 16 Nov 2019 17:15:24 +1100</pubDate>
+      
+      <guid>/blog/post/dungeon-console/</guid>
+      <description>For my COMP2511 course, I was given a group assignment to make a dungeon crawler type of game in Java. As an &amp;ldquo;Object-Oriented design focused&amp;rdquo; course, the backend was to be made in Java, with a front-end written in JavaFX.
+The aim of the game was to complete different goals and challenges to finish the level&amp;hellip; Killing the enemies, picking up treasure, activating all switches, reaching the exit - or perhaps a combination of all of them.</description>
+    </item>
     
     <item>
       <title>SECedu Summit 2019</title>

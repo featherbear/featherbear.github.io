@@ -129,7 +129,7 @@ Co-ordinates are anchored from the top left
 </details>
 
 # Coding Time
-> GitHub: [featherbear/smallbasic-balloon-shooting-game](https://github.com/featherbear/smallbasic-balloon-shooting-game)
+> <i class="fab fa-github" aria-hidden="true"></i> GitHub: [featherbear/smallbasic-balloon-shooting-game](https://github.com/featherbear/smallbasic-balloon-shooting-game)
 
 
 The first thing to do was to set up the game window

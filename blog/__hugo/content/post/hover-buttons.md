@@ -22,4 +22,4 @@ It's pretty cool! Usually you would add your `transition: ...` on an element...
 
 [See it here!](https://featherbear.github.io/hover-buttons/)
 
-> [GitHub](https://github.com/featherbear/hover-buttons)
+> [<i class="fab fa-github" aria-hidden="true"></i> GitHub](https://github.com/featherbear/hover-buttons)

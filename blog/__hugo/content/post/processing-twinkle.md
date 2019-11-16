@@ -8,7 +8,7 @@ displayInList: true
 breadcrumb: true
 ---
 
-> GitHub: https://github.com/featherbear/processing-twinkle
+> <i class="fab fa-github" aria-hidden="true"></i> GitHub: https://github.com/featherbear/processing-twinkle
 
 Played around abit with [p5.js](https://p5js.org/), a Javascript implementation of the Processing language.
 
