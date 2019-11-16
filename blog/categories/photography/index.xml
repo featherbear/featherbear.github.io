@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photography on Andrew&#39;s Blog</title>
-    <link>http://featherbear.github.io/blog/categories/photography/</link>
+    <link>/categories/photography/</link>
     <description>Recent content in Photography on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 May 2019 22:27:09 +1000</lastBuildDate>
     
-	<atom:link href="http://featherbear.github.io/blog/categories/photography/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/photography/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vanguard Warranty</title>
-      <link>http://featherbear.github.io/blog/post/vanguard-warranty/</link>
+      <link>/post/vanguard-warranty/</link>
       <pubDate>Wed, 22 May 2019 22:27:09 +1000</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/vanguard-warranty/</guid>
+      <guid>/post/vanguard-warranty/</guid>
       <description>Last year my friend borrowed one of my tripods :)
 It got water damage.
 It corroded.
@@ -30,10 +30,10 @@ PSA: Don&amp;rsquo;t put tripods as luggage - Bring it on the plane! So, the tri
     
     <item>
       <title>Behringer X-Touch Mini</title>
-      <link>http://featherbear.github.io/blog/post/behringer-xtouch-mini/</link>
+      <link>/post/behringer-xtouch-mini/</link>
       <pubDate>Mon, 17 Dec 2018 18:20:48 +1100</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/behringer-xtouch-mini/</guid>
+      <guid>/post/behringer-xtouch-mini/</guid>
       <description>Got my hands on a Behringer X-Touch Mini USB MIDI Controller (Yay for Facebook Marketplace).
 Will be using this in my Lightroom editing workflow!
 Configuration Changing the MIDI Mapping The X-Touch Mini has 12 white buttons. With two layers, that would give us 24 different buttons. However some of the buttons were mapped to the same MIDI control key aka - some buttons are duplicate. So firstly, we&amp;rsquo;ll need to remap the surface.</description>

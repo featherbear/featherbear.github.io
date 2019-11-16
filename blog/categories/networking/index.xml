@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking on Andrew&#39;s Blog</title>
-    <link>http://featherbear.github.io/blog/categories/networking/</link>
+    <link>/categories/networking/</link>
     <description>Recent content in Networking on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Jun 2019 16:03:59 +1000</lastBuildDate>
     
-	<atom:link href="http://featherbear.github.io/blog/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Termius - My new SSH client</title>
-      <link>http://featherbear.github.io/blog/post/termius/</link>
+      <link>/post/termius/</link>
       <pubDate>Sun, 09 Jun 2019 16:03:59 +1000</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/termius/</guid>
+      <guid>/post/termius/</guid>
       <description>See related post here: Mosh
  For the past n years, I&amp;rsquo;ve been using PuTTY as my go-to Windows SSH client.
 I guess I didn&amp;rsquo;t use it to its fullest potential, but it did everything that I needed.
@@ -27,10 +27,10 @@ So with that said, say hello to Termius.</description>
     
     <item>
       <title>Mosh</title>
-      <link>http://featherbear.github.io/blog/post/mosh/</link>
+      <link>/post/mosh/</link>
       <pubDate>Sun, 09 Jun 2019 14:39:16 +1000</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/mosh/</guid>
+      <guid>/post/mosh/</guid>
       <description>Mosh is a remote terminal application that aims to overcome the issues that many other protocols face.
 For me, Mosh addresses the lack of roaming support and intermittent network connectivity that I would face when trying to connect to servers whilst on the train or anywhere on the go.
 (semi)technicalities Mosh connects to the server machine over SSH, meaning that there is no concern of a new avenue of vulnerability.</description>
@@ -38,10 +38,10 @@ For me, Mosh addresses the lack of roaming support and intermittent network conn
     
     <item>
       <title>Gourmet Burgers</title>
-      <link>http://featherbear.github.io/blog/post/gourmet-burgers/</link>
+      <link>/post/gourmet-burgers/</link>
       <pubDate>Thu, 25 Apr 2019 09:07:16 +1100</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/gourmet-burgers/</guid>
+      <guid>/post/gourmet-burgers/</guid>
       <description>This semester I had a group assignment where we had to create an online ordering system for a ficticious company called GourmetBurgers.
 Albeit it being a group assignment, and alot of waiting for my partners to finish their code; overall I found this assignment really fun to complete!
 Especially to get a nice UI that would ultimately contribute towards 0% of my grade!
@@ -50,10 +50,10 @@ Especially to get a nice UI that would ultimately contribute towards 0% of my gr
     
     <item>
       <title>Arduino - WiFi DMX</title>
-      <link>http://featherbear.github.io/blog/post/arduino-wifi-dmx/</link>
+      <link>/post/arduino-wifi-dmx/</link>
       <pubDate>Sat, 20 Apr 2019 21:58:58 +1000</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/arduino-wifi-dmx/</guid>
+      <guid>/post/arduino-wifi-dmx/</guid>
       <description>At the start of 2018, I built a cheap wireless DMX receiver as a parting &amp;lsquo;gift&amp;rsquo; to my high school (Heck, I even wrote a training manual).
 Their system had i s s u e s.
 Two broken lighting consoles, and the DMX cable that connects from the control room was damaged due to water damage.
@@ -63,10 +63,10 @@ So something had to be done!
     
     <item>
       <title>PeerJS Revived</title>
-      <link>http://featherbear.github.io/blog/post/peerjs/</link>
+      <link>/post/peerjs/</link>
       <pubDate>Fri, 01 Mar 2019 11:34:37 +1100</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/peerjs/</guid>
+      <guid>/post/peerjs/</guid>
       <description>Near the end of 2017, I wrote attempted to write a delivery tracker webpage that would list all of my tracked packages and their status information.
 To sync my list of packages between my devices, I used a library called PeerJS that established P2P connections between my devices to send and receive data. PeerJS was dormant since 2015, and amazingly it worked for the duration of my code.
 After a 3 year period of inactivity, PeerJS is back and alive (in active commits) so yay!</description>
@@ -74,10 +74,10 @@ After a 3 year period of inactivity, PeerJS is back and alive (in active commits
     
     <item>
       <title>Jebabej</title>
-      <link>http://featherbear.github.io/blog/post/jebabej/</link>
+      <link>/post/jebabej/</link>
       <pubDate>Thu, 28 Feb 2019 19:13:02 +1100</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/jebabej/</guid>
+      <guid>/post/jebabej/</guid>
       <description>Date: 28th February 2019
 Time: Some time around 7pm&amp;hellip;
 Location: UNSW CSE Level One Common Room
@@ -94,10 +94,10 @@ Person D: Let&amp;rsquo;s make a Mafia app!
     
     <item>
       <title>Unifi and Java</title>
-      <link>http://featherbear.github.io/blog/post/unifi-java/</link>
+      <link>/post/unifi-java/</link>
       <pubDate>Mon, 04 Feb 2019 23:06:34 +1100</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/unifi-java/</guid>
+      <guid>/post/unifi-java/</guid>
       <description>Overnight Java decided to auto update itself even though I disabled automatic updates!?!
 Consequently there wasn&amp;rsquo;t a firewall rule for the new Java installation path so my UniFi SDN went MIA.
 That said, for my own future reference&amp;hellip;
@@ -108,10 +108,10 @@ Lesson learned - Don&amp;rsquo;t trust auto updaters D:</description>
     
     <item>
       <title>Home Network Upgrade</title>
-      <link>http://featherbear.github.io/blog/post/home-network-upgrade/</link>
+      <link>/post/home-network-upgrade/</link>
       <pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/home-network-upgrade/</guid>
+      <guid>/post/home-network-upgrade/</guid>
       <description>When I&amp;rsquo;m bored I often find myself scrolling Gumtree and Facebook Marketplace for deals - audio gear, camera gear, furniture, and when in &amp;lsquo;need&amp;rsquo; - network gear!
 So I found a classified on Gumtree&amp;hellip;
 8x Ubiquiti UniFi UAP - $10 each!!!
@@ -122,10 +122,10 @@ And hey, $50 savings per unit.</description>
     
     <item>
       <title>Neutrik EtherCON Kits</title>
-      <link>http://featherbear.github.io/blog/post/neutrik-ethercon-kits/</link>
+      <link>/post/neutrik-ethercon-kits/</link>
       <pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/neutrik-ethercon-kits/</guid>
+      <guid>/post/neutrik-ethercon-kits/</guid>
       <description>The PreSonus StudioLive 16 and StudioLive 24R have an EtherCON port for their AVB connection.
 You could forego the EtherCON connector and just connect an Ethernet cable, but I&amp;rsquo;ve had one occassion where a network stagebox got disconnected because the cable got kicked off.
 Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the Neutrik NE8MC-1.
@@ -134,10 +134,10 @@ Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the
     
     <item>
       <title>Portforwarding with Shootback</title>
-      <link>http://featherbear.github.io/blog/post/portforwarding-with-shootback/</link>
+      <link>/post/portforwarding-with-shootback/</link>
       <pubDate>Mon, 12 Nov 2018 16:25:09 +1100</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/portforwarding-with-shootback/</guid>
+      <guid>/post/portforwarding-with-shootback/</guid>
       <description>WITHOUT SHADOWSOCKS
 ./master.py -m 0.0.0.0:58370 -c 0.0.0.0:8380 ./slaver.py -m direct.navhaxs.au.eu.org:58370  WITH SHADOWSOCKS
 ./master.py -m 127.0.0.1:58370 -c 0.0.0.0:8380` ss-tunnel -c /etc/shadowsocks/config.json -s direct.navhaxs.au.eu.org -l 58370 -L localhost:58370 -u ./slaver.py -m localhost:58370 -t localhost:8001  :: config.json
@@ -146,10 +146,10 @@ Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the
     
     <item>
       <title>Portforwarding with SSH</title>
-      <link>http://featherbear.github.io/blog/post/portforwarding-with-ssh/</link>
+      <link>/post/portforwarding-with-ssh/</link>
       <pubDate>Mon, 12 Nov 2018 14:34:38 +1100</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/portforwarding-with-ssh/</guid>
+      <guid>/post/portforwarding-with-ssh/</guid>
       <description> $&amp;gt; ssh [SERVER] -L srcAddr:srcPort:dstAddr:dstPort
 listens on srcAddr:srcPort which results in [SERVER] connecting to dstAddr:dstPort
 &amp;gt; Useful for connecting to a device in a network
@@ -160,10 +160,10 @@ $&amp;gt; ssh [SERVER] -L srcPort:dstAddr:dstPort
     
     <item>
       <title>ProPresenter 6 Stage Display Messages</title>
-      <link>http://featherbear.github.io/blog/post/propresenter6-stage-display-messages-client/</link>
+      <link>/post/propresenter6-stage-display-messages-client/</link>
       <pubDate>Sat, 04 Aug 2018 23:14:04 +1100</pubDate>
       
-      <guid>http://featherbear.github.io/blog/post/propresenter6-stage-display-messages-client/</guid>
+      <guid>/post/propresenter6-stage-display-messages-client/</guid>
       <description>ProPresenter 6 is great!
 Except for the times when it&amp;rsquo;s not&amp;hellip; (then, it&amp;rsquo;s not great! [Wow who knew!])
 PP6 allows you to send stage messages remotely from the ProPresenter 6 iOS / Android app.
