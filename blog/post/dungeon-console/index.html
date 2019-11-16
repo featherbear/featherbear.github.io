@@ -106,9 +106,11 @@ if (!doNotTrack) {
 
 <p><img src="https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/blob/master/demo_boulders.gif" alt="" /></p>
 
-<hr />
+<p>One challenge in getting this application to work was capturing key presses.<br />
+Java reads its lines in buffers / strings of characters rather than single characters one at a time.</p>
 
-<p>Whilst I had written the majority of the backend without reliance of JavaFX, there were some useful classes (namely the <code>BooleanProperty</code> and <code>IntegerProperty</code> classes). If I have time to kill, I might implement my own property change listeners so I can remove JavaFX as a dependency on the backend, and only for the JavaFX UI.</p>
+<p>As there was no window, I could not use Java AWT&rsquo;s <code>KeyEvent</code>.<br />
+There were other libraries like JLine, but they were massive libraries for such little needed functionality. But, luckily I found a library called <a href="https://github.com/featherbear/RawConsoleInput.java/"><code>RawConsoleInput.java</code></a> which worked wonders (not say without any hitches)!</p>
 </article>
   </main>
 
