@@ -3,7 +3,7 @@ title: "UNSW MATH3411"
 date: 2019-12-05T09:00:10+11:00
 description: "Information, Codes and Ciphers"
 categories: ["UNSW"]
-featuredImage: "/post/UNSW-MATH3411/20191120_134300.jpg"
+featuredImage: "/post/unsw-math3411/20191120_134300.jpg"
 displayInMenu: false
 displayInList: true
 ---
