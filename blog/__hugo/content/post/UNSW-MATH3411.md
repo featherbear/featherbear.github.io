@@ -41,7 +41,7 @@ _That said, out of sheer enjoyment for computing I'm still doing more than the n
 
 So this trimester I was studying under full load: MATH3411, MATH2069, and COMP2511.
 
-# Content
+# Course Content
 
 The course effectively began with an introduction to ISBN numbers - those things you see in libraries (If anyone goes to those anymore), and how they have a checkbit to ensure the integrity of the code.  
 
@@ -99,7 +99,7 @@ You might infer that $f(a,b) = a + b$
 If you were asked $f(20,5)$, you'd probably then think _"Okay to solve this question, I add 20 and 5 to get 25"_.  
 You submit the answer, and then ... **WRONG - Correct answer: 395**.  
 
-That's because $f(a,b) = a^2 - b$!
+That's because $f(a,b) = a^2 - b$ !!!
 
 Now, if the question only ever asked for $f(4,6)$, you would **never realise that you were doing it wrong**.  
 You'd write 10 as the answer, and see it marked as correct. But as soon as $f(20,5)$ appears in your written final exam - You'd be oblivious that your methodology, and ultimate your answer is wrong.
