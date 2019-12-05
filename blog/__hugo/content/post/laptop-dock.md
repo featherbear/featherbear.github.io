@@ -26,20 +26,20 @@ November was the month of spending for me. From preparing Christmas gifts, to be
 2x [Satechi Type-C 75W Travel Charger](https://satechi.net/products/type-c-75w-travel-charger)  
 1x [Canon EF 35mm f/2 IS USM](https://www.canon.com.au/camera-lenses/ef-35mm-f-2-is-usm) camera lens  
 **1x [Dell WD15 USB-C Business Dock](https://www.dell.com/en-au/work/shop/dell-business-dock-wd15-with-180w-adapter/apd/452-bcfx/pc-accessories)**  
-**1x [ATEN CS782DP DisplayPort KVM](https://www.aten.com/au/en/products/kvm/desktop-kvm-switches/cs782dp/)**
+**2x [HDMI KVM](https://www.ebay.com.au/itm/4K-Ultra-HD-HDMI-Port-USB-2-0-Sharing-KVM-Switch-Box-For-Keyboard-Plug-Play/163970343544)**
 
 In anticipation for Cyber Monday, I had started to look and prepare for a [new computer build](https://au.pcpartpicker.com/list/gvfK4n) - but after a few unforeseen turn of events, I had decided to delay those purchases, and opt for buying a collection of other things.  
+One of these things included buying some equipment to connect my laptop (Dell Latitude 7390) to my multi-monitor setup at home.
 
-One of these things included buying some equipment to connect my laptop (Dell Latitude 7390) to my multi-monitor displays at home.
-
-> Previously, I had been connecting my laptop to a USB-C PD + Gigabit Ethernet dongle, then using either [Synergy](https://symless.com/synergy) or [TeamViewer](https://www.teamviewer.com/). Whilst both great products, I did wish that I could get the responsiveness from physical interaction. And also that I don't have that much space to 'dock' my laptop.  
-**Well not any more.**
+Previously, I had been connecting my laptop to a USB-C PD + Gigabit Ethernet dongle, then using either [Synergy](https://symless.com/synergy) or [TeamViewer](https://www.teamviewer.com/). Whilst both great products, I did wish that I could get the same instantaneous responsiveness from physical interaction.  
+When using Synergy, the keyboard kept popping up when clicking on any text-field on [Pop OS](../laptop-reinstall).  
+And with TeamViewer, I had to keep my laptop opened ajar - No amount of configuration could fix it..
 
 To actualise my idea, I opted for a USB-C Dock and DisplayPort KVM solution.
 
 ![](diagram-no_peripheral.svg)
 
-USB-C Dock - I want to have _one_ cable, which can charge my laptop, extend the video signal, and also carry a gigabit network connection. USB-C was clearly the choice here, with its Power Delivery standards.  
+USB-C Dock - I want to have _one_ cable, which can charge my laptop, extend the video signal, provide audio out and also carry a gigabit network connection. USB-C was clearly the choice here, with its Power Delivery standards.  
 I decided upon the **[Dell WD15 USB-C Business Dock](https://www.dell.com/en-au/work/shop/dell-business-dock-wd15-with-180w-adapter/apd/452-bcfx/pc-accessories)**, as I had found a good deal for AUD $89 - what a steal!
 
 DisplayPort KVM - As DisplayPort MST exists, I would be able to connect just one cable from my laptop, and daisy-chain DisplayPort MST-compatible displays together to get an extended display.  
@@ -47,6 +47,17 @@ I decided upon the **[ATEN CS782DP DisplayPort KVM](https://www.aten.com/au/en/p
 
 ---
 
-Though I could have saved money on the dock and opted for a USB-C KVM, I found this dock + KVM combo a better choice, as I needed both devices to maintain a network connection, and that both devices would be able to output an audio signal into my audio matrix.
+EDIT: I decided against the ATEN ($220), and instead ended up purchasing two [generic HDMI KVMs](https://www.ebay.com.au/itm/4K-Ultra-HD-HDMI-Port-USB-2-0-Sharing-KVM-Switch-Box-For-Keyboard-Plug-Play/163970343544) ($70 for both).  
+There were a few reasons for this:
+
+* It was externally powered, rather than being powered by the USB bus - which I read could be bad.
+* I would have the option to switch just one display by manually triggering a single KVM
+* I would be able to switch an infinite number of displays by bridging all of the remote input ports together
+* Cheap!
+
+I'm currently waiting for the KVM's to arrive.  
+When they do, I'm planning of adding a physical button to each unit, as well as bridging the units together (probably externally via cable between the input jacks)
+
+---
 
 ![](diagram-with_peripheral.svg)
