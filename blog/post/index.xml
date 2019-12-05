@@ -1,168 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Andrew&#39;s Blog</title>
-    <link>/blog/post/</link>
-    <description>Recent content in Posts on Andrew&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 16 Nov 2019 17:15:24 +1100</lastBuildDate>
-    
-	<atom:link href="/blog/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Dungeon Console</title>
-      <link>/blog/post/dungeon-console/</link>
-      <pubDate>Sat, 16 Nov 2019 17:15:24 +1100</pubDate>
-      
-      <guid>/blog/post/dungeon-console/</guid>
-      <description>For my COMP2511 course, I was given a group assignment to make a dungeon crawler type of game in Java. As an &amp;ldquo;Object-Oriented design focused&amp;rdquo; course, the backend was to be made in Java, with a front-end written in JavaFX.
-The aim of the game was to complete different goals and challenges to finish the level&amp;hellip; Killing the enemies, picking up treasure, activating all switches, reaching the exit - or perhaps a combination of all of them.</description>
-    </item>
-    
-    <item>
-      <title>Laptop Dock</title>
-      <link>/blog/post/laptop-dock/</link>
-      <pubDate>Sat, 16 Nov 2019 00:17:54 +1100</pubDate>
-      
-      <guid>/blog/post/laptop-dock/</guid>
-      <description>November was the month of spending for me. From preparing Christmas gifts, to being too eager and impatient to wait for Black Friday / Cyber Monday sales (But do they even happen down here in Australia???).
- 2x Mi Band 4 smart watches
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Andrew&#39;s Blog</title><link>/blog/post/</link><description>Recent content in Posts on Andrew&#39;s Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 05 Dec 2019 09:00:10 +1100</lastBuildDate><atom:link href="/blog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>UNSW MATH3411</title><link>/blog/post/unsw-math3411/</link><pubDate>Thu, 05 Dec 2019 09:00:10 +1100</pubDate><guid>/blog/post/unsw-math3411/</guid><description>Now most of these &amp;ldquo;UNSW-XXXXYYYY&amp;rdquo; pages are just redirects, but not this one!
+Click here to go to the MATH3411 blog site
+I took this course in Trimester 3, 2019 with the amazing Thomas Britz.
+This time around, we were the guinea pigs for this course&amp;rsquo;s Digital Uplift.
+The Digital Uplift initiative will enhance [courses] across the university for blended and fully online delivery over 5 years to improve the student experience and learning outcomes.</description></item><item><title>Laptop Dock</title><link>/blog/post/laptop-dock/</link><pubDate>Sat, 16 Nov 2019 00:17:54 +1100</pubDate><guid>/blog/post/laptop-dock/</guid><description>November was the month of spending for me. From preparing Christmas gifts, to being too eager and impatient to wait for Black Friday / Cyber Monday sales (But do they even happen down here in Australia???).
+2x Mi Band 4 smart watches
 1x Shure SE215 earphones
 1x Knowledge Zenith ZS10 Pro earphones
 2x Logitech Spotlight wireless clickers
 2x Satechi Type-C 75W Travel Charger
-1x Canon EF 35mm f/2 IS USM camera lens</description>
-    </item>
-    
-    <item>
-      <title>Filmstrip Messages</title>
-      <link>/blog/post/filmstrip-messages/</link>
-      <pubDate>Sat, 26 Oct 2019 21:47:30 +1100</pubDate>
-      
-      <guid>/blog/post/filmstrip-messages/</guid>
-      <description>About two weeks ago, I stumbled upon Codrops&amp;rsquo; Photo Booth Strips project, and I reckon it looked pretty sweet.
+1x Canon EF 35mm f/2 IS USM camera lens</description></item><item><title>Dungeon Console</title><link>/blog/post/dungeon-console/</link><pubDate>Mon, 04 Nov 2019 22:31:24 +1100</pubDate><guid>/blog/post/dungeon-console/</guid><description>For my COMP2511 course, I was given a group assignment to make a dungeon crawler type of game in Java. As an &amp;ldquo;Object-Oriented design focused&amp;rdquo; course, the backend was to be made in Java, with a front-end written in JavaFX.
+The aim of the game was to complete different goals and challenges to finish the level&amp;hellip; Killing the enemies, picking up treasure, activating all switches, reaching the exit - or perhaps a combination of all of them.</description></item><item><title>Filmstrip Messages</title><link>/blog/post/filmstrip-messages/</link><pubDate>Sat, 26 Oct 2019 21:47:30 +1100</pubDate><guid>/blog/post/filmstrip-messages/</guid><description>About two weeks ago, I stumbled upon Codrops&amp;rsquo; Photo Booth Strips project, and I reckon it looked pretty sweet.
 Diagonal scrolling, how cool!
 So I decided to write my own as an exercise.
 Fast-forwards to today, and I&amp;rsquo;ve finally finished a release-able version of my project named Filmstrip Messages.
 I spent a bit of time drawing and animating a mailbox vector graphic that appears as a loading page.
-I&amp;rsquo;m quite proud of how it turned out :)</description>
-    </item>
-    
-    <item>
-      <title>Hover Buttons</title>
-      <link>/blog/post/hover-buttons/</link>
-      <pubDate>Mon, 14 Oct 2019 18:57:36 +1100</pubDate>
-      
-      <guid>/blog/post/hover-buttons/</guid>
-      <description>So I made a little website demo to show CSS hovering animations.
+I&amp;rsquo;m quite proud of how it turned out :)</description></item><item><title>Hover Buttons</title><link>/blog/post/hover-buttons/</link><pubDate>Mon, 14 Oct 2019 18:57:36 +1100</pubDate><guid>/blog/post/hover-buttons/</guid><description>So I made a little website demo to show CSS hovering animations.
 It&amp;rsquo;s pretty cool! Usually you would add your transition: ... on an element&amp;hellip;
 But, if you apply it on the :hover or :not(:hover) selectors, you can make the transition happen only during hover-enter or hover-exit events!
 See it here!
-  GitHub
- </description>
-    </item>
-    
-    <item>
-      <title>NewTek NDI v4</title>
-      <link>/blog/post/newtek-ndi-4/</link>
-      <pubDate>Wed, 09 Oct 2019 01:16:53 +1100</pubDate>
-      
-      <guid>/blog/post/newtek-ndi-4/</guid>
-      <description>On the 13th September 2019, NDI released version 4 of their free NDI Tools software suite.
+GitHub</description></item><item><title>NewTek NDI v4</title><link>/blog/post/newtek-ndi-4/</link><pubDate>Wed, 09 Oct 2019 01:16:53 +1100</pubDate><guid>/blog/post/newtek-ndi-4/</guid><description>On the 13th September 2019, NDI released version 4 of their free NDI Tools software suite.
 For all I care, the biggest benefits are:
 KVM Support for Scan Converter &amp;amp; Studio Monitor You can use a computer running Studio Monitor to KVM into a computer running Scan Converter.
 This is pretty amazing, considering how low-latency the NDI protocol is in general.
-NDI Recording with Studio Monitor Originally, you had to use an NDI recorder software, but now this feature is built in natively, amazing!</description>
-    </item>
-    
-    <item>
-      <title>SECedu Summit 2019</title>
-      <link>/blog/post/secedu-summit-2019/</link>
-      <pubDate>Fri, 20 Sep 2019 09:18:21 +1000</pubDate>
-      
-      <guid>/blog/post/secedu-summit-2019/</guid>
-      <description>Keynote: Richard Buckland - UNSW How do you create rascals?
+NDI Recording with Studio Monitor Originally, you had to use an NDI recorder software, but now this feature is built in natively, amazing!</description></item><item><title>SECedu Summit 2019</title><link>/blog/post/secedu-summit-2019/</link><pubDate>Fri, 20 Sep 2019 09:18:21 +1000</pubDate><guid>/blog/post/secedu-summit-2019/</guid><description>Keynote: Richard Buckland - UNSW How do you create rascals?
 Teaching each other
 Keynote: Rachel Noble - ACSC &amp;ldquo;There&amp;rsquo;s a human mind behind every computer&amp;rdquo; EXP
-More than a Hacker - Developing Interdisciplinary Cyber Security Graduates What are the problems/risks with specialists?  How do you maintain your ability in a field where technology is rapidly changing and evolving. Narow  Should Cyber Security be taught in schools?  The newer generation are born into technology Technology is too readily available and accessible, and privacy is too often traded for convenience  How do you attract high school students to the field of Cyber Security?</description>
-    </item>
-    
-    <item>
-      <title>Course-crashing UNSW COMP3331</title>
-      <link>/blog/post/unsw-comp3331/</link>
-      <pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate>
-      
-      <guid>/blog/post/unsw-comp3331/</guid>
-      <description>Click here to go to the COMP3331 blog site</description>
-    </item>
-    
-    <item>
-      <title>UNSW COMP2511</title>
-      <link>/blog/post/unsw-comp2511/</link>
-      <pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate>
-      
-      <guid>/blog/post/unsw-comp2511/</guid>
-      <description>Click here to go to the COMP2511 blog site</description>
-    </item>
-    
-    <item>
-      <title>UNSW MATH3411</title>
-      <link>/blog/post/unsw-math3411/</link>
-      <pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate>
-      
-      <guid>/blog/post/unsw-math3411/</guid>
-      <description>Click here to go to the MATH3411 blog site</description>
-    </item>
-    
-    <item>
-      <title>Minecraft</title>
-      <link>/blog/post/minecraft/</link>
-      <pubDate>Thu, 12 Sep 2019 15:06:50 +1100</pubDate>
-      
-      <guid>/blog/post/minecraft/</guid>
-      <description>So I, used to be pretty into Minecraft.
+More than a Hacker - Developing Interdisciplinary Cyber Security Graduates What are the problems/risks with specialists? How do you maintain your ability in a field where technology is rapidly changing and evolving. Narow Should Cyber Security be taught in schools? The newer generation are born into technology Technology is too readily available and accessible, and privacy is too often traded for convenience How do you attract high school students to the field of Cyber Security?</description></item><item><title>Course-crashing UNSW COMP3331</title><link>/blog/post/unsw-comp3331/</link><pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate><guid>/blog/post/unsw-comp3331/</guid><description>Click here to go to the COMP3331 blog site</description></item><item><title>UNSW COMP2511</title><link>/blog/post/unsw-comp2511/</link><pubDate>Mon, 16 Sep 2019 09:00:10 +1100</pubDate><guid>/blog/post/unsw-comp2511/</guid><description>Click here to go to the COMP2511 blog site</description></item><item><title>Minecraft</title><link>/blog/post/minecraft/</link><pubDate>Thu, 12 Sep 2019 15:06:50 +1100</pubDate><guid>/blog/post/minecraft/</guid><description>So I, used to be pretty into Minecraft.
 That was, back in 2008.
 &amp;nbsp;
 In primary school, I used to play with my friends on a vanilla server, Icecraft.
 In high school, I started getting into modding and server administration. We played with the Feed The Beast modpack, and eventually we played our own modpack, BearCrack.
 &amp;nbsp;
-I got into server administration - running servers, and contributing to Bukkit plugins.</description>
-    </item>
-    
-    <item>
-      <title>Brilliant Smart - WiFi LED Lights</title>
-      <link>/blog/post/brilliant-smart-wifi-led-lights/</link>
-      <pubDate>Tue, 03 Sep 2019 16:45:40 +1000</pubDate>
-      
-      <guid>/blog/post/brilliant-smart-wifi-led-lights/</guid>
-      <description>I went to ALDI today and impulsively bought two boxes of these Brilliant Smart WiFi LED lights
+I got into server administration - running servers, and contributing to Bukkit plugins.</description></item><item><title>Brilliant Smart - WiFi LED Lights</title><link>/blog/post/brilliant-smart-wifi-led-lights/</link><pubDate>Tue, 03 Sep 2019 16:45:40 +1000</pubDate><guid>/blog/post/brilliant-smart-wifi-led-lights/</guid><description>I went to ALDI today and impulsively bought two boxes of these Brilliant Smart WiFi LED lights
 $50 for three bulbs&amp;hellip; $100 for six bulbs&amp;hellip;
 Seemed like a pretty good purchase to me - I could use them with my Home Assistant setup in my house!
 These Brilliant Smart lights are just rebranded Tuya lights.
-The first thing to do was to flash the bulb&amp;rsquo;s firmware with either Tasmota or ESPHome - custom firmwares for smart devices that would allow me to interact with them.</description>
-    </item>
-    
-    <item>
-      <title>Mi Band 4</title>
-      <link>/blog/post/mi-band-4/</link>
-      <pubDate>Sat, 31 Aug 2019 17:43:02 +1000</pubDate>
-      
-      <guid>/blog/post/mi-band-4/</guid>
-      <description>My brother and I have been eyeing on a sale for the Mi Band 4, and we finally swooped to buy them at $40 AUD each!
+The first thing to do was to flash the bulb&amp;rsquo;s firmware with either Tasmota or ESPHome - custom firmwares for smart devices that would allow me to interact with them.</description></item><item><title>Mi Band 4</title><link>/blog/post/mi-band-4/</link><pubDate>Sat, 31 Aug 2019 17:43:02 +1000</pubDate><guid>/blog/post/mi-band-4/</guid><description>My brother and I have been eyeing on a sale for the Mi Band 4, and we finally swooped to buy them at $40 AUD each!
 I used to have a Mi Band 2, and one thing I liked about it was being able to see my Facebook Messenger notifications on them.
 The Mi Band 4 is definitely an upgrade.
-For starters, it has a larger screen with a much higher resolution.</description>
-    </item>
-    
-    <item>
-      <title>Sonoff Mini</title>
-      <link>/blog/post/sonoff-smart-switches/</link>
-      <pubDate>Fri, 30 Aug 2019 23:13:55 +1000</pubDate>
-      
-      <guid>/blog/post/sonoff-smart-switches/</guid>
-      <description>I ordered a Sonoff Mini, and it arrived in the mail today.
+For starters, it has a larger screen with a much higher resolution.</description></item><item><title>Sonoff Mini</title><link>/blog/post/sonoff-smart-switches/</link><pubDate>Fri, 30 Aug 2019 23:13:55 +1000</pubDate><guid>/blog/post/sonoff-smart-switches/</guid><description>I ordered a Sonoff Mini, and it arrived in the mail today.
 I&amp;rsquo;m planning to connect it to my ceiling lights.
 First thing&amp;rsquo;s first, Tasmota time!
 We&amp;rsquo;ll be flashing Sonoff-Tasmota via Sonoff DIY OTA mode.
@@ -171,129 +47,39 @@ Steps Disclaimer: This device plays with LIVE ELECTRICITY. Don&amp;rsquo;t kill 
 - Sonoff DIY Tool
 - Tasmota firmware file (ie sonoff-basic.bin 2.3.0)
 1) Update the firmware
-To first update the firmware, we need to make sure that the Sonoff Mini&amp;rsquo;s stock firmware is at least version 3.</description>
-    </item>
-    
-    <item>
-      <title>Laptop Reinstall</title>
-      <link>/blog/post/laptop-reinstall/</link>
-      <pubDate>Thu, 29 Aug 2019 15:39:58 +1100</pubDate>
-      
-      <guid>/blog/post/laptop-reinstall/</guid>
-      <description>I&amp;rsquo;ve been dual-booting my Dell Latitude 7390 with Windows 10 and Parrot since the start of 2018.
+To first update the firmware, we need to make sure that the Sonoff Mini&amp;rsquo;s stock firmware is at least version 3.</description></item><item><title>Laptop Reinstall</title><link>/blog/post/laptop-reinstall/</link><pubDate>Thu, 29 Aug 2019 15:39:58 +1100</pubDate><guid>/blog/post/laptop-reinstall/</guid><description>I&amp;rsquo;ve been dual-booting my Dell Latitude 7390 with Windows 10 and Parrot since the start of 2018.
 Recently, my Windows 10 installation had been bombarding me with a barrage of pretty blue screens with the WHEA_UNCORRECTABLE_ERROR message whenever I connected a USB device.
 I tried updating my BIOS and other firmwares, nope.
 I tried uninstalling softwares and drivers, nope.
 I tried removing my Parrot OS microSD card, nope.
-I tried to not plug in any USB device ever again&amp;hellip; it then started to crash even without a USB inserted.</description>
-    </item>
-    
-    <item>
-      <title>RICE Rally 2019 Sydney</title>
-      <link>/blog/post/rice-rally-2019-sydney/</link>
-      <pubDate>Sat, 24 Aug 2019 23:57:22 +1000</pubDate>
-      
-      <guid>/blog/post/rice-rally-2019-sydney/</guid>
-      <description>I&amp;rsquo;m back at it again doing vision playback for RICE Rally 2019 at ICC Sydney!
+I tried to not plug in any USB device ever again&amp;hellip; it then started to crash even without a USB inserted.</description></item><item><title>RICE Rally 2019 Sydney</title><link>/blog/post/rice-rally-2019-sydney/</link><pubDate>Sat, 24 Aug 2019 23:57:22 +1000</pubDate><guid>/blog/post/rice-rally-2019-sydney/</guid><description>I&amp;rsquo;m back at it again doing vision playback for RICE Rally 2019 at ICC Sydney!
 Technologies:
- Playback - ProPresenter 6 Playback - CasparCG Video Transport - NewTek NDI Video Mixing - Open Broadcaster Software  See Production on a Budget
+Playback - ProPresenter 6 Playback - CasparCG Video Transport - NewTek NDI Video Mixing - Open Broadcaster Software See Production on a Budget
 Technical:
 Timecode ProPresenter 6 does not have any timecode slave triggering, and we didn&amp;rsquo;t have any software (PVP, and a Mac) on us that would allow for that.
-We had to manually sync the track by counting over our intercoms&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Production on a Budget</title>
-      <link>/blog/post/production-on-a-budget/</link>
-      <pubDate>Sun, 07 Jul 2019 00:55:05 +1000</pubDate>
-      
-      <guid>/blog/post/production-on-a-budget/</guid>
-      <description>So RICE Rally 2019 Sydney is happening again, and I&amp;rsquo;ve been asked to help out again with lyrics and video playout for the event!
+We had to manually sync the track by counting over our intercoms&amp;hellip;</description></item><item><title>Production on a Budget</title><link>/blog/post/production-on-a-budget/</link><pubDate>Sun, 07 Jul 2019 00:55:05 +1000</pubDate><guid>/blog/post/production-on-a-budget/</guid><description>So RICE Rally 2019 Sydney is happening again, and I&amp;rsquo;ve been asked to help out again with lyrics and video playout for the event!
 Being you know, poor - I love free software that can do the job.
 And as a software developer, open source software makes me really excited too (but free is better).
-NewTek NDI The magic glue that holds all of this together is NewTek&amp;rsquo;s NDI protocol - a video and audio over IP solution that works pretty darn well.</description>
-    </item>
-    
-    <item>
-      <title>Parsec</title>
-      <link>/blog/post/parsec/</link>
-      <pubDate>Sun, 30 Jun 2019 15:43:17 +1000</pubDate>
-      
-      <guid>/blog/post/parsec/</guid>
-      <description>Parsec is a software designed to help people play offline multiplayer games - online.
+NewTek NDI The magic glue that holds all of this together is NewTek&amp;rsquo;s NDI protocol - a video and audio over IP solution that works pretty darn well.</description></item><item><title>Parsec</title><link>/blog/post/parsec/</link><pubDate>Sun, 30 Jun 2019 15:43:17 +1000</pubDate><guid>/blog/post/parsec/</guid><description>Parsec is a software designed to help people play offline multiplayer games - online.
 This is done by streaming the display, whilst also emulating keyboard, mouse, and even game controller input.
 Getting started Getting Parsec set up was straightforward.
 Firstly, download the server software.
 Then install the client software (ie on Google Play store, Google Chrome extension).
-Create an account, log in, press connect and you&amp;rsquo;re good to go!</description>
-    </item>
-    
-    <item>
-      <title>Tabby Cat</title>
-      <link>/blog/post/tabby-cat/</link>
-      <pubDate>Mon, 24 Jun 2019 16:17:56 +1000</pubDate>
-      
-      <guid>/blog/post/tabby-cat/</guid>
-      <description>My friend introduced me to the Tabby Cat cult club.
+Create an account, log in, press connect and you&amp;rsquo;re good to go!</description></item><item><title>Tabby Cat</title><link>/blog/post/tabby-cat/</link><pubDate>Mon, 24 Jun 2019 16:17:56 +1000</pubDate><guid>/blog/post/tabby-cat/</guid><description>My friend introduced me to the Tabby Cat cult club.
 It&amp;rsquo;s a browser extension for Chrome and Firefox which shows you a cute animal as your new tab page.
 Essentially, as you open more tabs , you unlock new toys (and characters *).
 Snooping around the source code (Firefox) we can see this
-function shouldPickNewGoody(visits) { if (visits === 1) { return true; } else if (visits % 200 === 0) { return true; } else { return Math.</description>
-    </item>
-    
-    <item>
-      <title>Termius - My new SSH client</title>
-      <link>/blog/post/termius/</link>
-      <pubDate>Sun, 09 Jun 2019 16:03:59 +1000</pubDate>
-      
-      <guid>/blog/post/termius/</guid>
-      <description>See related post here: Mosh
- For the past n years, I&amp;rsquo;ve been using PuTTY as my go-to Windows SSH client.
+function shouldPickNewGoody(visits) { if (visits === 1) { return true; } else if (visits % 200 === 0) { return true; } else { return Math.</description></item><item><title>Termius - My new SSH client</title><link>/blog/post/termius/</link><pubDate>Sun, 09 Jun 2019 16:03:59 +1000</pubDate><guid>/blog/post/termius/</guid><description>See related post here: Mosh
+For the past n years, I&amp;rsquo;ve been using PuTTY as my go-to Windows SSH client.
 I guess I didn&amp;rsquo;t use it to its fullest potential, but it did everything that I needed.
 That is, it used to do everything that I needed&amp;hellip;
 I&amp;rsquo;m starting to use Mosh now, and so I needed to find a new SSH/Mosh client.
-So with that said, say hello to Termius.</description>
-    </item>
-    
-    <item>
-      <title>Mosh</title>
-      <link>/blog/post/mosh/</link>
-      <pubDate>Sun, 09 Jun 2019 14:39:16 +1000</pubDate>
-      
-      <guid>/blog/post/mosh/</guid>
-      <description>Mosh is a remote terminal application that aims to overcome the issues that many other protocols face.
+So with that said, say hello to Termius.</description></item><item><title>Mosh</title><link>/blog/post/mosh/</link><pubDate>Sun, 09 Jun 2019 14:39:16 +1000</pubDate><guid>/blog/post/mosh/</guid><description>Mosh is a remote terminal application that aims to overcome the issues that many other protocols face.
 For me, Mosh addresses the lack of roaming support and intermittent network connectivity that I would face when trying to connect to servers whilst on the train or anywhere on the go.
-(semi)technicalities Mosh connects to the server machine over SSH, meaning that there is no concern of a new avenue of vulnerability.</description>
-    </item>
-    
-    <item>
-      <title>Fear and Tension</title>
-      <link>/blog/post/fear-and-tension/</link>
-      <pubDate>Sat, 08 Jun 2019 11:12:03 +1000</pubDate>
-      
-      <guid>/blog/post/fear-and-tension/</guid>
-      <description>Fear is subjective, tension is objective. - Some YouTube video.
+(semi)technicalities Mosh connects to the server machine over SSH, meaning that there is no concern of a new avenue of vulnerability.</description></item><item><title>Fear and Tension</title><link>/blog/post/fear-and-tension/</link><pubDate>Sat, 08 Jun 2019 11:12:03 +1000</pubDate><guid>/blog/post/fear-and-tension/</guid><description>Fear is subjective, tension is objective. - Some YouTube video.
 I was watching a video [3:30] about how games (in this case Metroid Fusion) evoke emotion from the player - despite it just being a game.
 Aided by sound effects, music, lighting, dialogue and story telling; our minds are synchronised with in-game character; and it&amp;rsquo;s pretty amazing to consider that it was all purpose-driven by the game creators.
-Fear and Tension.</description>
-    </item>
-    
-    <item>
-      <title>UNSW COMP6441</title>
-      <link>/blog/post/unsw-comp6441/</link>
-      <pubDate>Mon, 03 Jun 2019 23:29:19 +1000</pubDate>
-      
-      <guid>/blog/post/unsw-comp6441/</guid>
-      <description>Click here to go to the COMP6441 blog site</description>
-    </item>
-    
-    <item>
-      <title>Vanguard Warranty</title>
-      <link>/blog/post/vanguard-warranty/</link>
-      <pubDate>Wed, 22 May 2019 22:27:09 +1000</pubDate>
-      
-      <guid>/blog/post/vanguard-warranty/</guid>
-      <description>Last year my friend borrowed one of my tripods :)
+Fear and Tension.</description></item><item><title>UNSW COMP6441</title><link>/blog/post/unsw-comp6441/</link><pubDate>Mon, 03 Jun 2019 23:29:19 +1000</pubDate><guid>/blog/post/unsw-comp6441/</guid><description>Click here to go to the COMP6441 blog site</description></item><item><title>Vanguard Warranty</title><link>/blog/post/vanguard-warranty/</link><pubDate>Wed, 22 May 2019 22:27:09 +1000</pubDate><guid>/blog/post/vanguard-warranty/</guid><description>Last year my friend borrowed one of my tripods :)
 It got water damage.
 It corroded.
 Damn you Brandon.
@@ -301,16 +87,7 @@ This time my friend went out to Norway to take some beautiful photos.
 Guess who borrowed another of my tripods.
 Guess who broke another tripod.
 That&amp;rsquo;s right!
-PSA: Don&amp;rsquo;t put tripods as luggage - Bring it on the plane! So, the tripod head somehow had dislodged from the body sometime and somewhere during his airplane flight back to Australia.</description>
-    </item>
-    
-    <item>
-      <title>Wyse CX0 C10LE</title>
-      <link>/blog/post/wyse-cx0/</link>
-      <pubDate>Sun, 19 May 2019 17:20:20 +1000</pubDate>
-      
-      <guid>/blog/post/wyse-cx0/</guid>
-      <description>I bought a thin-client for $20 today&amp;hellip;
+PSA: Don&amp;rsquo;t put tripods as luggage - Bring it on the plane! So, the tripod head somehow had dislodged from the body sometime and somewhere during his airplane flight back to Australia.</description></item><item><title>Wyse CX0 C10LE</title><link>/blog/post/wyse-cx0/</link><pubDate>Sun, 19 May 2019 17:20:20 +1000</pubDate><guid>/blog/post/wyse-cx0/</guid><description>I bought a thin-client for $20 today&amp;hellip;
 Specs Processor: VIA C7 @ 1 GHz
 Memory: 512 MB SODIMM
 Flash: 44-pin 128 MB
@@ -319,151 +96,43 @@ USB: 6x USB 2.0
 PS/2: Keyboard, Mouse
 What am I going to do with it? I was thinking to use it as an NDI stream receiver.
 That would mean installing a copy of Windows Vista/7 Embedded.
-But first I would need more than 512 MB of RAM, and definitely more than 128 MB of storage&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>PreSonus StudioLive API</title>
-      <link>/blog/post/presonus-studiolive-api/</link>
-      <pubDate>Mon, 13 May 2019 00:26:51 +1000</pubDate>
-      
-      <guid>/blog/post/presonus-studiolive-api/</guid>
-      <description>GitHub: github.com/featherbear/PreSonus-StudioLive-API
- I wanted to add functionality to the PreSonus StudioLive 16 Series III](../PreSonus-StudioLive-16) console. For example, to fade the level of a channel instead of instant (un)muting.
+But first I would need more than 512 MB of RAM, and definitely more than 128 MB of storage&amp;hellip;</description></item><item><title>PreSonus StudioLive API</title><link>/blog/post/presonus-studiolive-api/</link><pubDate>Mon, 13 May 2019 00:26:51 +1000</pubDate><guid>/blog/post/presonus-studiolive-api/</guid><description>GitHub: github.com/featherbear/PreSonus-StudioLive-API
+I wanted to add functionality to the PreSonus StudioLive 16 Series III](../PreSonus-StudioLive-16) console. For example, to fade the level of a channel instead of instant (un)muting.
 There is no MIDI interface for the console - so we would have to emulate the network messages sent from their UC Surface app.
 Connection The console listens on TCP 53000
-KeepAlive packets are sent periodically every 1 second.</description>
-    </item>
-    
-    <item>
-      <title>Screen Protectors</title>
-      <link>/blog/post/screen-protectors/</link>
-      <pubDate>Thu, 02 May 2019 23:46:17 +1000</pubDate>
-      
-      <guid>/blog/post/screen-protectors/</guid>
-      <description>/**TODO - Custom theme CSS for images and tables**/ img { max-width: 180px; } table { width: 100%; border-collapse: collapse; } td { padding: 3px; border: 1px solid #A7A7A7; } td[align=center] { text-align: center; }  A certain friend of mine is a magnet for having dropped phones and broken screen protectors (Hey, have you tried&amp;hellip; walking and not looking at your phone?).
-I&amp;rsquo;ve purchased several different protectors for them, and myself too - and I wanted to just maintain a list of the protectors I&amp;rsquo;ve bought, and my thoughts on them</description>
-    </item>
-    
-    <item>
-      <title>Processing.js - Twinkle Tiles!</title>
-      <link>/blog/post/processing-twinkle/</link>
-      <pubDate>Mon, 29 Apr 2019 20:55:07 +1000</pubDate>
-      
-      <guid>/blog/post/processing-twinkle/</guid>
-      <description>GitHub: https://github.com/featherbear/processing-twinkle
- Played around abit with p5.js, a Javascript implementation of the Processing language.
-  iframe { width: 100vw; height: 100vh;
-}</description>
-    </item>
-    
-    <item>
-      <title>My Very Own Hugo Theme</title>
-      <link>/blog/post/my-very-own-hugo-theme/</link>
-      <pubDate>Fri, 26 Apr 2019 02:06:39 +1000</pubDate>
-      
-      <guid>/blog/post/my-very-own-hugo-theme/</guid>
-      <description>I&amp;rsquo;ve been using the awesome Aether theme on this blog for about 4 months.
+KeepAlive packets are sent periodically every 1 second.</description></item><item><title>Screen Protectors</title><link>/blog/post/screen-protectors/</link><pubDate>Thu, 02 May 2019 23:46:17 +1000</pubDate><guid>/blog/post/screen-protectors/</guid><description>/**TODO - Custom theme CSS for images and tables**/ img { max-width: 180px; } table { width: 100%; border-collapse: collapse; } td { padding: 3px; border: 1px solid #A7A7A7; } td[align=center] { text-align: center; } A certain friend of mine is a magnet for having dropped phones and broken screen protectors (Hey, have you tried&amp;hellip; walking and not looking at your phone?).
+I&amp;rsquo;ve purchased several different protectors for them, and myself too - and I wanted to just maintain a list of the protectors I&amp;rsquo;ve bought, and my thoughts on them</description></item><item><title>Processing.js - Twinkle Tiles!</title><link>/blog/post/processing-twinkle/</link><pubDate>Mon, 29 Apr 2019 20:55:07 +1000</pubDate><guid>/blog/post/processing-twinkle/</guid><description>GitHub: https://github.com/featherbear/processing-twinkle
+Played around abit with p5.js, a Javascript implementation of the Processing language.
+iframe { width: 100vw; height: 100vh;
+}</description></item><item><title>My Very Own Hugo Theme</title><link>/blog/post/my-very-own-hugo-theme/</link><pubDate>Fri, 26 Apr 2019 02:06:39 +1000</pubDate><guid>/blog/post/my-very-own-hugo-theme/</guid><description>I&amp;rsquo;ve been using the awesome Aether theme on this blog for about 4 months.
 Whilst there was alot of desirable aspects, it sort of didn&amp;rsquo;t entirely work with my posts&amp;hellip; And I didn&amp;rsquo;t know how to customise Hugo&amp;hellip;
 So the solution? Make your own theme!
 I initially copied all the files from Aether into this theme, then just played around with each file
-In the usual fashion, I used Bulma for my CSS framework.</description>
-    </item>
-    
-    <item>
-      <title>Web Components</title>
-      <link>/blog/post/web-components/</link>
-      <pubDate>Thu, 25 Apr 2019 23:32:25 +1000</pubDate>
-      
-      <guid>/blog/post/web-components/</guid>
-      <description>Scroll Nav / Scroll Spy
+In the usual fashion, I used Bulma for my CSS framework.</description></item><item><title>Web Components</title><link>/blog/post/web-components/</link><pubDate>Thu, 25 Apr 2019 23:32:25 +1000</pubDate><guid>/blog/post/web-components/</guid><description>Scroll Nav / Scroll Spy
 Page progress bar - ie the red loder bar on YouTube
 Gradients
 Breadcrumb
-Parallax - Where the background of some content moves at a different rate than the foreground while scrolling</description>
-    </item>
-    
-    <item>
-      <title>Gourmet Burgers</title>
-      <link>/blog/post/gourmet-burgers/</link>
-      <pubDate>Thu, 25 Apr 2019 09:07:16 +1100</pubDate>
-      
-      <guid>/blog/post/gourmet-burgers/</guid>
-      <description>This semester I had a group assignment where we had to create an online ordering system for a ficticious company called GourmetBurgers.
+Parallax - Where the background of some content moves at a different rate than the foreground while scrolling</description></item><item><title>Gourmet Burgers</title><link>/blog/post/gourmet-burgers/</link><pubDate>Thu, 25 Apr 2019 09:07:16 +1100</pubDate><guid>/blog/post/gourmet-burgers/</guid><description>This semester I had a group assignment where we had to create an online ordering system for a ficticious company called GourmetBurgers.
 Albeit it being a group assignment, and alot of waiting for my partners to finish their code; overall I found this assignment really fun to complete!
 Especially to get a nice UI that would ultimately contribute towards 0% of my grade!
- Check out the full post here: featherbear.</description>
-    </item>
-    
-    <item>
-      <title>So You Want to Be a Python Expert? | PyData Seattle 2017</title>
-      <link>/blog/post/so-you-want-to-be-a-python-expert-pydata-seattle-2017/</link>
-      <pubDate>Wed, 24 Apr 2019 23:17:45 +1000</pubDate>
-      
-      <guid>/blog/post/so-you-want-to-be-a-python-expert-pydata-seattle-2017/</guid>
-      <description>So I got bored and decided to watch this video   These were the things covered in the presentation&amp;hellip;
+Check out the full post here: featherbear.</description></item><item><title>So You Want to Be a Python Expert? | PyData Seattle 2017</title><link>/blog/post/so-you-want-to-be-a-python-expert-pydata-seattle-2017/</link><pubDate>Wed, 24 Apr 2019 23:17:45 +1000</pubDate><guid>/blog/post/so-you-want-to-be-a-python-expert-pydata-seattle-2017/</guid><description>So I got bored and decided to watch this video These were the things covered in the presentation&amp;hellip;
 Using data model methods Or (double-)underscore functions&amp;hellip;
 The Python data model is a means by which we can implement protocols that have abstract meaning that is dependent on the object
 For example, the methods:
- __init__ __new__ __add__ __str__ __repr__  &amp;nbsp;
+__init__ __new__ __add__ __str__ __repr__ &amp;nbsp;
 Aside
-There also exists class methods, and static methods.</description>
-    </item>
-    
-    <item>
-      <title>Arduino - WiFi DMX</title>
-      <link>/blog/post/arduino-wifi-dmx/</link>
-      <pubDate>Sat, 20 Apr 2019 21:58:58 +1000</pubDate>
-      
-      <guid>/blog/post/arduino-wifi-dmx/</guid>
-      <description>At the start of 2018, I built a cheap wireless DMX receiver as a parting &amp;lsquo;gift&amp;rsquo; to my high school (Heck, I even wrote a training manual).
+There also exists class methods, and static methods.</description></item><item><title>Arduino - WiFi DMX</title><link>/blog/post/arduino-wifi-dmx/</link><pubDate>Sat, 20 Apr 2019 21:58:58 +1000</pubDate><guid>/blog/post/arduino-wifi-dmx/</guid><description>At the start of 2018, I built a cheap wireless DMX receiver as a parting &amp;lsquo;gift&amp;rsquo; to my high school (Heck, I even wrote a training manual).
 Their system had i s s u e s.
 Two broken lighting consoles, and the DMX cable that connects from the control room was damaged due to water damage.
 So something had to be done!
- img { max-height: 50vh; }  I threw together an ESP8266 NodeMCU V3, a MAX485 chip, and added a barrel type DC socket</description>
-    </item>
-    
-    <item>
-      <title>Lampwin Moving Heads</title>
-      <link>/blog/post/lampwin-moving-heads/</link>
-      <pubDate>Sat, 20 Apr 2019 00:33:51 +1000</pubDate>
-      
-      <guid>/blog/post/lampwin-moving-heads/</guid>
-      <description>/**TODO - Custom theme CSS for images and tables**/ table { width: 100%; border-collapse: collapse; } td { padding: 3px; border: 1px solid #A7A7A7; } td[align=center] { text-align: center; }   Download the QLC+ fixture I made (12 Channel): Lampwin-Mini-LED-Spot-30W.qxf
- I recently purchased two Chinese brand moving heads from eBay
-I was not expecting to receive quality, but I did receive amusement and amazement as to how much enjoyment $70 could bring me.</description>
-    </item>
-    
-    <item>
-      <title>Multi Messaging Apps</title>
-      <link>/blog/post/multi-messaging-apps/</link>
-      <pubDate>Thu, 21 Mar 2019 14:09:38 +1100</pubDate>
-      
-      <guid>/blog/post/multi-messaging-apps/</guid>
-      <description>ELECTRON AND WEBKIT ARGH. GIVE ME MY RAM BACK
- With so many messaging platforms and work-related productivity services popping up left, right and centre it becomes a hassle to keep so many browser tabs or desktop apps open.
+img { max-height: 50vh; } I threw together an ESP8266 NodeMCU V3, a MAX485 chip, and added a barrel type DC socket</description></item><item><title>Lampwin Moving Heads</title><link>/blog/post/lampwin-moving-heads/</link><pubDate>Sat, 20 Apr 2019 00:33:51 +1000</pubDate><guid>/blog/post/lampwin-moving-heads/</guid><description>/**TODO - Custom theme CSS for images and tables**/ table { width: 100%; border-collapse: collapse; } td { padding: 3px; border: 1px solid #A7A7A7; } td[align=center] { text-align: center; } Download the QLC+ fixture I made (12 Channel): Lampwin-Mini-LED-Spot-30W.qxf
+I recently purchased two Chinese brand moving heads from eBay
+I was not expecting to receive quality, but I did receive amusement and amazement as to how much enjoyment $70 could bring me.</description></item><item><title>Multi Messaging Apps</title><link>/blog/post/multi-messaging-apps/</link><pubDate>Thu, 21 Mar 2019 14:09:38 +1100</pubDate><guid>/blog/post/multi-messaging-apps/</guid><description>ELECTRON AND WEBKIT ARGH. GIVE ME MY RAM BACK
+With so many messaging platforms and work-related productivity services popping up left, right and centre it becomes a hassle to keep so many browser tabs or desktop apps open.
 I&amp;rsquo;ve been using Franz for the past couple of years, and sometimes when I try to drag and drop an image into the Facebook Messenger tab, it crashes.
-The competitors:</description>
-    </item>
-    
-    <item>
-      <title>PeerJS Revived</title>
-      <link>/blog/post/peerjs/</link>
-      <pubDate>Fri, 01 Mar 2019 11:34:37 +1100</pubDate>
-      
-      <guid>/blog/post/peerjs/</guid>
-      <description>Near the end of 2017, I wrote attempted to write a delivery tracker webpage that would list all of my tracked packages and their status information.
+The competitors:</description></item><item><title>PeerJS Revived</title><link>/blog/post/peerjs/</link><pubDate>Fri, 01 Mar 2019 11:34:37 +1100</pubDate><guid>/blog/post/peerjs/</guid><description>Near the end of 2017, I wrote attempted to write a delivery tracker webpage that would list all of my tracked packages and their status information.
 To sync my list of packages between my devices, I used a library called PeerJS that established P2P connections between my devices to send and receive data. PeerJS was dormant since 2015, and amazingly it worked for the duration of my code.
-After a 3 year period of inactivity, PeerJS is back and alive (in active commits) so yay!</description>
-    </item>
-    
-    <item>
-      <title>Jebabej</title>
-      <link>/blog/post/jebabej/</link>
-      <pubDate>Thu, 28 Feb 2019 19:13:02 +1100</pubDate>
-      
-      <guid>/blog/post/jebabej/</guid>
-      <description>Date: 28th February 2019
+After a 3 year period of inactivity, PeerJS is back and alive (in active commits) so yay!</description></item><item><title>Jebabej</title><link>/blog/post/jebabej/</link><pubDate>Thu, 28 Feb 2019 19:13:02 +1100</pubDate><guid>/blog/post/jebabej/</guid><description>Date: 28th February 2019
 Time: Some time around 7pm&amp;hellip;
 Location: UNSW CSE Level One Common Room
 &amp;nbsp;
@@ -474,432 +143,131 @@ Person C: Sorry guys I gotta go now
 Person A &amp;amp; B: Oh. &amp;nbsp;
 &amp;hellip; &amp;nbsp;
 Person D: Let&amp;rsquo;s make a Mafia app!
- Introducing Jebabej!</description>
-    </item>
-    
-    <item>
-      <title>UNSW COMP1531</title>
-      <link>/blog/post/unsw-comp1531/</link>
-      <pubDate>Mon, 18 Feb 2019 09:00:00 +1100</pubDate>
-      
-      <guid>/blog/post/unsw-comp1531/</guid>
-      <description>Click here to go to the COMP1531 blog site</description>
-    </item>
-    
-    <item>
-      <title>Balloon Shooting Challenge</title>
-      <link>/blog/post/smallbasic-balloon-shooting-game/</link>
-      <pubDate>Fri, 15 Feb 2019 16:27:36 +1100</pubDate>
-      
-      <guid>/blog/post/smallbasic-balloon-shooting-game/</guid>
-      <description>My code can be found on GitHub: featherbear/smallbasic-balloon-shooting-game
- A while ago I applied for a position at a company which taught children how to code&amp;hellip;
+Introducing Jebabej!</description></item><item><title>UNSW COMP1531</title><link>/blog/post/unsw-comp1531/</link><pubDate>Mon, 18 Feb 2019 09:00:00 +1100</pubDate><guid>/blog/post/unsw-comp1531/</guid><description>Click here to go to the COMP1531 blog site</description></item><item><title>Balloon Shooting Challenge</title><link>/blog/post/smallbasic-balloon-shooting-game/</link><pubDate>Fri, 15 Feb 2019 16:27:36 +1100</pubDate><guid>/blog/post/smallbasic-balloon-shooting-game/</guid><description>My code can be found on GitHub: featherbear/smallbasic-balloon-shooting-game
+A while ago I applied for a position at a company which taught children how to code&amp;hellip;
 Today I got an email back with a programming challenge, let&amp;rsquo;s have a crack at it!
- The Challenge (click to expand) In order to solve the challenge you will need to download and learn a new (and very simple) coding language, I hope you will enjoy the challenge.</description>
-    </item>
-    
-    <item>
-      <title>Python 3.6 F-strings</title>
-      <link>/blog/post/python36-f-string/</link>
-      <pubDate>Wed, 13 Feb 2019 18:59:13 +1100</pubDate>
-      
-      <guid>/blog/post/python36-f-string/</guid>
-      <description>PEP 498 introduced a new string formatting mechanism called Literal String Interpolation.
+The Challenge (click to expand) In order to solve the challenge you will need to download and learn a new (and very simple) coding language, I hope you will enjoy the challenge.</description></item><item><title>Python 3.6 F-strings</title><link>/blog/post/python36-f-string/</link><pubDate>Wed, 13 Feb 2019 18:59:13 +1100</pubDate><guid>/blog/post/python36-f-string/</guid><description>PEP 498 introduced a new string formatting mechanism called Literal String Interpolation.
 We&amp;rsquo;ll call them F-strings, because of the leading f character that appears before the string literals.
 The PEP really says it all but sure we&amp;rsquo;ll go through it again, why not!
 Format:
 f &#39; &amp;lt;text&amp;gt; { &amp;lt;expression&amp;gt; &amp;lt;optional !s, !r, or !a&amp;gt; &amp;lt;optional : format specifier&amp;gt; } &amp;lt;text&amp;gt; ... &#39;
 Using string format
 nameVar = Andrew
-print(&amp;quot;Hello, {}!&amp;quot;.format(nameVar))</description>
-    </item>
-    
-    <item>
-      <title>Unifi and Java</title>
-      <link>/blog/post/unifi-java/</link>
-      <pubDate>Mon, 04 Feb 2019 23:06:34 +1100</pubDate>
-      
-      <guid>/blog/post/unifi-java/</guid>
-      <description>Overnight Java decided to auto update itself even though I disabled automatic updates!?!
+print(&amp;quot;Hello, {}!&amp;quot;.format(nameVar))</description></item><item><title>Unifi and Java</title><link>/blog/post/unifi-java/</link><pubDate>Mon, 04 Feb 2019 23:06:34 +1100</pubDate><guid>/blog/post/unifi-java/</guid><description>Overnight Java decided to auto update itself even though I disabled automatic updates!?!
 Consequently there wasn&amp;rsquo;t a firewall rule for the new Java installation path so my UniFi SDN went MIA.
 That said, for my own future reference&amp;hellip;
 Admin username: To log into controller
 Device username: To log into devices (ssh, usg http) - unique per site
-Lesson learned - Don&amp;rsquo;t trust auto updaters D:</description>
-    </item>
-    
-    <item>
-      <title>Back to Firefox</title>
-      <link>/blog/post/back-to-firefox/</link>
-      <pubDate>Sun, 27 Jan 2019 15:42:27 +1100</pubDate>
-      
-      <guid>/blog/post/back-to-firefox/</guid>
-      <description>Why I left
+Lesson learned - Don&amp;rsquo;t trust auto updaters D:</description></item><item><title>Back to Firefox</title><link>/blog/post/back-to-firefox/</link><pubDate>Sun, 27 Jan 2019 15:42:27 +1100</pubDate><guid>/blog/post/back-to-firefox/</guid><description>Why I left
 I stopped using Firefox in the late of November 2016, when Mozilla decided to pull the plug on, and severely restricted Firefox&amp;rsquo;s add-on platform, in favour of their WebExtensions API.
 This issue with this was that the WebExtensions API was relatively high-level - meaning that my favourite extensions (ie DownThemAll!) would cease to work, as they relied on low level access.
-Not being able to use DownThemAll! was a game changer for me - it was hands down the secret weapon under the sleeves of my Firefox vs Chrome war.</description>
-    </item>
-    
-    <item>
-      <title>Home Network Upgrade</title>
-      <link>/blog/post/home-network-upgrade/</link>
-      <pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate>
-      
-      <guid>/blog/post/home-network-upgrade/</guid>
-      <description>When I&amp;rsquo;m bored I often find myself scrolling Gumtree and Facebook Marketplace for deals - audio gear, camera gear, furniture, and when in &amp;lsquo;need&amp;rsquo; - network gear!
+Not being able to use DownThemAll! was a game changer for me - it was hands down the secret weapon under the sleeves of my Firefox vs Chrome war.</description></item><item><title>Home Network Upgrade</title><link>/blog/post/home-network-upgrade/</link><pubDate>Sun, 13 Jan 2019 21:01:21 +1100</pubDate><guid>/blog/post/home-network-upgrade/</guid><description>When I&amp;rsquo;m bored I often find myself scrolling Gumtree and Facebook Marketplace for deals - audio gear, camera gear, furniture, and when in &amp;lsquo;need&amp;rsquo; - network gear!
 So I found a classified on Gumtree&amp;hellip;
 8x Ubiquiti UniFi UAP - $10 each!!!
 Unfortunately they were the UAP&amp;rsquo;s not the UAP-AC&amp;rsquo;s.
 The UAP isn&amp;rsquo;t 10/100/1000, which is a shame, but nor were my old APs (but.. awhh)
-And hey, $50 savings per unit.</description>
-    </item>
-    
-    <item>
-      <title>Floobits</title>
-      <link>/blog/post/floobits/</link>
-      <pubDate>Fri, 11 Jan 2019 18:42:59 +1100</pubDate>
-      
-      <guid>/blog/post/floobits/</guid>
-      <description>Group work is always &amp;hellip; interesting.
+And hey, $50 savings per unit.</description></item><item><title>Floobits</title><link>/blog/post/floobits/</link><pubDate>Fri, 11 Jan 2019 18:42:59 +1100</pubDate><guid>/blog/post/floobits/</guid><description>Group work is always &amp;hellip; interesting.
 For software development especially, there are so different many ways that you could write a procedure.
 And for the exact same procedure, there so many different syntactical nuances that could differ too.
 And that&amp;rsquo;s why style guides, and documentation is important!
 That said, my COMP2521 Assignment 2 (Fury of Dracula) was a group assignment.
-So, the obvious question is - who does what part, but more importantly; how do we edit together.</description>
-    </item>
-    
-    <item>
-      <title>Repl.it</title>
-      <link>/blog/post/repl.it/</link>
-      <pubDate>Wed, 09 Jan 2019 14:12:31 +1100</pubDate>
-      
-      <guid>/blog/post/repl.it/</guid>
-      <description>Repl.it is an online code sandbox and IDE.
+So, the obvious question is - who does what part, but more importantly; how do we edit together.</description></item><item><title>Repl.it</title><link>/blog/post/repl.it/</link><pubDate>Wed, 09 Jan 2019 14:12:31 +1100</pubDate><guid>/blog/post/repl.it/</guid><description>Repl.it is an online code sandbox and IDE.
 It supports many languages, and makes demoing and prototyping code a piece of cake.
 It has some caveats though.
 PyGame There&amp;rsquo;s no PyGame environment available on repl.it, making any PyGame project impossible.
 Turtle The Turtle environment on repl.it is Python 2.7 - can&amp;rsquo;t teach Python 3.6 syntax here!
-Showing Images For the UNSW CompClub 2019 Summer Workshop, the Security workshop introduced students to LSB steganography.</description>
-    </item>
-    
-    <item>
-      <title>Tools of the Trade</title>
-      <link>/blog/post/tools-of-the-trade/</link>
-      <pubDate>Thu, 03 Jan 2019 15:01:09 +1100</pubDate>
-      
-      <guid>/blog/post/tools-of-the-trade/</guid>
-      <description>My Phone (Samsung S9+)  Click to open
-Messaging / Calling  Contacts+ Google Messages Facebook Messenger Facebook Messenger Lite WhatsApp  Travel  TripView GPS Status GPSLogger  Networking  WiFiman  Multimedia  PhotoTime PowerAmp F-Stop Metronome by Soundbrenner NewTek NDI Sound Analyzer App YouTube Vanced  Shopping  Stocard BudgetBakers Wallet Google Play Rewards  Health / Lifestyle  Year in Pixels  Productivity  Trello Simplenote Squid Nine Email Joist  Utilties  Evie Authy bxActions Life360 Keepass2Android Mi Band Master Timely Resilio Sync</description>
-    </item>
-    
-    <item>
-      <title>SWEC Bulletin Generator</title>
-      <link>/blog/post/swec-bulletin-generator/</link>
-      <pubDate>Thu, 20 Dec 2018 18:33:35 +1100</pubDate>
-      
-      <guid>/blog/post/swec-bulletin-generator/</guid>
-      <description>At the start of 2018 I wrote a Python script called swec-elvanto-automation.
+Showing Images For the UNSW CompClub 2019 Summer Workshop, the Security workshop introduced students to LSB steganography.</description></item><item><title>Tools of the Trade</title><link>/blog/post/tools-of-the-trade/</link><pubDate>Thu, 03 Jan 2019 15:01:09 +1100</pubDate><guid>/blog/post/tools-of-the-trade/</guid><description>My Phone (Samsung S9+) Click to open
+Messaging / Calling Contacts+ Google Messages Facebook Messenger Facebook Messenger Lite WhatsApp Travel TripView GPS Status GPSLogger Networking WiFiman Multimedia PhotoTime PowerAmp F-Stop Metronome by Soundbrenner NewTek NDI Sound Analyzer App YouTube Vanced Shopping Stocard BudgetBakers Wallet Google Play Rewards Health / Lifestyle Year in Pixels Productivity Trello Simplenote Squid Nine Email Joist Utilties Evie Authy bxActions Life360 Keepass2Android Mi Band Master Timely Resilio Sync</description></item><item><title>SWEC Bulletin Generator</title><link>/blog/post/swec-bulletin-generator/</link><pubDate>Thu, 20 Dec 2018 18:33:35 +1100</pubDate><guid>/blog/post/swec-bulletin-generator/</guid><description>At the start of 2018 I wrote a Python script called swec-elvanto-automation.
 It was a set of task runners that would manage the automatic generation of the service bulletin, as well as pretty roster emails
 &amp;hellip; well, I&amp;rsquo;m officially marking it as abandonware!
 It worked flawlessly, but it wasn&amp;rsquo;t user friendly.
-And also, with my other commitments taking more time, I don&amp;rsquo;t want my involvement and role at my church to become irreplaceable.</description>
-    </item>
-    
-    <item>
-      <title>Secret Agent</title>
-      <link>/blog/post/unsw-compclub2019summer/</link>
-      <pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate>
-      
-      <guid>/blog/post/unsw-compclub2019summer/</guid>
-      <description>Quick Links
+And also, with my other commitments taking more time, I don&amp;rsquo;t want my involvement and role at my church to become irreplaceable.</description></item><item><title>Secret Agent</title><link>/blog/post/unsw-compclub2019summer/</link><pubDate>Thu, 20 Dec 2018 18:32:47 +1100</pubDate><guid>/blog/post/unsw-compclub2019summer/</guid><description>Quick Links
 What is UNSW CSE CompClub?
 On writing a CTF server
- I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
+I got the opportunity to take part in my uni computer society&amp;rsquo;s highschool program (again)!
 Last time (Winter 2018) I volunteered as a mentor - those people who would help guide the students.
 This time around I helped out as an organiser, in particular a content writer.
-That means that I get a whole day to do whatever the heck I want!</description>
-    </item>
-    
-    <item>
-      <title>CompClub 2019 Summer CTF</title>
-      <link>/blog/post/unsw-compclub2019summer-ctf/</link>
-      <pubDate>Thu, 20 Dec 2018 18:32:46 +1100</pubDate>
-      
-      <guid>/blog/post/unsw-compclub2019summer-ctf/</guid>
-      <description>Read the whole CompClub 2019 Summer Workshop post
- GitHub: featherbear/UNSW-CompClub2019Summer-CTF
+That means that I get a whole day to do whatever the heck I want!</description></item><item><title>CompClub 2019 Summer CTF</title><link>/blog/post/unsw-compclub2019summer-ctf/</link><pubDate>Thu, 20 Dec 2018 18:32:46 +1100</pubDate><guid>/blog/post/unsw-compclub2019summer-ctf/</guid><description>Read the whole CompClub 2019 Summer Workshop post
+GitHub: featherbear/UNSW-CompClub2019Summer-CTF
 Demo: featherbear.github.io/UNSW-CompClub2019Summer-CTF
 During the Winter 2018 Workshop, the organiser for the security day coded up a CTF website.
- Technologies
+Technologies
 Server: Flask (Python)
 CSS: Bootstrap
 Performance: RIP
- Yeah so, Flask is a great Python web framework, with all of its routing magic.
+Yeah so, Flask is a great Python web framework, with all of its routing magic.
 But running a server with Flask alone is not a good idea&amp;hellip;
-Flask should be run in a WSGI environment, but the inbuilt Flask server is not such.</description>
-    </item>
-    
-    <item>
-      <title>UNSW COMP2521</title>
-      <link>/blog/post/unsw-comp2521/</link>
-      <pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate>
-      
-      <guid>/blog/post/unsw-comp2521/</guid>
-      <description>Click here to go to the COMP2521 blog site</description>
-    </item>
-    
-    <item>
-      <title>PreSonus StudioLive 16</title>
-      <link>/blog/post/presonus-studiolive-16/</link>
-      <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
-      
-      <guid>/blog/post/presonus-studiolive-16/</guid>
-      <description>My church recently bought a PreSonus StudioLive 16, and a PreSonus StudioLive 24R III as part of our Production upgrade plan.
+Flask should be run in a WSGI environment, but the inbuilt Flask server is not such.</description></item><item><title>UNSW COMP2521</title><link>/blog/post/unsw-comp2521/</link><pubDate>Thu, 20 Dec 2018 18:21:10 +1100</pubDate><guid>/blog/post/unsw-comp2521/</guid><description>Click here to go to the COMP2521 blog site</description></item><item><title>PreSonus StudioLive 16</title><link>/blog/post/presonus-studiolive-16/</link><pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate><guid>/blog/post/presonus-studiolive-16/</guid><description>My church recently bought a PreSonus StudioLive 16, and a PreSonus StudioLive 24R III as part of our Production upgrade plan.
 It was a fairly straightforward process to set up everything.
 A graphic equaliser with a visualiser was a big step up from the old Yamaha MG24/14FX mixer that used in the past
-Issues / Feature Requests Stagebox disconnect After a long period of the SL16 being turned off, the 24R (having been on for a week) wouldn&amp;rsquo;t be detected by the SL16.</description>
-    </item>
-    
-    <item>
-      <title>SWEC Audio Mixer Upgrade</title>
-      <link>/blog/post/swec-audio-mixer-upgrade/</link>
-      <pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate>
-      
-      <guid>/blog/post/swec-audio-mixer-upgrade/</guid>
-      <description>My church recently went from an analog audio console (Yamaha MG24/14FX) to a digital console, the Presonus StudioLive 16.
-Why digital?  A digital sound console packs a whole bunch of feature into a small(er than what an analogue system would need) form factor Software effects replace the need for purchasing hardware for each effect, which are both costly, and occupy physical space Presets and Scenes allow the mixer to recall specific layouts and settings, and to reset the channel configuration to a standard setup More inputs via a networked stagebox Remote control over USB and network Multitrack recording Simpler interface (well, less buttons and knobs) In-Ear Monitor capability  The Parts    Item Type Price Link     PreSonus StudioLive 16 Series III Console AU$2399.</description>
-    </item>
-    
-    <item>
-      <title>City Hunter</title>
-      <link>/blog/post/city-hunter/</link>
-      <pubDate>Thu, 20 Dec 2018 17:44:45 +1100</pubDate>
-      
-      <guid>/blog/post/city-hunter/</guid>
-      <description>Uni holidays. Preoccupied myself with watching some Korean Drama.
+Issues / Feature Requests Stagebox disconnect After a long period of the SL16 being turned off, the 24R (having been on for a week) wouldn&amp;rsquo;t be detected by the SL16.</description></item><item><title>SWEC Audio Mixer Upgrade</title><link>/blog/post/swec-audio-mixer-upgrade/</link><pubDate>Thu, 20 Dec 2018 18:20:04 +1100</pubDate><guid>/blog/post/swec-audio-mixer-upgrade/</guid><description>My church recently went from an analog audio console (Yamaha MG24/14FX) to a digital console, the Presonus StudioLive 16.
+Why digital? A digital sound console packs a whole bunch of feature into a small(er than what an analogue system would need) form factor Software effects replace the need for purchasing hardware for each effect, which are both costly, and occupy physical space Presets and Scenes allow the mixer to recall specific layouts and settings, and to reset the channel configuration to a standard setup More inputs via a networked stagebox Remote control over USB and network Multitrack recording Simpler interface (well, less buttons and knobs) In-Ear Monitor capability The Parts Item Type Price Link PreSonus StudioLive 16 Series III Console AU$2399.</description></item><item><title>City Hunter</title><link>/blog/post/city-hunter/</link><pubDate>Thu, 20 Dec 2018 17:44:45 +1100</pubDate><guid>/blog/post/city-hunter/</guid><description>Uni holidays. Preoccupied myself with watching some Korean Drama.
 My friend recommended me some series called City Hunter.
 And&amp;hellip; it&amp;hellip; was&amp;hellip; alright actually!
 I even watched some bits at 1x speed!
- Spoiler Time
+Spoiler Time
 Some Koreans go and do a secret mission in North Korea.
 They complete their objective, but their gov chucks a sneaky and abandons them.
-One survives, then steals the newborn of a fallen comrade&amp;rsquo;s wife and raises him up.</description>
-    </item>
-    
-    <item>
-      <title>Neutrik EtherCON Kits</title>
-      <link>/blog/post/neutrik-ethercon-kits/</link>
-      <pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate>
-      
-      <guid>/blog/post/neutrik-ethercon-kits/</guid>
-      <description>The PreSonus StudioLive 16 and StudioLive 24R have an EtherCON port for their AVB connection.
+One survives, then steals the newborn of a fallen comrade&amp;rsquo;s wife and raises him up.</description></item><item><title>Neutrik EtherCON Kits</title><link>/blog/post/neutrik-ethercon-kits/</link><pubDate>Wed, 19 Dec 2018 23:31:12 +1100</pubDate><guid>/blog/post/neutrik-ethercon-kits/</guid><description>The PreSonus StudioLive 16 and StudioLive 24R have an EtherCON port for their AVB connection.
 You could forego the EtherCON connector and just connect an Ethernet cable, but I&amp;rsquo;ve had one occassion where a network stagebox got disconnected because the cable got kicked off.
 Neutrik sells several EtherCON kits, the two I bought were Neutrik NE8MC and the Neutrik NE8MC-1.
-(Didn&amp;rsquo;t need the CAT6 series, which would&amp;rsquo;ve been the NE8MX6 series)</description>
-    </item>
-    
-    <item>
-      <title>Behringer X-Touch Mini</title>
-      <link>/blog/post/behringer-xtouch-mini/</link>
-      <pubDate>Mon, 17 Dec 2018 18:20:48 +1100</pubDate>
-      
-      <guid>/blog/post/behringer-xtouch-mini/</guid>
-      <description>Got my hands on a Behringer X-Touch Mini USB MIDI Controller (Yay for Facebook Marketplace).
+(Didn&amp;rsquo;t need the CAT6 series, which would&amp;rsquo;ve been the NE8MX6 series)</description></item><item><title>Behringer X-Touch Mini</title><link>/blog/post/behringer-xtouch-mini/</link><pubDate>Mon, 17 Dec 2018 18:20:48 +1100</pubDate><guid>/blog/post/behringer-xtouch-mini/</guid><description>Got my hands on a Behringer X-Touch Mini USB MIDI Controller (Yay for Facebook Marketplace).
 Will be using this in my Lightroom editing workflow!
-Configuration Changing the MIDI Mapping The X-Touch Mini has 12 white buttons. With two layers, that would give us 24 different buttons. However some of the buttons were mapped to the same MIDI control key aka - some buttons are duplicate. So firstly, we&amp;rsquo;ll need to remap the surface.</description>
-    </item>
-    
-    <item>
-      <title>JavaScript Map</title>
-      <link>/blog/post/javascript-map/</link>
-      <pubDate>Fri, 14 Dec 2018 17:20:18 +1100</pubDate>
-      
-      <guid>/blog/post/javascript-map/</guid>
-      <description>Don&amp;rsquo;t be lazy kids.
+Configuration Changing the MIDI Mapping The X-Touch Mini has 12 white buttons. With two layers, that would give us 24 different buttons. However some of the buttons were mapped to the same MIDI control key aka - some buttons are duplicate. So firstly, we&amp;rsquo;ll need to remap the surface.</description></item><item><title>JavaScript Map</title><link>/blog/post/javascript-map/</link><pubDate>Fri, 14 Dec 2018 17:20:18 +1100</pubDate><guid>/blog/post/javascript-map/</guid><description>Don&amp;rsquo;t be lazy kids.
 Don&amp;rsquo;t [].map(parseInt)
 Do [].map(function(val) { parseInt(val) })
-Also do [].map(val =&amp;gt; parseInt(val))</description>
-    </item>
-    
-    <item>
-      <title>z-index</title>
-      <link>/blog/post/z-index/</link>
-      <pubDate>Sun, 25 Nov 2018 20:46:10 +1100</pubDate>
-      
-      <guid>/blog/post/z-index/</guid>
-      <description>Soooo, you can&amp;rsquo;t interact with an element that has a negative z-index.
- &amp;lt;div&amp;gt;A&amp;lt;/div&amp;gt; --&amp;gt; z-index of 5 &amp;lt;div&amp;gt;B&amp;lt;/div&amp;gt; --&amp;gt; z-index of -1  Even if A has pointer-events: none; you won&amp;rsquo;t be able to touch B
-&amp;lt;div&amp;gt;A&amp;lt;/div&amp;gt; --&amp;gt; z-index of 5 &amp;lt;div&amp;gt;B&amp;lt;/div&amp;gt; --&amp;gt; z-index of 0  Can touch B</description>
-    </item>
-    
-    <item>
-      <title>Python Tornado vs Flask</title>
-      <link>/blog/post/python-tornado-vs-flask/</link>
-      <pubDate>Sat, 24 Nov 2018 01:27:03 +1100</pubDate>
-      
-      <guid>/blog/post/python-tornado-vs-flask/</guid>
-      <description>Python has two great web server libraries - Flask and Tornado.
+Also do [].map(val =&amp;gt; parseInt(val))</description></item><item><title>z-index</title><link>/blog/post/z-index/</link><pubDate>Sun, 25 Nov 2018 20:46:10 +1100</pubDate><guid>/blog/post/z-index/</guid><description>Soooo, you can&amp;rsquo;t interact with an element that has a negative z-index.
+&amp;lt;div&amp;gt;A&amp;lt;/div&amp;gt; --&amp;gt; z-index of 5 &amp;lt;div&amp;gt;B&amp;lt;/div&amp;gt; --&amp;gt; z-index of -1 Even if A has pointer-events: none; you won&amp;rsquo;t be able to touch B
+&amp;lt;div&amp;gt;A&amp;lt;/div&amp;gt; --&amp;gt; z-index of 5 &amp;lt;div&amp;gt;B&amp;lt;/div&amp;gt; --&amp;gt; z-index of 0 Can touch B</description></item><item><title>Python Tornado vs Flask</title><link>/blog/post/python-tornado-vs-flask/</link><pubDate>Sat, 24 Nov 2018 01:27:03 +1100</pubDate><guid>/blog/post/python-tornado-vs-flask/</guid><description>Python has two great web server libraries - Flask and Tornado.
 Flask vs Tornado Why Flask Flask has a much easier to use routing functionality, where you just need a Python decorator @app.get(...).
 In Tornado you need to set up a site router, and all these other things (or I didn&amp;rsquo;t do it right)
-Why Tornado Tornado is a non-blocking server, which is able to handle multiple requests at the same time.</description>
-    </item>
-    
-    <item>
-      <title>HTML Script Tags</title>
-      <link>/blog/post/html-script-tags/</link>
-      <pubDate>Sat, 24 Nov 2018 00:44:52 +1100</pubDate>
-      
-      <guid>/blog/post/html-script-tags/</guid>
-      <description>Source - growingwiththeweb.com
+Why Tornado Tornado is a non-blocking server, which is able to handle multiple requests at the same time.</description></item><item><title>HTML Script Tags</title><link>/blog/post/html-script-tags/</link><pubDate>Sat, 24 Nov 2018 00:44:52 +1100</pubDate><guid>/blog/post/html-script-tags/</guid><description>Source - growingwiththeweb.com
 Summary &amp;lt;script&amp;gt; Block, load, run
 &amp;lt;script async&amp;gt; Load, run
-&amp;lt;script defer&amp;gt; Load, wait, run</description>
-    </item>
-    
-    <item>
-      <title>Portforwarding with Shootback</title>
-      <link>/blog/post/portforwarding-with-shootback/</link>
-      <pubDate>Mon, 12 Nov 2018 16:25:09 +1100</pubDate>
-      
-      <guid>/blog/post/portforwarding-with-shootback/</guid>
-      <description>WITHOUT SHADOWSOCKS
-./master.py -m 0.0.0.0:58370 -c 0.0.0.0:8380 ./slaver.py -m direct.navhaxs.au.eu.org:58370  WITH SHADOWSOCKS
-./master.py -m 127.0.0.1:58370 -c 0.0.0.0:8380` ss-tunnel -c /etc/shadowsocks/config.json -s direct.navhaxs.au.eu.org -l 58370 -L localhost:58370 -u ./slaver.py -m localhost:58370 -t localhost:8001  :: config.json
-{ &amp;quot;server_port&amp;quot;: 58388, &amp;quot;password&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;method&amp;quot;: &amp;quot;aes-128-cfb&amp;quot;, }  // I mean we could&amp;rsquo;ve always just used reverse ssh port forwarding</description>
-    </item>
-    
-    <item>
-      <title>Portforwarding with SSH</title>
-      <link>/blog/post/portforwarding-with-ssh/</link>
-      <pubDate>Mon, 12 Nov 2018 14:34:38 +1100</pubDate>
-      
-      <guid>/blog/post/portforwarding-with-ssh/</guid>
-      <description> $&amp;gt; ssh [SERVER] -L srcAddr:srcPort:dstAddr:dstPort
+&amp;lt;script defer&amp;gt; Load, wait, run</description></item><item><title>Portforwarding with Shootback</title><link>/blog/post/portforwarding-with-shootback/</link><pubDate>Mon, 12 Nov 2018 16:25:09 +1100</pubDate><guid>/blog/post/portforwarding-with-shootback/</guid><description>WITHOUT SHADOWSOCKS
+./master.py -m 0.0.0.0:58370 -c 0.0.0.0:8380 ./slaver.py -m direct.navhaxs.au.eu.org:58370 WITH SHADOWSOCKS
+./master.py -m 127.0.0.1:58370 -c 0.0.0.0:8380` ss-tunnel -c /etc/shadowsocks/config.json -s direct.navhaxs.au.eu.org -l 58370 -L localhost:58370 -u ./slaver.py -m localhost:58370 -t localhost:8001 :: config.json
+{ &amp;quot;server_port&amp;quot;: 58388, &amp;quot;password&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;method&amp;quot;: &amp;quot;aes-128-cfb&amp;quot;, } // I mean we could&amp;rsquo;ve always just used reverse ssh port forwarding</description></item><item><title>Portforwarding with SSH</title><link>/blog/post/portforwarding-with-ssh/</link><pubDate>Mon, 12 Nov 2018 14:34:38 +1100</pubDate><guid>/blog/post/portforwarding-with-ssh/</guid><description> $&amp;gt; ssh [SERVER] -L srcAddr:srcPort:dstAddr:dstPort
 listens on srcAddr:srcPort which results in [SERVER] connecting to dstAddr:dstPort
 &amp;gt; Useful for connecting to a device in a network
 $&amp;gt; ssh [SERVER] -L srcPort:dstAddr:dstPort
 [SERVER] listens on srcPort which is connecting to connecting to dstAddr:dstPort
--R? </description>
-    </item>
-    
-    <item>
-      <title>UNSW COMP1521</title>
-      <link>/blog/post/unsw-comp1521/</link>
-      <pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate>
-      
-      <guid>/blog/post/unsw-comp1521/</guid>
-      <description>Click here to go to the COMP1521 blog site</description>
-    </item>
-    
-    <item>
-      <title>[SCAM] Masters iPhone</title>
-      <link>/blog/post/masters-iphone/</link>
-      <pubDate>Thu, 01 Nov 2018 18:41:13 +1100</pubDate>
-      
-      <guid>/blog/post/masters-iphone/</guid>
-      <description>EDIT: Well their Facebook page is down now, hurrah!
+-R?</description></item><item><title>UNSW COMP1521</title><link>/blog/post/unsw-comp1521/</link><pubDate>Mon, 05 Nov 2018 18:21:05 +1100</pubDate><guid>/blog/post/unsw-comp1521/</guid><description>Click here to go to the COMP1521 blog site</description></item><item><title>[SCAM] Masters iPhone</title><link>/blog/post/masters-iphone/</link><pubDate>Thu, 01 Nov 2018 18:41:13 +1100</pubDate><guid>/blog/post/masters-iphone/</guid><description>EDIT: Well their Facebook page is down now, hurrah!
 You know the saying: &amp;ldquo;If it&amp;rsquo;s too good to be true, it probably is&amp;rdquo;.
 So my friend wanted to upgrade from their iPhone to a Galaxy S9+.
 Personally, I don&amp;rsquo;t really care much about getting brand new goods (exceptions exist), so off to the races!
 Hopped on eBay, Gumtree and Facebook Marketplace to check for some sweet deals.
-I found a few classifieds from a store called Masters iPhone - supposedly located in Western Australia.</description>
-    </item>
-    
-    <item>
-      <title>Whoops There Goes My AI</title>
-      <link>/blog/post/whoops-there-goes-my-ai/</link>
-      <pubDate>Mon, 22 Oct 2018 00:44:41 +1100</pubDate>
-      
-      <guid>/blog/post/whoops-there-goes-my-ai/</guid>
-      <description>GitHub: featherbear/Whoops-There-Goes-My-AI
- So there&amp;rsquo;s a game on the Google Play Store and Apple App Store called Whoops! There Goes My Orange.
+I found a few classifieds from a store called Masters iPhone - supposedly located in Western Australia.</description></item><item><title>Whoops There Goes My AI</title><link>/blog/post/whoops-there-goes-my-ai/</link><pubDate>Mon, 22 Oct 2018 00:44:41 +1100</pubDate><guid>/blog/post/whoops-there-goes-my-ai/</guid><description>GitHub: featherbear/Whoops-There-Goes-My-AI
+So there&amp;rsquo;s a game on the Google Play Store and Apple App Store called Whoops! There Goes My Orange.
 You play as an orange falling from the sky, and you have to avoid the red bars. Simple, right?
 Yep! But rage-inducing.
 Anyway, so I decided to have a crack at writing some sort of AI for this game&amp;hellip;
-It&amp;rsquo;d just be a collision avoidance algorithm&amp;hellip; not really an AI.</description>
-    </item>
-    
-    <item>
-      <title>RICE Rally 2018 Sydney</title>
-      <link>/blog/post/rice-rally-2018-sydney/</link>
-      <pubDate>Sat, 18 Aug 2018 19:19:44 +1100</pubDate>
-      
-      <guid>/blog/post/rice-rally-2018-sydney/</guid>
-      <description>In a world full of noise, how do we find what we&amp;rsquo;re really looking for?
- RICE Movement is a Christian organisation that brings the message of Jesus to high schoolers (of Australia, and now New Zealand too!)
+It&amp;rsquo;d just be a collision avoidance algorithm&amp;hellip; not really an AI.</description></item><item><title>RICE Rally 2018 Sydney</title><link>/blog/post/rice-rally-2018-sydney/</link><pubDate>Sat, 18 Aug 2018 19:19:44 +1100</pubDate><guid>/blog/post/rice-rally-2018-sydney/</guid><description>In a world full of noise, how do we find what we&amp;rsquo;re really looking for?
+RICE Movement is a Christian organisation that brings the message of Jesus to high schoolers (of Australia, and now New Zealand too!)
 RICE Rally is their annual event, a big evangelical &amp;lsquo;rally&amp;rsquo;.
 I got the opportunity to serve with my brother in the Production team (that is, lyrics and projection).
-Our playground was three LED walls (and two confidence monitors)!</description>
-    </item>
-    
-    <item>
-      <title>NewTek NDI</title>
-      <link>/blog/post/newtek-ndi/</link>
-      <pubDate>Sun, 05 Aug 2018 19:19:35 +1100</pubDate>
-      
-      <guid>/blog/post/newtek-ndi/</guid>
-      <description>NewTek NDI is a really amazing actually suite of software designed to transport audio and video data over networks.
+Our playground was three LED walls (and two confidence monitors)!</description></item><item><title>NewTek NDI</title><link>/blog/post/newtek-ndi/</link><pubDate>Sun, 05 Aug 2018 19:19:35 +1100</pubDate><guid>/blog/post/newtek-ndi/</guid><description>NewTek NDI is a really amazing actually suite of software designed to transport audio and video data over networks.
 Note: I recommend a gigabit connection between the producers and consumers, as it easily saturates 100 MB/s with all settings max&amp;rsquo;d.
 I&amp;rsquo;ve been using it a while:
- Screen recording Laptop screen streaming - Scan Converter on the laptop, Virtual Input on the desktop RICE Rally 2018 - Use OBS to create composites from several NDI sources  Software Scan Converter Share your computer screen, or a region of the screen</description>
-    </item>
-    
-    <item>
-      <title>ProPresenter 6 Stage Display Messages</title>
-      <link>/blog/post/propresenter6-stage-display-messages-client/</link>
-      <pubDate>Sat, 04 Aug 2018 23:14:04 +1100</pubDate>
-      
-      <guid>/blog/post/propresenter6-stage-display-messages-client/</guid>
-      <description>ProPresenter 6 is great!
+Screen recording Laptop screen streaming - Scan Converter on the laptop, Virtual Input on the desktop RICE Rally 2018 - Use OBS to create composites from several NDI sources Software Scan Converter Share your computer screen, or a region of the screen</description></item><item><title>ProPresenter 6 Stage Display Messages</title><link>/blog/post/propresenter6-stage-display-messages-client/</link><pubDate>Sat, 04 Aug 2018 23:14:04 +1100</pubDate><guid>/blog/post/propresenter6-stage-display-messages-client/</guid><description>ProPresenter 6 is great!
 Except for the times when it&amp;rsquo;s not&amp;hellip; (then, it&amp;rsquo;s not great! [Wow who knew!])
 PP6 allows you to send stage messages remotely from the ProPresenter 6 iOS / Android app.
 Unfortunately that application is a bit clunky, and there&amp;rsquo;s no Windows / desktop app&amp;hellip;
- RICE Rally 2018 was coming up, and I needed some way to send Stage Display messages via my laptop.
-If only there was a HTML/JavaScript solution&amp;hellip; that&amp;rsquo;d really come in handy&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>School of Codecraft and Hackery</title>
-      <link>/blog/post/unsw-compclub2018winter/</link>
-      <pubDate>Fri, 13 Jul 2018 18:52:17 +1100</pubDate>
-      
-      <guid>/blog/post/unsw-compclub2018winter/</guid>
-      <description>Workshop Website
+RICE Rally 2018 was coming up, and I needed some way to send Stage Display messages via my laptop.
+If only there was a HTML/JavaScript solution&amp;hellip; that&amp;rsquo;d really come in handy&amp;hellip;</description></item><item><title>School of Codecraft and Hackery</title><link>/blog/post/unsw-compclub2018winter/</link><pubDate>Fri, 13 Jul 2018 18:52:17 +1100</pubDate><guid>/blog/post/unsw-compclub2018winter/</guid><description>Workshop Website
 Day One - Introduction to Python Day Two - Microbits Microbit by BBC is a small piece of hardware with all sorts of sensors and outputs.
 The uni purchased 20 of these!
 Unfortunately, the accelerometer module isn&amp;rsquo;t the best, and alot of the students couldn&amp;rsquo;t get one of the workshop instructions working.
-The first activity was to build a firefly, using the wireless radios on the Microbit.</description>
-    </item>
-    
-    <item>
-      <title>UNSW Courses</title>
-      <link>/blog/post/unsw/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/post/unsw/</guid>
-      <description>COMP1521 - Computer Systems Fundamentals (2018 Session Two)
+The first activity was to build a firefly, using the wireless radios on the Microbit.</description></item><item><title>UNSW Courses</title><link>/blog/post/unsw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/post/unsw/</guid><description>COMP1521 - Computer Systems Fundamentals (2018 Session Two)
 COMP1531 - Software Engineering Fundamentals (2019 Session One)
 COMP2521 - Data Structures and Algorithms (2019 Summer Session)
 COMP6441 - Security Engineering and Cyber Security (2019 Session Two)
 MATH3411 - Information, Codes and Ciphers (2019 Session Three)
 COMP2511 - Object-Oriented Design &amp;amp; Programming (2019 Session Three)
-COMP3331 - Computer Networks and Applications (unofficial) (2019 Session Three)</description>
-    </item>
-    
-    <item>
-      <title>Windows Updates - Sketchpad KB4505903</title>
-      <link>/blog/post/windows-sketchpad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/post/windows-sketchpad/</guid>
-      <description>Having finally fixed my laptop, I booted into Windows to try to get some work done.
+COMP3331 - Computer Networks and Applications (unofficial) (2019 Session Three)</description></item><item><title>Windows Updates - Sketchpad KB4505903</title><link>/blog/post/windows-sketchpad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/post/windows-sketchpad/</guid><description>Having finally fixed my laptop, I booted into Windows to try to get some work done.
 However, since KB4505903, Windows had removed Sketchpad! You know, the only useful ink workspace app.
 Unfortunately, KB4505903 was not actually installed (rather some later version), and I don&amp;rsquo;t have the time nor patience to figure out which later update to remove.
 Bummer.
 I guess I&amp;rsquo;ll try out the &amp;ldquo;replacement&amp;rdquo; app, Whiteboard.
 UPDATE
-Having tried Whiteboard&amp;hellip; it&amp;rsquo;s not bad.</description>
-    </item>
-    
-  </channel>
-</rss>
+Having tried Whiteboard&amp;hellip; it&amp;rsquo;s not bad.</description></item></channel></rss>
