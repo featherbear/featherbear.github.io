@@ -3,7 +3,7 @@ title: "Laptop Dock"
 date: 2019-11-16T00:17:54+11:00
 
 description: "Finally connecting my laptop to my monitors..."
-categories: ["Life", "Programming"]
+categories: ["Life", "Audio Visual"]
 featuredImage: ""
 displayInList: true
 breadcrumb: true

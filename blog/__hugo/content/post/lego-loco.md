@@ -1,7 +1,7 @@
 ---
 title: "Lego Loco"
 date: 2019-12-09T20:53:32+11:00
-description: "Take me back to 1999 ~"
+description: "Looking back to my childhood of retro games"
 categories: ["Life"]
 featuredImage: ""
 displayInList: true
@@ -58,12 +58,12 @@ This game has a hard-coded maximum resolution of 1280 x 1024, so in order to pla
 
 ![](Snipaste_2019-12-09_21-08-13.png)
 
-With my screen resolution changed, the game starts successfully!
+With my screen resolution changed, the game starts successfully!  
 There are a few bugs in the game, and sometimes the graphics glitches out on the menu screen - but game functionality is there!
 
-![](Snipaste_2019-12-09_21-29-14.png)
-
-![](legoLoco.gif)
+| | |
+|:--:|:--:|
+|![](Snipaste_2019-12-09_21-29-14.png)|![](legoLoco.gif)|
 
 > You can read about hardware and software compatability here: [www.pcgamingwiki.com](https://www.pcgamingwiki.com/wiki/Lego_Loco)
 

@@ -63,7 +63,7 @@ To create a web interface to centrally manage the [PiSignage] devices.
 
 This "Single Page Application" would need to be run from a possibly offline context, where the client might not have an internet connection.  
 Perhaps the client might be in a firewalled environment where outbound connections to the internet are blocked.  
-That's the case for the Pi's actually, if you continue to [read here](#alternative-systems)
+That's the case for the Pis we had actually, if you continue [reading below](#balena-dash-and-screenly-ose)
 
 Because of this, I was unable/unwilling to use/embed a JavaScript framework like React, Vue, or my current exploration - Svelte.  
 This meant everything had to be Vanilla JS - nothing wrong with that! In fact I have plenty of experience from my previous sheer refusal to use large JS libraries (lmao jQuery.)

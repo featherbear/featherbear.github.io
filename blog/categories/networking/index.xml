@@ -51,4 +51,8 @@ Except for the times when it&amp;rsquo;s not&amp;hellip; (then, it&amp;rsquo;s n
 PP6 allows you to send stage messages remotely from the ProPresenter 6 iOS / Android app.
 Unfortunately that application is a bit clunky, and there&amp;rsquo;s no Windows / desktop app&amp;hellip;
 RICE Rally 2018 was coming up, and I needed some way to send Stage Display messages via my laptop.
-If only there was a HTML/JavaScript solution&amp;hellip; that&amp;rsquo;d really come in handy&amp;hellip;</description></item></channel></rss>
+If only there was a HTML/JavaScript solution&amp;hellip; that&amp;rsquo;d really come in handy&amp;hellip;</description></item><item><title>UNSW Scientia Signage</title><link>/blog/post/unsw-scientia-signage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/post/unsw-scientia-signage/</guid><description>At UNSW, the Scientia building uses Raspberry Pis to manage the digital screens that display media and information.
+In particular, they use PiSignage.
+The general operational process for each device was:
+1) Open the web interface 2) Authenticate 3) Upload a new media file 4) Add the media file to a playlist 5) Stop the playlist 6) Start the playlist
+It seemed abit long-winded&amp;hellip; something that could be automated&amp;hellip;</description></item></channel></rss>

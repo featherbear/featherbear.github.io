@@ -12,6 +12,8 @@ The aim of the game was to complete different goals and challenges to finish the
 
 While arduously waiting for my group partner to do his part, I decided to sit down and make another frontend for the game - a completely text-based, terminal version of the game which could even be played over telnet or SSH!
 
+![](20191102_152045.jpg)
+
 > [<i class="fab fa-github" aria-hidden="true"></i> GitHub: github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/](https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/)  
 [Blog Post](https://featherbear.github.io/UNSW-COMP2511/post/assign2/)
 
