@@ -116,7 +116,7 @@ PS/2: Keyboard, Mouse
 What am I going to do with it? I was thinking to use it as an NDI stream receiver.
 That would mean installing a copy of Windows Vista/7 Embedded.
 But first I would need more than 512 MB of RAM, and definitely more than 128 MB of storage&amp;hellip;</description></item><item><title>PreSonus StudioLive API</title><link>/blog/post/presonus-studiolive-api/</link><pubDate>Mon, 13 May 2019 00:26:51 +1000</pubDate><guid>/blog/post/presonus-studiolive-api/</guid><description>GitHub: github.com/featherbear/PreSonus-StudioLive-API
-I wanted to add functionality to the PreSonus StudioLive 16 Series III](../PreSonus-StudioLive-16) console. For example, to fade the level of a channel instead of instant (un)muting.
+I wanted to add functionality to the PreSonus StudioLive 16 Series III console. For example, to fade the level of a channel instead of instant (un)muting.
 There is no MIDI interface for the console - so we would have to emulate the network messages sent from their UC Surface app.
 Connection The console listens on TCP 53000
 KeepAlive packets are sent periodically every 1 second.</description></item><item><title>Screen Protectors</title><link>/blog/post/screen-protectors/</link><pubDate>Thu, 02 May 2019 23:46:17 +1000</pubDate><guid>/blog/post/screen-protectors/</guid><description>/**TODO - Custom theme CSS for images and tables**/ img { max-width: 180px; } table { width: 100%; border-collapse: collapse; } td { padding: 3px; border: 1px solid #A7A7A7; } td[align=center] { text-align: center; } A certain friend of mine is a magnet for having dropped phones and broken screen protectors (Hey, have you tried&amp;hellip; walking and not looking at your phone?).

@@ -2,15 +2,17 @@
 title: "PreSonus StudioLive API"
 date: 2019-05-13T00:26:51+10:00
 description: "Exploring the PreSonus StudioLive III network control protocol"
-categories: []
-featuredImage: ""
+categories: ["Programming", "Networking", "Audio Visual"]
+featuredImage: "post/presonus-studiolive-api/20190513_174229.jpg"
 displayInList: true
 breadcrumb: true
 ---
 
+![](20190513_174229.jpg)
+
 > [<i class="fab fa-github" aria-hidden="true"></i> GitHub: github.com/featherbear/PreSonus-StudioLive-API](https://github.com/featherbear/PreSonus-StudioLive-API)
 
-I wanted to add functionality to the PreSonus StudioLive 16 Series III](../PreSonus-StudioLive-16) console. For example, to fade the level of a channel instead of instant (un)muting.  
+I wanted to add functionality to the [PreSonus StudioLive 16 Series III](../PreSonus-StudioLive-16) console. For example, to fade the level of a channel instead of instant (un)muting.  
 There is no MIDI interface for the console - so we would have to emulate the network messages sent from their [UC Surface](https://www.presonus.com/products/uc-surface) app.
 
 # Connection

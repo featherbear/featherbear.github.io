@@ -13,7 +13,11 @@ Technologies:
 Playback - ProPresenter 6 Playback - CasparCG Video Transport - NewTek NDI Video Mixing - Open Broadcaster Software See Production on a Budget
 Technical:
 Timecode ProPresenter 6 does not have any timecode slave triggering, and we didn&amp;rsquo;t have any software (PVP, and a Mac) on us that would allow for that.
-We had to manually sync the track by counting over our intercoms&amp;hellip;</description></item><item><title>Arduino - WiFi DMX</title><link>/blog/post/arduino-wifi-dmx/</link><pubDate>Sat, 20 Apr 2019 21:58:58 +1000</pubDate><guid>/blog/post/arduino-wifi-dmx/</guid><description>At the start of 2018, I built a cheap wireless DMX receiver as a parting &amp;lsquo;gift&amp;rsquo; to my high school (Heck, I even wrote a training manual).
+We had to manually sync the track by counting over our intercoms&amp;hellip;</description></item><item><title>PreSonus StudioLive API</title><link>/blog/post/presonus-studiolive-api/</link><pubDate>Mon, 13 May 2019 00:26:51 +1000</pubDate><guid>/blog/post/presonus-studiolive-api/</guid><description>GitHub: github.com/featherbear/PreSonus-StudioLive-API
+I wanted to add functionality to the PreSonus StudioLive 16 Series III console. For example, to fade the level of a channel instead of instant (un)muting.
+There is no MIDI interface for the console - so we would have to emulate the network messages sent from their UC Surface app.
+Connection The console listens on TCP 53000
+KeepAlive packets are sent periodically every 1 second.</description></item><item><title>Arduino - WiFi DMX</title><link>/blog/post/arduino-wifi-dmx/</link><pubDate>Sat, 20 Apr 2019 21:58:58 +1000</pubDate><guid>/blog/post/arduino-wifi-dmx/</guid><description>At the start of 2018, I built a cheap wireless DMX receiver as a parting &amp;lsquo;gift&amp;rsquo; to my high school (Heck, I even wrote a training manual).
 Their system had i s s u e s.
 Two broken lighting consoles, and the DMX cable that connects from the control room was damaged due to water damage.
 So something had to be done!

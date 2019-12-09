@@ -12,7 +12,11 @@ GitHub</description></item><item><title>Course-crashing UNSW COMP3331</title><li
 It&amp;rsquo;s a browser extension for Chrome and Firefox which shows you a cute animal as your new tab page.
 Essentially, as you open more tabs , you unlock new toys (and characters *).
 Snooping around the source code (Firefox) we can see this
-function shouldPickNewGoody(visits) { if (visits === 1) { return true; } else if (visits % 200 === 0) { return true; } else { return Math.</description></item><item><title>Processing.js - Twinkle Tiles!</title><link>/blog/post/processing-twinkle/</link><pubDate>Mon, 29 Apr 2019 20:55:07 +1000</pubDate><guid>/blog/post/processing-twinkle/</guid><description>GitHub: https://github.com/featherbear/processing-twinkle
+function shouldPickNewGoody(visits) { if (visits === 1) { return true; } else if (visits % 200 === 0) { return true; } else { return Math.</description></item><item><title>PreSonus StudioLive API</title><link>/blog/post/presonus-studiolive-api/</link><pubDate>Mon, 13 May 2019 00:26:51 +1000</pubDate><guid>/blog/post/presonus-studiolive-api/</guid><description>GitHub: github.com/featherbear/PreSonus-StudioLive-API
+I wanted to add functionality to the PreSonus StudioLive 16 Series III console. For example, to fade the level of a channel instead of instant (un)muting.
+There is no MIDI interface for the console - so we would have to emulate the network messages sent from their UC Surface app.
+Connection The console listens on TCP 53000
+KeepAlive packets are sent periodically every 1 second.</description></item><item><title>Processing.js - Twinkle Tiles!</title><link>/blog/post/processing-twinkle/</link><pubDate>Mon, 29 Apr 2019 20:55:07 +1000</pubDate><guid>/blog/post/processing-twinkle/</guid><description>GitHub: https://github.com/featherbear/processing-twinkle
 Played around abit with p5.js, a Javascript implementation of the Processing language.
 iframe { width: 100vw; height: 100vh;
 }</description></item><item><title>My Very Own Hugo Theme</title><link>/blog/post/my-very-own-hugo-theme/</link><pubDate>Fri, 26 Apr 2019 02:06:39 +1000</pubDate><guid>/blog/post/my-very-own-hugo-theme/</guid><description>I&amp;rsquo;ve been using the awesome Aether theme on this blog for about 4 months.
