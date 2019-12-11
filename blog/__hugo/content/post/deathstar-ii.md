@@ -58,7 +58,7 @@ When the rebuild is done, I will then be able to replace the other drive and do 
 |:--:|:--:|
 |![](20191208_212129.jpg)|![](20191208_212244.jpg)|
 
-Don't forget to label your drives too!
+Don't forget to label your drives too!  
 ![](20191208_215129.jpg)
 ![](20191208_215235.jpg)
 

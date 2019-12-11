@@ -32,7 +32,7 @@ There were a few roles that I was assigned to during my shifts
 
 # Experience
 
-## It&apos; Sculpture by the Sea, NOT SculptureS by the Sea.
+## It&apos;s Sculpture by the Sea, NOT SculptureS by the Sea.
 
 Yeah.
 
@@ -41,16 +41,18 @@ Yeah.
 To manage payments, SxS uses [Square Up](https://squareup.com/au/en) - payment devices that can be connected to their kiosk iPads.  
 Consequently, without an EFTPOS terminal, receipts are paperless and have gone digital.
 
-But it's an inconvenience for a customer, who's probably holding a child in one hand, and all of their other stuff in the other, to use their third hand to type in their phone number / email address.  
+But it's an inconvenience for a customer holding a child in one hand, and all of their other stuff in the other - to use their third hand to type in their phone number / email address.  
 ... Yeah, exactly.
 
-## Things aren&apos; free, but if you&amp; bougie that&apos;s okay.
+## Things aren&apos;t free, but if you&amp;re bougie that&apos;s okay.
 
 From my time at the catalogue marquees, the majority of people who will actually purchase something are white people.  
 The Asian people, especially those whom I will classify as tourist (given the presence of a selfie stick in their hand and/or a down jacket and/or the non-Australian vibe) will ask for a Catalogue Guide but then put it back down after being told it is $7.  
 
-As an Asian myself surrounded in an Asian community, I do see this "miser spending" culture, but I too am confused because the majority of iPhone 11 Pros I've seen have been held by Asians.  
-What, you can afford a $2000 smartphone, but not spend $7 on a Catalogue Guide that will infinitely increase your enjoyment at SxS? Hm.
+As an Asian myself surrounded in an Asian community, I do see this "miser spending" culture.  
+But at the same time I'm confused because the majority of iPhone 11 Pros I've seen have been held by Asians.  
+
+What? You can afford a $2000 smartphone, but not spend $7 on a Catalogue Guide that will infinitely increase your enjoyment at SxS? Hm.
 
 # Number 23.
 
