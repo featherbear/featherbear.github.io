@@ -1,12 +1,197 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>UNSW Scientia Signage &middot; Andrew&#39;s Blog</title><meta name=description content><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-107434487-3','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css><link href=/blog/assets/prism.js/prism.css rel=stylesheet><script defer src=/blog/assets/prism.js/prism.js onload="let path;Prism.plugins.autoloader.languages_path=((path=this.getAttribute('src')).substring(0,path.lastIndexOf('/')))+'/languages/'"></script><script defer src=https://use.fontawesome.com/releases/v5.3.1/js/all.js></script><link rel=stylesheet href=/blog/css/site.css><style>body{background-image:url(/blog/IMG_0072.jpg)}</style><script defer src=/blog/js/site.js></script></head><body class=has-navbar-fixed-top><nav class="navbar is-fixed-top is-unselectable" role=navigation aria-label="main navigation"><div class=container><div class=navbar-brand><a class="navbar-item has-text-grey-darker is-size-3" href=/blog/>andrew wong</a>
-<a role=button class="navbar-burger burger" aria-label=menu aria-expanded=false data-target=navmenu><span aria-hidden=true></span><span aria-hidden=true></span><span aria-hidden=true></span></a></div><div id=navmenu class=navbar-menu><div class=navbar-end><div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-black-ter is-arrowless" href=/blog/>blog</a><div class=navbar-dropdown><a href=/blog/categories/audio-visual class=navbar-item>audio-visual</a><a href=/blog/categories/life class=navbar-item>life</a><a href=/blog/categories/networking class=navbar-item>networking</a><a href=/blog/categories/photography class=navbar-item>photography</a><a href=/blog/categories/programming class=navbar-item>programming</a><a href=/blog/categories/python class=navbar-item>python</a><a href=/blog/categories/unsw class=navbar-item>unsw</a><a href=/blog/categories/webdev class=navbar-item>webdev</a></div></div><a class="navbar-item has-text-grey" href=/about>about me</a>
-<a class="navbar-item has-text-grey" href=/photos>photography</a>
-<a class="navbar-item has-text-grey" href=/programming>programming</a></div></div></div></nav><main class=container><header class="hero is-info"><div class=hero-body><div class=container><h1 class=title>UNSW Scientia Signage</h1><h2 class=subtitle>Posted <time datetime=0001-01-01>Jan 1, 0001</time></h2></div></div></header><article id=content><p>At UNSW, the Scientia building uses Raspberry Pis to manage the digital screens that display media and information.<br>In particular, they use <a href=https://pisignage.com>PiSignage</a>.</p><p>The general operational process for each device was:</p><p>1) Open the web interface
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>UNSW Scientia Signage &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="" />
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-107434487-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+  <link href="/blog/assets/prism.js/prism.css" rel="stylesheet" />
+<script defer src="/blog/assets/prism.js/prism.js" onload="let path; Prism.plugins.autoloader.languages_path = ((path = this.getAttribute('src')).substring(0,path.lastIndexOf('/'))) + '/languages/'"></script>
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="/blog/css/site.css" />
+  <style>
+    body {
+      background-image: url("/blog/IMG_0072.jpg");
+    }
+  </style>
+  <script defer src="/blog/js/site.js"></script>
+</head>
+  <body class="has-navbar-fixed-top">
+  
+<nav class="navbar is-fixed-top is-unselectable" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-grey-darker is-size-3" href="/blog/">
+        andrew wong
+        
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navmenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navmenu" class="navbar-menu">
+      <div class="navbar-end">
+        
+        
+          
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link has-text-black-ter is-arrowless" href="/blog/">blog</a>
+                <div class="navbar-dropdown">
+                    <a href="/blog/categories/audio-visual" class="navbar-item">audio-visual</a><a href="/blog/categories/life" class="navbar-item">life</a><a href="/blog/categories/networking" class="navbar-item">networking</a><a href="/blog/categories/photography" class="navbar-item">photography</a><a href="/blog/categories/programming" class="navbar-item">programming</a><a href="/blog/categories/python" class="navbar-item">python</a><a href="/blog/categories/unsw" class="navbar-item">unsw</a><a href="/blog/categories/webdev" class="navbar-item">webdev</a>
+                    
+                    
+                </div>
+            </div>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/about">about me</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/photos">photography</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/programming">programming</a>
+          
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <main class="container">
+    <header class="hero is-info" >
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">UNSW Scientia Signage</h1>
+            
+            <h2 class="subtitle">Posted <time datetime="0001-01-01">Jan 1, 0001</time></h2>
+            
+          </div>
+        </div>
+      </header>
+    <article id="content">
+
+<p>At UNSW, the Scientia building uses Raspberry Pis to manage the digital screens that display media and information.<br />
+In particular, they use <a href="https://pisignage.com">PiSignage</a>.</p>
+
+<p>The general operational process for each device was:</p>
+
+<p>1) Open the web interface
 2) Authenticate
 3) Upload a new media file
 4) Add the media file to a playlist
 5) Stop the playlist
-6) Start the playlist</p><p>It seemed abit long-winded&hellip; something that could be automated&hellip;<br>Hmm. 🤔</p><p>Alright let&rsquo;s do it!</p><hr><blockquote><p><a href=https://github.com/featherbear/unsw-scientia-signage><i class="fab fa-github" aria-hidden=true></i>GitHub: github.com/featherbear/UNSW-Scientia-Signage</a></p></blockquote><h1 id=project-plan>Project Plan</h1><h2 id=goal>Goal</h2><p>To create a web interface to centrally manage the <a href=https://pisignage.com>PiSignage</a> devices.</p><h2 id=requirements>Requirements</h2><ul><li>Each device must be identifiable by its location</li><li>The offline/online/running status of each device will be visible</li><li>The application must be third-party-dependency free</li><li>The application must be able to run without a server<ul><li>The application must be able to run from a <code>file://</code> context</li></ul></li></ul><h2 id=features>Features</h2><ul><li>Display preview</li><li>Button to open the <a href=https://pisignage.com>PiSignage</a> web-interface (Should my code not work)</li><li>Make it look like it&rsquo;s a UNSW product.</li></ul><h1 id=development>Development</h1><p>This &ldquo;Single Page Application&rdquo; would need to be run from a possibly offline context, where the client might not have an internet connection.<br>Perhaps the client might be in a firewalled environment where outbound connections to the internet are blocked.<br>That&rsquo;s the case for the Pis we had actually, if you continue <a href=#balena-dash-and-screenly-ose>reading below</a></p><p>Because of this, I was unable/unwilling to use/embed a JavaScript framework like React, Vue, or my current exploration - Svelte.<br>This meant everything had to be Vanilla JS - nothing wrong with that! In fact I have plenty of experience from my previous sheer refusal to use large JS libraries (lmao jQuery.)</p><p>Structurally, the final product would be a single HTML page with all of the styling and scripting embedded within.<br>I decided to use <code>flexbox</code>es for each <a href=https://pisignage.com>PiSignage</a> container element.</p><p>Functionally, each <a href=https://pisignage.com>PiSignage</a> device would be associated to a <code>SignageDevice</code> object which would manage the interactions of the &ldquo;SPA&rdquo; to the actual device&rsquo;s API</p><h1 id=product>Product</h1><p>You can see the source code on <a href=https://github.com/featherbear/unsw-scientia-signage>GitHub</a>.<br>I&rsquo;ve taken out the device data associated to the <a href=https://pisignage.com>PiSignage</a>-s used at UNSW, obviously - so I reckon it&rsquo;s nicer just to watch and observe.</p><p><img src=Snipaste_2019-12-09_19-33-07.png alt></p><h1 id=alternative-systems>Alternative Systems</h1><p>With the on-slaught of maintenance tasks to do for UNSW Hospitality, one of the things was actually to search for an alternative to <a href=https://pisignage.com>PiSignage</a>.<br>The rationale behind this was because some of the Pis had started to malfunction.</p><p><img src=20191123_114624.jpg alt></p><h2 id=raspberry-slideshow>Raspberry Slideshow</h2><p>We tried using <a href=https://www.binaryemotions.com/digital-signage/raspberry-slideshow/>Raspberry Slideshow</a> from Binary Emotions, as it had a feature to pull images from a Dropbox folder.<br>This would allow the Pis to be managed from Dropbox! But it didn&rsquo;t work out that well.</p><p>The issue with Raspberry Slideshow is the way in which it checks for updates.</p><ul><li>Every X seconds the display will go black (Issue 1: The screen is black, Issue 2: The images will only update every X seconds)</li><li>The program will check for updates in the Dropbox folder (Issue: The screen is still black)</li><li>The program will then download the images (Issue 1: It redownloads all images, even those unchanged. Issue 2: The screen is <strong>still black</strong>)</li></ul><p>The issue with this implementation is that the screen will be black every time a refresh is performed.<br>To see less black screens, we would have to increase the refresh interval.<br>But increasing the refresh interval will make the time to wait to see the new images on the screen slower.</p><p><details></p><pre><code>=&gt; [System_mountFirstFoundUsbDevice] Mounting the plugged-in USB key's first partition...
+6) Start the playlist</p>
+
+<p>It seemed abit long-winded&hellip; something that could be automated&hellip;<br />
+Hmm. 🤔</p>
+
+<p>Alright let&rsquo;s do it!</p>
+
+<hr />
+
+<blockquote>
+<p><a href="https://github.com/featherbear/unsw-scientia-signage"><i class="fab fa-github" aria-hidden="true"></i> GitHub: github.com/featherbear/UNSW-Scientia-Signage</a></p>
+</blockquote>
+
+<h1 id="project-plan">Project Plan</h1>
+
+<h2 id="goal">Goal</h2>
+
+<p>To create a web interface to centrally manage the <a href="https://pisignage.com">PiSignage</a> devices.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+<li>Each device must be identifiable by its location</li>
+<li>The offline/online/running status of each device will be visible</li>
+<li>The application must be third-party-dependency free</li>
+<li>The application must be able to run without a server
+
+<ul>
+<li>The application must be able to run from a <code>file://</code> context</li>
+</ul></li>
+</ul>
+
+<h2 id="features">Features</h2>
+
+<ul>
+<li>Display preview</li>
+<li>Button to open the <a href="https://pisignage.com">PiSignage</a> web-interface (Should my code not work)</li>
+<li>Make it look like it&rsquo;s a UNSW product.</li>
+</ul>
+
+<h1 id="development">Development</h1>
+
+<p>This &ldquo;Single Page Application&rdquo; would need to be run from a possibly offline context, where the client might not have an internet connection.<br />
+Perhaps the client might be in a firewalled environment where outbound connections to the internet are blocked.<br />
+That&rsquo;s the case for the Pis we had actually, if you continue <a href="#balena-dash-and-screenly-ose">reading below</a></p>
+
+<p>Because of this, I was unable/unwilling to use/embed a JavaScript framework like React, Vue, or my current exploration - Svelte.<br />
+This meant everything had to be Vanilla JS - nothing wrong with that! In fact I have plenty of experience from my previous sheer refusal to use large JS libraries (lmao jQuery.)</p>
+
+<p>Structurally, the final product would be a single HTML page with all of the styling and scripting embedded within.<br />
+I decided to use <code>flexbox</code>es for each <a href="https://pisignage.com">PiSignage</a> container element.</p>
+
+<p>Functionally, each <a href="https://pisignage.com">PiSignage</a> device would be associated to a <code>SignageDevice</code> object which would manage the interactions of the &ldquo;SPA&rdquo; to the actual device&rsquo;s API</p>
+
+<h1 id="product">Product</h1>
+
+<p>You can see the source code on <a href="https://github.com/featherbear/unsw-scientia-signage">GitHub</a>.<br />
+I&rsquo;ve taken out the device data associated to the <a href="https://pisignage.com">PiSignage</a>-s used at UNSW, obviously - so I reckon it&rsquo;s nicer just to watch and observe.</p>
+
+<p><img src="Snipaste_2019-12-09_19-33-07.png" alt="" /></p>
+
+<h1 id="alternative-systems">Alternative Systems</h1>
+
+<p>With the on-slaught of maintenance tasks to do for UNSW Hospitality, one of the things was actually to search for an alternative to <a href="https://pisignage.com">PiSignage</a>.<br />
+The rationale behind this was because some of the Pis had started to malfunction.</p>
+
+<p><img src="20191123_114624.jpg" alt="" /></p>
+
+<h2 id="raspberry-slideshow">Raspberry Slideshow</h2>
+
+<p>We tried using <a href="https://www.binaryemotions.com/digital-signage/raspberry-slideshow/">Raspberry Slideshow</a> from Binary Emotions, as it had a feature to pull images from a Dropbox folder.<br />
+This would allow the Pis to be managed from Dropbox! But it didn&rsquo;t work out that well.</p>
+
+<p>The issue with Raspberry Slideshow is the way in which it checks for updates.</p>
+
+<ul>
+<li>Every X seconds the display will go black (Issue 1: The screen is black, Issue 2: The images will only update every X seconds)</li>
+<li>The program will check for updates in the Dropbox folder (Issue: The screen is still black)</li>
+<li>The program will then download the images (Issue 1: It redownloads all images, even those unchanged. Issue 2: The screen is <strong>still black</strong>)</li>
+</ul>
+
+<p>The issue with this implementation is that the screen will be black every time a refresh is performed.<br />
+To see less black screens, we would have to increase the refresh interval.<br />
+But increasing the refresh interval will make the time to wait to see the new images on the screen slower.</p>
+
+<p><details></p>
+
+<pre><code>=&gt; [System_mountFirstFoundUsbDevice] Mounting the plugged-in USB key's first partition...
 ls: cannot access '/dev/disk/by-id/': No such file or directory
 ===&gt; No available USB block device found (no USB key inserted or recognized). Proceeding with cached content, if any.
 ls: cannot access '/dev/disk/by-id/': No such file or directory
@@ -66,4 +251,170 @@ using &quot;DejaVu Sans Mono-16&quot;, pixelsize=16.67 file=/usr/share/fonts/tru
 ===&gt; Dropbox folder media hash: f416bc98359f17ef5b7afa49a7be7538942b5f086c392a3c1a60800e535459aa.
 =&gt; [System_mediaInformationsShow] The following images will be slided:
  * IMAGE_FILE_TWO.JPG
-</code></pre><p></details></p><h2 id=balena-dash-and-screenly-ose>Balena Dash and Screenly OSE</h2><p>Another solution I found was <a href=https://www.balena.io/blog/make-a-web-frame-with-raspberry-pi-in-30-minutes/>Balena Dash</a>, a dashboard software I thought would work as a Digital Signage.<br>Unfortunately the university had old models of the RPi, and did not meet the hardware requirements of 1GB RAM.</p><p>Another solution was <a href=https://www.screenly.io/ose/>Screenly - Open Source Edition</a>.<br>It looked decent and usable, so I tried to deploy it on <a href=https://www.balena.io/cloud/>Balena Cloud</a>.</p><p><strong>Except</strong>, the 4 Raspberry Pis were blocked from making outbound connections so I couldn&rsquo;t get them registered.<br>Even bypassing this by registering at home, they were unable to connect to the cloud at university, so this attempt has been thwarted too!</p><p>I did end up trying to to install Screenly OSE without Balena Cloud, but honestly I prefer <a href=https://pisignage.com>PiSignage</a> more, so I ended up reflashing it.</p><hr><p>Ultimately the issue seemed to be a bad microSD card that was causing corruption on one of the two reported devices.<br>As for the other reported device, I&rsquo;m not too sure what caused it to break but as of today, the reinstalled <a href=https://pisignage.com>PiSignage</a> software is still working fine; though the device does seem to respond considerably slower than the other devices.</p></article></main><div class=container><h1 class="title has-text-grey-lighter">More posts</h1><div class=listArticle><a href=/blog/post/unsw/><article class=media><div class=media-content><h2 class="title is-marginless">UNSW Courses</h2><div class=level><div class=level-left><p class=subtitle>Portal to all of my course blogs</p></div></div></div></article></div></a></div><div class=listArticle><a href=/blog/post/windows-sketchpad/><article class=media><div class=media-content><h2 class="title is-marginless">Windows Updates - Sketchpad KB4505903</h2><div class=level><div class=level-left><p class=subtitle>Windows Updates are never a good thing.</p></div><div class=level-right><p>Posted <time datetime=0001-01-01>Jan 1, 0001</time></p></div></div></div></article><div class="is-unselectable categories"><a href=/blog/categories/life><span class="tag is-info">#Life</span></a></div></a></div></div><div id=scroll-nav></div><footer class=footer><nav class="breadcrumb is-right" aria-label=breadcrumbs><ul><li><a href=../../>blog</a></li><li><a href=../>post</a></li><li class=is-active><a href=# aria-current=page>unsw-scientia-signage</a></li></ul></nav><hr><figure class="image is-128x128 logo" style="margin:0 auto"><img src=/blog/logo.png></figure></footer><link rel=stylesheet href=/blog/assets/luminous.js/luminous-basic.min.css><script src=/blog/assets/luminous.js/Luminous.min.js></script><script type=text/javascript>document.querySelectorAll("#content img").forEach(e=>new Luminous(e,{sourceAttribute:"src"}))</script><script src=/blog/assets/elevator.js/elevator.min.js></script><script type=text/javascript>var elevator=new Elevator({element:document.querySelector(".footer .logo"),mainAudio:'\/blog\/assets\/elevator.js\/elevator.mp3',endAudio:'\/blog\/assets\/elevator.js\/ding.mp3'});</script><script>{let max=document.body.scrollHeight-window.innerHeight;window.addEventListener('scroll',function(){document.getElementById('scroll-nav').style.width=`${this.scrollY/max*100}%`});document.getElementById('scroll-nav').style.width=`${window.scrollY/max*100}%`}</script></body></html>
+</code></pre>
+
+<p></details></p>
+
+<h2 id="balena-dash-and-screenly-ose">Balena Dash and Screenly OSE</h2>
+
+<p>Another solution I found was <a href="https://www.balena.io/blog/make-a-web-frame-with-raspberry-pi-in-30-minutes/">Balena Dash</a>, a dashboard software I thought would work as a Digital Signage.<br />
+Unfortunately the university had old models of the RPi, and did not meet the hardware requirements of 1GB RAM.</p>
+
+<p>Another solution was <a href="https://www.screenly.io/ose/">Screenly - Open Source Edition</a>.<br />
+It looked decent and usable, so I tried to deploy it on <a href="https://www.balena.io/cloud/">Balena Cloud</a>.</p>
+
+<p><strong>Except</strong>, the 4 Raspberry Pis were blocked from making outbound connections so I couldn&rsquo;t get them registered.<br />
+Even bypassing this by registering at home, they were unable to connect to the cloud at university, so this attempt has been thwarted too!</p>
+
+<p>I did end up trying to to install Screenly OSE without Balena Cloud, but honestly I prefer <a href="https://pisignage.com">PiSignage</a> more, so I ended up reflashing it.</p>
+
+<hr />
+
+<p>Ultimately the issue seemed to be a bad microSD card that was causing corruption on one of the two reported devices.<br />
+As for the other reported device, I&rsquo;m not too sure what caused it to break but as of today, the reinstalled <a href="https://pisignage.com">PiSignage</a> software is still working fine; though the device does seem to respond considerably slower than the other devices.</p>
+</article>
+  </main>
+
+  <div class="container">
+    <h1 class="title has-text-grey-lighter">More posts</h1>
+    
+      <div class="listArticle">
+  <a href="/blog/post/unsw/">
+    <article class="media">
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">UNSW Courses</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">Portal to all of my course blogs</p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+
+    
+      <div class="listArticle">
+  <a href="/blog/post/windows-sketchpad/">
+    <article class="media">
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">Windows Updates - Sketchpad KB4505903</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">Windows Updates are never a good thing.</p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="0001-01-01">Jan 1, 0001</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/life" >
+          <span class="tag is-info">#Life</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+  </div>
+    <div id="scroll-nav"></div>
+    <footer class="footer">
+  
+  <nav class="breadcrumb is-right" aria-label="breadcrumbs">
+    <ul>
+      
+      
+      
+
+      
+      
+
+      
+
+      
+      
+      
+      
+      <li>
+        
+        <a href="../../">blog</a>
+      </li>
+      
+      
+      
+      
+      
+      <li>
+        
+        <a href="../">post</a>
+      </li>
+      
+      
+      
+      
+      
+      <li class="is-active">
+        <a href="#" aria-current="page">unsw-scientia-signage</a>
+      </li>
+      
+      
+    </ul>
+  </nav>
+  <hr>
+  
+  
+    <figure class="image is-128x128 logo" style="margin: 0 auto;">
+      <img src="/blog/logo.png">
+    </figure>
+  
+</footer>
+
+    <link rel="stylesheet" href="/blog/assets/luminous.js/luminous-basic.min.css" />
+<script src='/blog/assets/luminous.js/Luminous.min.js'></script>
+<script type="text/javascript">
+document.querySelectorAll("#content img").forEach(e => new Luminous(e , {
+    sourceAttribute: "src"
+  })
+)
+</script>
+
+<script src='/blog/assets/elevator.js/elevator.min.js'></script>
+<script type="text/javascript">
+  var elevator = new Elevator({
+    element: document.querySelector(".footer .logo"),
+    mainAudio: '\/blog\/assets\/elevator.js\/elevator.mp3',
+    endAudio: '\/blog\/assets\/elevator.js\/ding.mp3'
+  });
+</script>
+
+
+    <script>
+      {
+        let max = document.body.scrollHeight - window.innerHeight;
+        window.addEventListener('scroll', function() {
+          document.getElementById('scroll-nav').style.width = `${this.scrollY / max * 100}%`
+        });
+        document.getElementById('scroll-nav').style.width = `${window.scrollY / max * 100}%`
+      }
+    </script>
+  </body>
+</html>

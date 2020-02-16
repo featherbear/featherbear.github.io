@@ -1,5 +1,297 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>Home Network Upgrade &middot; Andrew&#39;s Blog</title><meta name=description content="Retrofitting second hand equipment to make my network negligibly better"><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-107434487-3','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css><link href=/blog/assets/prism.js/prism.css rel=stylesheet><script defer src=/blog/assets/prism.js/prism.js onload="let path;Prism.plugins.autoloader.languages_path=((path=this.getAttribute('src')).substring(0,path.lastIndexOf('/')))+'/languages/'"></script><script defer src=https://use.fontawesome.com/releases/v5.3.1/js/all.js></script><link rel=stylesheet href=/blog/css/site.css><style>body{background-image:url(/blog/IMG_0072.jpg)}</style><script defer src=/blog/js/site.js></script></head><body class=has-navbar-fixed-top><nav class="navbar is-fixed-top is-unselectable" role=navigation aria-label="main navigation"><div class=container><div class=navbar-brand><a class="navbar-item has-text-grey-darker is-size-3" href=/blog/>andrew wong</a>
-<a role=button class="navbar-burger burger" aria-label=menu aria-expanded=false data-target=navmenu><span aria-hidden=true></span><span aria-hidden=true></span><span aria-hidden=true></span></a></div><div id=navmenu class=navbar-menu><div class=navbar-end><div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-black-ter is-arrowless" href=/blog/>blog</a><div class=navbar-dropdown><a href=/blog/categories/audio-visual class=navbar-item>audio-visual</a><a href=/blog/categories/life class=navbar-item>life</a><a href=/blog/categories/networking class=navbar-item>networking</a><a href=/blog/categories/photography class=navbar-item>photography</a><a href=/blog/categories/programming class=navbar-item>programming</a><a href=/blog/categories/python class=navbar-item>python</a><a href=/blog/categories/unsw class=navbar-item>unsw</a><a href=/blog/categories/webdev class=navbar-item>webdev</a></div></div><a class="navbar-item has-text-grey" href=/about>about me</a>
-<a class="navbar-item has-text-grey" href=/photos>photography</a>
-<a class="navbar-item has-text-grey" href=/programming>programming</a></div></div></div></nav><main class=container><header class="hero is-info"><div class=hero-body><div class=container><h1 class=title>Home Network Upgrade</h1><h2 class=subtitle>Posted <time datetime=2019-01-13>Jan 13, 2019</time></h2></div></div></header><article id=content><p><img src=20190112_142642.jpg alt></p><p>When I&rsquo;m bored I often find myself scrolling Gumtree and Facebook Marketplace for deals - audio gear, camera gear, furniture, and when in &lsquo;need&rsquo; - network gear!</p><p>So I found a classified on Gumtree&hellip;</p><p>8x <u><strong><a href=https://store.ubnt.com/products/unifi-ap>Ubiquiti UniFi UAP</a></strong></u> - $10 each!!!<br>Unfortunately they were the UAP&rsquo;s not the UAP-AC&rsquo;s.<br>The UAP isn&rsquo;t 10/100/1000, which is a shame, but nor were my old APs (but.. awhh)<br>And hey, $50 savings per unit.</p><p><u><strong><a href=https://mikrotik.com/product/RB1200>MikroTik RouterBOARD RB1200</a></strong></u> - $40<br>An EOL MikroTik router - but still works flawlessly!<br>Getting this thing set up was a bit of a journey&hellip;</p><p>Firstly the reset button at the back only does a power reset.<br>Unlike my old OpenWRT router, there&rsquo;s no 30/30/30 reset. Instead - you have to open up the router and short the reset contacts.<br>Okay so Philips head screwdriver out and&hellip; AAAAH I NEED A PHILIPS P2 HEAD.<br>Lucky my HP ProLiant MicroServer came with a Philip P2 tool - phew!</p><p>Secondly, there wasn&rsquo;t any DHCP host name DNS entry mapping functionality built in?<br>So I used <a href="https://forum.mikrotik.com/viewtopic.php?t=119469#">this</a> handy script (<em>Thanks dse</em>)!</p><p><u><strong><a href=https://www.dlink.com.au/business-solutions/DGS-1210-28-28-port-gigabit-websmart-switch>D-Link DGS-1210-28</a></strong></u> - $50<br>A quiet (fanless) managed gigabit switch!<br>Over the time I&rsquo;ve used it, I&rsquo;ve felt like it has some issues with saving its settings&hellip;<br>After a power cycle, the DHCP/Static settings had reset and I was unable to connect to it</p><p><u><strong><a href=https://www.dell.com/en-us/work/shop/cty/powerconnect-2848-switch/spd/powerconnect-2848>Dell PowerConnect 2848</a></strong></u> - $80<br>A 48 port managed gigabit switch&hellip; MAN THIS THING IS LOUD.<br>Into the church it goes</p><hr><p>So I was going to go to Ikea to buy the <a href=https://www.ikea.com/au/en/catalog/products/00352988/#/00352988>Lack Table</a> to make the <a href=https://wiki.eth0.nl/index.php/LackRack>Lack Rack</a>, but I ended up finding some pieces of wood in the garage that had basically just the right dimensions!!!</p><p><img src=20190217_144006.jpg alt>
-<img src=20190217_223814.jpg alt></p><p>Yeet.</p></article></main><div class=container><h1 class="title has-text-grey-lighter">More posts</h1><div class=listArticle><a href=/blog/post/back-to-firefox/><article class=media><div class=media-content><h2 class="title is-marginless">Back to Firefox</h2><div class=level><div class=level-left><p class=subtitle>Welcoming Mozilla Firefox back into my family.</p></div><div class=level-right><p>Posted <time datetime=2019-01-27>Jan 27, 2019</time></p></div></div></div></article><div class="is-unselectable categories"><a href=/blog/categories/life><span class="tag is-info">#Life</span></a></div></a></div><div class=listArticle><a href=/blog/post/floobits/><article class=media><figure class=media-left><p class="image is-128x128"><img src=https://floobits.com/static/images/logos/logo_with_name.png></p></figure><div class=media-content><h2 class="title is-marginless">Floobits</h2><div class=level><div class=level-left><p class=subtitle>Collaborative code editing!</p></div><div class=level-right><p>Posted <time datetime=2019-01-11>Jan 11, 2019</time></p></div></div></div></article><div class="is-unselectable categories"><a href=/blog/categories/programming><span class="tag is-info">#Programming</span></a></div></a></div></div><div id=scroll-nav></div><footer class=footer><nav class="breadcrumb is-right" aria-label=breadcrumbs><ul><li><a href=../../>blog</a></li><li><a href=../>post</a></li><li class=is-active><a href=# aria-current=page>home-network-upgrade</a></li></ul></nav><hr><figure class="image is-128x128 logo" style="margin:0 auto"><img src=/blog/logo.png></figure></footer><link rel=stylesheet href=/blog/assets/luminous.js/luminous-basic.min.css><script src=/blog/assets/luminous.js/Luminous.min.js></script><script type=text/javascript>document.querySelectorAll("#content img").forEach(e=>new Luminous(e,{sourceAttribute:"src"}))</script><script src=/blog/assets/elevator.js/elevator.min.js></script><script type=text/javascript>var elevator=new Elevator({element:document.querySelector(".footer .logo"),mainAudio:'\/blog\/assets\/elevator.js\/elevator.mp3',endAudio:'\/blog\/assets\/elevator.js\/ding.mp3'});</script><script>{let max=document.body.scrollHeight-window.innerHeight;window.addEventListener('scroll',function(){document.getElementById('scroll-nav').style.width=`${this.scrollY/max*100}%`});document.getElementById('scroll-nav').style.width=`${window.scrollY/max*100}%`}</script></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Home Network Upgrade &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="Retrofitting second hand equipment to make my network negligibly better" />
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-107434487-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+  <link href="/blog/assets/prism.js/prism.css" rel="stylesheet" />
+<script defer src="/blog/assets/prism.js/prism.js" onload="let path; Prism.plugins.autoloader.languages_path = ((path = this.getAttribute('src')).substring(0,path.lastIndexOf('/'))) + '/languages/'"></script>
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="/blog/css/site.css" />
+  <style>
+    body {
+      background-image: url("/blog/IMG_0072.jpg");
+    }
+  </style>
+  <script defer src="/blog/js/site.js"></script>
+</head>
+  <body class="has-navbar-fixed-top">
+  
+<nav class="navbar is-fixed-top is-unselectable" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-grey-darker is-size-3" href="/blog/">
+        andrew wong
+        
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navmenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navmenu" class="navbar-menu">
+      <div class="navbar-end">
+        
+        
+          
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link has-text-black-ter is-arrowless" href="/blog/">blog</a>
+                <div class="navbar-dropdown">
+                    <a href="/blog/categories/audio-visual" class="navbar-item">audio-visual</a><a href="/blog/categories/life" class="navbar-item">life</a><a href="/blog/categories/networking" class="navbar-item">networking</a><a href="/blog/categories/photography" class="navbar-item">photography</a><a href="/blog/categories/programming" class="navbar-item">programming</a><a href="/blog/categories/python" class="navbar-item">python</a><a href="/blog/categories/unsw" class="navbar-item">unsw</a><a href="/blog/categories/webdev" class="navbar-item">webdev</a>
+                    
+                    
+                </div>
+            </div>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/about">about me</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/photos">photography</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/programming">programming</a>
+          
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <main class="container">
+    <header class="hero is-info" >
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">Home Network Upgrade</h1>
+            
+            <h2 class="subtitle">Posted <time datetime="2019-01-13">Jan 13, 2019</time></h2>
+            
+          </div>
+        </div>
+      </header>
+    <article id="content"><p><img src="20190112_142642.jpg" alt="" /></p>
+
+<p>When I&rsquo;m bored I often find myself scrolling Gumtree and Facebook Marketplace for deals - audio gear, camera gear, furniture, and when in &lsquo;need&rsquo; - network gear!</p>
+
+<p>So I found a classified on Gumtree&hellip;</p>
+
+<p>8x <u><strong><a href="https://store.ubnt.com/products/unifi-ap">Ubiquiti UniFi UAP</a></strong></u> - $10 each!!!<br />
+Unfortunately they were the UAP&rsquo;s not the UAP-AC&rsquo;s.<br />
+The UAP isn&rsquo;t 10/100/1000, which is a shame, but nor were my old APs (but.. awhh)<br />
+And hey, $50 savings per unit.</p>
+
+<p><u><strong><a href="https://mikrotik.com/product/RB1200">MikroTik RouterBOARD RB1200</a></strong></u> - $40<br />
+An EOL MikroTik router - but still works flawlessly!<br />
+Getting this thing set up was a bit of a journey&hellip;</p>
+
+<p>Firstly the reset button at the back only does a power reset.<br />
+Unlike my old OpenWRT router, there&rsquo;s no 30/30/30 reset. Instead - you have to open up the router and short the reset contacts.<br />
+Okay so Philips head screwdriver out and&hellip; AAAAH I NEED A PHILIPS P2 HEAD.<br />
+Lucky my HP ProLiant MicroServer came with a Philip P2 tool - phew!</p>
+
+<p>Secondly, there wasn&rsquo;t any DHCP host name DNS entry mapping functionality built in?<br />
+So I used <a href="https://forum.mikrotik.com/viewtopic.php?t=119469#">this</a> handy script (<em>Thanks dse</em>)!</p>
+
+<p><u><strong><a href="https://www.dlink.com.au/business-solutions/DGS-1210-28-28-port-gigabit-websmart-switch">D-Link DGS-1210-28</a></strong></u> - $50<br />
+A quiet (fanless) managed gigabit switch!<br />
+Over the time I&rsquo;ve used it, I&rsquo;ve felt like it has some issues with saving its settings&hellip;<br />
+After a power cycle, the DHCP/Static settings had reset and I was unable to connect to it</p>
+
+<p><u><strong><a href="https://www.dell.com/en-us/work/shop/cty/powerconnect-2848-switch/spd/powerconnect-2848">Dell PowerConnect 2848</a></strong></u> - $80<br />
+A 48 port managed gigabit switch&hellip; MAN THIS THING IS LOUD.<br />
+Into the church it goes</p>
+
+<hr />
+
+<p>So I was going to go to Ikea to buy the <a href="https://www.ikea.com/au/en/catalog/products/00352988/#/00352988">Lack Table</a> to make the <a href="https://wiki.eth0.nl/index.php/LackRack">Lack Rack</a>, but I ended up finding some pieces of wood in the garage that had basically just the right dimensions!!!</p>
+
+<p><img src="20190217_144006.jpg" alt="" />
+<img src="20190217_223814.jpg" alt="" /></p>
+
+<p>Yeet.</p>
+</article>
+  </main>
+
+  <div class="container">
+    <h1 class="title has-text-grey-lighter">More posts</h1>
+    
+      <div class="listArticle">
+  <a href="/blog/post/back-to-firefox/">
+    <article class="media">
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">Back to Firefox</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">Welcoming Mozilla Firefox back into my family.</p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="2019-01-27">Jan 27, 2019</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/life" >
+          <span class="tag is-info">#Life</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+
+    
+      <div class="listArticle">
+  <a href="/blog/post/floobits/">
+    <article class="media">
+      
+        <figure class="media-left">
+          <p class="image is-128x128">
+            <img src="https://floobits.com/static/images/logos/logo_with_name.png">
+          </p>
+        </figure>
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">Floobits</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">Collaborative code editing!</p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="2019-01-11">Jan 11, 2019</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/programming" >
+          <span class="tag is-info">#Programming</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+  </div>
+    <div id="scroll-nav"></div>
+    <footer class="footer">
+  
+  <nav class="breadcrumb is-right" aria-label="breadcrumbs">
+    <ul>
+      
+      
+      
+
+      
+      
+
+      
+
+      
+      
+      
+      
+      <li>
+        
+        <a href="../../">blog</a>
+      </li>
+      
+      
+      
+      
+      
+      <li>
+        
+        <a href="../">post</a>
+      </li>
+      
+      
+      
+      
+      
+      <li class="is-active">
+        <a href="#" aria-current="page">home-network-upgrade</a>
+      </li>
+      
+      
+    </ul>
+  </nav>
+  <hr>
+  
+  
+    <figure class="image is-128x128 logo" style="margin: 0 auto;">
+      <img src="/blog/logo.png">
+    </figure>
+  
+</footer>
+
+    <link rel="stylesheet" href="/blog/assets/luminous.js/luminous-basic.min.css" />
+<script src='/blog/assets/luminous.js/Luminous.min.js'></script>
+<script type="text/javascript">
+document.querySelectorAll("#content img").forEach(e => new Luminous(e , {
+    sourceAttribute: "src"
+  })
+)
+</script>
+
+<script src='/blog/assets/elevator.js/elevator.min.js'></script>
+<script type="text/javascript">
+  var elevator = new Elevator({
+    element: document.querySelector(".footer .logo"),
+    mainAudio: '\/blog\/assets\/elevator.js\/elevator.mp3',
+    endAudio: '\/blog\/assets\/elevator.js\/ding.mp3'
+  });
+</script>
+
+
+    <script>
+      {
+        let max = document.body.scrollHeight - window.innerHeight;
+        window.addEventListener('scroll', function() {
+          document.getElementById('scroll-nav').style.width = `${this.scrollY / max * 100}%`
+        });
+        document.getElementById('scroll-nav').style.width = `${window.scrollY / max * 100}%`
+      }
+    </script>
+  </body>
+</html>

@@ -55,8 +55,52 @@ There were a few reasons for this:
 * I would be able to switch an infinite number of displays by bridging all of the remote input ports together
 * Cheap!
 
-I'm currently waiting for the KVM's to arrive.  
-When they do, I'm planning of adding a physical button to each unit, as well as bridging the units together (probably externally via cable between the input jacks)
+<s>I'm currently waiting for the KVM's to arrive.  
+When they do,</s> I'm planning of adding a physical button to each unit, as well as bridging the units together (probably externally via cable between the input jacks)
+
+---
+
+![](20191226_182823.jpg)  
+So they arrived!  
+In the packaging is the KVM switch, two USB type-A  male to USB Type-B male cables, a 3.5mm TRS M-M cable and a 3.5mm switch.  
+(That TRS cable only works on the tip and sleeve though).
+
+I went ahead and made a TS to 2x TS (Though I used a TRS jack) cable, so that one switch could control both KVMs.  
+![](20191227_202737.jpg)
+
+After everything was set up, my displays were switching well! However, USB wasn't working great...
+
+* My HyperX Alloy Elite RGB gaming keyboard wouldn't power on
+* Switching the input whilst a USB device was plugged in occasionally caused the KVM to freeze - Requiring all cables to be removed then plugged back in
+
+Unfortunately this seems to be an error of the KVM's microcontroller - something I wouldn't be able to fix.
+
+I decided to go and purchase a separate USB switch. While waiting for it to arrive, I was to use an old Belkin VGA USB KVM to switch between devices.
+
+The USB Switch (UGreen) didn't have any 3.5mm / auxiliary / remote port for switching; just the push button at the top of the unit - Meaning I couldn't use the same switch to change the USB Switch and both the KVMs... We can fix that.
+
+I used a rotary tool and cut out a chunk from the free space of the PCB.  
+
+![](USER_SCOPED_TEMP_DATA_MSGR_PHOTO_FOR_UPLOAD_1579662159235.jpeg) ![](USER_SCOPED_TEMP_DATA_MSGR_PHOTO_FOR_UPLOAD_1579662898253.jpeg)
+
+Then I soldered in and slotted a 3.5mm socket (Note: In the picture I have the wires soldered in the _wrong polarity_, which caused issues when pressing the button)
+
+![](20200122_152706.jpg) ![](20200122_152709.mp4)
+
+Finally I made holes and cuts in the enclosure to fit the socket in, and closed it up.
+
+Looking good!  
+![](20200122_163516.jpg) ![](20200122_163547.jpg)
+
+---
+
+So there's that, finally on the 22nd of January 2020, I've finished setting up my laptop dock!  
+
+* 2 HDMI KVMs switch my monitors between the desktop and the dock
+* A USB Switch assigns my keyboard and mouse to the desktop or dock
+* A button toggles both the two HDMI KVMs and the USB Switch
+* The desktop and dock have their own Gigabit Ethernet connection
+* Audio comes out from the dock, my desktop, a Bluetooth audio receiver, an auxiliary cable, and a generic 1/4 jack into my Behringer Eurorack RX1602 into my sound system!
 
 ---
 

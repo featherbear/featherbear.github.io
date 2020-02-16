@@ -1,6 +1,6 @@
 ---
-title: "Course-crashing UNSW COMP3331"
-date: 2019-09-16T09:00:10+11:00
+title: "UNSW COMP3331"
+date: 2020-02-16T00:00:00+11:00
 description: "Computer Networks and Applications"
 categories: ["UNSW", "Programming"]
 displayInMenu: false

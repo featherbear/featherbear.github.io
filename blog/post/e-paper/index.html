@@ -1,10 +1,379 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>e-Paper | Digital Ink &middot; Andrew&#39;s Blog</title><meta name=description content="Making low-energy Trello list display!"><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-107434487-3','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css><link href=/blog/assets/prism.js/prism.css rel=stylesheet><script defer src=/blog/assets/prism.js/prism.js onload="let path;Prism.plugins.autoloader.languages_path=((path=this.getAttribute('src')).substring(0,path.lastIndexOf('/')))+'/languages/'"></script><script defer src=https://use.fontawesome.com/releases/v5.3.1/js/all.js></script><link rel=stylesheet href=/blog/css/site.css><style>body{background-image:url(/blog/IMG_0072.jpg)}</style><script defer src=/blog/js/site.js></script></head><body class=has-navbar-fixed-top><nav class="navbar is-fixed-top is-unselectable" role=navigation aria-label="main navigation"><div class=container><div class=navbar-brand><a class="navbar-item has-text-grey-darker is-size-3" href=/blog/>andrew wong</a>
-<a role=button class="navbar-burger burger" aria-label=menu aria-expanded=false data-target=navmenu><span aria-hidden=true></span><span aria-hidden=true></span><span aria-hidden=true></span></a></div><div id=navmenu class=navbar-menu><div class=navbar-end><div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-black-ter is-arrowless" href=/blog/>blog</a><div class=navbar-dropdown><a href=/blog/categories/audio-visual class=navbar-item>audio-visual</a><a href=/blog/categories/life class=navbar-item>life</a><a href=/blog/categories/networking class=navbar-item>networking</a><a href=/blog/categories/photography class=navbar-item>photography</a><a href=/blog/categories/programming class=navbar-item>programming</a><a href=/blog/categories/python class=navbar-item>python</a><a href=/blog/categories/unsw class=navbar-item>unsw</a><a href=/blog/categories/webdev class=navbar-item>webdev</a></div></div><a class="navbar-item has-text-grey" href=/about>about me</a>
-<a class="navbar-item has-text-grey" href=/photos>photography</a>
-<a class="navbar-item has-text-grey" href=/programming>programming</a></div></div></div></nav><main class=container><header class="hero is-info"><div class=hero-body><div class=container><h1 class=title>e-Paper | Digital Ink</h1><h2 class=subtitle>Posted <time datetime=2019-12-11>Dec 11, 2019</time></h2></div></div></header><article id=content><blockquote><p><a href=https://github.com/featherbear/trello-epd><i class="fab fa-github" aria-hidden=true></i>GitHub: github.com/featherbear/trello-epd</a></p></blockquote><p>So back in June 2019 I bought a 7.5 inch &ldquo;e-paper&rdquo; display, with the intent of using it as an &ldquo;Upcoming events&rdquo; board.. or a TODO List.<br>Given the lack of time during then, to curb my initial curiousity I modified some starter code to make the display show me the current time and date.</p><p>Fast-forward to today, exams are over and time wasting is ready to begin!</p><p><s>But small problem, the display stopped working&hellip; So I had to go purchase another one.</s><br>EDIT: It was my Pi, I tried another Pi and everything was working!</p><hr><p>I bought the <a href=www.waveshare.com/7.5inch-e-paper-hat-b.htm>Waveshare 7.5 inch Model B e-Paper screen</a> from eBay for about AUD$90.</p><p>The screen comes with a driver board that communicates over SPI - something my Raspberry Pi 3B is able to do!</p><h1 id=raspberry-pi-setup>Raspberry Pi Setup</h1><p>The first thing to do is to install an operating system that the Pi will run off.<br>In my case, I&rsquo;ll be installing Raspbian (08/04/2019 DD/MM/YYYY).</p><p>As per the usual headless Raspberry Pi installations go&hellip; after <a href=https://www.balena.io/etcher/>flashing</a> Raspbian onto a microSD card, enable SSH by creating a blank file called <code>ssh</code> in the <code>boot</code> partition of the card.<br>Then insert the microSD card into the Pi and power it up!</p><p>After a while, we&rsquo;ll be able to SSH into the Pi with the default credentials <code>pi</code>:<code>raspberry</code>.<br><em>If you don&rsquo;t know the IP, you can try your luck and SSH into it with the hostname <code>raspberrypi</code>.</em></p><p><img src=raspberrypi-login.png alt></p><p>Next is to enable SPI.<br>SPI is the communication protocol used to communicate between the Pi and the screen(&rsquo;s driver board).<br>With <code>raspi-config</code> we can go down to <code>Interfacing Settings</code>, and find the option that will enable SPI.</p><h1 id=package-installation>Package Installation</h1><p>Then to do some package updates</p><pre><code>sudo apt update -y
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>e-Paper | Digital Ink &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="Making low-energy Trello list display!" />
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-107434487-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+  <link href="/blog/assets/prism.js/prism.css" rel="stylesheet" />
+<script defer src="/blog/assets/prism.js/prism.js" onload="let path; Prism.plugins.autoloader.languages_path = ((path = this.getAttribute('src')).substring(0,path.lastIndexOf('/'))) + '/languages/'"></script>
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="/blog/css/site.css" />
+  <style>
+    body {
+      background-image: url("/blog/IMG_0072.jpg");
+    }
+  </style>
+  <script defer src="/blog/js/site.js"></script>
+</head>
+  <body class="has-navbar-fixed-top">
+  
+<nav class="navbar is-fixed-top is-unselectable" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-grey-darker is-size-3" href="/blog/">
+        andrew wong
+        
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navmenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navmenu" class="navbar-menu">
+      <div class="navbar-end">
+        
+        
+          
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link has-text-black-ter is-arrowless" href="/blog/">blog</a>
+                <div class="navbar-dropdown">
+                    <a href="/blog/categories/audio-visual" class="navbar-item">audio-visual</a><a href="/blog/categories/life" class="navbar-item">life</a><a href="/blog/categories/networking" class="navbar-item">networking</a><a href="/blog/categories/photography" class="navbar-item">photography</a><a href="/blog/categories/programming" class="navbar-item">programming</a><a href="/blog/categories/python" class="navbar-item">python</a><a href="/blog/categories/unsw" class="navbar-item">unsw</a><a href="/blog/categories/webdev" class="navbar-item">webdev</a>
+                    
+                    
+                </div>
+            </div>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/about">about me</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/photos">photography</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/programming">programming</a>
+          
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <main class="container">
+    <header class="hero is-info" >
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">e-Paper | Digital Ink</h1>
+            
+            <h2 class="subtitle">Posted <time datetime="2019-12-11">Dec 11, 2019</time></h2>
+            
+          </div>
+        </div>
+      </header>
+    <article id="content">
+
+<blockquote>
+<p><a href="https://github.com/featherbear/trello-epd"><i class="fab fa-github" aria-hidden="true"></i> GitHub: github.com/featherbear/trello-epd</a></p>
+</blockquote>
+
+<p>So back in June 2019 I bought a 7.5 inch &ldquo;e-paper&rdquo; display, with the intent of using it as an &ldquo;Upcoming events&rdquo; board.. or a TODO List.<br />
+Given the lack of time during then, to curb my initial curiousity I modified some starter code to make the display show me the current time and date.</p>
+
+<p>Fast-forward to today, exams are over and time wasting is ready to begin!</p>
+
+<p><s>But small problem, the display stopped working&hellip; So I had to go purchase another one.</s><br />
+EDIT: It was my Pi, I tried another Pi and everything was working!</p>
+
+<hr />
+
+<p>I bought the <a href="www.waveshare.com/7.5inch-e-paper-hat-b.htm">Waveshare 7.5 inch Model B e-Paper screen</a> from eBay for about AUD$90.</p>
+
+<p>The screen comes with a driver board that communicates over SPI - something my Raspberry Pi 3B is able to do!</p>
+
+<h1 id="raspberry-pi-setup">Raspberry Pi Setup</h1>
+
+<p>The first thing to do is to install an operating system that the Pi will run off.<br />
+In my case, I&rsquo;ll be installing Raspbian (08/04/2019 DD/MM/YYYY).</p>
+
+<p>As per the usual headless Raspberry Pi installations go&hellip; after <a href="https://www.balena.io/etcher/">flashing</a> Raspbian onto a microSD card, enable SSH by creating a blank file called <code>ssh</code> in the <code>boot</code> partition of the card.<br />
+Then insert the microSD card into the Pi and power it up!</p>
+
+<p>After a while, we&rsquo;ll be able to SSH into the Pi with the default credentials <code>pi</code>:<code>raspberry</code>.<br />
+<em>If you don&rsquo;t know the IP, you can try your luck and SSH into it with the hostname <code>raspberrypi</code>.</em></p>
+
+<p><img src="raspberrypi-login.png" alt="" /></p>
+
+<p>Next is to enable SPI.<br />
+SPI is the communication protocol used to communicate between the Pi and the screen(&rsquo;s driver board).<br />
+With <code>raspi-config</code> we can go down to <code>Interfacing Settings</code>, and find the option that will enable SPI.</p>
+
+<h1 id="package-installation">Package Installation</h1>
+
+<p>Then to do some package updates</p>
+
+<pre><code>sudo apt update -y
 sudo apt install python3-pip python3-pil python3-spidev git screen -y
 sudo pip3 install RPi.GPIO
-</code></pre><p>Installing <code>screen</code> is up to you, but I tend to use it alot to background my tasks.</p><p>EDIT: So I initially installed Raspbian Buster Lite (26/09/2019 DD/MM/YYYY) and it didn&rsquo;t have <code>PIL</code>, <code>spidev</code> or <code>pip</code> installed, but the version of Raspbian Stretch I&rsquo;m using does - So only <code>screen</code> had to be installed</p><h1 id=e-paper-software>e-Paper Software</h1><pre><code>git clone https://github.com/waveshare/e-Paper
+</code></pre>
+
+<p>Installing <code>screen</code> is up to you, but I tend to use it alot to background my tasks.</p>
+
+<p>EDIT: So I initially installed Raspbian Buster Lite (26/09/2019 DD/MM/YYYY) and it didn&rsquo;t have <code>PIL</code>, <code>spidev</code> or <code>pip</code> installed, but the version of Raspbian Stretch I&rsquo;m using does - So only <code>screen</code> had to be installed</p>
+
+<h1 id="e-paper-software">e-Paper Software</h1>
+
+<pre><code>git clone https://github.com/waveshare/e-Paper
 cd e-Paper
-</code></pre><p>Waveshare was kind enough to release some sample Python and C code alongside with their library (also in Python and C).<br>The sample code does draws some shapes and text in both the horizontal and vertical orientation, as well as with image files - enough to know how to use the library.</p><p>That said, time to make something with it!</p><h1 id=development>Development</h1><p>I decided to opt with the &ldquo;TODO List&rdquo; idea.<br>Having been using <a href=https://trello.com>Trello</a> to manage my TODO stuff, I thought that it would be great to use the e-Paper to show a specific Trello list. <em>#TrelloDB</em></p><blockquote><p><a href=https://github.com/featherbear/trello-epd><i class="fab fa-github" aria-hidden=true></i>GitHub: github.com/featherbear/trello-epd</a></p></blockquote><p>Using <a href=https://pypi.org/project/py-trello/>py-trello</a> and the <a href=https://github.com/waveshare/e-Paper/>Waveshare EPD</a> library, I wacked together some code that will periodically fetch the cards on a Trello list and display as many as it can on the screen.<br>Look at the code above if you wanna see it for yourself!</p><h1 id=casing>Casing</h1><p>With the code finished, I wanted to buy an enclosure/case for the screen so that a) it wouldn&rsquo;t get damaged, and b) so it would look nice.<br>My local dollar store had a 7x5&rdquo; (18x13cm) photo frame for $3.50 which would be perfect to fit the screen, which was around 17x11cm.</p><p><img src=20191211_220836.jpg alt></p><p>First was a dry fit, to see where I would have to cut the MDF backboard to allow the cable to pass through.<br><img src=20191211_221809.jpg alt></p><p>After marking where to cut, out came the pocket knife!</p><table><thead><tr><th align=center></th><th align=center></th></tr></thead><tbody><tr><td align=center><img src=20191211_223023.jpg alt></td><td align=center><img src=20191211_223417.jpg alt></td></tr></tbody></table><p>Sweet, now we can wrap the screen&rsquo;s ribbon cable behind the board!<br>I cut the MDF nicely enough that the offcut could be put back if I wanted.
-<img src=20191211_224036.jpg alt></p><p>Finally, fit everything together and we&rsquo;re done!<br><img src=20191211_230300.jpg alt></p><hr><h1 id=conclusion>Conclusion</h1><p>I haven&rsquo;t thought about how to mount the Pi yet, as it&rsquo;s a bit big and bulky&hellip;<br>If I were to permanently dedicate the e-Paper screen to this project, I might invest in a Pi Zero so that I can decrease the size footprint.<br>Also since the screen is smaller than the photo frame, I might decorate the edges with some black tape, or maybe some Washi tape.</p><p>Also the acrylic that came with the frame needs a good wipe.<br>And the plastic protective film over the e-Paper screen is yet to be peeled off too :P</p><p>Otherwise, apart from freaking out just a few days ago if I had broken my $90 e-Paper screen, it was a fun project to do!</p></article></main><div class=container><h1 class="title has-text-grey-lighter">More posts</h1><div class=listArticle><a href=/blog/post/lego-loco/><article class=media><div class=media-content><h2 class="title is-marginless">Lego Loco</h2><div class=level><div class=level-left><p class=subtitle>Looking back to my childhood of retro games</p></div><div class=level-right><p>Posted <time datetime=2019-12-09>Dec 9, 2019</time></p></div></div></div></article><div class="is-unselectable categories"><a href=/blog/categories/life><span class="tag is-info">#Life</span></a></div></a></div></div><div id=scroll-nav></div><footer class=footer><nav class="breadcrumb is-right" aria-label=breadcrumbs><ul><li><a href=../../>blog</a></li><li><a href=../>post</a></li><li class=is-active><a href=# aria-current=page>e-paper</a></li></ul></nav><hr><figure class="image is-128x128 logo" style="margin:0 auto"><img src=/blog/logo.png></figure></footer><link rel=stylesheet href=/blog/assets/luminous.js/luminous-basic.min.css><script src=/blog/assets/luminous.js/Luminous.min.js></script><script type=text/javascript>document.querySelectorAll("#content img").forEach(e=>new Luminous(e,{sourceAttribute:"src"}))</script><script src=/blog/assets/elevator.js/elevator.min.js></script><script type=text/javascript>var elevator=new Elevator({element:document.querySelector(".footer .logo"),mainAudio:'\/blog\/assets\/elevator.js\/elevator.mp3',endAudio:'\/blog\/assets\/elevator.js\/ding.mp3'});</script><script>{let max=document.body.scrollHeight-window.innerHeight;window.addEventListener('scroll',function(){document.getElementById('scroll-nav').style.width=`${this.scrollY/max*100}%`});document.getElementById('scroll-nav').style.width=`${window.scrollY/max*100}%`}</script></body></html>
+</code></pre>
+
+<p>Waveshare was kind enough to release some sample Python and C code alongside with their library (also in Python and C).<br />
+The sample code does draws some shapes and text in both the horizontal and vertical orientation, as well as with image files - enough to know how to use the library.</p>
+
+<p>That said, time to make something with it!</p>
+
+<h1 id="development">Development</h1>
+
+<p>I decided to opt with the &ldquo;TODO List&rdquo; idea.<br />
+Having been using <a href="https://trello.com">Trello</a> to manage my TODO stuff, I thought that it would be great to use the e-Paper to show a specific Trello list. <em>#TrelloDB</em></p>
+
+<blockquote>
+<p><a href="https://github.com/featherbear/trello-epd"><i class="fab fa-github" aria-hidden="true"></i> GitHub: github.com/featherbear/trello-epd</a></p>
+</blockquote>
+
+<p>Using <a href="https://pypi.org/project/py-trello/">py-trello</a> and the <a href="https://github.com/waveshare/e-Paper/">Waveshare EPD</a> library, I wacked together some code that will periodically fetch the cards on a Trello list and display as many as it can on the screen.<br />
+Look at the code above if you wanna see it for yourself!</p>
+
+<h1 id="casing">Casing</h1>
+
+<p>With the code finished, I wanted to buy an enclosure/case for the screen so that a) it wouldn&rsquo;t get damaged, and b) so it would look nice.<br />
+My local dollar store had a 7x5&rdquo; (18x13cm) photo frame for $3.50 which would be perfect to fit the screen, which was around 17x11cm.</p>
+
+<p><img src="20191211_220836.jpg" alt="" /></p>
+
+<p>First was a dry fit, to see where I would have to cut the MDF backboard to allow the cable to pass through.<br />
+<img src="20191211_221809.jpg" alt="" /></p>
+
+<p>After marking where to cut, out came the pocket knife!</p>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="20191211_223023.jpg" alt="" /></td>
+<td align="center"><img src="20191211_223417.jpg" alt="" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>Sweet, now we can wrap the screen&rsquo;s ribbon cable behind the board!<br />
+I cut the MDF nicely enough that the offcut could be put back if I wanted.
+<img src="20191211_224036.jpg" alt="" /></p>
+
+<p>Finally, fit everything together and we&rsquo;re done!<br />
+<img src="20191211_230300.jpg" alt="" /></p>
+
+<hr />
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>I haven&rsquo;t thought about how to mount the Pi yet, as it&rsquo;s a bit big and bulky&hellip;<br />
+If I were to permanently dedicate the e-Paper screen to this project, I might invest in a Pi Zero so that I can decrease the size footprint.<br />
+Also since the screen is smaller than the photo frame, I might decorate the edges with some black tape, or maybe some Washi tape.</p>
+
+<p>Also the acrylic that came with the frame needs a good wipe.<br />
+And the plastic protective film over the e-Paper screen is yet to be peeled off too :P</p>
+
+<p>Otherwise, apart from freaking out just a few days ago if I had broken my $90 e-Paper screen, it was a fun project to do!</p>
+</article>
+  </main>
+
+  <div class="container">
+    <h1 class="title has-text-grey-lighter">More posts</h1>
+    
+      <div class="listArticle">
+  <a href="/blog/post/blueclick/">
+    <article class="media">
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">BlueClick BLE</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">Making a Bluetooth clicker</p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="2020-01-10">Jan 10, 2020</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/programming" >
+          <span class="tag is-info">#Programming</span>
+        </a>
+      
+        <a href="/blog/categories/audio-visual" >
+          <span class="tag is-info">#Audio Visual</span>
+        </a>
+      
+        <a href="/blog/categories/life" >
+          <span class="tag is-info">#Life</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+
+    
+      <div class="listArticle">
+  <a href="/blog/post/lego-loco/">
+    <article class="media">
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">Lego Loco</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">Looking back to my childhood of retro games</p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="2019-12-09">Dec 9, 2019</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/life" >
+          <span class="tag is-info">#Life</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+  </div>
+    <div id="scroll-nav"></div>
+    <footer class="footer">
+  
+  <nav class="breadcrumb is-right" aria-label="breadcrumbs">
+    <ul>
+      
+      
+      
+
+      
+      
+
+      
+
+      
+      
+      
+      
+      <li>
+        
+        <a href="../../">blog</a>
+      </li>
+      
+      
+      
+      
+      
+      <li>
+        
+        <a href="../">post</a>
+      </li>
+      
+      
+      
+      
+      
+      <li class="is-active">
+        <a href="#" aria-current="page">e-paper</a>
+      </li>
+      
+      
+    </ul>
+  </nav>
+  <hr>
+  
+  
+    <figure class="image is-128x128 logo" style="margin: 0 auto;">
+      <img src="/blog/logo.png">
+    </figure>
+  
+</footer>
+
+    <link rel="stylesheet" href="/blog/assets/luminous.js/luminous-basic.min.css" />
+<script src='/blog/assets/luminous.js/Luminous.min.js'></script>
+<script type="text/javascript">
+document.querySelectorAll("#content img").forEach(e => new Luminous(e , {
+    sourceAttribute: "src"
+  })
+)
+</script>
+
+<script src='/blog/assets/elevator.js/elevator.min.js'></script>
+<script type="text/javascript">
+  var elevator = new Elevator({
+    element: document.querySelector(".footer .logo"),
+    mainAudio: '\/blog\/assets\/elevator.js\/elevator.mp3',
+    endAudio: '\/blog\/assets\/elevator.js\/ding.mp3'
+  });
+</script>
+
+
+    <script>
+      {
+        let max = document.body.scrollHeight - window.innerHeight;
+        window.addEventListener('scroll', function() {
+          document.getElementById('scroll-nav').style.width = `${this.scrollY / max * 100}%`
+        });
+        document.getElementById('scroll-nav').style.width = `${window.scrollY / max * 100}%`
+      }
+    </script>
+  </body>
+</html>
