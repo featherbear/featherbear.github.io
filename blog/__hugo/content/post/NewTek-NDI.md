@@ -41,8 +41,8 @@ Turns a source into a virtual webcam on your computer
 
 # Integration
 Adobe Premiere Pro has NDI support,  
-VLC has NDI support,
-OBS has NDI support,
+VLC has NDI support,  
+OBS has NDI support,  
 Caspar-CG has NDI support  
 
 ProPresenter 6 has support, but needs a costly license

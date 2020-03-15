@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Church Livestreaming - A Getting Started Guide &middot; Andrew&#39;s Blog</title>
+  <meta name="description" content="The basics of live streaming for small to medium churches" />
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-107434487-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+  <link href="/blog/assets/prism.js/prism.css" rel="stylesheet" />
+<script defer src="/blog/assets/prism.js/prism.js" onload="let path; Prism.plugins.autoloader.languages_path = ((path = this.getAttribute('src')).substring(0,path.lastIndexOf('/'))) + '/languages/'"></script>
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="/blog/css/site.css" />
+  <style>
+    body {
+      background-image: url("/blog/IMG_0072.jpg");
+    }
+  </style>
+  <script defer src="/blog/js/site.js"></script>
+</head>
+  <body class="has-navbar-fixed-top">
+  
+<nav class="navbar is-fixed-top is-unselectable" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-grey-darker is-size-3" href="/blog/">
+        andrew wong
+        
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navmenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navmenu" class="navbar-menu">
+      <div class="navbar-end">
+        
+        
+          
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link has-text-black-ter is-arrowless" href="/blog/">blog</a>
+                <div class="navbar-dropdown">
+                    <a href="/blog/categories/audio-visual" class="navbar-item">audio-visual</a><a href="/blog/categories/life" class="navbar-item">life</a><a href="/blog/categories/networking" class="navbar-item">networking</a><a href="/blog/categories/photography" class="navbar-item">photography</a><a href="/blog/categories/programming" class="navbar-item">programming</a><a href="/blog/categories/python" class="navbar-item">python</a><a href="/blog/categories/unsw" class="navbar-item">unsw</a><a href="/blog/categories/webdev" class="navbar-item">webdev</a>
+                    
+                    
+                </div>
+            </div>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/about">about me</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/photos">photography</a>
+          
+        
+          
+            <a class="navbar-item has-text-grey" href="/programming">programming</a>
+          
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <main class="container">
+    <header class="hero is-info" >
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">Church Livestreaming - A Getting Started Guide</h1>
+            
+            <h2 class="subtitle">Posted <time datetime="2020-03-15">Mar 15, 2020</time></h2>
+            
+          </div>
+        </div>
+      </header>
+    <article id="content">
+
+<style>
+table {
+  border-collapse: collapse; 
+}
+th {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+td {
+ padding: 3px;
+ border: 1px solid #A7A7A7;
+}
+td[align=center] {
+  text-align: center;
+}
+td[align=right] {
+  text-align: right;
+}
+td[align=left] {
+  text-align: left;
+}
+
+h3 {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+h4 {
+    font-size: 0.5em;
+    font-weight: bold;
+}
+</style>
+
+<blockquote>
+<p>In light of recent announcements from the World Health Organisation, the Australian Government has <a href="https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert">advised</a> for non-essential gatherings to be limited to 500 people. In taking heed of this advice, churches - including <a href="https://swec.org.au/corona">my church</a> - have started to explore avenues of remote and decentralised services.</p>
+</blockquote>
+
+<p>In this guide we&rsquo;ll be looking at what your church would need to start live streaming your services for the first time.</p>
+
+<p>Note that this guide is intended for smaller to medium sized churches, who <strong>don&rsquo;t</strong> have production budgets in the thousands of dollars&hellip;<br />
+<em>We won&rsquo;t be looking at products and equipment from the big names of Blackmagic and the likes.</em></p>
+
+<h1 id="before-you-start-questions">Before You Start - Questions</h1>
+
+<p>Here are some questions you should first consider, as these decisions will shape the structure for your church&rsquo;s livestream setup and operation.</p>
+
+<h2 id="unattended-setup-role-requirement">Unattended Setup - Role Requirement</h2>
+
+<blockquote>
+<p>Is your stage big? Does your pastor move around lots?</p>
+</blockquote>
+
+<p>Livestreaming will create two new service roles, a <code>Production Switcher</code> and a <code>Camera Operator</code>.</p>
+
+<ul>
+<li>If you want the livestream to change from your presentation to a live feed, someone will need to operate a switcher.</li>
+<li>If your camera subject moves around regularly, you will need someone to pan the camera and follow the subject.</li>
+</ul>
+
+<h2 id="music-and-copyright">Music and Copyright</h2>
+
+<blockquote>
+<p>Will you be livestreaming your worship? Are there videos you play?</p>
+</blockquote>
+
+<p>The majority of churches will most likely have already heard of <a href="https://au.ccli.com">CCLI</a>, and have a <code>Church Copyright License</code> to display song lyrics.<br />
+But if you wish to stream your musical worship segments, you will also need to purchase a <a href="https://au.ccli.com/streaming-licence-manual/"><code>Streaming License</code></a>. Yes, this means that you will need this license even if you have your own band.</p>
+
+<p>There is also another license you may need to purchase - the <a href="https://au.ccli.com/what-we-provide/church-video-licence-screenvue/"><code>Church Video Licence</code></a> - if you include certain videos.</p>
+
+<p><strong>NOTE</strong> - I would advise not to stream third party video clips, but rather censor it out and include the video link.</p>
+
+<h1 id="equipment">Equipment</h1>
+
+<blockquote>
+<p>This guide assumes that you have a <strong>separate computer for streaming</strong>, along with your presentation computer.<br />
+I would advise to do so, as streaming can be resource intensive, and can impact the performance of your presentation computer.</p>
+</blockquote>
+
+<p>If you are a first-time streamer, you will most likely need to purchase some equipment.</p>
+
+<h2 id="video-camera">Video Camera</h2>
+
+<p>You will need a <strong>video camera / camcorder</strong> with a HDMI program output.<br />
+It is advised to get a camera that can (at least) output in 720p (1280x720 progressive).<br />
+It is also advised to get a camera that can produce a clean output (No icons or overlays in the video).</p>
+
+<p>Additionally, invest in a <strong>tripod</strong> to mount the camera on.<br />
+If you require to pan the camera to follow the subject, invest in a <strong>fluid head tripod</strong> instead.</p>
+
+<p>To get the camera output into your computer, you will need a <strong>HDMI capture card</strong>.</p>
+
+<p><em>If you are on a very tight budget, you could try to just use a USB Webcam</em></p>
+
+<h2 id="audio-interface">Audio Interface</h2>
+
+<blockquote>
+<p>Most computers, even in this modern day and age, have a pretty bad inbuilt sound cards.</p>
+</blockquote>
+
+<p>Invest in an <strong>audio interface</strong>, which will capture high quality audio.<br />
+I would recommend getting one which has at least two inputs.</p>
+
+<p><strong>Note</strong> - The gear you need will depend on your existing sound system setup.<br />
+If your sound console has a USB port, you may not need an audio interface.</p>
+
+<h2 id="streaming-encoder">Streaming Encoder</h2>
+
+<blockquote>
+<p>An encoder is a device or application which transmits video over the internet.<br />
+There exists physical hardware devices to achieve this, but we&rsquo;ll be using some free software!</p>
+</blockquote>
+
+<p>Go grab a copy of <a href="https://obsproject.com"><strong>Open Broadcaster Software</strong></a></p>
+
+<h2 id="internet-connection">Internet Connection</h2>
+
+<p>The quality of your internet connection will affect the quality of the video that you can stream.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Quality</th>
+<th align="right">Bandwidth</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">360p</td>
+<td align="right">0.5 Mbps</td>
+</tr>
+
+<tr>
+<td align="center">480p</td>
+<td align="right">1 Mbps</td>
+</tr>
+
+<tr>
+<td align="center">720p</td>
+<td align="right">2.5 Mbps</td>
+</tr>
+
+<tr>
+<td align="center">1080p</td>
+<td align="right">5 Mbps</td>
+</tr>
+
+<tr>
+<td align="center">1440p</td>
+<td align="right">9 Mbps</td>
+</tr>
+
+<tr>
+<td align="center">2160p</td>
+<td align="right">20 Mbps</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="video-from-presentations">Video from Presentations</h2>
+
+<blockquote>
+<p><a href="../newtek-ndi-4">NDI</a> is a audio/visual protocol developed by NewTek which I currently love.<br />
+It allows you to send video as well as audio over your LAN network, making it a breeze to send content from one computer to another.</p>
+</blockquote>
+
+<p>We&rsquo;ll be using the NDI protocol to send audio and video content from the presentation computer to the streaming computer.<br />
+Ideally, connect both computers to the same Gigabit LAN network - try to avoid going wireless, and use CAT 5E or better Ethernet cables.</p>
+
+<p>To receive the NDI streams in Open Broadcaster Software, install the <a href="https://github.com/Palakis/obs-ndi/releases"><strong>NDI Plugin for OBS</strong></a>.</p>
+
+<p>You may also need <strong>NDI Tools</strong> (<a href="http://new.tk/NDITools">Windows</a> | <a href="http://new.tk/NDITOOLSAPPLE">Mac</a>), but don&rsquo;t download this just yet, until you finish reading the next section.</p>
+
+<h3 id="powerpoint">PowerPoint</h3>
+
+<h4 id="ndi-scan-converter">NDI Scan Converter</h4>
+
+<p>As PowerPoint does not have integrated NDI functionality, we can use the <strong>Scan Converter</strong> program from the NDI Tools suite.</p>
+
+<h4 id="other">Other</h4>
+
+<p>While writing this post, I stumbled upon this project - <a href="https://github.com/ykhwong/ppt-ndi">https://github.com/ykhwong/ppt-ndi</a>.<br />
+Perhaps it works, but I haven&rsquo;t tried it.</p>
+
+<h3 id="propresenter-6">ProPresenter 6</h3>
+
+<h4 id="alpha-key-sdi-module">Alpha Key / SDI Module</h4>
+
+<p>If you have purchased either the Alpha Key module or the SDI module, then you will have unlocked the NDI functionality.</p>
+
+<h4 id="ndi-scan-converter-1">NDI Scan Converter</h4>
+
+<p>If you have not purchased the Alpha Key nor SDI module, you can use the <strong>Scan Converter</strong> application</p>
+
+<h3 id="propresenter-7">ProPresenter 7</h3>
+
+<p>ProPresenter 7 comes with NDI functionality built-in at no extra cost!</p>
+
+<h3 id="other-applications">Other Applications</h3>
+
+<p>In most cases, the <strong>Scan Converter</strong> application will work.</p>
+
+<h2 id="audio-from-presentations">Audio from Presentations</h2>
+
+<p>If using ProPresenter&rsquo;s NDI module, the audio will be embedded in the NDI stream.<br />
+With the <strong>Scan Converter</strong> application, you can select which output device is transmitted over the network.</p>
+
+<h2 id="audio-from-sound-system">Audio from Sound System</h2>
+
+<p>You will probably need some cables to connect your sound system to the <a href="#audio-interface">audio interface</a> that you may need to purchase.</p>
+
+<h1 id="example-gear-and-setup-diagram">Example Gear and Setup Diagram</h1>
+
+<p>This is how my <a href="https://swec.org.au">church</a> has their equipment set up.</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Category</th>
+<th align="left">Item</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Video Camera</td>
+<td align="left">Panasonic HDC-TM900</td>
+</tr>
+
+<tr>
+<td align="left">Capture Card</td>
+<td align="left">Elgato Game Capture HD</td>
+</tr>
+
+<tr>
+<td align="left">Audio Interface</td>
+<td align="left">Steinberg UR44</td>
+</tr>
+
+<tr>
+<td align="left">Streaming Encoder</td>
+<td align="left">OBS</td>
+</tr>
+
+<tr>
+<td align="left">Presentation Software</td>
+<td align="left">ProPresenter 6</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="setup">Setup</h1>
+
+<h2 id="installation">Installation</h2>
+
+<ul>
+<li>Install <a href="https://obsproject.com"><strong>Open Broadcaster Software</strong></a></li>
+<li>Install the <a href="https://github.com/Palakis/obs-ndi/releases"><strong>NDI Plugin for OBS</strong></a></li>
+<li><em>(optional)</em> Install NDI Tools (<a href="http://new.tk/NDITools">Windows</a> | <a href="http://new.tk/NDITOOLSAPPLE">Mac</a></li>
+<li>Connect audio interface to computer
+
+<ul>
+<li>May need to install some drivers</li>
+</ul></li>
+<li>Connect sound console to audio interface</li>
+<li>Connect capture card to computer
+
+<ul>
+<li>May need to install some drivers</li>
+</ul></li>
+<li>Connect camera to capture card</li>
+</ul>
+
+<h2 id="obs-setup">OBS Setup</h2>
+
+<ul>
+<li>Create an NDI source - pointed to the NDI stream created for your presentation computer</li>
+<li>Create a Video Capture source - pointed to the capture card</li>
+<li>Create an Audio Input source - pointed to the audio interface</li>
+<li>Rearrange and resize the sources to your liking.</li>
+</ul>
+
+<p><strong>NOTE</strong> - I would advise to create four scenes, with the PIP scenes nesting the base scenes.</p>
+
+<ul>
+<li><code>Presentation</code> - NDI and Audio Input sources</li>
+<li><code>Camera</code> - Video Capture and Audio Input sources</li>
+<li><code>Camera w/ PIP Presentation</code> - NDI source in the corner, on top of the <code>Camera</code> scene</li>
+<li><code>Presentation w/ PIP Camera</code> - Video Capture source in the corner, on top of the <code>Presentation</code> scene</li>
+</ul>
+
+<p><strong>NOTE</strong> - Your capture card will more than likely have some video delay, you will need to account for this delay so that video and audio will be in sync. You can do this by right clicking on the Audio Input source, and adjusting the offset in the Advanced options.</p>
+
+<h2 id="stream-setup">Stream Setup</h2>
+
+<p>Create a YouTube account, then go to the streaming dashboard and create a new stream.<br />
+Then copy the <code>Stream Key</code>, and paste it into OBS.</p>
+
+<p>Select <code>Start Streaming</code></p>
+
+<h1 id="advice">Advice</h1>
+
+<ul>
+<li><p><strong>TEST YOUR STREAM BEFORE GOING LIVE</strong></p>
+
+<ul>
+<li>Audio levels</li>
+<li>Lighting</li>
+<li>Delay</li>
+</ul></li>
+
+<li><p>Censor copyrighted audio and video content</p>
+
+<ul>
+<li>Replace the content with a link to the content as to avoid copyright claims</li>
+</ul></li>
+
+<li><p>Don&rsquo;t start streaming until there is content in the stream</p>
+
+<ul>
+<li>A stream that begins with a black stream may be flagged by your streaming provider and be taken down.</li>
+</ul></li>
+
+<li><p>Send a &ldquo;broadcast mix&rdquo; from the sound console to the audio interface</p>
+
+<ul>
+<li>The &ldquo;in-house mix&rdquo; will not the sound the same through a pair of headphones!</li>
+</ul></li>
+
+<li><p>Camera Operators</p>
+
+<ul>
+<li>Pan the camera slowly</li>
+<li>Don&rsquo;t follow the subject too frantically</li>
+<li>Visualise a boxed area over the subject, only pan the camera if they move out of the box</li>
+</ul></li>
+</ul>
+</article>
+  </main>
+
+  <div class="container">
+    <h1 class="title has-text-grey-lighter">More posts</h1>
+    
+
+    
+      <div class="listArticle">
+  <a href="/blog/post/unsw-comp2121/">
+    <article class="media">
+      
+      <div class="media-content">
+        <h2 class="title is-marginless">UNSW COMP2121</h2>
+        <div class="level">
+          <div class="level-left">
+            <p class="subtitle">Microprocessors and Interfacing</p>
+          </div>
+          
+          <div class="level-right">
+            <p>Posted <time datetime="2020-02-16">Feb 16, 2020</time></p>
+          </div>
+          
+        </div>
+      </div>
+    </article>
+    
+      <div class="is-unselectable categories">
+      
+        <a href="/blog/categories/unsw" >
+          <span class="tag is-info">#UNSW</span>
+        </a>
+      
+        <a href="/blog/categories/programming" >
+          <span class="tag is-info">#Programming</span>
+        </a>
+      
+    
+    </div>
+  </a>
+</div>
+
+
+
+    
+  </div>
+    <div id="scroll-nav"></div>
+    <footer class="footer">
+  
+  <nav class="breadcrumb is-right" aria-label="breadcrumbs">
+    <ul>
+      
+      
+      
+
+      
+      
+
+      
+
+      
+      
+      
+      
+      <li>
+        
+        <a href="../../">blog</a>
+      </li>
+      
+      
+      
+      
+      
+      <li>
+        
+        <a href="../">post</a>
+      </li>
+      
+      
+      
+      
+      
+      <li class="is-active">
+        <a href="#" aria-current="page">church-livestreaming-getting-started</a>
+      </li>
+      
+      
+    </ul>
+  </nav>
+  <hr>
+  
+  
+    <figure class="image is-128x128 logo" style="margin: 0 auto;">
+      <img src="/blog/logo.png">
+    </figure>
+  
+</footer>
+
+    <link rel="stylesheet" href="/blog/assets/luminous.js/luminous-basic.min.css" />
+<script src='/blog/assets/luminous.js/Luminous.min.js'></script>
+<script type="text/javascript">
+document.querySelectorAll("#content img").forEach(e => new Luminous(e , {
+    sourceAttribute: "src"
+  })
+)
+</script>
+
+<script src='/blog/assets/elevator.js/elevator.min.js'></script>
+<script type="text/javascript">
+  var elevator = new Elevator({
+    element: document.querySelector(".footer .logo"),
+    mainAudio: '\/blog\/assets\/elevator.js\/elevator.mp3',
+    endAudio: '\/blog\/assets\/elevator.js\/ding.mp3'
+  });
+</script>
+
+
+    <script>
+      {
+        let max = document.body.scrollHeight - window.innerHeight;
+        window.addEventListener('scroll', function() {
+          document.getElementById('scroll-nav').style.width = `${this.scrollY / max * 100}%`
+        });
+        document.getElementById('scroll-nav').style.width = `${window.scrollY / max * 100}%`
+      }
+    </script>
+  </body>
+</html>

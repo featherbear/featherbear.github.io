@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2020 00:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2020 16:14:41 +1100</lastBuildDate>
     
 	<atom:link href="/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Church Livestreaming - A Getting Started Guide</title>
+      <link>/blog/post/church-livestreaming-getting-started/</link>
+      <pubDate>Sun, 15 Mar 2020 16:14:41 +1100</pubDate>
+      
+      <guid>/blog/post/church-livestreaming-getting-started/</guid>
+      <description>table { border-collapse: collapse; } th { padding-left: 3px; padding-right: 3px; } td { padding: 3px; border: 1px solid #A7A7A7; } td[align=center] { text-align: center; } td[align=right] { text-align: right; } td[align=left] { text-align: left; } h3 { font-size: 1.0em; font-weight: bold; } h4 { font-size: 0.5em; font-weight: bold; }   In light of recent announcements from the World Health Organisation, the Australian Government has advised for non-essential gatherings to be limited to 500 people.</description>
+    </item>
     
     <item>
       <title>UNSW COMP2121</title>

@@ -6,10 +6,37 @@
     <description>Recent content in Categories on Andrew&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2020 00:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2020 16:14:41 +1100</lastBuildDate>
     
 	<atom:link href="/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Audio Visual</title>
+      <link>/blog/categories/audio-visual/</link>
+      <pubDate>Sun, 15 Mar 2020 16:14:41 +1100</pubDate>
+      
+      <guid>/blog/categories/audio-visual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>/blog/categories/life/</link>
+      <pubDate>Sun, 15 Mar 2020 16:14:41 +1100</pubDate>
+      
+      <guid>/blog/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>/blog/categories/networking/</link>
+      <pubDate>Sun, 15 Mar 2020 16:14:41 +1100</pubDate>
+      
+      <guid>/blog/categories/networking/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Programming</title>
@@ -26,24 +53,6 @@
       <pubDate>Sun, 16 Feb 2020 00:00:00 +1100</pubDate>
       
       <guid>/blog/categories/unsw/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Audio Visual</title>
-      <link>/blog/categories/audio-visual/</link>
-      <pubDate>Fri, 10 Jan 2020 14:10:11 +1100</pubDate>
-      
-      <guid>/blog/categories/audio-visual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>/blog/categories/life/</link>
-      <pubDate>Fri, 10 Jan 2020 14:10:11 +1100</pubDate>
-      
-      <guid>/blog/categories/life/</guid>
       <description></description>
     </item>
     
@@ -71,15 +80,6 @@
       <pubDate>Sat, 26 Oct 2019 21:47:30 +1100</pubDate>
       
       <guid>/blog/categories/webdev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Networking</title>
-      <link>/blog/categories/networking/</link>
-      <pubDate>Sun, 09 Jun 2019 16:03:59 +1000</pubDate>
-      
-      <guid>/blog/categories/networking/</guid>
       <description></description>
     </item>
     
