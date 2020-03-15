@@ -134,7 +134,7 @@ Perform a [speed test](https://www.speedtest.net/) of your network on a wired co
 
 ## Video from Presentations
 
-> [NDI](../newtek-ndi-4) is a audio/visual protocol developed by NewTek which I currently love.  
+> [NDI](../newtek-ndi) is a audio/visual protocol developed by NewTek which I currently love.  
 It allows you to send video as well as audio over your LAN network, making it a breeze to send content from one computer to another.  
 
 We'll be using the NDI protocol to send audio and video content from the presentation computer to the streaming computer.  
