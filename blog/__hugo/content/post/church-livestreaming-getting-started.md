@@ -39,11 +39,11 @@ td[align=left] {
 }
 
 h3 {
-    font-size: 1.0em;
+    font-size: 1.25em;
     font-weight: bold;
 }
 h4 {
-    font-size: 0.5em;
+    font-size: 1.0em;
     font-weight: bold;
 }
 </style>
@@ -72,10 +72,11 @@ Livestreaming will create two new service roles, a `Production Switcher` and a `
 
 > Will you be livestreaming your worship? Are there videos you play?
 
-The majority of churches will most likely have already heard of [CCLI](https://au.ccli.com), and have a `Church Copyright License` to display song lyrics.  
-But if you wish to stream your musical worship segments, you will also need to purchase a [`Streaming License`](https://au.ccli.com/streaming-licence-manual/). Yes, this means that you will need this license even if you have your own band.
+The majority of churches will most likely have already heard of [CCLI](https://au.ccli.com), and have a Church Copyright License to display song lyrics.  
+But if you wish to stream your musical worship segments, you will also need to purchase a [**Streaming License**](https://au.ccli.com/streaming-licence-manual/).  
+Yes, this means that you will need this license even if you have your own band.
 
-There is also another license you may need to purchase - the [`Church Video Licence`](https://au.ccli.com/what-we-provide/church-video-licence-screenvue/) - if you include certain videos.
+There is also another license you may need to purchase - the [**Church Video Licence**](https://au.ccli.com/what-we-provide/church-video-licence-screenvue/) - if you include certain videos.
 
 **NOTE** - I would advise not to stream third party video clips, but rather censor it out and include the video link.
 
@@ -118,7 +119,7 @@ Go grab a copy of [**Open Broadcaster Software**](https://obsproject.com)
 
 ## Internet Connection
 
-The quality of your internet connection will affect the quality of the video that you can stream.  
+The bandwidth of your internet connection will affect the quality of the video that you can stream.  
 
 |Quality|Bandwidth|
 |:-----:|--------:|
@@ -129,13 +130,15 @@ The quality of your internet connection will affect the quality of the video tha
 |1440p|9 Mbps|
 |2160p|20 Mbps|
 
+Perform a [speed test](https://www.speedtest.net/) of your network on a wired computer, and compare your upload speed to the above. You will need an upload speed faster than or equal to one of the above qualities to stream at that quality.
+
 ## Video from Presentations
 
 > [NDI](../newtek-ndi-4) is a audio/visual protocol developed by NewTek which I currently love.  
 It allows you to send video as well as audio over your LAN network, making it a breeze to send content from one computer to another.  
 
 We'll be using the NDI protocol to send audio and video content from the presentation computer to the streaming computer.  
-Ideally, connect both computers to the same Gigabit LAN network - try to avoid going wireless, and use CAT 5E or better Ethernet cables.
+Ideally, <u>connect both computers to the same gigabit LAN network</u> - try to avoid going wireless, and use CAT 5E or better Ethernet cables.
 
 To receive the NDI streams in Open Broadcaster Software, install the [**NDI Plugin for OBS**](https://github.com/Palakis/obs-ndi/releases).
 
@@ -156,7 +159,7 @@ Perhaps it works, but I haven't tried it.
 
 #### Alpha Key / SDI Module
 
-If you have purchased either the Alpha Key module or the SDI module, then you will have unlocked the NDI functionality.
+If you have purchased either the Alpha Key module or the SDI module, then you will have the required NDI functionality.
 
 #### NDI Scan Converter
 
@@ -191,23 +194,25 @@ This is how my [church](https://swec.org.au) has their equipment set up.
 |Streaming Encoder|OBS|
 |Presentation Software|ProPresenter 6|
 
+![](setup-diagram.png)
+
 # Setup
 
 ## Installation
 
-* Install [**Open Broadcaster Software**](https://obsproject.com)
-* Install the [**NDI Plugin for OBS**](https://github.com/Palakis/obs-ndi/releases)
-* _(optional)_ Install NDI Tools ([Windows](http://new.tk/NDITools) | [Mac](http://new.tk/NDITOOLSAPPLE)
+* Install [Open Broadcaster Software](https://obsproject.com)
+* Install the [NDI Plugin for OBS](https://github.com/Palakis/obs-ndi/releases)
+* _(optional)_ Install NDI Tools ([Windows](http://new.tk/NDITools) | [Mac](http://new.tk/NDITOOLSAPPLE))
 * Connect audio interface to computer
-  * May need to install some drivers
+  * _May need to install drivers_
 * Connect sound console to audio interface
 * Connect capture card to computer
-  * May need to install some drivers
+  * _May need to install drivers_
 * Connect camera to capture card
 
 ## OBS Setup
 
-* Create an NDI source - pointed to the NDI stream created for your presentation computer
+* Create an NDI source - pointed to the NDI stream from your presentation computer
 * Create a Video Capture source - pointed to the capture card
 * Create an Audio Input source - pointed to the audio interface
 * Rearrange and resize the sources to your liking.
@@ -219,7 +224,8 @@ This is how my [church](https://swec.org.au) has their equipment set up.
 * `Camera w/ PIP Presentation` - NDI source in the corner, on top of the `Camera` scene
 * `Presentation w/ PIP Camera` - Video Capture source in the corner, on top of the `Presentation` scene
 
-**NOTE** - Your capture card will more than likely have some video delay, you will need to account for this delay so that video and audio will be in sync. You can do this by right clicking on the Audio Input source, and adjusting the offset in the Advanced options.
+**NOTE** - Your capture card will more than likely have some video delay, you will need to account for this delay so that video and audio will be in sync.  
+You can do this by right clicking on the Audio Input source, and adjusting the offset in the Advanced options.
 
 ## Stream Setup
 

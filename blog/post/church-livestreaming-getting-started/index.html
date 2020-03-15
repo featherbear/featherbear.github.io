@@ -117,11 +117,11 @@ td[align=left] {
 }
 
 h3 {
-    font-size: 1.0em;
+    font-size: 1.25em;
     font-weight: bold;
 }
 h4 {
-    font-size: 0.5em;
+    font-size: 1.0em;
     font-weight: bold;
 }
 </style>
@@ -158,10 +158,11 @@ h4 {
 <p>Will you be livestreaming your worship? Are there videos you play?</p>
 </blockquote>
 
-<p>The majority of churches will most likely have already heard of <a href="https://au.ccli.com">CCLI</a>, and have a <code>Church Copyright License</code> to display song lyrics.<br />
-But if you wish to stream your musical worship segments, you will also need to purchase a <a href="https://au.ccli.com/streaming-licence-manual/"><code>Streaming License</code></a>. Yes, this means that you will need this license even if you have your own band.</p>
+<p>The majority of churches will most likely have already heard of <a href="https://au.ccli.com">CCLI</a>, and have a Church Copyright License to display song lyrics.<br />
+But if you wish to stream your musical worship segments, you will also need to purchase a <a href="https://au.ccli.com/streaming-licence-manual/"><strong>Streaming License</strong></a>.<br />
+Yes, this means that you will need this license even if you have your own band.</p>
 
-<p>There is also another license you may need to purchase - the <a href="https://au.ccli.com/what-we-provide/church-video-licence-screenvue/"><code>Church Video Licence</code></a> - if you include certain videos.</p>
+<p>There is also another license you may need to purchase - the <a href="https://au.ccli.com/what-we-provide/church-video-licence-screenvue/"><strong>Church Video Licence</strong></a> - if you include certain videos.</p>
 
 <p><strong>NOTE</strong> - I would advise not to stream third party video clips, but rather censor it out and include the video link.</p>
 
@@ -210,7 +211,7 @@ There exists physical hardware devices to achieve this, but we&rsquo;ll be using
 
 <h2 id="internet-connection">Internet Connection</h2>
 
-<p>The quality of your internet connection will affect the quality of the video that you can stream.</p>
+<p>The bandwidth of your internet connection will affect the quality of the video that you can stream.</p>
 
 <table>
 <thead>
@@ -253,6 +254,8 @@ There exists physical hardware devices to achieve this, but we&rsquo;ll be using
 </tbody>
 </table>
 
+<p>Perform a <a href="https://www.speedtest.net/">speed test</a> of your network on a wired computer, and compare your upload speed to the above. You will need an upload speed faster than or equal to one of the above qualities to stream at that quality.</p>
+
 <h2 id="video-from-presentations">Video from Presentations</h2>
 
 <blockquote>
@@ -261,7 +264,7 @@ It allows you to send video as well as audio over your LAN network, making it a 
 </blockquote>
 
 <p>We&rsquo;ll be using the NDI protocol to send audio and video content from the presentation computer to the streaming computer.<br />
-Ideally, connect both computers to the same Gigabit LAN network - try to avoid going wireless, and use CAT 5E or better Ethernet cables.</p>
+Ideally, <u>connect both computers to the same gigabit LAN network</u> - try to avoid going wireless, and use CAT 5E or better Ethernet cables.</p>
 
 <p>To receive the NDI streams in Open Broadcaster Software, install the <a href="https://github.com/Palakis/obs-ndi/releases"><strong>NDI Plugin for OBS</strong></a>.</p>
 
@@ -282,7 +285,7 @@ Perhaps it works, but I haven&rsquo;t tried it.</p>
 
 <h4 id="alpha-key-sdi-module">Alpha Key / SDI Module</h4>
 
-<p>If you have purchased either the Alpha Key module or the SDI module, then you will have unlocked the NDI functionality.</p>
+<p>If you have purchased either the Alpha Key module or the SDI module, then you will have the required NDI functionality.</p>
 
 <h4 id="ndi-scan-converter-1">NDI Scan Converter</h4>
 
@@ -345,24 +348,26 @@ With the <strong>Scan Converter</strong> application, you can select which outpu
 </tbody>
 </table>
 
+<p><img src="setup-diagram.png" alt="" /></p>
+
 <h1 id="setup">Setup</h1>
 
 <h2 id="installation">Installation</h2>
 
 <ul>
-<li>Install <a href="https://obsproject.com"><strong>Open Broadcaster Software</strong></a></li>
-<li>Install the <a href="https://github.com/Palakis/obs-ndi/releases"><strong>NDI Plugin for OBS</strong></a></li>
-<li><em>(optional)</em> Install NDI Tools (<a href="http://new.tk/NDITools">Windows</a> | <a href="http://new.tk/NDITOOLSAPPLE">Mac</a></li>
+<li>Install <a href="https://obsproject.com">Open Broadcaster Software</a></li>
+<li>Install the <a href="https://github.com/Palakis/obs-ndi/releases">NDI Plugin for OBS</a></li>
+<li><em>(optional)</em> Install NDI Tools (<a href="http://new.tk/NDITools">Windows</a> | <a href="http://new.tk/NDITOOLSAPPLE">Mac</a>)</li>
 <li>Connect audio interface to computer
 
 <ul>
-<li>May need to install some drivers</li>
+<li><em>May need to install drivers</em></li>
 </ul></li>
 <li>Connect sound console to audio interface</li>
 <li>Connect capture card to computer
 
 <ul>
-<li>May need to install some drivers</li>
+<li><em>May need to install drivers</em></li>
 </ul></li>
 <li>Connect camera to capture card</li>
 </ul>
@@ -370,7 +375,7 @@ With the <strong>Scan Converter</strong> application, you can select which outpu
 <h2 id="obs-setup">OBS Setup</h2>
 
 <ul>
-<li>Create an NDI source - pointed to the NDI stream created for your presentation computer</li>
+<li>Create an NDI source - pointed to the NDI stream from your presentation computer</li>
 <li>Create a Video Capture source - pointed to the capture card</li>
 <li>Create an Audio Input source - pointed to the audio interface</li>
 <li>Rearrange and resize the sources to your liking.</li>
@@ -385,7 +390,8 @@ With the <strong>Scan Converter</strong> application, you can select which outpu
 <li><code>Presentation w/ PIP Camera</code> - Video Capture source in the corner, on top of the <code>Presentation</code> scene</li>
 </ul>
 
-<p><strong>NOTE</strong> - Your capture card will more than likely have some video delay, you will need to account for this delay so that video and audio will be in sync. You can do this by right clicking on the Audio Input source, and adjusting the offset in the Advanced options.</p>
+<p><strong>NOTE</strong> - Your capture card will more than likely have some video delay, you will need to account for this delay so that video and audio will be in sync.<br />
+You can do this by right clicking on the Audio Input source, and adjusting the offset in the Advanced options.</p>
 
 <h2 id="stream-setup">Stream Setup</h2>
 
