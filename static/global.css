@@ -1,10 +1,29 @@
-body {
-	margin: 0;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-	color: #333;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap'); */
+@font-face {
+	font-family: 'Coves';
+	src: url('/assets/fonts/coves_light-webfont.woff2') format('woff2'), url('../fonts/coves_light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
+@font-face {
+	font-family: 'Coves';
+	src: url('/assets/fonts/coves_bold-webfont.woff2') format('woff2'), url('../fonts/coves_bold-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+	/* margin: 0; */
+	font-size: 14px;
+	font-family: 'Coves', Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	/* font-size: 14px;
+	line-height: 1.5;
+	color: #333; */
+}
+
+/*
+
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 0.5em 0;
@@ -33,4 +52,23 @@ code {
 	body {
 		font-size: 16px;
 	}
+} */
+
+a {
+  text-decoration: none;
+}
+/* */ /* */
+
+body {
+  /* background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100vh;
+	_-webkit-filter: grayscale(100%);
+	_filter: grayscale(100%);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-size: cover;
+	background-attachment: fixed;
+	font: normal normal normal 14px Coves;
+	margin: 0 auto; */
 }
