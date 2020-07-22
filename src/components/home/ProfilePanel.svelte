@@ -13,44 +13,62 @@
   /* Profile side pane */
 
   .profile {
-    width: 18vw;
+    // width: 18vw;
     background-color: rgba(255, 255, 255, 0.85);
     height: 100vh;
     position: fixed;
     left: 0;
     top: 0;
-    padding: 0 1vw;
+
+    padding: 3vh 1vw;
     -o-transition: 0.5s;
     -ms-transition: 0.5s;
     -moz-transition: 0.5s;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 
+    display: flex;
+    flex-direction: column;
+
     &:hover {
       background-color: whitesmoke;
     }
 
-    img {
-      border-radius: 50%;
-      margin: 3vh auto;
+    .picture {
+      position: relative;
 
-      background-image: url(/assets/images/profilepic.jpg);
-      background-size: cover;
-      width: 18vw;
-      height: 18vw;
+      &:after {
+        content: "";
+        display: block;
+        padding-top: 100%;
+      }
+
+      img {
+        border-radius: 50%;
+        
+        background-image: url(/assets/images/profilepic.jpg);
+        background-size: cover;
+
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+      }
     }
+
     /* Name */
 
     .nameBlock {
+      padding-top: 1.5rem;
       font-size: 4rem;
-      display: block;
+      display: list-item;
       font-weight: bold;
-      line-height: 1rem;
+      line-height: 1.1rem;
 
       > span {
         font-size: 1rem;
         font-weight: normal;
-        display: inline-block;
+        display: block;
         text-indent: 3rem;
         color: grey;
       }
@@ -154,7 +172,9 @@
 </style>
 
 <div class="profile">
-  <img />
+  <div class="picture">
+    <img />
+  </div>
   <span class="nameBlock">
     Andrew
     <span>Jin-Meng</span>
