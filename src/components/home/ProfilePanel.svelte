@@ -1,3 +1,14 @@
+<script>
+  let emailElem;
+
+  import { onMount } from "svelte";
+  onMount(() => {
+    let email = atob("aGVsbG9AZmVhdGhlcmJlYXIuY2M");
+    emailElem.href += email;
+    emailElem.querySelector("span span").innerText = email;
+  });
+</script>
+
 <style lang="scss">
   /* Profile side pane */
 
@@ -82,7 +93,7 @@
           }
         }
 
-        &[href*="mailto"] > span:before {
+        &[href^="mailto:"] > span:before {
           background-image: url(/assets/icons/mail-squircle.svg);
         }
         &[href*="linkedin"] > span:before {
@@ -150,9 +161,9 @@
     Wong
   </span>
   <div class="linkBlock">
-    <a href="mailto:featherbear@navhaxs.au.eu.org">
+    <a bind:this={emailElem} href="mailto:">
       <span>
-        <span>featherbear@navhaxs.au.eu.org</span>
+        <span />
       </span>
     </a>
     <a href="//linkedin.com/in/andrewjinmengwong">
