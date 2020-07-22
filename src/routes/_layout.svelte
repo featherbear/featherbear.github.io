@@ -12,8 +12,9 @@
 
 {#if segment !== undefined}
   <Nav {segment} />
-{/if}
-
-<div class="container">
+  <div class="container">
+    <slot />
+  </div>
+{:else}
   <slot />
-</div>
+{/if}
