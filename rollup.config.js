@@ -36,12 +36,12 @@ export default {
 				dev,
 				hydratable: true,
 				emitCss: true,
-				preprocess
-			}),
-			resolve({
-				browser: true,
-				dedupe: ['svelte']
-			}),
+        preprocess,
+        onwarn: (warning, onwarn) => {
+          if (warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) { return true }
+          if (warning.message === 'Unused CSS selector') { return true }
+		  return onwarn(warning)
+        }
 			commonjs(),
 
 			legacy && babel({
