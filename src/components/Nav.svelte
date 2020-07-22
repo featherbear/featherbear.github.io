@@ -46,7 +46,7 @@
       text-transform: uppercase;
       color: #333;
       letter-spacing: 4px;
-      font-size: 2em;
+      font-size: 2rem;
       margin: 0;
       float: left;
 

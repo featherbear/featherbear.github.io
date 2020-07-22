@@ -32,7 +32,7 @@
 
     img {
       border-radius: 50%;
-      margin: 5vh auto;
+      margin: 3vh auto;
 
       background-image: url(/assets/images/profilepic.jpg);
       background-size: cover;
@@ -42,16 +42,16 @@
     /* Name */
 
     .nameBlock {
-      font-size: 5vw;
+      font-size: 4rem;
       display: block;
       font-weight: bold;
-      line-height: 2.5vh;
+      line-height: 1rem;
 
       > span {
-        font-size: 1.3vw;
+        font-size: 1rem;
         font-weight: normal;
         display: inline-block;
-        text-indent: 4vw;
+        text-indent: 3rem;
         color: grey;
       }
     }
@@ -67,7 +67,7 @@
 
         > span {
           word-wrap: break-word;
-          font-size: 1.2em;
+          font-size: 1rem;
           color: grey;
           opacity: 0.6;
           -o-transition: opacity 0.5s;
@@ -141,11 +141,11 @@
       text-align: center;
     }
     .profile p a[href*="Resume"] {
-      font-size: 1em;
+      font-size: 1rem;
     }
     .profile > span {
       text-align: center;
-      font-size: 1.5em;
+      font-size: 1.5rem;
     }
     .profile > span > span {
       display: none;
