@@ -30,7 +30,7 @@
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item has-text-grey-darker is-size-3 title" href="/">andrew wong</a>
-      <a
+      <span
         role="button"
         class="navbar-burger burger"
         aria-label="menu"
@@ -41,7 +41,7 @@
         <span aria-hidden="true" />
         <span aria-hidden="true" />
         <span aria-hidden="true" />
-      </a>
+      </span>
     </div>
 
     <div class:is-active={hamburgerOpen} class="navbar-menu">
