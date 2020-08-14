@@ -2,6 +2,11 @@
 	<title>About</title>
 </svelte:head>
 
-<h1>About this site</h1>
+<h1>Hey there!</h1>
 
-<p>This is the 'about' page. There's not much here.</p>
+<p>I'm currently a third year Computer Engineering student at UNSW.</p>
+
+My main passions are programming, photography and stage production (audio/visual stuff).  
+I also fiddle on my guitar from time to time.  
+
+<!-- I'm available for freelace work -->
