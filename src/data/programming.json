@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Teaching Resources",
+    "items": [
+      { "title": "Learn C" },
+      { "title": "Learn Data Structures and Algorithms" },
+      { "title": "Learn CSS - Hover Buttons" },
+      {
+        "title": "Security Workshop - Image Steganography",
+        "description": "UNSW CompClub 2019 Summer"
+      },
+      {
+        "title": "Security Workshop - HTTP(S) Security",
+        "description": "UNSW CompClub 2019 Summer"
+      }
+    ]
+  },
+  {
+    "title": "Multimedia",
+    "items": [
+      {
+        "title": "Interactive Sound Mixer",
+        "site": "https://featherbear.cc/mixer/",
+        "repo": "https://github.com/featherbear/mixer/",
+        "stack": ["React"]
+      },
+      {
+        "title": "ProPresenter 6 Stage Display Messages",
+        "stack": ["JavaScript"]
+      },
+      {
+        "title": "ProPresenter 6/7 OBS Scene Switcher",
+        "stack": ["Node.js"]
+      },
+      { "title": "ProPresenter 6 Local Sync Tool", "stack": ["C#", ".NET"] },
+      { "title": "OnCue Projector", "stack": ["Python", "Qt"] }
+    ]
+  },
+  {
+    "title": "Security",
+    "items": [
+      {
+        "title": "Project RATtata - Remote Administration Tool",
+        "repo": "https://github.com/featherbear/UNSW-COMP6441-RATtata",
+        "site": "https://featherbear.cc/UNSW-COMP6441-RATtata/",
+        "blog": "https://featherbear.cc/UNSW-COMP6441/blog/post/job-application/something_awesome/",
+        "stack": ["Node.js", "Vue", "Electron"]
+      },
+      {
+        "title": "Project Securitears - Blackbox Input Fuzzer",
+        "stack": ["Python"],
+        "repo": "https://github.com/featherbear/UNSW-COMP6447-ass",
+        "site": "https://featherbear.github.io/UNSW-COMP6447-ass"
+      },
+      {
+        "title": "CSE x SecSoc CTF 2020",
+        "blog": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/",
+        "description": "Not actually a project, but an honourable mention. I came first in this CTF!"
+      }
+    ]
+  },
+  {
+    "title": "Games",
+    "items": [
+      { "title": "Stacker Game", "stack": ["p5.js"] },
+      { "title": "Queuer Game", "stack": ["p5.js"] },
+      { "title": "Platformer Game", "stack": ["p5.js"] },
+      {
+        "title": "Java - Dungeon Game (JavaFX Edition)",
+        "repo": "https://github.com/featherbear/UNSW-COMP2511-ass2",
+        "blog": "https://featherbear.cc/UNSW-COMP2511/post/assign2/"
+      },
+      {
+        "title": "Java - Dungeon Game (Text Edition)",
+        "repo": "https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/",
+        "blog": "https://featherbear.cc/blog/post/dungeon-console/"
+      },
+      {
+        "title": "Balloon Shooting Game",
+        "stack": ["SmallBasic"],
+        "blog": "https://featherbear.cc/blog/post/smallbasic-balloon-shooting-game/",
+        "repo": "https://github.com/featherbear/smallbasic-balloon-shooting-game"
+      },
+      {
+        "title": "Whoops! There Goes My AI",
+        "stack": ["Python", "wxPython", "OpenCV"],
+        "blog": "https://featherbear.cc/blog/post/whoops-there-goes-my-ai/",
+        "repo": "https://github.com/featherbear/Whoops-There-Goes-My-AI/"
+      }
+    ]
+  },
+  {
+    "title": "Libraries / APIs",
+    "items": [
+      {
+        "title": "Facebook Messenger Chat API Wrapper (Puppeteer)",
+        "stack": ["Node.js", "Puppeteer"]
+      },
+      {
+        "title": "Mifare Classic Wrapper for React Native",
+        "repo": "https://github.com/featherbear/react-native-mifare-classic-wrapper/"
+      },
+      {
+        "title": "PreSonus StudioLive API",
+        "stack": ["Node.js", "Python"],
+        "repo": "https://github.com/featherbear/PreSonus-StudioLive-API",
+        "blog": "https://featherbear.cc/blog/post/presonus-studiolive-api/"
+      }
+    ]
+  },
+
+  {
+    "title": "Client Projects",
+    "items": [
+      {
+        "title": "UNSW Scientia Signage",
+        "stack": ["JavaScript"],
+        "repo": "https://github.com/featherbear/unsw-scientia-signage",
+        "blog": "https://featherbear.cc/blog/post/unsw-scientia-signage/"
+      }
+    ]
+  },
+  {
+    "title": "Sandbox",
+    "items": [
+      {
+        "title": "Trello e-Paper Display",
+        "stack": ["Python"],
+        "repo": "https://github.com/featherbear/trello-epd",
+        "blog": "https://featherbear.cc/blog/post/e-paper/"
+      },
+
+      {
+        "title": "Filmstrip Messages",
+        "stack": ["Svelte"],
+        "blog": "https://featherbear.cc/blog/post/filmstrip-messages/",
+        "site": "https://featherbear.cc/filmstrip-messages/",
+        "repo": "https://github.com/featherbear/filmstrip-messages"
+      },
+      {
+        "title": "DeliveryTrack",
+        "stack": ["JavaScript"],
+        "repo": "https://github.com/featherbear/deliverytrack",
+        "site": "http://featherbear.cc/deliverytrack/"
+      },
+
+      {
+        "title": "BlueClick BLE",
+        "stack": ["Arduino"],
+        "blog": "https://featherbear.cc/blog/post/blueclick/",
+        "repo": "https://github.com/featherbear/BlueClick_BLE"
+      },
+      {
+        "title": "Wardrobe",
+        "stack": ["Svelte"],
+        "repo": "https://github.com/featherbear/wardrobe",
+        "site": "https://featherbear.cc/wardrobe/"
+      },
+      { "title": "BearNet Bot", "stack": ["Node.js"] },
+      { "title": "BigBear Skype", "stack": ["Python"] },
+      { "title": "Facebook Emoji Sender", "stack": ["Node.js"] },
+      {
+        "title": "p5.js - Twinkle Tiles",
+        "stack": ["p5.js"],
+        "site": "https://featherbear.github.io/processing-twinkle/",
+        "repo": "https://github.com/featherbear/processing-twinkle",
+        "blog": "https://featherbear.cc/blog/post/processing-twinkle/"
+      },
+      {
+        "title": "UNSW CompClub 2019 CTF Server",
+        "stack": ["Python", "SQLite", "JavaScript"],
+        "blog": "https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/",
+        "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-CTF",
+        "site": "https://featherbear.cc/UNSW-CompClub2019Summer-CTF/"
+      }
+    ]
+  }
+]

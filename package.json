@@ -5,6 +5,7 @@
     "export": "sapper export --legacy"
   },
   "dependencies": {
+    "@rollup/plugin-json": "^4.1.0",
     "bulma": "^0.9.0",
     "compression": "^1.7.1",
     "node-fetch": "^2.6.0",
