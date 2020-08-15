@@ -1,20 +1,5 @@
 @import 'theme';
-
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap'); */
-@font-face {
-  font-family: 'Coves';
-  src: url('/assets/fonts/coves_light-webfont.woff2') format('woff2'),
-    url('/assets/fonts/coves_light-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Coves';
-  src: url('/assets/fonts/coves_bold-webfont.woff2') format('woff2'),
-    url('/assets/fonts/coves_bold-webfont.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
+@import 'font';
 
 body {
   color: var(--font-color);
@@ -23,9 +8,11 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font: normal normal normal 16px Coves;
+
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: var(--font-color);
 }

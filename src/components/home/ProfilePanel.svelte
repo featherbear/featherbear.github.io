@@ -13,7 +13,7 @@
   /* Profile side pane */
 
   .profile {
-    // width: 18vw;
+    font: normal normal normal 16px Coves;
     background-color: rgba(255, 255, 255, 0.85);
     height: 100vh;
     position: fixed;

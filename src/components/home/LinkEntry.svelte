@@ -5,6 +5,7 @@
 <style lang="scss">
   /* Profile sections */
   a span {
+    font: normal normal normal 16px Coves;
     display: block;
     text-align: right !important;
     font-size: 5vh;
