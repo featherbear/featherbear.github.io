@@ -37,6 +37,7 @@
     z-index: -1;
     margin: 0;
     padding: 0;
+    background-color: #131111;
 
     li {
       position: absolute;
