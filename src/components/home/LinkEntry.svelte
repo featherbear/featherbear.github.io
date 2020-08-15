@@ -24,7 +24,7 @@
     -moz-transition: 0.5s;
     -webkit-transition: 0.5s;
     transition: 0.5s ease-in-out;
-    opacity: 0.5;
+    opacity: 0.6;
 
     padding-left: 2vw;
     padding-right: 1vw;

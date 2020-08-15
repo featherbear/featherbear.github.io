@@ -1,6 +1,7 @@
 <script>
   import LinkEntry from "../components/home/LinkEntry.svelte";
   import ProfilePanel from "../components/home/ProfilePanel.svelte";
+  import BackgroundLoop from "../components/home/BackgroundLoop.svelte";
 </script>
 
 <style>
@@ -16,11 +17,13 @@
   <title>Andrew Wong | featherbear</title>
 </svelte:head>
 
-<ProfilePanel />
+<BackgroundLoop>
+  <ProfilePanel />
 
-<div id="sections">
-  <LinkEntry href="blog">Blog</LinkEntry>
-  <LinkEntry href="about">About Me</LinkEntry>
-  <LinkEntry href="photos">Photography</LinkEntry>
-  <LinkEntry href="programming">Programming</LinkEntry>
-</div>
+  <div id="sections">
+    <LinkEntry href="blog">Blog</LinkEntry>
+    <LinkEntry href="about">About Me</LinkEntry>
+    <LinkEntry href="photos">Photography</LinkEntry>
+    <LinkEntry href="programming">Programming</LinkEntry>
+  </div>
+</BackgroundLoop>
