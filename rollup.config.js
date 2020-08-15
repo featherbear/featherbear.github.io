@@ -5,6 +5,7 @@ import svelte from 'rollup-plugin-svelte'
 import babel from '@rollup/plugin-babel'
 import json from '@rollup/plugin-json'
 import { terser } from 'rollup-plugin-terser'
+import { mdsvex } from 'mdsvex'
 import config from 'sapper/config/rollup.js'
 import sveltePreprocess from 'svelte-preprocess'
 import pkg from './package.json'
@@ -27,7 +28,7 @@ const onwarn = (warning, onwarn) => {
   onwarn(warning)
 }
 
-const preprocess = sveltePreprocess({
+const SCSSpreprocess = sveltePreprocess({
   scss: {
     includePaths: ['src']
   },
@@ -50,7 +51,8 @@ export default {
         dev,
         hydratable: true,
         emitCss: true,
-        preprocess
+        extensions: ['.svelte', '.svx'],
+        preprocess: [SCSSpreprocess, mdsvex()]
       }),
       resolve({
         browser: true,
@@ -104,7 +106,8 @@ export default {
       svelte({
         generate: 'ssr',
         dev,
-        preprocess
+        extensions: ['.svelte', '.svx'],
+        preprocess: [SCSSpreprocess, mdsvex()]
       }),
       resolve({
         dedupe: ['svelte']
