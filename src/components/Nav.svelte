@@ -10,6 +10,8 @@
   @import "bulma/sass/elements/container.sass";
   @import "bulma/sass/components/navbar.sass";
 
+  @import "../style/theme.scss";
+
   nav {
     font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
@@ -20,6 +22,30 @@
     right: 0;
     top: 0;
     z-index: 30;
+    background-color: var(--header-background-color) !important;
+
+    .navbar-item.title {
+        color: var(--header-logo-font-color) !important;
+      }
+
+    .navbar-item:not(.title) {
+      color: var(--header-link-color);
+      
+      &.active {
+        color: var(--header-link-active-color) !important;
+      }
+
+      &:hover {
+        color: var(--header-link-hover-color);
+      }
+
+      @if --header-link-hover-background-color {
+        &:hover {
+          background-color: var(--header-link-hover-background-color) !important;
+        }
+      }
+
+    }
   }
 </style>
 
@@ -29,7 +55,7 @@
   aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item has-text-grey-darker is-size-3 title" href="/">andrew wong</a>
+      <a class="navbar-item is-size-3 title" href="/">andrew wong</a>
       <span
         role="button"
         class="navbar-burger burger"
@@ -37,7 +63,7 @@
         aria-expanded="false"
         data-target="navmenu"
         class:is-active={hamburgerOpen}
-        on:click={() => hamburgerOpen = !hamburgerOpen}>
+        on:click={() => (hamburgerOpen = !hamburgerOpen)}>
         <span aria-hidden="true" />
         <span aria-hidden="true" />
         <span aria-hidden="true" />
@@ -46,10 +72,24 @@
 
     <div class:is-active={hamburgerOpen} class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item {segment === 'blog' ? 'has-text-black-ter' : 'has-text-grey'}" href="/blog">blog</a>
-        <a class="navbar-item {segment === 'about' ? 'has-text-black-ter' : 'has-text-grey'}" href="/about">about me</a>
-        <a class="navbar-item {segment === 'photos' ? 'has-text-black-ter' : 'has-text-grey'}" href="/photos">photography</a>
-        <a class="navbar-item {segment === 'programming' ? 'has-text-black-ter' : 'has-text-grey'}" href="/programming">programming</a>
+        <a class="navbar-item" class:active={segment === 'blog'} href="/blog">
+          blog
+        </a>
+        <a class="navbar-item" class:active={segment === 'about'} href="/about">
+          about me
+        </a>
+        <a
+          class="navbar-item"
+          class:active={segment === 'photos'}
+          href="/photos">
+          photography
+        </a>
+        <a
+          class="navbar-item"
+          class:active={segment === 'programming'}
+          href="/programming">
+          programming
+        </a>
       </div>
     </div>
   </div>
