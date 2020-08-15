@@ -45,14 +45,13 @@
 
       img {
         border-radius: 50%;
-        
+
         background-image: url(/assets/images/profilepic.jpg);
         background-size: cover;
 
         position: absolute;
         width: 100%;
         height: 100%;
-
       }
     }
 
@@ -64,6 +63,7 @@
       display: list-item;
       font-weight: bold;
       line-height: 1.1rem;
+      color: black;
 
       > span {
         font-size: 1rem;
@@ -81,7 +81,7 @@
         margin: 0.5vh auto;
         display: block;
         text-rendering: auto;
-        color: grey !important;
+        color: dimgrey !important;
 
         > span {
           word-wrap: break-word;
