@@ -173,7 +173,7 @@
 
 <div class="profile">
   <div class="picture">
-    <img />
+    <img alt="" />
   </div>
   <span class="nameBlock">
     Andrew
