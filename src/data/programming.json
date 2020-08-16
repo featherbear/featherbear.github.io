@@ -47,6 +47,15 @@
         "blog": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/",
         "image": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/team.png",
         "description": "Not actually a project, but an honourable mention. I came first in this CTF!"
+      },
+
+      {
+        "title": "UNSW CompClub 2019 CTF Server",
+        "stack": ["Python", "SQLite", "JavaScript"],
+        "image": "https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/title_small.gif",
+        "blog": "https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/",
+        "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-CTF",
+        "site": "https://featherbear.cc/UNSW-CompClub2019Summer-CTF/"
       }
     ]
   },
@@ -98,75 +107,8 @@
         "title": "UNSW Scientia Signage",
         "stack": ["JavaScript"],
         "image": "https://featherbear.cc/blog/post/unsw-scientia-signage/Snipaste_2019-12-09_19-33-07.png",
-        "repo": "https://github.com/featherbear/unsw-scientia-signage",
         "blog": "https://featherbear.cc/blog/post/unsw-scientia-signage/",
         "description": "SPA page to control PiSignage devices"
-      }
-    ]
-  },
-
-  {
-    "title": "Multimedia",
-    "items": [
-      {
-        "title": "Interactive Sound Mixer",
-        "site": "https://featherbear.cc/mixer/",
-        "repo": "https://github.com/featherbear/mixer/",
-        "stack": ["React"]
-      },
-      {
-        "title": "ProPresenter 6 Stage Display Messages",
-        "stack": ["JavaScript"]
-      },
-      {
-        "title": "ProPresenter 6/7 OBS Scene Switcher",
-        "stack": ["Node.js"]
-      },
-      { "title": "ProPresenter 6 Local Sync Tool", "stack": ["C#", ".NET"] },
-      { "title": "OnCue Projector", "stack": ["Python", "Qt"] }
-    ]
-  },
-
-  {
-    "title": "Games",
-    "items": [
-      {
-        "title": "Stacker Game",
-        "stack": ["p5.js"],
-        "image": "https://featherbear.cc/blog/post/p5-stack-queue-games/preview_stack.apng"
-      },
-      {
-        "title": "Queuer Game",
-        "stack": ["p5.js"],
-        "image": "https://featherbear.cc/blog/post/p5-stack-queue-games/preview_queue.apng"
-      },
-      {
-        "title": "Platformer Game",
-        "stack": ["p5.js"]
-      },
-      {
-        "title": "Java - Dungeon Game (JavaFX Edition)",
-        "repo": "https://github.com/featherbear/UNSW-COMP2511-ass2",
-        "blog": "https://featherbear.cc/UNSW-COMP2511/post/assign2/",
-        "image": "https://featherbear.cc/UNSW-COMP2511/post/assign2/demo.gif"
-      },
-      {
-        "title": "Java - Dungeon Game (Text Edition)",
-        "repo": "https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/",
-        "blog": "https://featherbear.cc/blog/post/dungeon-console/",
-        "image": "https://raw.githubusercontent.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/master/demo_advanced.gif"
-      },
-      {
-        "title": "Balloon Shooting Game",
-        "stack": ["SmallBasic"],
-        "blog": "https://featherbear.cc/blog/post/smallbasic-balloon-shooting-game/",
-        "repo": "https://github.com/featherbear/smallbasic-balloon-shooting-game"
-      },
-      {
-        "title": "Whoops! There Goes My AI",
-        "stack": ["Python", "wxPython", "OpenCV"],
-        "blog": "https://featherbear.cc/blog/post/whoops-there-goes-my-ai/",
-        "repo": "https://github.com/featherbear/Whoops-There-Goes-My-AI/"
       }
     ]
   },
@@ -177,54 +119,151 @@
       {
         "title": "Trello e-Paper Display",
         "stack": ["Python"],
+        "image": "https://featherbear.cc/blog/post/e-paper/20191211_221809.jpg",
         "repo": "https://github.com/featherbear/trello-epd",
-        "blog": "https://featherbear.cc/blog/post/e-paper/"
+        "blog": "https://featherbear.cc/blog/post/e-paper/",
+        "description": "Physical to-do list on an e-Paper display"
       },
 
       {
         "title": "Filmstrip Messages",
         "stack": ["Svelte"],
+        "image": "https://featherbear.cc/blog/post/filmstrip-messages/preview.png",
         "blog": "https://featherbear.cc/blog/post/filmstrip-messages/",
         "site": "https://featherbear.cc/filmstrip-messages/",
-        "repo": "https://github.com/featherbear/filmstrip-messages"
+        "repo": "https://github.com/featherbear/filmstrip-messages",
+        "description": "Photostrip project to house a collection of photos, videos and text notes"
       },
       {
         "title": "DeliveryTrack",
         "stack": ["JavaScript"],
         "repo": "https://github.com/featherbear/deliverytrack",
-        "site": "http://featherbear.cc/deliverytrack/"
+        "site": "http://featherbear.cc/deliverytrack/",
+        "preview": "https://featherbear.cc/deliverytrack/",
+        "description": "Postal delivery tracking web application with synchronisation between devices"
+      },
+
+      {
+        "title": "Wardrobe",
+        "stack": ["Svelte"],
+        "repo": "https://github.com/featherbear/wardrobe",
+        "site": "https://featherbear.cc/wardrobe/",
+        "preview": "https://featherbear.cc/wardrobe/",
+        "description": "A clothing-oriented photo organisation web application"
+      },
+      {
+        "title": "Twinkle Tiles",
+        "stack": ["p5.js"],
+        "image": "https://featherbear.cc/blog/post/processing-twinkle/preview.apng",
+        "site": "https://featherbear.github.io/processing-twinkle/",
+        "repo": "https://github.com/featherbear/processing-twinkle",
+        "blog": "https://featherbear.cc/blog/post/processing-twinkle/"
+      }
+    ]
+  },
+
+  {
+    "title": "Multimedia",
+    "items": [
+      {
+        "title": "Sound Mixer Simulator",
+        "site": "https://featherbear.cc/mixer/",
+        "repo": "https://github.com/featherbear/mixer/",
+        "stack": ["React"],
+        "description": "Interactive teaching tool for the PreSonus StudioLive 16 Series III sound console"
+      },
+      {
+        "title": "ProPresenter 6 Stage Display Messages",
+        "stack": ["JavaScript"],
+        "site": "http://pp6sdm.apps.navhaxs.au.eu.org/",
+        "image": "https://featherbear.cc/blog/post/propresenter6-stage-display-messages-client/screenshot.png",
+        "blog": "https://featherbear.cc/blog/post/propresenter6-stage-display-messages-client/",
+        "repo": "https://github.com/featherbear/propresenter-stagemessages"
+      },
+      {
+        "title": "ProPresenter 6/7 OBS Scene Switcher",
+        "stack": ["Node.js"],
+        "repo": "https://github.com/featherbear/propresenter-obs-scene-switcher",
+        "description": "Switch OBS scenes depending on the current ProPresenter content"
+      },
+      {
+        "title": "ProPresenter 6 Local Sync Tool",
+        "stack": ["C#", ".NET"],
+        "repo": "https://github.com/featherbear/propresenter-local-sync-tool",
+        "image": "https://raw.githubusercontent.com/featherbear/propresenter-local-sync-tool/master/logo.ico",
+        "description": "A buggy file synchronisation tool that's less buggy than ProPresenter 6's inbuilt one"
+      },
+      {
+        "title": "OnCue Projector",
+        "stack": ["Python", "Qt"],
+        "repo": "https://github.com/featherbear/OnCue",
+        "description": "Multimedia presentation software for seamless playback of content\nHSC Major Project"
       },
 
       {
         "title": "BlueClick BLE",
         "stack": ["Arduino"],
         "blog": "https://featherbear.cc/blog/post/blueclick/",
-        "repo": "https://github.com/featherbear/BlueClick_BLE"
-      },
+        "repo": "https://github.com/featherbear/BlueClick_BLE",
+        "description": "Page turner for OnSong, through sending MIDI notes over Bluetooth Low Energy"
+      }
+    ]
+  },
+  {
+    "title": "Games",
+    "items": [
       {
-        "title": "Wardrobe",
-        "stack": ["Svelte"],
-        "repo": "https://github.com/featherbear/wardrobe",
-        "site": "https://featherbear.cc/wardrobe/"
-      },
-      { "title": "BearNet Bot", "stack": ["Node.js"] },
-      { "title": "BigBear Skype", "stack": ["Python"] },
-      { "title": "Facebook Emoji Sender", "stack": ["Node.js"] },
-      {
-        "title": "p5.js - Twinkle Tiles",
+        "title": "Stacker Game",
         "stack": ["p5.js"],
-        "image": "https://featherbear.cc/blog/post/processing-twinkle/preview.apng",
-        "site": "https://featherbear.github.io/processing-twinkle/",
-        "repo": "https://github.com/featherbear/processing-twinkle",
-        "blog": "https://featherbear.cc/blog/post/processing-twinkle/"
+        "image": "https://featherbear.cc/blog/post/p5-stack-queue-games/preview_stack.apng",
+        "blog": "https://featherbear.cc/blog/post/p5-stack-queue-games",
+        "site": "https://featherbear.cc/p5-stacker-game/",
+        "repo": "https://github.com/featherbear/p5-stacker-game/"
       },
       {
-        "title": "UNSW CompClub 2019 CTF Server",
-        "stack": ["Python", "SQLite", "JavaScript"],
-        "image": "https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/title_small.gif",
-        "blog": "https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/",
-        "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-CTF",
-        "site": "https://featherbear.cc/UNSW-CompClub2019Summer-CTF/"
+        "title": "Queuer Game",
+        "stack": ["p5.js"],
+        "image": "https://featherbear.cc/blog/post/p5-stack-queue-games/preview_queue.apng",
+        "blog": "https://featherbear.cc/blog/post/p5-stack-queue-games",
+        "site": "https://featherbear.cc/p5-queuer-game/",
+        "repo": "https://github.com/featherbear/p5-queuer-game/"
+      },
+      {
+        "title": "Platformer Game",
+        "stack": ["p5.js"],
+        "description": "A platformer 'game'\n(that I never really started)",
+        "repo": "https://github.com/featherbear/processing-platformer",
+        "site": "https://featherbear.cc/processing-platformer/"
+      },
+      {
+        "title": "Dungeon Game",
+        "stack": ["Java", "JavaFX"],
+        "repo": "https://github.com/featherbear/UNSW-COMP2511-ass2",
+        "blog": "https://featherbear.cc/UNSW-COMP2511/post/assign2/",
+        "image": "https://featherbear.cc/UNSW-COMP2511/post/assign2/demo.gif"
+      },
+      {
+        "title": "Dungeon Game (Text Edition)",
+        "stack": ["Java", "JNA"],
+        "repo": "https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/",
+        "blog": "https://featherbear.cc/blog/post/dungeon-console/",
+        "image": "https://raw.githubusercontent.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/master/demo_advanced.gif"
+      },
+      {
+        "title": "Balloon Shooting Game",
+        "stack": ["SmallBasic"],
+        "blog": "https://featherbear.cc/blog/post/smallbasic-balloon-shooting-game/",
+        "repo": "https://github.com/featherbear/smallbasic-balloon-shooting-game",
+        "image": "https://featherbear.cc/blog/post/smallbasic-balloon-shooting-game/animation.gif",
+        "description": "Making a game in Small Basic. Oh boy."
+      },
+      {
+        "title": "Whoops! There Goes My AI",
+        "stack": ["Python", "wxPython", "OpenCV"],
+        "blog": "https://featherbear.cc/blog/post/whoops-there-goes-my-ai/",
+        "image": "https://featherbear.cc/blog/post/whoops-there-goes-my-ai/preview.apng",
+        "repo": "https://github.com/featherbear/Whoops-There-Goes-My-AI/",
+        "description": "Computer vision game automator"
       }
     ]
   }
