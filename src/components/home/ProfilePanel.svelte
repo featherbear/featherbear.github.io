@@ -58,18 +58,18 @@
     /* Name */
 
     .nameBlock {
-      padding-top: 1.5rem;
-      font-size: 4rem;
-      display: list-item;
+      padding-top: 0.5em;
+      font-size: 4em;
       font-weight: bold;
-      line-height: 1.1rem;
+      line-height: 1em;
       color: black;
 
       > span {
-        font-size: 1rem;
+        margin: -0.4em 0 -0.8em 2.5em;
+        font-size: 0.3em;
+        line-height: 0.3em;
         font-weight: normal;
         display: block;
-        text-indent: 3rem;
         color: grey;
       }
     }
@@ -85,7 +85,7 @@
 
         > span {
           word-wrap: break-word;
-          font-size: 1rem;
+          font-size: 1em;
           color: grey;
           opacity: 0.6;
           -o-transition: opacity 0.5s;
@@ -151,22 +151,24 @@
     }
   }
   @media screen and (orientation: portrait) {
-    .profile div a span span {
-      text-indent: -10000px;
-      position: absolute;
-    }
-    .profile div a {
-      text-align: center;
-    }
-    .profile p a[href*="Resume"] {
-      font-size: 1rem;
-    }
-    .profile > span {
-      text-align: center;
-      font-size: 1.5rem;
-    }
-    .profile > span > span {
-      display: none;
+    .profile {
+      .nameBlock {
+        font-size: 3em;
+      }
+
+      .linkBlock {
+        text-align: center;
+        font-size: 1.3em;
+
+        span span {
+          /* Hide text */
+          display: none;
+        }
+
+        p a[href*="Resume"] {
+          font-size: 1em;
+        }
+      }
     }
   }
 </style>
