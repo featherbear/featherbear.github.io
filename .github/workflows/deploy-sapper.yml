@@ -18,6 +18,9 @@ jobs:
     - name: Build
       run: npm run export
 
+    - name: Set CNAME
+      run: echo featherbear.cc > ./__sapper__/export/CNAME
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.3.1
       env:
