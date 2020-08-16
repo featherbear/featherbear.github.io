@@ -1,26 +1,29 @@
 <script>
+  const basePath = "assets/images/bg/"
   let bgImages = [
-    "assets/images/bg/bg01.jpg",
-    "assets/images/bg/bg02.jpg",
-    "assets/images/bg/bg03.jpg",
-    "assets/images/bg/bg04.jpg",
-    "assets/images/bg/bg05.jpg",
-    "assets/images/bg/bg06.jpg",
-    "assets/images/bg/bg07.jpg",
-    "assets/images/bg/bg08.jpg",
-    "assets/images/bg/bg09.jpg",
-    "assets/images/bg/bg10.jpg",
-    "assets/images/bg/bg11.jpg",
-    "assets/images/bg/bg12.jpg",
+    "bg01.jpg",
+    "bg02.jpg",
+    "bg03.jpg",
+    "bg04.jpg",
+    "bg05.jpg",
+    "bg06.jpg",
+    "bg07.jpg",
+    "bg08.jpg",
+    "bg09.jpg",
+    "bg10.jpg",
+    "bg11.jpg",
+    "bg12.jpg",
+    "bg13.jpg"
   ];
-  let currentIdx = 0;
+  let currentIdx = -1;
 
   import { onMount } from "svelte";
   onMount(() => {
+    currentIdx = Math.floor(Math.random() * bgImages.length)
     if (bgImages.length > 1) {
       setInterval(() => {
         currentIdx = (currentIdx + 1) % bgImages.length;
-      }, 10 * 1000);
+      }, 11 * 1000);
     }
   });
 </script>
@@ -70,7 +73,7 @@
     {#each bgImages as imgPath, i}
       <li
         class:active={currentIdx == i}
-        style="background-image: url({imgPath})" />
+        style="background-image: url({basePath + imgPath})" />
     {/each}
   </ul>
 
