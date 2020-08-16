@@ -11,27 +11,24 @@
   export let stack; // [String]
 
   if (typeof stack === "string") {
-    stack = [stack]
+    stack = [stack];
   }
-  
-  import Button from "../Button.svelte";
+
+  import Button from "./Button.svelte";
 </script>
 
 <style lang="scss">
   article {
-    // background-color: hsla(0, 0%, 83%, 0.6);
-    padding-top: 10px;
-    padding-bottom: 10px;
     margin-bottom: 10px;
+    
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0px 0 1px rgba(10, 10, 10, 0.02);
+    
+    cursor: pointer;
 
-    h4, .buttons {
-      user-select: none;
-    }
+    display: flex;
+    flex-direction: column;
 
-    h4 {
-      margin: 0;
-    }
-  }
     .preview {
       height: 180px;
 
@@ -58,11 +55,31 @@
         pointer-events: none;
       }
     }
+
+    .content {
+      flex: 1;
+      padding: 10px;
+
+      h4 {
+        margin: 0;
+        // text-align: center;
+        user-select: none;
+      }
+    }
+
+    .buttons {
+      user-select: none;
+      display: flex;
+      border-top: 1px solid #ededed;
+    }
+  }
 </style>
 
 <article>
   {#if preview || image}
-    <div class="preview" style={image ? `background-image: url(${image});` : ''}>
+    <div
+      class="preview"
+      style={image ? `background-image: url(${image});` : ''}>
       {#if preview}
         <iframe
           src={preview}
@@ -73,22 +90,29 @@
 
     </div>
   {/if}
-  <h4>{title}</h4>
-  <div>
-    {#if stack}Technology stack: {stack.join(', ')}{/if}
+  <div class="content">
+    <h4>{title}</h4>
+
+    {#if stack}
+      <div>Technology stack: {stack.join(', ')}</div>
+    {/if}
+
+    {#if description}
+      <p>{description}</p>
+    {/if}
+
   </div>
-  <p>
-    {#if description}{description}{/if}
-  </p>
-  <div class="buttons">
-    {#if repo}
-      <Button href={repo}>GitHub</Button>
-    {/if}
-    {#if site}
-      <Button href={site}>Site</Button>
-    {/if}
-    {#if blog}
-      <Button href={blog}>Blog</Button>
-    {/if}
-  </div>
+  {#if repo || site || blog}
+    <div class="buttons">
+      {#if repo}
+        <Button href={repo}>GitHub</Button>
+      {/if}
+      {#if site}
+        <Button href={site}>Site</Button>
+      {/if}
+      {#if blog}
+        <Button href={blog}>Blog</Button>
+      {/if}
+    </div>
+  {/if}
 </article>

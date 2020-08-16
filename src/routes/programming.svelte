@@ -12,13 +12,14 @@
       .catch(() => {});
 </script>
 
-<Section title="TL;DR">
+<h4>TL;DR</h4>
+<p>
   I've made quite a few things, and have also abandoned things. What's recently
   caught my eye is Svelte - a Javascript framework that has a much lighter
   footprint than React. My interest in programming lies in things related to
   security, multimedia, and communication. Not so interested in Machine Learning
   / Artifical Intelligence - it's just a bunch of fancy if statements.
-</Section>
+</p>
 
 {#each data as section}
   <Section title={section.title}>
@@ -38,15 +39,15 @@
   </Section>
 {/each}
 
-<Section title="An invalid metric of my programming life">
-  <img
-    alt="github stats"
-    src="https://github-readme-stats.vercel.app/api?username=featherbear&include_all_commits=true&show_icons=true&count_private=true&hide_rank=true&hide_total=true&theme=nord" />
+<h4>An invalid metric of my programming life</h4>
+<img
+  alt="github stats"
+  src="https://github-readme-stats.vercel.app/api?username=featherbear&include_all_commits=true&show_icons=true&count_private=true&hide_rank=true&hide_total=true&theme=nord" />
 
-  {#await gitHubData()}
-    <!-- <p>...waiting</p> -->
-  {:then json}
-    {#if json}
+{#await gitHubData()}
+  <!-- <p>...waiting</p> -->
+{:then json}
+  {#if json}
     <div>Recent Activity</div>
     {#each json.slice(0, 10) as repo}
       <br />
@@ -56,8 +57,7 @@
         <a href={repo.homepage}>[Site]</a>
       {/if}
     {/each}
-    {/if}
-  {:catch error}
-    <!-- <p style="color: red">{error.message}</p> -->
-  {/await}
-</Section>
+  {/if}
+{:catch error}
+  <!-- <p style="color: red">{error.message}</p> -->
+{/await}

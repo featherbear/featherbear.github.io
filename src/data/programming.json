@@ -2,16 +2,27 @@
   {
     "title": "Teaching Resources",
     "items": [
-      { "title": "Learn C" },
-      { "title": "Learn Data Structures and Algorithms" },
-      { "title": "Learn CSS - Hover Buttons" },
       {
-        "title": "Security Workshop - Image Steganography",
-        "description": "UNSW CompClub 2019 Summer"
+        "title": "Learn C"
       },
       {
-        "title": "Security Workshop - HTTP(S) Security",
-        "description": "UNSW CompClub 2019 Summer"
+        "title": "Learn Data Structures and Algorithms"
+      },
+      {
+        "title": "Learn CSS - Hover Buttons",
+        "description": "Demonstration on the effects of the placement of the transition style attribute",
+        "image": "https://featherbear.cc/blog/post/hover-buttons/preview.png",
+        "blog": "https://featherbear.cc/blog/post/hover-buttons/",
+        "repo": "https://github.com/featherbear/hover-buttons",
+        "site": "https://featherbear.cc/hover-buttons/"
+      },
+      {
+        "title": "Image Steganography",
+        "description": "Workshop for secondary school students about LSB Image Steganography. UNSW CompClub 2019 Summer"
+      },
+      {
+        "title": "HTTP(S) Security",
+        "description": "Presentation for secondary school students about the importance of HTTPS. UNSW CompClub 2019 Summer"
       }
     ]
   },
@@ -55,6 +66,7 @@
       {
         "title": "CSE x SecSoc CTF 2020",
         "blog": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/",
+        "image": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/team.png",
         "description": "Not actually a project, but an honourable mention. I came first in this CTF!"
       }
     ]
@@ -62,18 +74,31 @@
   {
     "title": "Games",
     "items": [
-      { "title": "Stacker Game", "stack": ["p5.js"] },
-      { "title": "Queuer Game", "stack": ["p5.js"] },
-      { "title": "Platformer Game", "stack": ["p5.js"] },
+      {
+        "title": "Stacker Game",
+        "stack": ["p5.js"],
+        "image": "https://featherbear.cc/blog/post/p5-stack-queue-games/preview_stack.apng"
+      },
+      {
+        "title": "Queuer Game",
+        "stack": ["p5.js"],
+        "image": "https://featherbear.cc/blog/post/p5-stack-queue-games/preview_queue.apng"
+      },
+      {
+        "title": "Platformer Game",
+        "stack": ["p5.js"]
+      },
       {
         "title": "Java - Dungeon Game (JavaFX Edition)",
         "repo": "https://github.com/featherbear/UNSW-COMP2511-ass2",
-        "blog": "https://featherbear.cc/UNSW-COMP2511/post/assign2/"
+        "blog": "https://featherbear.cc/UNSW-COMP2511/post/assign2/",
+        "image": "https://featherbear.cc/UNSW-COMP2511/post/assign2/demo.gif"
       },
       {
         "title": "Java - Dungeon Game (Text Edition)",
         "repo": "https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/",
-        "blog": "https://featherbear.cc/blog/post/dungeon-console/"
+        "blog": "https://featherbear.cc/blog/post/dungeon-console/",
+        "image": "https://raw.githubusercontent.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/master/demo_advanced.gif"
       },
       {
         "title": "Balloon Shooting Game",
@@ -162,6 +187,7 @@
       {
         "title": "p5.js - Twinkle Tiles",
         "stack": ["p5.js"],
+        "image": "https://featherbear.cc/blog/post/processing-twinkle/preview.apng",
         "site": "https://featherbear.github.io/processing-twinkle/",
         "repo": "https://github.com/featherbear/processing-twinkle",
         "blog": "https://featherbear.cc/blog/post/processing-twinkle/"
@@ -169,6 +195,7 @@
       {
         "title": "UNSW CompClub 2019 CTF Server",
         "stack": ["Python", "SQLite", "JavaScript"],
+        "image": "https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/title_small.gif",
         "blog": "https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/",
         "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-CTF",
         "site": "https://featherbear.cc/UNSW-CompClub2019Summer-CTF/"

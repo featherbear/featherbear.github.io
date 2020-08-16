@@ -17,14 +17,30 @@
         cursor: pointer;
       }
     }
+
+    div {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 32%);
+      grid-gap: 1%;
+      align-content: flex-start;
+    }
   }
 </style>
 
 <section>
-  <h2 class:collapsible={collapsible} on:click={()=>{if(collapsible) {opened = !opened}}}>{title}</h2>
-  <p>
-    {#if description}{description}{/if}
-  </p>
+  <h2
+    class:collapsible
+    on:click={() => {
+      if (collapsible) {
+        opened = !opened;
+      }
+    }}>
+    {title}
+  </h2>
+
+  {#if description}
+    <p>{description}</p>
+  {/if}
   {#if opened}
     <div transition:fade|local>
       <slot />
