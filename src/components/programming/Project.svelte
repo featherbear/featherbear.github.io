@@ -33,6 +33,8 @@
     .preview {
       height: 180px;
 
+      overflow: hidden;
+
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
