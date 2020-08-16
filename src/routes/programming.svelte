@@ -4,7 +4,21 @@
 
   import fetch from "node-fetch";
 
-  import data from "../data/programming.json";
+  import _data from "../data/programming.json";
+
+  /* Modify the data to order it by <hasImageOrPreview>, <Name> */
+  for (let category of _data) {
+    if (category.items) {
+      category.items.sort((a, b) => {
+        let bHasMedia = !!(b.image || b.preview);
+        let aHasMedia = !!(a.image || a.preview);
+        if (aHasMedia != bHasMedia) return bHasMedia - aHasMedia;
+        return b.title < a.title;
+      });
+    }
+  }
+  let data = _data;
+
   const gitHubData = () =>
     fetch("https://api.github.com/users/featherbear/repos?sort=pushed")
       .then((r) => r.json())
