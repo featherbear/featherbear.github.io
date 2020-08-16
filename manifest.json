@@ -1,0 +1,20 @@
+{
+	"background_color": "#ffffff",
+	"theme_color": "#333333",
+	"name": "Andrew Wong | featherbear",
+	"short_name": "featherbear.cc",
+	"display": "minimal-ui",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "favicon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "favicon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		}
+	]
+}
