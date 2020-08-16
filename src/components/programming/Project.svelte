@@ -20,11 +20,12 @@
 <style lang="scss">
   article {
     margin-bottom: 10px;
-    
+
     box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
-    0 0px 0 1px rgba(10, 10, 10, 0.02);
-    
-    cursor: pointer;
+      0 0px 0 1px rgba(10, 10, 10, 0.02);
+
+    cursor: default;
+    user-select: none;
 
     display: flex;
     flex-direction: column;
@@ -61,14 +62,23 @@
       padding: 10px;
 
       h4 {
+        /* Title */
         margin: 0;
-        // text-align: center;
-        user-select: none;
+      }
+
+      span {
+        /* Stack */
+        font-size: 0.8em;
+      }
+
+      p {
+        color: var(--font-color-2);
+        /* Description */
+        white-space: pre-line;
       }
     }
 
     .buttons {
-      user-select: none;
       display: flex;
       border-top: 1px solid #ededed;
     }
@@ -94,7 +104,7 @@
     <h4>{title}</h4>
 
     {#if stack}
-      <div>Technology stack: {stack.join(', ')}</div>
+      <span>Technology stack: {stack.join(', ')}</span>
     {/if}
 
     {#if description}

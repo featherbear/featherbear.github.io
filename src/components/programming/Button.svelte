@@ -21,6 +21,13 @@
     &:not(:last-child) {
       border-right: 1px solid #ededed;
     }
+
+    transition: hover 0.6s;
+    @if --header-link-hover-background-color {
+      &:hover {
+        background-color: var(--header-link-hover-background-color) !important;
+      }
+    }
   }
 </style>
 
