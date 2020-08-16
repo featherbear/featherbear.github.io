@@ -5,7 +5,7 @@
       {
         "title": "facebook-messenger-puppeteer",
         "stack": ["Node.js", "Puppeteer"],
-        "description": "API Wrapper for Messenger Chat via Puppeteer",
+        "description": "API for Messenger Chat via Puppeteer",
         "repo": "https://github.com/featherbear/facebook-messenger-puppeteer",
         "blog": "https://featherbear.cc/blog/post/facebook-messenger-puppeteer/"
       },
@@ -28,19 +28,21 @@
     "title": "Security",
     "items": [
       {
-        "title": "Project RATtata - Remote Administration Tool",
+        "title": "Project RATtata",
         "repo": "https://github.com/featherbear/UNSW-COMP6441-RATtata",
         "site": "https://featherbear.cc/UNSW-COMP6441-RATtata/",
         "blog": "https://featherbear.cc/UNSW-COMP6441/blog/post/job-application/something_awesome/",
         "preview": "https://featherbear.cc/UNSW-COMP6441-RATtata/",
-        "stack": ["Node.js", "Vue", "Electron"]
+        "stack": ["Node.js", "Vue", "Electron"],
+        "description": "Remote administration tool project for COMP6441"
       },
       {
-        "title": "Project Securitears - Blackbox Input Fuzzer",
+        "title": "Project Securitears",
         "stack": ["Python"],
         "repo": "https://github.com/featherbear/UNSW-COMP6447-ass",
         "site": "https://featherbear.github.io/UNSW-COMP6447-ass",
-        "preview": "https://featherbear.cc/UNSW-COMP6447-ass/"
+        "preview": "https://featherbear.cc/UNSW-COMP6447-ass/",
+        "description": " Blackbox input fuzzer for COMP6447"
       },
       {
         "title": "CSE x SecSoc CTF 2020",
@@ -55,7 +57,8 @@
         "image": "https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/title_small.gif",
         "blog": "https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/",
         "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-CTF",
-        "site": "https://featherbear.cc/UNSW-CompClub2019Summer-CTF/"
+        "site": "https://featherbear.cc/UNSW-CompClub2019Summer-CTF/",
+        "description": "Custom CTF server for UNSW CompClub"
       }
     ]
   },
@@ -64,7 +67,7 @@
     "items": [
       {
         "title": "Learn C",
-        "description": "A primer to the C language",
+        "description": "A primer to the C programming language",
         "repo": "https://github.com/featherbear/learn-c/",
         "site": "https://featherbear.cc/learn-c/"
       },
@@ -173,12 +176,13 @@
         "description": "Interactive teaching tool for the PreSonus StudioLive 16 Series III sound console"
       },
       {
-        "title": "ProPresenter 6 Stage Display Messages",
+        "title": "ProPresenter Stage Display Messages",
         "stack": ["JavaScript"],
         "site": "http://pp6sdm.apps.navhaxs.au.eu.org/",
         "image": "https://featherbear.cc/blog/post/propresenter6-stage-display-messages-client/screenshot.png",
         "blog": "https://featherbear.cc/blog/post/propresenter6-stage-display-messages-client/",
-        "repo": "https://github.com/featherbear/propresenter-stagemessages"
+        "repo": "https://github.com/featherbear/propresenter-stagemessages",
+        "description": "Remote stage message client for ProPresenter 6"
       },
       {
         "title": "ProPresenter 6/7 OBS Scene Switcher",
