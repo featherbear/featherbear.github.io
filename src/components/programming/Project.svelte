@@ -1,6 +1,10 @@
 <script>
   export let title; // String
   export let description; // String
+
+  export let image; // "image link"
+  export let preview; // "iframe link"
+
   export let repo; // "Link"
   export let site; // "Link"
   export let blog; // "Link"
@@ -28,9 +32,51 @@
       margin: 0;
     }
   }
+    .preview {
+      height: 180px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      iframe {
+        max-width: initial;
+        width: 400%;
+        height: 400%;
+
+        -ms-zoom: 0.25;
+        -moz-transform: scale(0.25);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.25);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.25);
+        -webkit-transform-origin: 0 0;
+
+        border: none;
+        overflow: hidden;
+
+        pointer-events: none;
+      }
+    }
 </style>
 
 <article>
+  {#if preview || image}
+    <div class="preview">
+      {#if preview}
+        <iframe
+          src={preview}
+          scrolling="no"
+          title="preview"
+          sandbox="allow-scripts allow-same-origin" />
+      {:else}
+        <img src={image} alt="preview" />
+      {/if}
+
+    </div>
+  {/if}
   <h4>{title}</h4>
   <div>
     {#if stack}Technology stack: {stack.join(', ')}{/if}
