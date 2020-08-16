@@ -35,11 +35,9 @@
     .preview {
       height: 180px;
 
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
 
       iframe {
         max-width: initial;
@@ -64,15 +62,13 @@
 
 <article>
   {#if preview || image}
-    <div class="preview">
+    <div class="preview" style={image ? `background-image: url(${image});` : ''}>
       {#if preview}
         <iframe
           src={preview}
           scrolling="no"
           title="preview"
           sandbox="allow-scripts allow-same-origin" />
-      {:else}
-        <img src={image} alt="preview" />
       {/if}
 
     </div>
