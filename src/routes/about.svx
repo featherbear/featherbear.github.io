@@ -6,18 +6,27 @@
 		emailElem.href = `mailto:${address}`
 		emailElem.innerText = address;
 	})
-
 </script>
+
+<style>
+.coverImage {
+	width: 100%;
+	height: 230px;
+	object-fit: cover;
+	object-position: 100% 30%;
+	
+}
+</style>
 
 # Hey there! 👋
 
 _You've probably found this site from Google, one of my [UNSW course note sites](/blog/post/unsw/), or you're a bot. Either way, welcome!_
 
-<!-- TODO: INSERT IMAGE -->
+<img src="/assets/images/cover.jpg" class="coverImage" draggable="false" alt="" />
 
 I'm currently a third year Computer Engineering student at the University of New South Wales in Sydney, Australia.
 
-My main passions are [programming](/programming), [photography](/photos) and [stage production](/blog/categories/audio-visual/) (audio/visual stuff).  
+My main passions are [programming](/programming), [photography](/photos) and [stage production](/blog/categories/audio-visual/) (audio/visual stuff).
 
 I also fiddle on my guitar from time to time.
 
