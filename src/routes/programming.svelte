@@ -27,13 +27,16 @@
 </script>
 
 <h4>TL;DR</h4>
+<p>I guess I've made a few things.</p>
 <p>
-  I've made quite a few things, and have also abandoned things. What's recently
-  caught my eye is Svelte - a Javascript framework that has a much lighter
-  footprint than React. My interest in programming lies in things related to
-  security, multimedia, and communication. Not so interested in Machine Learning
-  / Artifical Intelligence - it's just a bunch of fancy if statements.
+  What's recently caught my eye is Svelte - a Javascript framework that has a
+  much lighter footprint than React.
 </p>
+<p>
+  My interest in programming lies in things related to security, multimedia, and
+  communication.
+</p>
+<hr />
 
 {#each data as section}
   <Section title={section.title}>

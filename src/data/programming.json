@@ -1,12 +1,69 @@
 [
   {
+    "title": "Libraries / APIs",
+    "items": [
+      {
+        "title": "facebook-messenger-puppeteer",
+        "stack": ["Node.js", "Puppeteer"],
+        "description": "API Wrapper for Messenger Chat via Puppeteer",
+        "repo": "https://github.com/featherbear/facebook-messenger-puppeteer",
+        "blog": "https://featherbear.cc/blog/post/facebook-messenger-puppeteer/"
+      },
+      {
+        "title": "react-native-mifare-classic-wrapper",
+        "repo": "https://github.com/featherbear/react-native-mifare-classic-wrapper/",
+        "description": "Wrapper over the react-native-nfc-manager package to provide streamlined Mifare Classic functionality"
+      },
+      {
+        "title": "PreSonus StudioLive API",
+        "stack": ["Node.js", "Python"],
+        "repo": "https://github.com/featherbear/PreSonus-StudioLive-API",
+        "blog": "https://featherbear.cc/blog/post/presonus-studiolive-api/",
+        "description": "Exploring the PreSonus network control protocol from a StudioLive Series III"
+      }
+    ]
+  },
+
+  {
+    "title": "Security",
+    "items": [
+      {
+        "title": "Project RATtata - Remote Administration Tool",
+        "repo": "https://github.com/featherbear/UNSW-COMP6441-RATtata",
+        "site": "https://featherbear.cc/UNSW-COMP6441-RATtata/",
+        "blog": "https://featherbear.cc/UNSW-COMP6441/blog/post/job-application/something_awesome/",
+        "preview": "https://featherbear.cc/UNSW-COMP6441-RATtata/",
+        "stack": ["Node.js", "Vue", "Electron"]
+      },
+      {
+        "title": "Project Securitears - Blackbox Input Fuzzer",
+        "stack": ["Python"],
+        "repo": "https://github.com/featherbear/UNSW-COMP6447-ass",
+        "site": "https://featherbear.github.io/UNSW-COMP6447-ass",
+        "preview": "https://featherbear.cc/UNSW-COMP6447-ass/"
+      },
+      {
+        "title": "CSE x SecSoc CTF 2020",
+        "blog": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/",
+        "image": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/team.png",
+        "description": "Not actually a project, but an honourable mention. I came first in this CTF!"
+      }
+    ]
+  },
+  {
     "title": "Teaching Resources",
     "items": [
       {
-        "title": "Learn C"
+        "title": "Learn C",
+        "description": "A primer to the C language",
+        "repo": "https://github.com/featherbear/learn-c/",
+        "site": "https://featherbear.cc/learn-c/"
       },
       {
-        "title": "Learn Data Structures and Algorithms"
+        "title": "Learn Data Structures and Algorithms",
+        "description": "A primer to common computer data structures and algorithms",
+        "repo": "https://github.com/featherbear/learn-data-structures-algorithms/",
+        "site": "https://featherbear.cc/learn-data-structures-algorithms/"
       },
       {
         "title": "Learn CSS - Hover Buttons",
@@ -18,14 +75,36 @@
       },
       {
         "title": "Image Steganography",
-        "description": "Workshop for secondary school students about LSB Image Steganography. UNSW CompClub 2019 Summer"
+        "description": "Workshop for secondary school students about LSB Image Steganography.\nUNSW CompClub 2019 Summer",
+        "blog": "https://featherbear.cc/blog/post/unsw-compclub2019summer/",
+        "image": "https://featherbear.cc/blog/post/unsw-compclub2019summer/steganography_preview.png",
+        "site": "https://docs.google.com/presentation/d/1kyRsC1-PMJu4UndE6psUHJHuTHX7W6cuYRod1jq3QJY/edit?usp=sharing",
+        "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-SecurityWorkshop/tree/master/image_steganography"
       },
       {
         "title": "HTTP(S) Security",
-        "description": "Presentation for secondary school students about the importance of HTTPS. UNSW CompClub 2019 Summer"
+        "description": "Presentation for secondary school students about the importance of HTTPS.\nUNSW CompClub 2019 Summer",
+        "blog": "https://featherbear.cc/blog/post/unsw-compclub2019summer/",
+        "image": "https://featherbear.cc/blog/post/unsw-compclub2019summer/https_preview.png",
+        "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-SecurityWorkshop/tree/master/http_mitm",
+        "site": "https://docs.google.com/presentation/d/1ykIUm1xAKMforvTPeqvXMdC4DZlnWOg604ekaybhiOs/edit?usp=sharing"
       }
     ]
   },
+  {
+    "title": "Client Projects",
+    "items": [
+      {
+        "title": "UNSW Scientia Signage",
+        "stack": ["JavaScript"],
+        "image": "https://featherbear.cc/blog/post/unsw-scientia-signage/Snipaste_2019-12-09_19-33-07.png",
+        "repo": "https://github.com/featherbear/unsw-scientia-signage",
+        "blog": "https://featherbear.cc/blog/post/unsw-scientia-signage/",
+        "description": "SPA page to control PiSignage devices"
+      }
+    ]
+  },
+
   {
     "title": "Multimedia",
     "items": [
@@ -47,30 +126,7 @@
       { "title": "OnCue Projector", "stack": ["Python", "Qt"] }
     ]
   },
-  {
-    "title": "Security",
-    "items": [
-      {
-        "title": "Project RATtata - Remote Administration Tool",
-        "repo": "https://github.com/featherbear/UNSW-COMP6441-RATtata",
-        "site": "https://featherbear.cc/UNSW-COMP6441-RATtata/",
-        "blog": "https://featherbear.cc/UNSW-COMP6441/blog/post/job-application/something_awesome/",
-        "stack": ["Node.js", "Vue", "Electron"]
-      },
-      {
-        "title": "Project Securitears - Blackbox Input Fuzzer",
-        "stack": ["Python"],
-        "repo": "https://github.com/featherbear/UNSW-COMP6447-ass",
-        "site": "https://featherbear.github.io/UNSW-COMP6447-ass"
-      },
-      {
-        "title": "CSE x SecSoc CTF 2020",
-        "blog": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/",
-        "image": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/team.png",
-        "description": "Not actually a project, but an honourable mention. I came first in this CTF!"
-      }
-    ]
-  },
+
   {
     "title": "Games",
     "items": [
@@ -114,37 +170,7 @@
       }
     ]
   },
-  {
-    "title": "Libraries / APIs",
-    "items": [
-      {
-        "title": "Facebook Messenger Chat API Wrapper (Puppeteer)",
-        "stack": ["Node.js", "Puppeteer"]
-      },
-      {
-        "title": "Mifare Classic Wrapper for React Native",
-        "repo": "https://github.com/featherbear/react-native-mifare-classic-wrapper/"
-      },
-      {
-        "title": "PreSonus StudioLive API",
-        "stack": ["Node.js", "Python"],
-        "repo": "https://github.com/featherbear/PreSonus-StudioLive-API",
-        "blog": "https://featherbear.cc/blog/post/presonus-studiolive-api/"
-      }
-    ]
-  },
 
-  {
-    "title": "Client Projects",
-    "items": [
-      {
-        "title": "UNSW Scientia Signage",
-        "stack": ["JavaScript"],
-        "repo": "https://github.com/featherbear/unsw-scientia-signage",
-        "blog": "https://featherbear.cc/blog/post/unsw-scientia-signage/"
-      }
-    ]
-  },
   {
     "title": "Sandbox",
     "items": [
