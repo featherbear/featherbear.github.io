@@ -44,6 +44,7 @@
   {#await gitHubData()}
     <!-- <p>...waiting</p> -->
   {:then json}
+    {#if json}
     <div>Recent Activity</div>
     {#each json.slice(0, 10) as repo}
       <br />
@@ -53,6 +54,7 @@
         <a href={repo.homepage}>[Site]</a>
       {/if}
     {/each}
+    {/if}
   {:catch error}
     <!-- <p style="color: red">{error.message}</p> -->
   {/await}
