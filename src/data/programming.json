@@ -139,7 +139,7 @@
         "stack": ["JavaScript"],
         "repo": "https://github.com/featherbear/deliverytrack",
         "site": "https://featherbear.cc/deliverytrack/",
-        "preview": "https://featherbear.cc/deliverytrack/",
+        "image": "https://featherbear.cc/blog/post/delivery-track/preview.png",
         "description": "Postal delivery tracking web application with synchronisation between devices"
       },
 
