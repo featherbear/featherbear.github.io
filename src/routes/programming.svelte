@@ -59,7 +59,7 @@
 <h4>An invalid metric of my programming life</h4>
 <img
   alt="github stats"
-  style="width: 100%; max-width: 500px;"
+  style="width: 100%; max-width: 400px;"
   src="https://github-readme-stats.vercel.app/api?username=featherbear&include_all_commits=true&show_icons=true&count_private=true&hide_rank=true&hide_total=true&theme=nord" />
 <!-- 
 {#await gitHubData()}
