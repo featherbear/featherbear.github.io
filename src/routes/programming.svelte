@@ -2,8 +2,8 @@
   import Section from "../components/programming/Section.svelte";
   import Project from "../components/programming/Project.svelte";
 
-  import fetch from "node-fetch";
-
+  // import fetch from "node-fetch";
+  
   import _data from "../data/programming.json";
 
   /* Modify the data to order it by <hasImageOrPreview>, <Name> */
@@ -19,11 +19,11 @@
   }
   let data = _data;
 
-  const gitHubData = () =>
-    fetch("https://api.github.com/users/featherbear/repos?sort=pushed")
-      .then((r) => r.json())
-      .then((j) => j.filter((json) => !json.fork))
-      .catch(() => {});
+  // const gitHubData = () =>
+  //   fetch("https://api.github.com/users/featherbear/repos?sort=pushed")
+  //     .then((r) => r.json())
+  //     .then((j) => j.filter((json) => !json.fork))
+  //     .catch(() => {});
 </script>
 
 <h4>TL;DR</h4>
@@ -60,9 +60,8 @@
 <img
   alt="github stats"
   src="https://github-readme-stats.vercel.app/api?username=featherbear&include_all_commits=true&show_icons=true&count_private=true&hide_rank=true&hide_total=true&theme=nord" />
-
+<!-- 
 {#await gitHubData()}
-  <!-- <p>...waiting</p> -->
 {:then json}
   {#if json}
     <div>Recent Activity</div>
@@ -76,5 +75,4 @@
     {/each}
   {/if}
 {:catch error}
-  <!-- <p style="color: red">{error.message}</p> -->
-{/await}
+{/await} -->
