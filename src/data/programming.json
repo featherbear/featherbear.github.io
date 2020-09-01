@@ -42,7 +42,7 @@
         "repo": "https://github.com/featherbear/UNSW-COMP6447-ass",
         "site": "https://featherbear.github.io/UNSW-COMP6447-ass",
         "preview": "https://featherbear.cc/UNSW-COMP6447-ass/",
-        "description": " Blackbox input fuzzer for COMP6447"
+        "description": "Blackbox input fuzzer for COMP6447"
       },
       {
         "title": "CSE x SecSoc CTF 2020",
@@ -50,7 +50,6 @@
         "image": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/team.png",
         "description": "Not actually a project, but an honourable mention. I came first in this CTF!"
       },
-
       {
         "title": "UNSW CompClub 2019 CTF Server",
         "stack": ["Python", "SQLite", "JavaScript"],
@@ -59,6 +58,12 @@
         "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-CTF",
         "site": "https://featherbear.cc/UNSW-CompClub2019Summer-CTF/",
         "description": "Custom CTF server for UNSW CompClub"
+      },
+      {
+        "title": "Project CTF²",
+        "stack": ["Node.js", "Svelte", "SQLite", "MongoDB", "NeutralinoJS"],
+        "repo": "https://github.com/featherbear/CTF2",
+        "description": "Custom Capture The Flag competition server"
       }
     ]
   },
@@ -76,6 +81,12 @@
         "description": "A primer to common computer data structures and algorithms",
         "repo": "https://github.com/featherbear/learn-data-structures-algorithms/",
         "site": "https://featherbear.cc/learn-data-structures-algorithms/"
+      },
+      {
+        "title": "Learn System Internals",
+        "description": "A primer to how CPUs and Operating Systems work",
+        "repo": "https://github.com/featherbear/learn-system-internals/",
+        "site": "https://featherbear.cc/learn-system-internals/"
       },
       {
         "title": "Learn CSS - Hover Buttons",
