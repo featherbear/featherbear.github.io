@@ -89,6 +89,18 @@
         "site": "https://featherbear.cc/learn-system-internals/"
       },
       {
+        "title": "Python Proficiency",
+        "description": "Snippets of knowledge about Python",
+        "repo": "https://github.com/featherbear/learn-python-proficiency/",
+        "site": "https://featherbear.cc/learn-python-proficiency/"
+      },
+      {
+        "title": "JavaScript Proficiency",
+        "description": "Snippets of knowledge about JavaScript ",
+        "repo": "https://github.com/featherbear/learn-javascript-proficiency/",
+        "site": "https://featherbear.cc/learn-javascript-proficiency/"
+      },
+      {
         "title": "Learn CSS - Hover Buttons",
         "description": "Demonstration on the effects of the placement of the transition style attribute",
         "image": "https://featherbear.cc/blog/post/hover-buttons/preview.png",
