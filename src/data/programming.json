@@ -124,6 +124,12 @@
         "image": "https://featherbear.cc/blog/post/unsw-compclub2019summer/https_preview.png",
         "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-SecurityWorkshop/tree/master/http_mitm",
         "site": "https://docs.google.com/presentation/d/1ykIUm1xAKMforvTPeqvXMdC4DZlnWOg604ekaybhiOs/edit?usp=sharing"
+      },
+      {
+        "title": "Establishing P2P Connections over TCP",
+        "description": "An explanation of how a Peer to Peer connection is set up with a broker server and NAT Holepunching",
+        "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-SecurityWorkshop/tree/master/http_mitm",
+        "blog": "https://featherbear.cc/UNSW-COMP6441/blog/post/something-awesome-research-connection/"
       }
     ]
   },
