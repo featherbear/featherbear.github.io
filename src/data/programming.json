@@ -62,6 +62,7 @@
       {
         "title": "Project CTF²",
         "stack": ["Node.js", "Svelte", "SQLite", "MongoDB", "NeutralinoJS"],
+        "image": "https://github.com/featherbear/CTF2-server-slate/raw/master/images/logo.png",
         "repo": "https://github.com/featherbear/CTF2",
         "description": "Custom Capture The Flag competition server"
       }
