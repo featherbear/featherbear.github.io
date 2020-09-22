@@ -7,17 +7,21 @@
   import _data from "../data/programming.json";
 
   /* Modify the data to order it by <hasImageOrPreview>, <Name> */
-  for (let category of _data) {
-    if (category.items) {
-      category.items.sort((a, b) => {
-        let bHasMedia = !!(b.image || b.preview);
-        let aHasMedia = !!(a.image || a.preview);
-        if (aHasMedia != bHasMedia) return bHasMedia - aHasMedia;
-        return b.title < a.title;
-      });
+  async function generateData() {
+    for (let category of _data) {
+      if (category.items) {
+        category.items.sort((a, b) => {
+          let bHasMedia = !!(b.image || b.preview);
+          let aHasMedia = !!(a.image || a.preview);
+          if (aHasMedia != bHasMedia) return bHasMedia - aHasMedia;
+          return b.title < a.title;
+        });
+      }
     }
+
+    return _data;
   }
-  let data = _data;
+  
 
   // const gitHubData = () =>
   //   fetch("https://api.github.com/users/featherbear/repos?sort=pushed")
@@ -38,23 +42,25 @@
 </p>
 <hr />
 
-{#each data as section}
-  <Section title={section.title}>
-    {#if section.items}
-      {#each section.items as entry}
-        <Project
-          title={entry.title}
-          description={entry.description}
-          image={entry.image}
-          preview={entry.preview}
-          repo={entry.repo}
-          site={entry.site}
-          blog={entry.blog}
-          stack={entry.stack} />
-      {/each}
-    {/if}
-  </Section>
-{/each}
+{#await generateData() then data}
+  {#each data as section}
+    <Section title={section.title}>
+      {#if section.items}
+        {#each section.items as entry}
+          <Project
+            title={entry.title}
+            description={entry.description}
+            image={entry.image}
+            preview={entry.preview}
+            repo={entry.repo}
+            site={entry.site}
+            blog={entry.blog}
+            stack={entry.stack} />
+        {/each}
+      {/if}
+    </Section>
+  {/each}
+{/await}
 
 <h4>An invalid metric of my programming life</h4>
 <img
