@@ -51,6 +51,11 @@
         "description": "Not actually a project, but an honourable mention. I came first in this CTF!"
       },
       {
+        "title": "UNSW COMP6443",
+        "site": "https://featherbear.cc/UNSW-COMP6443/",
+        "description": "Another honourable mention - I placed first in my university's Web Application Security and Testing course!"
+      },
+      {
         "title": "UNSW CompClub 2019 CTF Server",
         "stack": ["Python", "SQLite", "JavaScript"],
         "image": "https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/title_small.gif",
