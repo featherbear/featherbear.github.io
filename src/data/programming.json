@@ -245,6 +245,13 @@
         "blog": "https://featherbear.cc/blog/post/blueclick/",
         "repo": "https://github.com/featherbear/BlueClick_BLE",
         "description": "Page turner for OnSong, through sending MIDI notes over Bluetooth Low Energy"
+      },
+      {
+        "title": "NDI Streamer",
+        "stack": ["C++"],
+        "blog": "https://featherbear.cc/blog/post/ndi-streamer/",
+        "repo": "https://github.com/featherbear/ndi-streamer",
+        "description": "Cross-platform display sharing over NDI. Intended for Linux, since Windows and Mac have the free official Scan Converter"
       }
     ]
   },
