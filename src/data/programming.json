@@ -20,6 +20,17 @@
         "repo": "https://github.com/featherbear/PreSonus-StudioLive-API",
         "blog": "https://featherbear.cc/blog/post/presonus-studiolive-api/",
         "description": "Exploring the PreSonus network control protocol from a StudioLive Series III"
+      },
+      {
+        "title": "fastify-slate",
+        "stack": "Node.js",
+        "repo": "https://github.com/featherbear/fastify-slate",
+        "description": "Slate documentation generator for Fastify"
+      },
+      {
+        "title": "node-ltc",
+        "repo": "https://github.com/featherbear/node-ltc",
+        "description": "Node.js Foreign Function Interface for libltc"
       }
     ]
   },
@@ -139,7 +150,7 @@
     ]
   },
   {
-    "title": "Client Projects",
+    "title": "Client Work",
     "items": [
       {
         "title": "UNSW Scientia Signage",
@@ -147,10 +158,21 @@
         "image": "https://featherbear.cc/blog/post/unsw-scientia-signage/Snipaste_2019-12-09_19-33-07.png",
         "blog": "https://featherbear.cc/blog/post/unsw-scientia-signage/",
         "description": "SPA page to control PiSignage devices"
+      },
+      {
+        "title": "South-West Evangelical Church",
+        "preview": "https://swec.org.au",
+        "description": "Website and internal software development",
+        "site": "https://www.swec.org.au/"
+      },
+      {
+        "title": "RICE Movement",
+        "preview": "https://ricemovement.org",
+        "description": "Website and internal software development",
+        "site": "https://ricemovement.org/"
       }
     ]
   },
-
   {
     "title": "Sandbox",
     "items": [
@@ -196,6 +218,14 @@
         "site": "https://featherbear.github.io/processing-twinkle/",
         "repo": "https://github.com/featherbear/processing-twinkle",
         "blog": "https://featherbear.cc/blog/post/processing-twinkle/"
+      },
+      {
+        "title": "Wakey",
+        "stack": ["Node.js", "Svelte"],
+        "image": "https://featherbear.cc/blog/post/wakey/Snipaste_2020-11-16_22-37-12.png",
+        "blog": "https://featherbear.cc/blog/post/wakey/",
+        "repo": "https://github.com/featherbear/wakey",
+        "description": "Wake On LAN web application"
       }
     ]
   },
@@ -252,6 +282,22 @@
         "blog": "https://featherbear.cc/blog/post/ndi-streamer/",
         "repo": "https://github.com/featherbear/ndi-streamer",
         "description": "Cross-platform display sharing over NDI. Intended for Linux, since Windows and Mac have the free official Scan Converter"
+      },
+      {
+        "title": "Splitify",
+        "stack": ["React", "TypeScript"],
+        "image": "https://splitify.github.io/branding/banner/banner@72.png",
+        "site": "https://spltitify.github.io",
+        "blog": "https://featherbear.cc/blog/post/splitify/",
+        "repo": "https://github.com/Splitify/",
+        "description": "Spotify playlist manager and creator"
+      },
+      {
+        "title": "Bitfocus Companion: PreSonus StudioLive III Module",
+        "stack": ["TypeScript"],
+        "blog": "https://featherbear.cc/blog/post/presonus-studiolive-api-ii/",
+        "repo": "https://github.com/featherbear/bitfocus-companion-module-presonus-studiolive-iii",
+        "description": "Integration of my PreSonus StudioLive III API for the Elgato Streamdeck, with the Bitfocus Companion software"
       }
     ]
   },
