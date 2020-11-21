@@ -287,10 +287,10 @@
         "title": "Splitify",
         "stack": ["React", "TypeScript"],
         "image": "https://splitify.github.io/branding/banner/banner@72.png",
-        "site": "https://spltitify.github.io",
+        "site": "https://splitify.github.io",
         "blog": "https://featherbear.cc/blog/post/splitify/",
         "repo": "https://github.com/Splitify/",
-        "description": "Spotify playlist manager and creator"
+        "description": "Spotify playlist manager and creator. UNSW SENG4920 group project"
       },
       {
         "title": "Bitfocus Companion: PreSonus StudioLive III Module",
@@ -332,14 +332,16 @@
         "stack": ["Java", "JavaFX"],
         "repo": "https://github.com/featherbear/UNSW-COMP2511-ass2",
         "blog": "https://featherbear.cc/UNSW-COMP2511/post/assign2/",
-        "image": "https://featherbear.cc/UNSW-COMP2511/post/assign2/demo.gif"
+        "image": "https://featherbear.cc/UNSW-COMP2511/post/assign2/demo.gif",
+        "description": "UNSW COMP2511 group project"
       },
       {
         "title": "Dungeon Game (Text Edition)",
         "stack": ["Java", "JNA"],
         "repo": "https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/",
         "blog": "https://featherbear.cc/blog/post/dungeon-console/",
-        "image": "https://raw.githubusercontent.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/master/demo_advanced.gif"
+        "image": "https://raw.githubusercontent.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/master/demo_advanced.gif",
+        "description": "Alternative client for my UNSW COMP2511 group project"
       },
       {
         "title": "Balloon Shooting Game",
