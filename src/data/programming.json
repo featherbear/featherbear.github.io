@@ -272,6 +272,7 @@
       {
         "title": "BlueClick BLE",
         "stack": ["Arduino"],
+        "image": "https://featherbear.cc/blog/post/blueclick/logic-board/20201205_180608.jpg",
         "blog": "https://featherbear.cc/blog/post/blueclick/",
         "repo": "https://github.com/featherbear/BlueClick_BLE",
         "description": "Page turner for OnSong, through sending MIDI notes over Bluetooth Low Energy"
