@@ -1,8 +1,8 @@
 {
   "name": "featherbear.cc",
   "scripts": {
-    "dev": "sapper dev --ext '.svelte .svx'",
-    "export": "sapper export --legacy --ext '.svelte .svx'"
+    "dev": "sapper dev --ext \".svelte .svx\"",
+    "export": "sapper export --legacy --ext \".svelte .svx\""
   },
   "dependencies": {
     "@rollup/plugin-json": "^4.1.0",
