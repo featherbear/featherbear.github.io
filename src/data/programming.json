@@ -387,5 +387,22 @@
         "description": "Computer vision game automator"
       }
     ]
+  },
+  {
+    "title": "Scripts and Misc",
+    "items": [
+      {
+        "title": "zt.py",
+        "stack": ["Python"],
+        "repo": "https://github.com/featherbear/zt.py",
+        "description": "CLI wrapper for ZeroTier Linux"
+      },
+      {
+        "title": "Netlify DDNS Updater",
+        "stack": ["Python"],
+        "repo": "https://github.com/featherbear/netlify-ddns-updater",
+        "description": "Yet another DDNS updater for Netlify DNS"
+      }
+    ]
   }
 ]
