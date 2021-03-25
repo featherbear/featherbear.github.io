@@ -34,7 +34,6 @@
       }
     ]
   },
-
   {
     "title": "Security",
     "items": [
@@ -184,16 +183,6 @@
         "blog": "https://featherbear.cc/blog/post/e-paper/",
         "description": "Physical to-do list on an e-Paper display"
       },
-
-      {
-        "title": "Filmstrip Messages",
-        "stack": ["Svelte"],
-        "image": "https://featherbear.cc/blog/post/filmstrip-messages/preview.png",
-        "blog": "https://featherbear.cc/blog/post/filmstrip-messages/",
-        "site": "https://featherbear.cc/filmstrip-messages/",
-        "repo": "https://github.com/featherbear/filmstrip-messages",
-        "description": "Photostrip project to house a collection of photos, videos and text notes"
-      },
       {
         "title": "DeliveryTrack",
         "stack": ["JavaScript"],
@@ -202,7 +191,6 @@
         "image": "https://featherbear.cc/blog/post/delivery-track/preview.png",
         "description": "Postal delivery tracking web application with synchronisation between devices"
       },
-
       {
         "title": "Wardrobe",
         "stack": ["Svelte"],
@@ -236,7 +224,6 @@
       }
     ]
   },
-
   {
     "title": "Multimedia",
     "items": [
@@ -246,6 +233,15 @@
         "repo": "https://github.com/featherbear/mixer/",
         "stack": ["React"],
         "description": "Interactive teaching tool for the PreSonus StudioLive 16 Series III sound console"
+      },
+      {
+        "title": "Filmstrip Messages",
+        "stack": ["Svelte"],
+        "image": "https://featherbear.cc/blog/post/filmstrip-messages/preview.png",
+        "blog": "https://featherbear.cc/blog/post/filmstrip-messages/",
+        "site": "https://featherbear.cc/filmstrip-messages/",
+        "repo": "https://github.com/featherbear/filmstrip-messages",
+        "description": "Photostrip project to house a collection of photos, videos and text notes"
       },
       {
         "title": "ProPresenter Stage Display Messages",
@@ -275,7 +271,6 @@
         "repo": "https://github.com/featherbear/OnCue",
         "description": "Multimedia presentation software for seamless playback of content\nHSC Major Project"
       },
-
       {
         "title": "BlueClick BLE",
         "stack": ["Arduino"],
