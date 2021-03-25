@@ -240,6 +240,12 @@
         "blog": "https://featherbear.cc/blog/post/featherbear.cc-go/",
         "repo": "https://github.com/featherbear/go-links",
         "description": "Static link shortener service via GitHub Pages"
+      },
+      {
+        "title": "Templables",
+        "stack": ["TypeScript", "Svelte"],
+        "repo": "https://github.com/featherbear/templables",
+        "description": "Form creation and collection framework"
       }
     ]
   },
