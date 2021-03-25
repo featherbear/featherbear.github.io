@@ -301,6 +301,12 @@
         "blog": "https://featherbear.cc/blog/post/presonus-studiolive-api-ii/",
         "repo": "https://github.com/featherbear/bitfocus-companion-module-presonus-studiolive-iii",
         "description": "Integration of my PreSonus StudioLive III API for the Elgato Streamdeck, with the Bitfocus Companion software"
+      },
+      {
+        "title": "PreSonus StudioLive III Console Advertisement",
+        "stack": ["C"],
+        "repo": "https://github.com/featherbear/presonus-studiolive-console-advertisement",
+        "description": "UDP discovery packet spoofer for communication between remote StudioLive III consoles"
       }
     ]
   },
