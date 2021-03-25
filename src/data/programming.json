@@ -220,6 +220,13 @@
         "blog": "https://featherbear.cc/blog/post/processing-twinkle/"
       },
       {
+        "title": "Spit",
+        "stack": ["TypeScript", "Svelte"],
+        "site": "https://featherbear.cc/spit/",
+        "repo": "https://github.com/featherbear/spit",
+        "description": "Data massaging tool"
+      },
+      {
         "title": "Wakey",
         "stack": ["Node.js", "Svelte"],
         "image": "https://featherbear.cc/blog/post/wakey/Snipaste_2020-11-16_22-37-12.png",
