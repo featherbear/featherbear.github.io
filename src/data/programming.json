@@ -233,6 +233,13 @@
         "blog": "https://featherbear.cc/blog/post/wakey/",
         "repo": "https://github.com/featherbear/wakey",
         "description": "Wake On LAN web application"
+      },
+      {
+        "title": "Go Links",
+        "stack": ["JavaScript", "Python"],
+        "blog": "https://featherbear.cc/blog/post/featherbear.cc-go/",
+        "repo": "https://github.com/featherbear/go-links",
+        "description": "Static link shortener service via GitHub Pages"
       }
     ]
   },
