@@ -312,6 +312,12 @@
         "stack": ["C"],
         "repo": "https://github.com/featherbear/presonus-studiolive-console-advertisement",
         "description": "UDP discovery packet spoofer for communication between remote StudioLive III consoles"
+      },
+      {
+        "title": "Moone",
+        "stack": ["TypeScript", "Svelte"],
+        "repo": "https://github.com/featherbear/moone",
+        "description": "Morning noticeboard for my bedroom TV"
       }
     ]
   },
