@@ -246,6 +246,12 @@
         "stack": ["TypeScript", "Svelte"],
         "repo": "https://github.com/featherbear/templables",
         "description": "Form creation and collection framework"
+      },
+      {
+        "title": "Wyd?",
+        "stack": ["TypeScript", "Svelte"],
+        "repo": "https://github.com/featherbear/wyd",
+        "description": "Public daily agenda"
       }
     ]
   },
