@@ -76,7 +76,7 @@
         "description": "Custom CTF server for UNSW CompClub"
       },
       {
-        "title": "Project CTF²",
+        "title": "Project CTF² (dev)",
         "stack": ["Node.js", "Svelte", "SQLite", "MongoDB", "NeutralinoJS"],
         "image": "https://github.com/featherbear/CTF2-server-slate/raw/master/images/logo.png",
         "repo": "https://github.com/featherbear/CTF2",
@@ -242,16 +242,22 @@
         "description": "Static link shortener service via GitHub Pages"
       },
       {
-        "title": "Templables",
+        "title": "Templables (dev)",
         "stack": ["TypeScript", "Svelte"],
         "repo": "https://github.com/featherbear/templables",
         "description": "Form creation and collection framework"
       },
       {
-        "title": "Wyd?",
+        "title": "Wyd? (dev)",
         "stack": ["TypeScript", "Svelte"],
         "repo": "https://github.com/featherbear/wyd",
         "description": "Public daily agenda"
+      },
+      {
+        "title": "Monosodium (dev)",
+        "stack": ["TypeScript", "Svelte"],
+        "repo": "https://github.com/featherbear/monosodium",
+        "description": "Facebook Messenger client"
       }
     ]
   },
@@ -260,7 +266,7 @@
     "title": "Multimedia",
     "items": [
       {
-        "title": "Sound Mixer Simulator",
+        "title": "Sound Mixer Simulator (dev)",
         "site": "https://featherbear.cc/mixer/",
         "repo": "https://github.com/featherbear/mixer/",
         "stack": ["React"],
@@ -333,7 +339,7 @@
         "description": "UDP discovery packet spoofer for communication between remote StudioLive III consoles"
       },
       {
-        "title": "Moone",
+        "title": "Moone (dev)",
         "stack": ["TypeScript", "Svelte"],
         "repo": "https://github.com/featherbear/moone",
         "description": "Morning noticeboard for my bedroom TV"
