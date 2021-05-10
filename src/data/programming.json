@@ -317,6 +317,13 @@
         "description": "Cross-platform display sharing over NDI. Intended for Linux, since Windows and Mac have the free official Scan Converter"
       },
       {
+        "title": "Talyte",
+        "stack": ["C++", "Arduino"],
+        "blog": "https://featherbear.cc/blog/post/talyte/",
+        "repo": "https://github.com/featherbear/talyte/",
+        "description": "OBS tally light library / software"
+      },
+      {
         "title": "Splitify",
         "stack": ["React", "TypeScript"],
         "image": "https://splitify.github.io/branding/banner/banner@72.png",
