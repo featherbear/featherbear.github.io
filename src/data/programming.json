@@ -320,6 +320,7 @@
         "title": "Talyte",
         "stack": ["C++", "Arduino"],
         "blog": "https://featherbear.cc/blog/post/talyte/",
+        "image": "https://featherbear.cc/blog/uploads/20210510_234112.jpg",
         "repo": "https://github.com/featherbear/talyte/",
         "description": "OBS tally light library / software"
       },
