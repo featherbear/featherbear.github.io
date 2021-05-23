@@ -23,7 +23,7 @@
   <div id="sections">
     <LinkEntry href="blog">Blog</LinkEntry>
     <LinkEntry href="about">About Me</LinkEntry>
-    <LinkEntry href="photos">Photography</LinkEntry>
+    <LinkEntry href="https://www.instagram.com/_andrewjwong/">Photography</LinkEntry>
     <LinkEntry href="programming">Programming</LinkEntry>
   </div>
 </BackgroundLoop>
