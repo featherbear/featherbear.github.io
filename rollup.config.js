@@ -21,7 +21,11 @@ const onwarn = (warning, onwarn) => {
   ) {
     return true
   }
-  if (warning.message === 'Unused CSS selector') {
+  
+  if (
+    warning.plugin === 'svelte' &&
+    warning.pluginCode === 'css-unused-selector'
+  ) {
     return true
   }
 
