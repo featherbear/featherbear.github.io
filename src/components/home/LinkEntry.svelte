@@ -56,7 +56,7 @@
   /* End profile sections */
 </style>
 
-<a {href} rel={isExternal ? 'external' : 'prefetch'} target={isExternal ? '_blank' : '_self'}>
+<a {href} rel={isExternal ? 'external' : 'prefetch'} {...(isExternal ? {target: '_blank'} : {})}>
   <span>
     <slot />
   </span>
