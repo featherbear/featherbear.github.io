@@ -13,10 +13,10 @@ jobs:
         node-version: '10.x'
 
     - name: Install packages
-      run: npm install
+      run: yarn
 
     - name: Build
-      run: npm run export
+      run: yarn export
 
     - name: Set CNAME
       run: echo featherbear.cc > ./__sapper__/export/CNAME

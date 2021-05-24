@@ -37,7 +37,7 @@ const SCSSpreprocess = sveltePreprocess({
   }
 })
 
-export default {
+module.exports = {
   client: {
     input: config.client.input(),
     output: config.client.output(),
@@ -51,8 +51,10 @@ export default {
       }),
       json({ compact: true }),
       svelte({
-        dev,
-        hydratable: true,
+        compilerOptions: {
+          dev,
+          hydratable: true
+        },
         emitCss: true,
         extensions: ['.svelte', '.svx'],
         preprocess: [SCSSpreprocess, mdsvex()]
@@ -110,8 +112,7 @@ export default {
       }),
       json({ compact: true }),
       svelte({
-        generate: 'ssr',
-        dev,
+        compilerOptions: { dev, generate: 'ssr' },
         extensions: ['.svelte', '.svx'],
         preprocess: [SCSSpreprocess, mdsvex()]
       }),
