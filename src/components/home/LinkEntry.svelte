@@ -1,5 +1,7 @@
 <script>
   export let href;
+  let isExternal;
+  $: isExternal = /^https?:\/\/.+/i.test(href)
 </script>
 
 <style lang="scss">
@@ -54,7 +56,7 @@
   /* End profile sections */
 </style>
 
-<a {href} rel="prefetch">
+<a {href} rel={isExternal ? 'external' : 'prefetch'} target={isExternal ? '_blank' : '_self'}>
   <span>
     <slot />
   </span>

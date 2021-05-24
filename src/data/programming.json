@@ -76,7 +76,7 @@
         "description": "Custom CTF server for UNSW CompClub"
       },
       {
-        "title": "Project CTF²",
+        "title": "Project CTF² (dev)",
         "stack": ["Node.js", "Svelte", "SQLite", "MongoDB", "NeutralinoJS"],
         "image": "https://github.com/featherbear/CTF2-server-slate/raw/master/images/logo.png",
         "repo": "https://github.com/featherbear/CTF2",
@@ -220,12 +220,44 @@
         "blog": "https://featherbear.cc/blog/post/processing-twinkle/"
       },
       {
+        "title": "Spit",
+        "stack": ["TypeScript", "Svelte"],
+        "site": "https://featherbear.cc/spit/",
+        "repo": "https://github.com/featherbear/spit",
+        "description": "Data massaging tool"
+      },
+      {
         "title": "Wakey",
         "stack": ["Node.js", "Svelte"],
         "image": "https://featherbear.cc/blog/post/wakey/Snipaste_2020-11-16_22-37-12.png",
         "blog": "https://featherbear.cc/blog/post/wakey/",
         "repo": "https://github.com/featherbear/wakey",
         "description": "Wake On LAN web application"
+      },
+      {
+        "title": "Go Links",
+        "stack": ["JavaScript", "Python"],
+        "blog": "https://featherbear.cc/blog/post/featherbear.cc-go/",
+        "repo": "https://github.com/featherbear/go-links",
+        "description": "Static link shortener service via GitHub Pages"
+      },
+      {
+        "title": "Templables (dev)",
+        "stack": ["TypeScript", "Svelte"],
+        "repo": "https://github.com/featherbear/templables",
+        "description": "Form creation and collection framework"
+      },
+      {
+        "title": "Wyd? (dev)",
+        "stack": ["TypeScript", "Svelte"],
+        "repo": "https://github.com/featherbear/wyd",
+        "description": "Public daily agenda"
+      },
+      {
+        "title": "Monosodium (dev)",
+        "stack": ["TypeScript", "Svelte"],
+        "repo": "https://github.com/featherbear/monosodium",
+        "description": "Facebook Messenger client"
       }
     ]
   },
@@ -234,7 +266,7 @@
     "title": "Multimedia",
     "items": [
       {
-        "title": "Sound Mixer Simulator",
+        "title": "Sound Mixer Simulator (dev)",
         "site": "https://featherbear.cc/mixer/",
         "repo": "https://github.com/featherbear/mixer/",
         "stack": ["React"],
@@ -285,6 +317,14 @@
         "description": "Cross-platform display sharing over NDI. Intended for Linux, since Windows and Mac have the free official Scan Converter"
       },
       {
+        "title": "Talyte",
+        "stack": ["C++", "Arduino"],
+        "blog": "https://featherbear.cc/blog/post/talyte/",
+        "image": "https://featherbear.cc/blog/uploads/20210510_234112.jpg",
+        "repo": "https://github.com/featherbear/talyte/",
+        "description": "OBS tally light library / software"
+      },
+      {
         "title": "Splitify",
         "stack": ["React", "TypeScript"],
         "image": "https://splitify.github.io/branding/banner/banner@72.png",
@@ -299,6 +339,18 @@
         "blog": "https://featherbear.cc/blog/post/presonus-studiolive-api-ii/",
         "repo": "https://github.com/featherbear/bitfocus-companion-module-presonus-studiolive-iii",
         "description": "Integration of my PreSonus StudioLive III API for the Elgato Streamdeck, with the Bitfocus Companion software"
+      },
+      {
+        "title": "PreSonus StudioLive III Console Advertisement",
+        "stack": ["C"],
+        "repo": "https://github.com/featherbear/presonus-studiolive-console-advertisement",
+        "description": "UDP discovery packet spoofer for communication between remote StudioLive III consoles"
+      },
+      {
+        "title": "Moone (dev)",
+        "stack": ["TypeScript", "Svelte"],
+        "repo": "https://github.com/featherbear/moone",
+        "description": "Morning noticeboard for my bedroom TV"
       }
     ]
   },
@@ -359,6 +411,30 @@
         "image": "https://featherbear.cc/blog/post/whoops-there-goes-my-ai/preview.apng",
         "repo": "https://github.com/featherbear/Whoops-There-Goes-My-AI/",
         "description": "Computer vision game automator"
+      }
+    ]
+  },
+  {
+    "title": "Scripts and Misc",
+    "items": [
+      {
+        "title": "zt.py",
+        "stack": ["Python"],
+        "repo": "https://github.com/featherbear/zt.py",
+        "description": "CLI wrapper for ZeroTier Linux"
+      },
+      {
+        "title": "Netlify DDNS Updater",
+        "stack": ["Python"],
+        "repo": "https://github.com/featherbear/netlify-ddns-updater",
+        "description": "Yet another DDNS updater for Netlify DNS"
+      },
+      {
+        "title": "Threes",
+        "stack": ["Python"],
+        "repo": "https://github.com/featherbear/threes",
+        "blog": "https://featherbear.cc/blog/post/instagram-layouts-offsets-grids-code/",
+        "description": "Instagram 3 x n content spacer"
       }
     ]
   }
