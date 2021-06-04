@@ -3,5 +3,5 @@
   import Timeline from '../components/resume/Timeline/'
 </script>
 
-<!-- <ProfileContainer /> -->
+<ProfileContainer />
 <Timeline />

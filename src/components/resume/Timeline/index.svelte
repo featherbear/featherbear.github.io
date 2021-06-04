@@ -17,11 +17,15 @@
   ];
 
   import Entry from "./TimelineEntry.svelte";
+  import Section from "./TimelineSection.svelte";
+
 </script>
 
 <div class="line">
-  line
+  2021
+  <Section />
   <Entry />
+  2020
 </div>
 
 <style lang="scss">
