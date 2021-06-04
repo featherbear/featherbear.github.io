@@ -13,7 +13,13 @@
     "bg10.jpg",
     "bg11.jpg",
     "bg12.jpg",
-    "bg13.jpg"
+    "bg13.jpg",
+    "bg14.jpg",
+    "bg15.jpg",
+    "bg16.jpg",
+    "bg17.jpg",
+    "bg18.jpg",
+    "bg19.jpg"
   ];
   let currentIdx = -1;
 
