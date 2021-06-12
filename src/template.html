@@ -1,32 +1,34 @@
-<!doctype html>
-<html lang='en'>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
-	<meta name='theme-color' content='#333333'>
-    <script>
-      (function (f, a, t, h, o, m) {
-        a[h] =
-          a[h] ||
-          function () {
-            (a[h].q = a[h].q || []).push(arguments);
-          };
-        (o = f.createElement("script")),
-          (m = f.getElementsByTagName("script")[0]);
-        o.async = 1;
-        o.src = t;
-        o.id = "fathom-script";
-        m.parentNode.insertBefore(o, m);
-      })(document, window, "https://ss.featherbear.cc/tracker.js", "fathom");
-      fathom("set", "siteId", "KFYJB");
-    </script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<meta name="theme-color" content="#333333" />
+
+	<script>
+		(function (f, a, t, h, o, m) {
+			a[h] =
+				a[h] ||
+				function () {
+					(a[h].q = a[h].q || []).push(arguments);
+				};
+			(o = f.createElement("script")),
+				(m = f.getElementsByTagName("script")[0]);
+			o.async = 1;
+			o.src = t;
+			o.id = "fathom-script";
+			m.parentNode.insertBefore(o, m);
+		})(document, window, "https://ss.featherbear.cc/tracker.js", "fathom");
+		fathom("set", "siteId", "KFYJB");
+	</script>
 
 	<title>Andrew Wong | featherbear</title>
-	
+
 	%sapper.base%
-	
-	<link rel='manifest' href='manifest.json' crossorigin='use-credentials'>
-	<link rel='icon' href='favicon.ico'>
+
+	<link rel="manifest" href="manifest.json" crossorigin="use-credentials" />
+	<link rel="icon" href="favicon.ico" />
 
 	<!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
@@ -37,14 +39,16 @@
 	     the current page has one -->
 	%sapper.head%
 </head>
+
 <body>
 	<!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
-	<div id='app'>%sapper.html%</div>
+	<div id="app">%sapper.html%</div>
 
 	<!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
 	%sapper.scripts%
 </body>
+
 </html>
