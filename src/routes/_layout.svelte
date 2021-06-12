@@ -7,6 +7,13 @@
   onMount(() => {
     themePicker.init()
   });
+
+  $: {
+    if (process.browser && process.env.NODE_ENV !== 'development') {
+      segment; // Listen to page changes
+      window.fathom("trackPageview");
+    }
+  }
 </script>
 
 <style lang="scss" global>
