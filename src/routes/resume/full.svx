@@ -1,15 +1,25 @@
 <script>
-    import ProfileContainer from "../components/resume/ProfileContainer/ProfileContainer.svelte"
+    import ProfileContainer from "../../components/resume/ProfileContainer/ProfileContainer.svelte"
+    import aboutText from "../../data/aboutText"
 </script>
+
+<style>
+    a {
+        text-decoration: underline dotted;
+    }
+
+    p.spaced  {
+      white-space: pre;
+    }
+</style>
 
 # Andrew Jin-Meng Wong
 
 <p style="padding-bottom: 20px"><ProfileContainer /></p>
 
-I'm a code monkey, hardware enthusiast, photographer and wannabe musician.  
-I'm also really interested in audio/visual production, and play with sound and lighting consoles!  
-
-Currently a Computer Engineering student at the University of New South Wales.
+<p class="spaced">
+  {aboutText}
+</p>
 
 ---
 
@@ -31,7 +41,7 @@ Electrical Engineering / Computer Science (2018 - 2019)
 
 ---
 
-## Computing
+## 💻 Computing
 
 Interested in things related to security, multimedia and communications.  
 
@@ -41,7 +51,7 @@ In this day and age, information security has been the forefront of attention ti
 **Multimedia**  
 Giant LED walls, live show programming, geeking out on new microphones, cameras, stacking layers of compression... Digital technology has continued to improve the production value of TV, music, videos, theatre, concerts and so much more. Multimedia has been my creative outlet - spending time doing AVL, photography, videography and music. It gets so much more interesting when multimedia is combined with digital technology! I've worked on several projects that enabled me to tie my interests together and enjoy them simultaneously
 
-Portfolio available at [featherbear.cc/programming](https://featherbear.cc/programming)
+📂 Portfolio available at [featherbear.cc/programming](https://featherbear.cc/programming)
 
 ### Experience
 
@@ -61,7 +71,7 @@ Portfolio available at [featherbear.cc/programming](https://featherbear.cc/progr
 ### Awards
 
 - UNSW
-  - First in CSE x SecSoc CTF Competition
+  - First in CSE x SecSoc CTF 2020 Competition
   - First in Web Application Security and Testing course (COMP6[84]43)
   - CommBank Cyber Prize (2020)
 - High School
@@ -76,13 +86,13 @@ Portfolio available at [featherbear.cc/programming](https://featherbear.cc/progr
 
 ---
 
-## Audio / Visual
+## 🎤 Audio / Visual 📸
 
 ### Experience
 
 - Two Hands Lifted (2020 - 2021)
 - Sound Engineer @ CSE Revue (2021)
-- Camera Operator @ KCC (2021)
+- Camera Operator @ KCC KYCK (2021)
 - Broadcast Engineer @ UNSW Sydney (2021)
 - Production Co-ordinator @ South-West Evangelical Church (2018 - 2021)
 - Event Technician @ UNSW Hospitality Sydney (2018 - 2020)

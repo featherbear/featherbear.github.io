@@ -23,7 +23,7 @@
       },
       {
         "title": "fastify-slate",
-        "stack": "Node.js",
+        "stack": ["Node.js"],
         "repo": "https://github.com/featherbear/fastify-slate",
         "description": "Slate documentation generator for Fastify"
       },

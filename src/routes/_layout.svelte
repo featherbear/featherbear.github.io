@@ -22,6 +22,12 @@
       padding-right: 0.75rem;
     }
   }
+
+  @media print {
+   .noprint {
+      visibility: hidden;
+   }
+}
 </style>
 
 {#if segment !== undefined}

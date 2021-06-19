@@ -48,7 +48,7 @@
 </style>
 
 <nav
-  class="navbar is-unselectable"
+  class="navbar is-unselectable noprint"
   role="navigation"
   aria-label="main navigation">
   <div class="container">

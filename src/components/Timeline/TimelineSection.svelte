@@ -10,5 +10,6 @@
   article {
     position: absolute;
     transform: translateX(-$sectionLeftOffset);
+    color: #808080;
   }
 </style>

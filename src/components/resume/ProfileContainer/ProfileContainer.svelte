@@ -14,13 +14,13 @@
   .profileContainer {
     position: relative;
     /* z-index: 10000; */
-    margin-top: 30px;
+    margin-top: 10px;
   }
 </style>
 
 <div class="profileContainer" style="width: {x}px; height: {y}px;">
   <ProfilePicture />
-  {#each [...pointGen(links.length)] as theta, i}
+  {#each [...pointGen(links.length, 1)] as theta, i}
     <Entry {x} {y} {theta} {span} data={links[i]} />
   {/each}
 </div>
