@@ -1,11 +1,11 @@
 <script>
   import Nav from "../components/Nav.svelte";
   export let segment;
-  
+
   import { onMount } from "svelte";
-  import themePicker from "../components/_util/themePicker.js"
+  import themePicker from "../components/_util/themePicker.js";
   onMount(() => {
-    themePicker.init()
+    themePicker.init();
   });
 
   $: {
@@ -15,6 +15,15 @@
     }
   }
 </script>
+
+{#if segment !== undefined}
+  <Nav {segment} />
+  <div class="container siteContent">
+    <slot />
+  </div>
+{:else}
+  <slot />
+{/if}
 
 <style lang="scss" global>
   @import "bulma/sass/utilities/_all.sass";
@@ -29,13 +38,11 @@
       padding-right: 0.75rem;
     }
   }
-</style>
 
-{#if segment !== undefined}
-  <Nav {segment} />
-  <div class="container siteContent">
-    <slot />
-  </div>
-{:else}
-  <slot />
-{/if}
+  @media print {
+    .noprint {
+      visibility: hidden;
+      display: none;
+    }
+  }
+</style>

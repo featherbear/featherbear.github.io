@@ -21,7 +21,11 @@ const onwarn = (warning, onwarn) => {
   ) {
     return true
   }
-  if (warning.message === 'Unused CSS selector') {
+  
+  if (
+    warning.plugin === 'svelte' &&
+    warning.pluginCode === 'css-unused-selector'
+  ) {
     return true
   }
 
@@ -37,19 +41,24 @@ const SCSSpreprocess = sveltePreprocess({
   }
 })
 
-export default {
+module.exports = {
   client: {
     input: config.client.input(),
     output: config.client.output(),
     plugins: [
       replace({
-        'process.browser': true,
-        'process.env.NODE_ENV': JSON.stringify(mode)
+        values: {
+          'process.browser': true,
+          'process.env.NODE_ENV': JSON.stringify(mode)
+        },
+        preventAssignment: true
       }),
       json({ compact: true }),
       svelte({
-        dev,
-        hydratable: true,
+        compilerOptions: {
+          dev,
+          hydratable: true
+        },
         emitCss: true,
         extensions: ['.svelte', '.svx'],
         preprocess: [SCSSpreprocess, mdsvex()]
@@ -99,13 +108,15 @@ export default {
     output: config.server.output(),
     plugins: [
       replace({
-        'process.browser': false,
-        'process.env.NODE_ENV': JSON.stringify(mode)
+        values: {
+          'process.browser': false,
+          'process.env.NODE_ENV': JSON.stringify(mode)
+        },
+        preventAssignment: true
       }),
       json({ compact: true }),
       svelte({
-        generate: 'ssr',
-        dev,
+        compilerOptions: { dev, generate: 'ssr' },
         extensions: ['.svelte', '.svx'],
         preprocess: [SCSSpreprocess, mdsvex()]
       }),
@@ -113,7 +124,6 @@ export default {
         dedupe: ['svelte']
       }),
       commonjs()
-
     ],
     external: Object.keys(pkg.dependencies).concat(
       require('module').builtinModules ||
@@ -130,8 +140,11 @@ export default {
     plugins: [
       resolve(),
       replace({
-        'process.browser': true,
-        'process.env.NODE_ENV': JSON.stringify(mode)
+        values: {
+          'process.browser': true,
+          'process.env.NODE_ENV': JSON.stringify(mode)
+        },
+        preventAssignment: true
       }),
       commonjs(),
       !dev && terser()

@@ -2,12 +2,52 @@
   let emailElem;
 
   import { onMount } from "svelte";
+  import NameBlock from "../NameBlock.svelte";
+  import Button from "../Button.svelte";
+  
   onMount(() => {
     let email = atob("aGVsbG9AZmVhdGhlcmJlYXIuY2M");
     emailElem.href += email;
     emailElem.querySelector("span span").innerText = email;
   });
 </script>
+
+<div class="profile">
+  <div class="picture">
+    <img alt="" />
+  </div>
+  <NameBlock />
+  <div class="linkBlock">
+    <a bind:this={emailElem} href="mailto:">
+      <span>
+        <span />
+      </span>
+    </a>
+    <a href="//linkedin.com/in/andrewjinmengwong">
+      <span>
+        <span>andrewjinmengwong</span>
+      </span>
+    </a>
+    <a href="//facebook.com/andrewjinmengwong">
+      <span>
+        <span>andrewjinmengwong</span>
+      </span>
+    </a>
+    <a href="//github.com/featherbear">
+      <span>
+        <span>github.com/featherbear</span>
+      </span>
+    </a>
+    <a href="//instagram.com/_andrewjwong">
+      <span>
+        <span>@_andrewjwong</span>
+      </span>
+    </a>
+  </div>
+  <p>
+    <Button href="resume">view resume</Button>
+  </p>
+</div>
 
 <style lang="scss">
   /* Profile side pane */
@@ -36,6 +76,7 @@
 
     .picture {
       position: relative;
+      padding-bottom: 0.5em;
 
       &:after {
         content: "";
@@ -52,25 +93,6 @@
         position: absolute;
         width: 100%;
         height: 100%;
-      }
-    }
-
-    /* Name */
-
-    .nameBlock {
-      padding-top: 0.5em;
-      font-size: 4em;
-      font-weight: bold;
-      line-height: 1em;
-      color: black;
-
-      > span {
-        margin: -0.4em 0 -0.8em 2.5em;
-        font-size: 0.3em;
-        line-height: 0.3em;
-        font-weight: normal;
-        display: block;
-        color: grey;
       }
     }
 
@@ -131,31 +153,10 @@
         }
       }
     }
-    p {
-      text-align: center;
-
-      a[href*="Resume"] {
-        border: 4px solid #555;
-        color: #555;
-        padding: 5px;
-        font-size: 22px;
-        font-weight: bold;
-        text-transform: uppercase;
-        transition: 0.5s;
-        display: inline-block;
-      }
-
-      a[href*="Resume"]:hover {
-        opacity: 0.7;
-      }
-    }
+   
   }
   @media screen and (orientation: portrait) {
     .profile {
-      .nameBlock {
-        font-size: 3em;
-      }
-
       .linkBlock {
         text-align: center;
         font-size: 1.3em;
@@ -172,44 +173,3 @@
     }
   }
 </style>
-
-<div class="profile">
-  <div class="picture">
-    <img alt="" />
-  </div>
-  <span class="nameBlock">
-    Andrew
-    <span>Jin-Meng</span>
-    Wong
-  </span>
-  <div class="linkBlock">
-    <a bind:this={emailElem} href="mailto:">
-      <span>
-        <span />
-      </span>
-    </a>
-    <a href="//linkedin.com/in/andrewjinmengwong">
-      <span>
-        <span>andrewjinmengwong</span>
-      </span>
-    </a>
-    <a href="//facebook.com/andrewjinmengwong">
-      <span>
-        <span>andrewjinmengwong</span>
-      </span>
-    </a>
-    <a href="//github.com/featherbear">
-      <span>
-        <span>github.com/featherbear</span>
-      </span>
-    </a>
-    <a href="//instagram.com/_andrewjwong">
-      <span>
-        <span>@_andrewjwong</span>
-      </span>
-    </a>
-  </div>
-  <p>
-    <a href="Andrew Jin-Meng Wong - Resume.pdf">view resume</a>
-  </p>
-</div>

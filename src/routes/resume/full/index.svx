@@ -1,0 +1,143 @@
+<script>
+    import ProfileContainer from "../../../components/resume/ProfileContainer/ProfileContainer.svelte"
+    import aboutText from "../../../data/aboutText"
+    import Button from "../../../components/Button.svelte"
+</script>
+
+<style>
+    a {
+        text-decoration: underline dotted;
+    }
+
+    p.spaced  {
+      white-space: pre;
+    }
+</style>
+
+# Andrew Jin-Meng Wong
+
+<p style="padding-bottom: 20px"><ProfileContainer /></p>
+
+<p class="spaced">
+  {aboutText}
+</p>
+
+---
+
+## Education
+
+### University - UNSW Sydney (current)
+
+Computer Engineering (2020 - 2021)  
+Electrical Engineering / Computer Science (2018 - 2019)  
+
+- First place in CSE x SecSoc CTF 2020
+- First in Web Application Security and Testing / COMP6[84]43
+
+### High School - Sydney Technical High School
+
+- First in Electronics, Software Design and Development, Information Processes & Technology
+- Deputy Principals' Prize for Senior Contribution to School Life (2017)
+- School Prefect (2017)
+
+---
+
+## 💻 Computing
+
+Interested in things related to security, multimedia and communications.  
+
+**Security**  
+In this day and age, information security has been the forefront of attention time and time again. I've come to appreciate the necessity to both understand and promote cyber vigilance to all. I've written a RAT, fuzzer, and even my very own Capture The Flag server, as well as having taught several security courses at UNSW.
+
+**Multimedia**  
+Giant LED walls, live show programming, geeking out on new microphones, cameras, stacking layers of compression... Digital technology has continued to improve the production value of TV, music, videos, theatre, concerts and so much more. Multimedia has been my creative outlet - spending time doing AVL, photography, videography and music. It gets so much more interesting when multimedia is combined with digital technology! I've worked on several projects that enabled me to tie my interests together and enjoy them simultaneously
+
+📂 Portfolio available at [featherbear.cc/programming](https://featherbear.cc/programming)
+
+### Experience
+
+- Software
+  - Ryndeum (2019 - 2021)
+  - UNSW Hospitality (2019)
+  - RICE Movement (2017 - 2019)
+  - South-West Evangelical Church (2017 - 2018)
+  - Freelance
+
+- Teaching
+  - Private Tutor
+  - Casual Academic @ UNSW Sydney (2019 - present)
+  - Organiser @ CSE CompClub (2019 Summer)
+  - Mentor @ CSE CompClub (2018 Winter)
+
+### Awards
+
+- UNSW
+  - First in CSE x SecSoc CTF 2020 Competition
+  - First in Web Application Security and Testing course (COMP6[84]43)
+  - CommBank Cyber Prize (2020)
+- High School
+  - First in HSC Software Design & Development (2016)
+  - First in HSC Information Processes & Technology (2015)
+  - First in Electronics (2014, 2015)
+- ICAS Computer Skills High Distinction (2008 - 2015)
+- NCSS/Grok Python Programming Challenge
+  - Advanced Award - High Distinction (2015 - 2016)
+  - Intermediate Award - Perfect Score (2012 - 2014)
+  - Beginners Award - Perfect Score (2011)
+
+---
+
+## 🎤 Audio / Visual 📸
+
+### Experience
+
+- Two Hands Lifted (2020 - 2021)
+- Sound Engineer @ CSE Revue (2021)
+- Camera Operator @ KCC KYCK (2021)
+- Broadcast Engineer @ UNSW Sydney (2021)
+- Production Co-ordinator @ South-West Evangelical Church (2018 - 2021)
+- Event Technician @ UNSW Hospitality Sydney (2018 - 2020)
+- AV Technician @ RICE Movement (2017 - 2021)
+- Service Technician @ Lightsounds (2015 - 2016)
+- Production Head @ STHS Sound & Lighting Crew (2014 - 2017)
+
+### Awards
+
+- Certificate of Appreciation - Sound and Lighting @ Public Schools NSW (2015)
+
+---
+
+## Other Cool Stuff
+
+### 🎧 Music
+
+Clarinet, Saxophone, Trumpet and Guitar!  
+Currently figuring out how to hold a violin...
+
+- High School Concert Band, Stage Band, Strings Ensemble, Guitar Ensemble
+- OBU Music Trophy - "Most Improved Instrumentalist" (2015)
+- Engadine Music Bandfest (2009 - 2016)
+
+### 🏓 Sports!
+
+Table Tennis!  
+Back in highschool, I represented my school in their 1st Grade Opens A team for multiple years. Whilst younger, I also represented them in the Under 14s A team.  
+I also got into bouldering and climbing recently...
+
+### 🤼 Community
+
+- Jericho Road Park Patrol (29/04/15) - Preparing and giving food for the homeless
+- Office Assistant @ Kirkplace Presbyterian Church (2015)
+- Sculptures By The Sea @ Bondi (2015, 2019)
+- Leichardt Charity Concert (2010)
+- Christmas Carols @ Gannon Gardens Hurstville (2008)
+- High School
+  - Yearbook Committee (2017)
+  - Dance Committee (2015 - 2016)
+  - Christian Group Leader (2014 - 2017)
+  - Peer Support Leader (2014 - 2015)
+
+<p class="noprint" style="text-align: center">
+  <Button href="resume/full/pdf" openInNewTab={true}>Download as PDF</Button>
+  <Button href="resume">View summary resume</Button>
+</p>
