@@ -1,4 +1,6 @@
 <script>
+  import { onMount } from "svelte";
+
   //#region Circle positioning
   export let x;
   export let y;
@@ -19,13 +21,16 @@
 
   export let data = {};
 
+  onMount(() => {
+    if (data["b64link"]) data["link"] = atob(data["b64link"]);
+    if (data["b64text"]) data["text"] = atob(data["b64text"]);
+    data = { ...data };
+  });
+
   import EntryContent from "./EntryContent.svelte";
 </script>
 
-<div
-  class="profileEntry"
-  style="top: {_Y}%; left: {_X}%;"
->
+<div class="profileEntry" style="top: {_Y}%; left: {_X}%;">
   {#if data.link}
     <a href={data["link"]}>
       <EntryContent {data} />

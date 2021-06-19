@@ -6,7 +6,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 export default [
-  { icon: faEnvelopeSquare, text: 'andrew.j.wong@outlook.com' },
+  { icon: faEnvelopeSquare, b64text: 'YW5kcmV3Lmoud29uZ0BvdXRsb29rLmNvbQ' },
   {
     icon: faLinkedin,
     text: 'andrewjinmengwong',

@@ -14,5 +14,5 @@
 
 <span class="entryContent">
   {#if data['icon']}<Fa icon={data['icon']} size="lg" />{/if}
-  {data['text']}
+  {data['text'] || ""}
 </span>
