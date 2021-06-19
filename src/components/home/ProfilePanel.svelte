@@ -3,6 +3,7 @@
 
   import { onMount } from "svelte";
   import NameBlock from "../NameBlock.svelte";
+  import Button from "../Button.svelte";
   
   onMount(() => {
     let email = atob("aGVsbG9AZmVhdGhlcmJlYXIuY2M");
@@ -44,7 +45,7 @@
     </a>
   </div>
   <p>
-    <a href="Andrew Jin-Meng Wong - Resume.pdf">view resume</a>
+    <Button href="resume">view resume</Button>
   </p>
 </div>
 
@@ -152,24 +153,7 @@
         }
       }
     }
-    p {
-      text-align: center;
-
-      a[href*="Resume"] {
-        border: 4px solid #555;
-        color: #555;
-        padding: 5px;
-        font-size: 22px;
-        font-weight: bold;
-        text-transform: uppercase;
-        transition: 0.5s;
-        display: inline-block;
-      }
-
-      a[href*="Resume"]:hover {
-        opacity: 0.7;
-      }
-    }
+   
   }
   @media screen and (orientation: portrait) {
     .profile {
