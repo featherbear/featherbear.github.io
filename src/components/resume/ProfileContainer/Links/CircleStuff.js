@@ -1,9 +1,9 @@
 // You ready for circle geometry!? >:(
-export function * pointGen (nPoints, offset = 0) {
+export function * pointGen (nPoints, squish = 0) {
   const spread = Math.PI
-  const theta = spread / (nPoints + 1)
+  const theta = spread / (nPoints + 1 + 2 * squish)
 
   for (let i = 1; i <= nPoints; i++) {
-    yield offset + i * theta
+    yield (i + squish) * theta
   }
 }

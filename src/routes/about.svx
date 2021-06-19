@@ -37,7 +37,7 @@ Hotel? Trivago.
 
 If you need to get in touch with me, you can reach me at <a href="." bind:this={emailElem}>...</a>
 
-If you're looking for my resume, you can find it **[here](/Andrew%20Jin-Meng%20Wong%20-%20Resume.pdf)**.  
+If you're looking for my resume, you can find it **[here](/resume)**.  
 If you're looking for the end of this file, it's _here_ :)
 
 <!-- I'm available for freelace work -->
