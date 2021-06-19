@@ -88,7 +88,7 @@ export default [
   ]),
   createSection('2017', [
     createEntry(
-      'Graduted from Sydney Technical High School',
+      'Graduated from Sydney Technical High School',
       '2012 - 2017',
       ['Computing', 'Audio/Visual'],
       [
