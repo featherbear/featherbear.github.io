@@ -4,12 +4,16 @@
   import Timeline from "../../components/Timeline";
   import data from "../../components/Timeline/data";
   import aboutText from "../../data/aboutText";
+  import Button from "../../components/Button.svelte"
 </script>
 
 <div id="container">
   <ProfileContainer />
   <Timeline {data} preContent={aboutText} />
-  <a href="resume/full"><h3 style="text-align: center;">Click to view complete resume</h3></a>
+  <p class="noprint" style="text-align: center">
+    <Button href="resume/pdf" openInNewTab={true}>Download as PDF</Button>
+    <Button href="resume/full">View complete resume</Button>
+  </p>
 </div>
 
 <div class="nameBlockContainer">
