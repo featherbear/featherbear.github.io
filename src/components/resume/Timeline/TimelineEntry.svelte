@@ -1,4 +1,8 @@
-<article>text</article>
+<script>
+  export let text = "";
+</script>
+
+<article>{text}</article>
 
 <style lang="scss">
   @import "./style.scss";

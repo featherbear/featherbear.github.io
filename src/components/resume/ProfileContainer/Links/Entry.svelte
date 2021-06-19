@@ -11,8 +11,9 @@
 
   let _Y, _X;
   $: {
-    _Y = Number(xc + (span + xc) * Math.cos(theta));
-    _X = Number(yc + (span + yc) * Math.sin(theta));
+    _X = Number(xc / 2 + 10 + (span + xc) * Math.sin(theta));
+
+    _Y = Number(yc / 2 + 10 + (span + yc) * Math.cos(theta));
   }
   //#endregion
 
@@ -21,20 +22,21 @@
   import EntryContent from "./EntryContent.svelte";
 </script>
 
-<style>
-  .profileEntry {
-    position: absolute;
-  }
-</style>
-
 <div
   class="profileEntry"
-  style="width: {span}px; height: {span}px; border-radius: {span}px; top: {_Y}%; left: {_X}%; transform: translateY(-50%) translateX(-50%)">
+  style="top: {_Y}%; left: {_X}%;"
+>
   {#if data.link}
-    <a href={data['link']}>
+    <a href={data["link"]}>
       <EntryContent {data} />
     </a>
   {:else}
     <EntryContent {data} />
   {/if}
 </div>
+
+<style>
+  .profileEntry {
+    position: absolute;
+  }
+</style>
