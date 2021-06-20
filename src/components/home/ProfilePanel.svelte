@@ -44,7 +44,7 @@
       </span>
     </a>
   </div>
-  <p>
+  <p style="text-align: center">
     <Button href="resume">view resume</Button>
   </p>
 </div>
