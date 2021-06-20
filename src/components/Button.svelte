@@ -7,11 +7,13 @@
 
 <style lang="scss">
   a {
+
     text-align: center;
     font: normal normal normal 16px Coves;
 
     border: 4px solid #555;
     color: #555;
+    margin: 3px;
     padding: 5px;
     font-size: 22px;
     font-weight: bold;
