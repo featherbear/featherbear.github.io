@@ -11,7 +11,7 @@
 <style lang="scss">
   @media screen and (orientation: portrait) {
     .nameBlock {
-      font-size: 3em;
+      font-size: 3em !important;
     }
   }
 
