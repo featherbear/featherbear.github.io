@@ -54,7 +54,7 @@
   @import "./style.scss";
 
   .line {
-    transform: translateX($sectionLeftOffset);
+    margin-left: $sectionLeftOffset;
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -76,7 +76,8 @@
 
   .preContent {
     position: relative;
-    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
     margin-left: $dotSpacing;
     margin-bottom: 1.5em;
     margin-top: 1em;

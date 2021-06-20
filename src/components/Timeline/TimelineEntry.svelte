@@ -58,7 +58,8 @@
     }
 
     p {
-      white-space: pre;
+      white-space: pre-wrap;
+      word-wrap: break-word;
       
       color: #808080;
       margin-top: 5px;

@@ -3,16 +3,25 @@
   export let data = {};
 </script>
 
-<style>
+<style lang="scss">
   .entryContent {
-    display: inline-block;
-    width: 400px;
+    display: ruby;
     transform: translateY(-30%);
     font-size: 1.2em;
+  }
+
+  @media screen and (orientation: portrait) {
+    .entryContent {
+      font-size: 1.4em !important;
+
+      .text {
+        display: none !important;
+      }
+    }
   }
 </style>
 
 <span class="entryContent">
   {#if data['icon']}<Fa icon={data['icon']} size="lg" />{/if}
-  {data['text'] || ""}
+  <span class="text">{data['text'] || ""}</span>
 </span>
