@@ -38,6 +38,7 @@
 
 <div class="noprint">
   <span>Filter Categories</span>
+  <div>
   {#each categories as category}
     <button
       class="categorySelect"
@@ -48,6 +49,7 @@
           : (activeCategory = category)}>{category}</button
     >
   {/each}
+  </div>
 </div>
 
 <style lang="scss">
