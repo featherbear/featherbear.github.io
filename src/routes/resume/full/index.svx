@@ -6,11 +6,12 @@
 
 <style>
     a {
-        text-decoration: underline dotted;
+      text-decoration: underline dotted;
     }
 
     p.spaced  {
-      white-space: pre;
+      white-space: pre-wrap;
+      word-wrap: break-word;
     }
 </style>
 
@@ -138,6 +139,7 @@ I also got into bouldering and climbing recently...
   - Peer Support Leader (2014 - 2015)
 
 <p class="noprint" style="text-align: center">
+  <hr />
   <Button href="resume/full/pdf" openInNewTab={true}>Download as PDF</Button>
   <Button href="resume">View summary resume</Button>
 </p>
