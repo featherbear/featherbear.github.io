@@ -1,5 +1,7 @@
 name: deploy sapper to github pages
 
+on: push
+
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
@@ -9,6 +11,7 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '14.9.0'
+
 
     - name: Install packages
       run: yarn
