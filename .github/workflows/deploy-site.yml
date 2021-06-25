@@ -21,7 +21,7 @@ jobs:
         yarn
 
         # https://github.com/actions/virtual-environments/issues/710#issuecomment-612869886
-        sudo fc-match "Noto Color Emoji" || sudo apt-get install fonts-noto-color-emoji -y
+        apt-get install fonts-noto-color-emoji -y
         mkdir -p /usr/local/share/fonts
         cp /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf /usr/local/share/fonts/
         chmod 644 /usr/local/share/fonts/NotoColorEmoji.ttf
