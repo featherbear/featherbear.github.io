@@ -20,14 +20,14 @@ jobs:
         cd scripts
         yarn
 
-        # https://github.com/actions/virtual-environments/issues/710#issuecomment-612869886
-        sudo apt-get update # Need to update, otherwise will use 0~20180810-0ubuntu1
-        sudo apt-get install fonts-noto-color-emoji -y
-        sudo mkdir -p /usr/local/share/fonts
-        sudo cp /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf /usr/local/share/fonts/
-        sudo chmod 644 /usr/local/share/fonts/NotoColorEmoji.ttf
+        # # https://github.com/actions/virtual-environments/issues/710#issuecomment-612869886
+        # sudo apt-get update # Need to update, otherwise will use 0~20180810-0ubuntu1
+        # sudo apt-get install fonts-noto-color-emoji -y
+        # sudo mkdir -p /usr/local/share/fonts
+        # sudo cp /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf /usr/local/share/fonts/
+        # sudo chmod 644 /usr/local/share/fonts/NotoColorEmoji.ttf
 
-        fc-cache -fv
+        # fc-cache -fv
 
     - name: Build
       run: yarn export
