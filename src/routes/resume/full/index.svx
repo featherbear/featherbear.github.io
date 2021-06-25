@@ -29,15 +29,19 @@
 
 ### University - UNSW Sydney (current)
 
-Computer Engineering (2020 - 2021)  
+Expected Graduation: 2022
+
+Computer Engineering (2020 - present)  
 Electrical Engineering / Computer Science (2018 - 2019)  
 
 - First place in CSE x SecSoc CTF 2020
-- First in Web Application Security and Testing / COMP6[84]43
+- First place in Web Application Security and Testing / COMP6[84]43
 
 ### High School - Sydney Technical High School
 
-- First in Electronics, Software Design and Development, Information Processes & Technology
+- First place in Electronics
+- First place in Software Design and Development
+- First place in Information Processes & Technology
 - Deputy Principals' Prize for Senior Contribution to School Life (2017)
 - School Prefect (2017)
 
@@ -52,6 +56,8 @@ In this day and age, information security has been the forefront of attention ti
 
 **Multimedia**  
 Giant LED walls, live show programming, geeking out on new microphones, cameras, stacking layers of compression... Digital technology has continued to improve the production value of TV, music, videos, theatre, concerts and so much more. Multimedia has been my creative outlet - spending time doing AVL, photography, videography and music. It gets so much more interesting when multimedia is combined with digital technology! I've worked on several projects that enabled me to tie my interests together and enjoy them simultaneously
+
+### Showcase
 
 📂 Portfolio available at [featherbear.cc/programming](https://featherbear.cc/programming)
 
@@ -75,7 +81,7 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 - UNSW
   - First in CSE x SecSoc CTF 2020 Competition
   - First in Web Application Security and Testing course (COMP6[84]43)
-  - CommBank Cyber Prize (2020)
+  - CommBank Cyber Security Prize (2020)
 - High School
   - First in HSC Software Design & Development (2016)
   - First in HSC Information Processes & Technology (2015)
@@ -93,14 +99,26 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 ### Experience
 
 - Two Hands Lifted (2020 - 2021)
+  - Provision of livestreaming services inclusive of wedding events and corporate functions.
 - Sound Engineer @ CSE Revue (2021)
 - Camera Operator @ KCC KYCK (2021)
 - Broadcast Engineer @ UNSW Sydney (2021)
 - Production Co-ordinator @ South-West Evangelical Church (2018 - 2021)
+  - Planning and integration AVL and networking equipment
+  - Training of volunteers to operate software and equipment
 - Event Technician @ UNSW Hospitality Sydney (2018 - 2020)
 - AV Technician @ RICE Movement (2017 - 2021)
 - Service Technician @ Lightsounds (2015 - 2016)
+  - Maintenance and repair of AVL equipment
+  - Preparation, check-out and check-in of hire equipment
 - Production Head @ STHS Sound & Lighting Crew (2014 - 2017)
+
+### Events
+
+- CSE Revue 2021 - FOH Engineer
+- KYCK 2021 - Camera Operator
+- RICE Rally 2019 - Graphics Operator
+- RICE Rally 2018 - Teleprompter Operator, Graphics Operator
 
 ### Awards
 
@@ -121,27 +139,33 @@ Currently figuring out how to hold a violin...
 
 ### 🏓 Sports!
 
-Table Tennis!  
+Table Tennis! I also got into bouldering and climbing recently...  
+
 Back in highschool, I represented my school in their 1st Grade Opens A team for multiple years. Whilst younger, I also represented them in the Under 14s A team.  
-I also got into bouldering and climbing recently...
 
 ### 🤼 Community
 
-- Jericho Road Park Patrol (29/04/15) - Preparing and giving food for the homeless
+- Jericho Road Park Patrol (29/04/15)
+  - Preparation and delivery of free food hampers to homeless people around the Sydney CBD
 - Office Assistant @ Kirkplace Presbyterian Church (2015)
 - Sculptures By The Sea @ Bondi (2015, 2019)
-- Leichardt Charity Concert (2010)
-- Christmas Carols @ Gannon Gardens Hurstville (2008)
+  - Selling of merchandise
+  - Collection of pedestrian traffic metrics
+  - Direction and flow control of visitors
+- Leichardt Charity Concert Band (2010)
+  - Collaborated with other local school bands to play music in a charity fundraising event
+- Gannon Gardens Hurstville Carols (2008)
+  - Sung Christmas carols to residents of an age care facility
 - High School
   - Yearbook Committee (2017)
   - Dance Committee (2015 - 2016)
   - Christian Group Leader (2014 - 2017)
   - Peer Support Leader (2014 - 2015)
 
-<div class="noprint" style="text-align: center">
+<article class="noprint" style="text-align: center">
   <hr>
   <p>
     <Button href="resume/full/pdf" openInNewTab={true}>Download as PDF</Button>
     <Button href="resume">View summary resume</Button>
   </p>
-</div>
+</article>
