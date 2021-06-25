@@ -9,7 +9,7 @@
   });
 
   $: {
-    if (process.browser && process.env.NODE_ENV !== 'development') {
+    if (process.browser && process.env.NODE_ENV !== 'development' && location.hostname !== 'localhost') {
       segment; // Listen to page changes
       window.fathom("trackPageview");
     }
