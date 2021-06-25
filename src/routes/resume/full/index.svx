@@ -52,10 +52,10 @@ Electrical Engineering / Computer Science (2018 - 2019)
 Interested in things related to security, multimedia and communications.  
 
 **Security**  
-In this day and age, information security has been the forefront of attention time and time again. I've come to appreciate the necessity to both understand and promote cyber vigilance to all. I've written a RAT, fuzzer, and even my very own Capture The Flag server, as well as having taught several security courses at UNSW.
+In this day and age, information security has been the forefront of attention time and time again. I've come to appreciate the necessity to both understand and promote cyber vigilance to all. I've written a RAT, fuzzer, and even my very own Capture The Flag server, as well as having taught several security courses at UNSW. Oh and I once came first in a CTF!
 
 **Multimedia**  
-Giant LED walls, live show programming, geeking out on new microphones, cameras, stacking layers of compression... Digital technology has continued to improve the production value of TV, music, videos, theatre, concerts and so much more. Multimedia has been my creative outlet - spending time doing AVL, photography, videography and music. It gets so much more interesting when multimedia is combined with digital technology! I've worked on several projects that enabled me to tie my interests together and enjoy them simultaneously
+Giant LED walls, live show programming, geeking out on new microphones, cameras, stacking layers of compression... Digital technology has continued to improve the production value of TV, music, videos, theatre, concerts and so much more. These have been my creative outlets - spending time doing AVL, photography, videography and music. Combine these things with tech, and it gets so much more interesting! I've worked on several projects that have enabled me to tie my interests together and enjoy them simultaneously!
 
 ### Showcase
 
@@ -65,7 +65,7 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 
 - Software
   - Ryndeum (2019 - 2021)
-  - UNSW Hospitality (2019)
+  - UNSW Hospitality (2019 - 2020)
   - RICE Movement (2017 - 2019)
   - South-West Evangelical Church (2017 - 2018)
   - Freelance
@@ -73,7 +73,7 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 - Teaching
   - Private Tutor
   - Casual Academic @ UNSW Sydney (2019 - present)
-  - Organiser @ CSE CompClub (2019 Summer)
+  - Workshop Organiser @ CSE CompClub (2019 Summer)
   - Mentor @ CSE CompClub (2018 Winter)
 
 ### Awards
@@ -146,7 +146,7 @@ Back in highschool, I represented my school in their 1st Grade Opens A team for 
 ### 🤼 Community
 
 - Jericho Road Park Patrol (29/04/15)
-  - Preparation and delivery of free food hampers to homeless people around the Sydney CBD
+  - Preparation and delivery of free hampers to homeless people around the Sydney CBD
 - Office Assistant @ Kirkplace Presbyterian Church (2015)
 - Sculptures By The Sea @ Bondi (2015, 2019)
   - Selling of merchandise
