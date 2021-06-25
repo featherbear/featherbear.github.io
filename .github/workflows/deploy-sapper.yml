@@ -1,4 +1,4 @@
-name: deploy sapper to github pages
+name: deploy site to github pages
 
 on: push
 
@@ -12,12 +12,17 @@ jobs:
       with:
         node-version: '14.9.0'
 
-
     - name: Install packages
       run: yarn
+    
+    - name: Install script package
+      name: cd scripts; yarn
 
     - name: Build
       run: yarn export
+
+    - name: Generate PDFs
+      run: yarn export:pdf
 
     - name: Set CNAME
       run: echo featherbear.cc > ./__sapper__/export/CNAME

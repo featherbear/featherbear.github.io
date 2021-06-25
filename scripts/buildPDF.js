@@ -1,6 +1,7 @@
 const FILES = {
-  'resume.pdf': ['resume'],
-  'resume2.pdf': ['resume', 'resume/full']
+  'Andrew Jin-Meng Wong - Resume.pdf': ['resume'],
+  'Andrew Jin-Meng Wong - Resume (Complete).pdf': ['resume/full'],
+  'Andrew Jin-Meng Wong - Resume (Combined).pdf': ['resume', 'resume/full']
 }
 
 let OPTIONS = {
