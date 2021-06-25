@@ -5,9 +5,13 @@
 
 <style lang="scss">
   .entryContent {
-    display: ruby;
+    display: inline-flex;
     transform: translateY(-30%);
     font-size: 1.2em;
+
+    span.text {
+      margin-left: 5px;
+    }
   }
 
   @media screen and (orientation: portrait) {
