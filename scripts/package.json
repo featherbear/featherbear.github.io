@@ -1,0 +1,13 @@
+{
+  "name": "site-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-merger-js": "^3.1.0",
+    "polka": "^0.5.2",
+    "puppeteer": "^10.0.0",
+    "queue": "^6.0.2",
+    "sirv": "^1.0.12"
+  }
+}

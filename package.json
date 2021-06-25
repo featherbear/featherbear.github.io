@@ -2,7 +2,8 @@
   "name": "featherbear.cc",
   "scripts": {
     "dev": "sapper dev --ext \".svelte .svx\"",
-    "export": "sapper export --legacy --ext \".svelte .svx\""
+    "export": "sapper export --legacy --ext \".svelte .svx\"",
+    "export:pdf": "node scripts/buildPdf.js"
   },
   "license": "UNLICENSED",
   "dependencies": {
