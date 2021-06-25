@@ -16,7 +16,7 @@ jobs:
       run: yarn
     
     - name: Install script package
-      name: cd scripts; yarn
+      run: cd scripts; yarn
 
     - name: Build
       run: yarn export
