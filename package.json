@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "sapper dev --ext \".svelte .svx\"",
     "export": "sapper export --legacy --ext \".svelte .svx\"",
-    "export:pdf": "node scripts/buildPdf.js"
+    "export:pdf": "node scripts/buildPDF.js"
   },
   "license": "UNLICENSED",
   "dependencies": {

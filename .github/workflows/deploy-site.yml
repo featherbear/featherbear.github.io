@@ -15,7 +15,7 @@ jobs:
     - name: Install packages
       run: yarn
     
-    - name: Install script package
+    - name: Install scripts packages
       run: cd scripts; yarn
 
     - name: Build
