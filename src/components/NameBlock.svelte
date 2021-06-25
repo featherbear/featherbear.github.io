@@ -24,7 +24,7 @@
     color: black;
 
     > span {
-      margin: -0.4em 0 -0.8em 2.5em;
+      margin: -0.3em 0 -0.8em 2.5em;
       font-size: 0.3em;
       line-height: 0.3em;
       font-weight: normal;
