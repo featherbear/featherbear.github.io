@@ -435,6 +435,13 @@
         "repo": "https://github.com/featherbear/threes",
         "blog": "https://featherbear.cc/blog/post/instagram-layouts-offsets-grids-code/",
         "description": "Instagram 3 x n content spacer"
+      },
+      {
+        "title": "Facebook Marketplace Helper",
+        "stack": ["JavaScript"],
+        "repo": "https://github.com/featherbear/facebook-marketplace-helper",
+        "blog": "https://featherbear.cc/blog/post/facebook-marketplace-helper-script",
+        "description": "Remove sponsored ads and mark previously viewed classified listings"
       }
     ]
   }
