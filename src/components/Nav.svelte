@@ -76,11 +76,8 @@
         <a class="navbar-item" class:active={segment === 'about'} href="/about">
           about me
         </a>
-        <a
-          class="navbar-item"
-          class:active={segment === 'photos'}
-          href="/photos">
-          photography
+        <a class="navbar-item" href="https://www.instagram.com/_andrewjwong/">
+          photography<!-- class:active={segment === 'photos'} href="/photos" -->
         </a>
         <a
           class="navbar-item"
