@@ -6,6 +6,7 @@
     url('/assets/fonts/coves_light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -14,4 +15,5 @@
     url('/assets/fonts/coves_bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
