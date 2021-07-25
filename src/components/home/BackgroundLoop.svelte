@@ -1,25 +1,25 @@
 <script>
   const basePath = "assets/images/bg/"
   let bgImages = [
-    "bg01.jpg",
-    "bg02.jpg",
-    "bg03.jpg",
-    "bg04.jpg",
-    "bg05.jpg",
-    "bg06.jpg",
-    "bg07.jpg",
-    "bg08.jpg",
-    "bg09.jpg",
-    "bg10.jpg",
-    "bg11.jpg",
-    "bg12.jpg",
-    "bg13.jpg",
-    "bg14.jpg",
-    "bg15.jpg",
-    "bg16.jpg",
-    "bg17.jpg",
-    "bg18.jpg",
-    "bg19.jpg"
+    "bg01-min.jpg",
+    "bg02-min.jpg",
+    "bg03-min.jpg",
+    "bg04-min.jpg",
+    "bg05-min.jpg",
+    "bg06-min.jpg",
+    "bg07-min.jpg",
+    "bg08-min.jpg",
+    "bg09-min.jpg",
+    "bg10-min.jpg",
+    "bg11-min.jpg",
+    "bg12-min.jpg",
+    "bg13-min.jpg",
+    "bg14-min.jpg",
+    "bg15-min.jpg",
+    "bg16-min.jpg",
+    "bg17-min.jpg",
+    "bg18-min.jpg",
+    "bg19-min.jpg"
   ];
   let currentIdx = -1;
 
