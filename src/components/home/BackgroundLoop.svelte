@@ -1,5 +1,4 @@
 <script>
-  const basePath = "assets/images/bg/"
   let bgImages = [
     "bg01-min.jpg",
     "bg02-min.jpg",
@@ -19,20 +18,53 @@
     "bg16-min.jpg",
     "bg17-min.jpg",
     "bg18-min.jpg",
-    "bg19-min.jpg"
+    "bg19-min.jpg",
   ];
+
+  let items = {};
+
   let currentIdx = -1;
+  async function selectIdx(i) {
+    if (!items[i].style.backgroundImage) {
+      // Image doesn't exist, preload then set
+      await new Promise((resolve, reject) => {
+        const imageUrl = `assets/images/bg/${bgImages[i]}`;
+
+        let preload = document.createElement("img");
+        preload.src = imageUrl;
+
+        preload.addEventListener("load", () => {
+          items[i].style.backgroundImage = `url(${imageUrl})`;
+          preload = null;
+          resolve();
+        });
+      });
+    }
+
+    currentIdx = i;
+  }
 
   import { onMount } from "svelte";
   onMount(() => {
-    currentIdx = Math.floor(Math.random() * bgImages.length)
+    selectIdx(Math.floor(Math.random() * bgImages.length));
+
     if (bgImages.length > 1) {
       setInterval(() => {
-        currentIdx = (currentIdx + 1) % bgImages.length;
+        selectIdx((currentIdx + 1) % bgImages.length);
       }, 11 * 1000);
     }
   });
 </script>
+
+<div class="backgroundContainer">
+  <slot />
+
+  <ul class="background">
+    {#each bgImages as imgPath, i}
+      <li class:active={currentIdx == i} bind:this={items[i]} />
+    {/each}
+  </ul>
+</div>
 
 <style lang="scss">
   .backgroundContainer,
@@ -71,16 +103,3 @@
     }
   }
 </style>
-
-<div class="backgroundContainer">
-  <slot />
-
-  <ul class="background">
-    {#each bgImages as imgPath, i}
-      <li
-        class:active={currentIdx == i}
-        style="background-image: url({basePath + imgPath})" />
-    {/each}
-  </ul>
-
-</div>
