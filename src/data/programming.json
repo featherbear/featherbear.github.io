@@ -152,6 +152,18 @@
         "description": "An explanation of how a Peer to Peer connection is set up with a broker server and NAT Holepunching",
         "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-SecurityWorkshop/tree/master/http_mitm",
         "blog": "https://featherbear.cc/UNSW-COMP6441/blog/post/something-awesome-research-connection/"
+      },
+      {
+        "title": "Learn Binary Security Assessment",
+        "description": "An introduction to software vulnerabilities, exploits and mitigations",
+        "repo": "https://github.com/featherbear/tutoring-unsw-21t2-cs6447",
+        "site": "https://featherbear.cc/tutoring-unsw-21t2-cs6447/"
+      }, 
+      {
+        "title": "Learn Web Security Assessment",
+        "description": "An introduction to web-related vulnerabilities, exploits and mitigations",
+        "repo": "https://github.com/featherbear/tutoring-unsw-21t2-cs6443-cs6843",
+        "site": "https://featherbear.cc/tutoring-unsw-21t2-cs6443-cs6843/"
       }
     ]
   },
