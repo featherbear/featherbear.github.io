@@ -31,6 +31,12 @@
         "title": "node-ltc",
         "repo": "https://github.com/featherbear/node-ltc",
         "description": "Node.js Foreign Function Interface for libltc"
+      },
+      {
+        "title": "flutter-ndi",
+        "repo": "https://github.com/featherbear/flutter-ndi",
+        "description": "Flutter bindings for the NewTek NDI SDK",
+        "stack": ["Dart", "dart:ffi"]
       }
     ]
   },
@@ -351,6 +357,12 @@
         "stack": ["TypeScript", "Svelte"],
         "repo": "https://github.com/featherbear/moone",
         "description": "Morning noticeboard for my bedroom TV"
+      },
+      {
+        "title": "aNDI",
+        "stack": ["Flutter", "Dart"],
+        "repo": "https://github.com/featherbear/aNDI",
+        "description": "NDI Tools for Android"
       }
     ]
   },
