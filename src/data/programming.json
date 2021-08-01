@@ -375,6 +375,13 @@
         "stack": ["Flutter", "Dart"],
         "repo": "https://github.com/featherbear/aNDI",
         "description": "NDI Tools for Android"
+      },
+      {
+        "title": "NDI Telestrator",
+        "description": "Whiteboard annotation tool using NDI",
+        "stack": ["C#"],
+        "repo": "https://github.com/featherbear/NDI-Telestrator",
+        "blog": "https://featherbear.cc/blog/post/ndi-telestrator/"
       }
     ]
   },
