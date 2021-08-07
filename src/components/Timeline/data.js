@@ -21,6 +21,14 @@ function createEntry (
 
 export default [
   createSection('2021', [
+    createEntry('Security Engineer @ Atlassian', "2021/2022 Summer Program", [
+      'Security',
+      'Computing'
+    ]),
+    createEntry('First in CSE x SecSoc CTF Competition', null, [
+      'Security',
+      'Computing'
+    ]),
     createEntry(
       'CommBank Cyber Prize',
       null,
