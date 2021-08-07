@@ -34,6 +34,7 @@ Expected Graduation: 2022
 Computer Engineering (2020 - present)  
 Electrical Engineering / Computer Science (2018 - 2019)  
 
+- First place in CSE x SecSoc CTF 2021
 - First place in CSE x SecSoc CTF 2020
 - First place in Web Application Security and Testing / COMP6[84]43
 
@@ -64,6 +65,7 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 ### Experience
 
 - Software
+  - Security Engineer @ Atlassian (2021/2022 Summer Program)
   - Ryndeum (2019 - 2021)
   - UNSW Hospitality (2019 - 2020)
   - RICE Movement (2017 - 2019)
@@ -79,6 +81,7 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 ### Awards
 
 - UNSW
+  - First in CSE x SecSoc CTF 2021 Competition
   - First in CSE x SecSoc CTF 2020 Competition
   - First in Web Application Security and Testing course (COMP6[84]43)
   - CommBank Cyber Security Prize (2020)
