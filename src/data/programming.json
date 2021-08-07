@@ -62,6 +62,12 @@
         "description": "Blackbox input fuzzer for COMP6447"
       },
       {
+        "title": "CSE x SecSoc CTF 2021",
+        "blog": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2021/",
+        "image": "https://featherbear.cc/blog/uploads/screely-1627038994988.png",
+        "description": "Did another CTF and (unofficially) came first!"
+      },
+      {
         "title": "CSE x SecSoc CTF 2020",
         "blog": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/",
         "image": "https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/team.png",
@@ -70,7 +76,7 @@
       {
         "title": "UNSW COMP6443",
         "site": "https://featherbear.cc/UNSW-COMP6443/",
-        "description": "Another honourable mention - I placed first in my university's Web Application Security and Testing course!"
+        "description": "Another honourable mention - I placed first in my university's Web Application Security and Testing course! I was additionally a recipient of the CommBank Cyber Prize"
       },
       {
         "title": "UNSW CompClub 2019 CTF Server",
@@ -150,7 +156,7 @@
       {
         "title": "Establishing P2P Connections over TCP",
         "description": "An explanation of how a Peer to Peer connection is set up with a broker server and NAT Holepunching",
-        "repo": "https://github.com/featherbear/UNSW-CompClub2019Summer-SecurityWorkshop/tree/master/http_mitm",
+        "repo": "https://github.com/featherbear/Python-P2P-TCP-Example",
         "blog": "https://featherbear.cc/UNSW-COMP6441/blog/post/something-awesome-research-connection/"
       },
       {
