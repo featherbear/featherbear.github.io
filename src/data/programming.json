@@ -30,13 +30,15 @@
       {
         "title": "node-ltc",
         "repo": "https://github.com/featherbear/node-ltc",
-        "description": "Node.js Foreign Function Interface for libltc"
+        "description": "Node.js Foreign Function Interface for libltc",
+        "stack": ["Node.js", "ffi"]
       },
       {
         "title": "flutter-ndi",
         "repo": "https://github.com/featherbear/flutter-ndi",
+        "blog": "https://featherbear.cc/blog/post/andi-ndi-tools-for-android/",
         "description": "Flutter bindings for the NewTek NDI SDK",
-        "stack": ["Dart", "dart:ffi"]
+        "stack": ["Dart", "ffi"]
       }
     ]
   },
@@ -380,6 +382,7 @@
         "title": "aNDI",
         "stack": ["Flutter", "Dart"],
         "repo": "https://github.com/featherbear/aNDI",
+        "blog": "https://featherbear.cc/blog/post/andi-ndi-tools-for-android/",
         "description": "NDI Tools for Android"
       },
       {
