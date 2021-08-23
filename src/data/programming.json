@@ -344,7 +344,7 @@
       },
       {
         "title": "Talyte",
-        "stack": ["C++", "Arduino"],
+        "stack": ["C++", "Arduino", "Svelte"],
         "blog": "https://featherbear.cc/blog/post/talyte/",
         "image": "https://featherbear.cc/blog/uploads/20210510_234112.jpg",
         "repo": "https://github.com/featherbear/talyte/",
@@ -392,7 +392,15 @@
         "stack": ["C#"],
         "repo": "https://github.com/featherbear/NDI-Telestrator",
         "blog": "https://featherbear.cc/blog/post/ndi-telestrator/"
-      }
+      },
+      {
+        "title": "Zifon YT-1000 WiFi ACU",
+        "stack": ["C++", "Arduino", "Svelte"],
+        // "blog": "https://featherbear.cc/blog/post/talyte/",
+        // "image": "https://featherbear.cc/blog/uploads/20210510_234112.jpg",
+        "repo": "https://github.com/featherbear/zifon-yt1000-wifi-acu",
+        "description": "WiFi Auxiliary Control Unit for the Zifon YT-1000 Pan-Tilt Head"
+      },
     ]
   },
   {
