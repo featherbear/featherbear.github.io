@@ -396,9 +396,9 @@
       {
         "title": "Zifon YT-1000 WiFi ACU",
         "stack": ["C++", "Arduino", "Svelte"],
-        // "blog": "https://featherbear.cc/blog/post/talyte/",
-        // "image": "https://featherbear.cc/blog/uploads/20210510_234112.jpg",
+        "image": "https://featherbear.cc/blog/uploads/20210820_052448.jpg",
         "repo": "https://github.com/featherbear/zifon-yt1000-wifi-acu",
+        "blog": "https://featherbear.cc/blog/post/zifon-yt-1000-wifi-acu/",
         "description": "WiFi Auxiliary Control Unit for the Zifon YT-1000 Pan-Tilt Head"
       },
     ]
