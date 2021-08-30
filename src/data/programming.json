@@ -210,7 +210,6 @@
         "blog": "https://featherbear.cc/blog/post/e-paper/",
         "description": "Physical to-do list on an e-Paper display"
       },
-
       {
         "title": "Filmstrip Messages",
         "stack": ["Svelte"],
@@ -228,7 +227,6 @@
         "image": "https://featherbear.cc/blog/post/delivery-track/preview.png",
         "description": "Postal delivery tracking web application with synchronisation between devices"
       },
-
       {
         "title": "Wardrobe",
         "stack": ["Svelte"],
@@ -284,6 +282,28 @@
         "stack": ["TypeScript", "Svelte"],
         "repo": "https://github.com/featherbear/monosodium",
         "description": "Facebook Messenger client"
+      },
+      {
+        "title": "BlueClick BLE",
+        "stack": ["Arduino"],
+        "image": "https://featherbear.cc/blog/post/blueclick/logic-board/20201205_180608.jpg",
+        "blog": "https://featherbear.cc/blog/post/blueclick/",
+        "repo": "https://github.com/featherbear/BlueClick_BLE",
+        "description": "Page turner for OnSong, through sending MIDI notes over Bluetooth Low Energy"
+      },
+      {
+        "title": "Moone (dev)",
+        "stack": ["TypeScript", "Svelte"],
+        "repo": "https://github.com/featherbear/moone",
+        "description": "Morning noticeboard for my bedroom TV"
+      },
+      {
+        "title": "Zifon YT-1000 WiFi ACU",
+        "stack": ["C++", "Arduino", "Svelte"],
+        "image": "https://featherbear.cc/blog/uploads/20210820_052448.jpg",
+        "repo": "https://github.com/featherbear/zifon-yt1000-wifi-acu",
+        "blog": "https://featherbear.cc/blog/post/zifon-yt-1000-wifi-acu/",
+        "description": "WiFi Auxiliary Control Unit for the Zifon YT-1000 Pan-Tilt Head"
       }
     ]
   },
@@ -326,15 +346,6 @@
         "repo": "https://github.com/featherbear/OnCue",
         "description": "Multimedia presentation software for seamless playback of content\nHSC Major Project"
       },
-
-      {
-        "title": "BlueClick BLE",
-        "stack": ["Arduino"],
-        "image": "https://featherbear.cc/blog/post/blueclick/logic-board/20201205_180608.jpg",
-        "blog": "https://featherbear.cc/blog/post/blueclick/",
-        "repo": "https://github.com/featherbear/BlueClick_BLE",
-        "description": "Page turner for OnSong, through sending MIDI notes over Bluetooth Low Energy"
-      },
       {
         "title": "NDI Streamer",
         "stack": ["C++"],
@@ -373,12 +384,6 @@
         "description": "UDP discovery packet spoofer for communication between remote StudioLive III consoles"
       },
       {
-        "title": "Moone (dev)",
-        "stack": ["TypeScript", "Svelte"],
-        "repo": "https://github.com/featherbear/moone",
-        "description": "Morning noticeboard for my bedroom TV"
-      },
-      {
         "title": "aNDI",
         "stack": ["Flutter", "Dart"],
         "repo": "https://github.com/featherbear/aNDI",
@@ -394,12 +399,10 @@
         "blog": "https://featherbear.cc/blog/post/ndi-telestrator/"
       },
       {
-        "title": "Zifon YT-1000 WiFi ACU",
-        "stack": ["C++", "Arduino", "Svelte"],
-        "image": "https://featherbear.cc/blog/uploads/20210820_052448.jpg",
-        "repo": "https://github.com/featherbear/zifon-yt1000-wifi-acu",
-        "blog": "https://featherbear.cc/blog/post/zifon-yt-1000-wifi-acu/",
-        "description": "WiFi Auxiliary Control Unit for the Zifon YT-1000 Pan-Tilt Head"
+        "title": "Vix",
+        "stack": ["Flutter", "Dart"],
+        "repo": "https://github.com/featherbear/obs-vix",
+        "description": "OBS Vision Mixer client"
       }
     ]
   },
