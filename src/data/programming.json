@@ -90,7 +90,7 @@
         "description": "Custom CTF server for UNSW CompClub"
       },
       {
-        "title": "Project CTF² (dev)",
+        "title": "Project CTF² (WIP)",
         "stack": ["Node.js", "Svelte", "SQLite", "MongoDB", "NeutralinoJS"],
         "image": "https://github.com/featherbear/CTF2-server-slate/raw/master/images/logo.png",
         "repo": "https://github.com/featherbear/CTF2",
@@ -266,19 +266,19 @@
         "description": "Static link shortener service via GitHub Pages"
       },
       {
-        "title": "Templables (dev)",
+        "title": "Templables (WIP)",
         "stack": ["TypeScript", "Svelte"],
         "repo": "https://github.com/featherbear/templables",
         "description": "Form creation and collection framework"
       },
       {
-        "title": "Wyd? (dev)",
+        "title": "Wyd? (WIP)",
         "stack": ["TypeScript", "Svelte"],
         "repo": "https://github.com/featherbear/wyd",
         "description": "Public daily agenda"
       },
       {
-        "title": "Monosodium (dev)",
+        "title": "Monosodium (WIP)",
         "stack": ["TypeScript", "Svelte"],
         "repo": "https://github.com/featherbear/monosodium",
         "description": "Facebook Messenger client"
@@ -292,7 +292,7 @@
         "description": "Page turner for OnSong, through sending MIDI notes over Bluetooth Low Energy"
       },
       {
-        "title": "Moone (dev)",
+        "title": "Moone (WIP)",
         "stack": ["TypeScript", "Svelte"],
         "repo": "https://github.com/featherbear/moone",
         "description": "Morning noticeboard for my bedroom TV"
@@ -312,7 +312,7 @@
     "title": "Multimedia",
     "items": [
       {
-        "title": "Sound Mixer Simulator (dev)",
+        "title": "Sound Mixer Simulator (WIP)",
         "site": "https://featherbear.cc/mixer/",
         "repo": "https://github.com/featherbear/mixer/",
         "stack": ["React"],
@@ -399,7 +399,7 @@
         "blog": "https://featherbear.cc/blog/post/ndi-telestrator/"
       },
       {
-        "title": "Vix",
+        "title": "Vix (WIP)",
         "stack": ["Flutter", "Dart"],
         "repo": "https://github.com/featherbear/obs-vix",
         "description": "OBS Vision Mixer client"
