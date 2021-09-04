@@ -19,7 +19,8 @@
         "stack": ["Node.js", "Python"],
         "repo": "https://github.com/featherbear/PreSonus-StudioLive-API",
         "blog": "https://featherbear.cc/blog/post/presonus-studiolive-api/",
-        "description": "Exploring the PreSonus network control protocol from a StudioLive Series III"
+        "description": "Exploring the PreSonus network control protocol from a StudioLive Series III",
+        "image": "https://featherbear.cc/blog/post/presonus-studiolive-api/20190513_174229.jpg"
       },
       {
         "title": "fastify-slate",
@@ -78,7 +79,8 @@
       {
         "title": "UNSW COMP6443",
         "site": "https://featherbear.cc/UNSW-COMP6443/",
-        "description": "Another honourable mention - I placed first in my university's Web Application Security and Testing course! I was additionally a recipient of the CommBank Cyber Prize"
+        "description": "Another honourable mention - I placed first in my university's Web Application Security and Testing course! I was additionally a recipient of the CommBank Cyber Prize",
+        "image": "https://featherbear.cc/blog/uploads/1625470416790.jpg"
       },
       {
         "title": "UNSW CompClub 2019 CTF Server",
@@ -263,7 +265,8 @@
         "stack": ["JavaScript", "Python"],
         "blog": "https://featherbear.cc/blog/post/featherbear.cc-go/",
         "repo": "https://github.com/featherbear/go-links",
-        "description": "Static link shortener service via GitHub Pages"
+        "description": "Static link shortener service via GitHub Pages",
+        "image": "https://featherbear.cc/blog/uploads/screely-1612249310864.png"
       },
       {
         "title": "Templables (WIP)",
@@ -396,13 +399,15 @@
         "description": "Whiteboard annotation tool using NDI",
         "stack": ["C#"],
         "repo": "https://github.com/featherbear/NDI-Telestrator",
-        "blog": "https://featherbear.cc/blog/post/ndi-telestrator/"
+        "blog": "https://featherbear.cc/blog/post/ndi-telestrator/",
+        "image": "https://featherbear.cc/blog/uploads/snipaste_2021-06-25_22-32-19.png"
       },
       {
         "title": "Vix",
         "stack": ["Flutter", "Dart"],
         "repo": "https://github.com/featherbear/obs-vix",
         "blog": "https://featherbear.cc/blog/post/obs-vix/",
+        "image": "https://featherbear.cc/blog/uploads/20210904-snipaste_2021-09-05_01-43-46.png",
         "description": "OBS Vision Mixer client"
       }
     ]
@@ -487,14 +492,16 @@
         "stack": ["Python"],
         "repo": "https://github.com/featherbear/threes",
         "blog": "https://featherbear.cc/blog/post/instagram-layouts-offsets-grids-code/",
-        "description": "Instagram 3 x n content spacer"
+        "description": "Instagram 3 x n content spacer",
+        "image": "https://featherbear.cc/blog/uploads/sxs.gif",
       },
       {
         "title": "Facebook Marketplace Helper",
         "stack": ["JavaScript"],
         "repo": "https://github.com/featherbear/facebook-marketplace-helper",
         "blog": "https://featherbear.cc/blog/post/facebook-marketplace-helper-script",
-        "description": "Remove sponsored ads and mark previously viewed classified listings"
+        "description": "Remove sponsored ads and mark previously viewed classified listings",
+        "image": "https://featherbear.cc/blog/uploads/snipaste_2021-07-10_00-05-39.png"
       }
     ]
   }
