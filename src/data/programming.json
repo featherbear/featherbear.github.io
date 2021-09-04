@@ -402,6 +402,7 @@
         "title": "Vix",
         "stack": ["Flutter", "Dart"],
         "repo": "https://github.com/featherbear/obs-vix",
+        "blog": "https://featherbear.cc/blog/post/obs-vix/",
         "description": "OBS Vision Mixer client"
       }
     ]
