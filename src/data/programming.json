@@ -399,7 +399,7 @@
         "blog": "https://featherbear.cc/blog/post/ndi-telestrator/"
       },
       {
-        "title": "Vix (WIP)",
+        "title": "Vix",
         "stack": ["Flutter", "Dart"],
         "repo": "https://github.com/featherbear/obs-vix",
         "description": "OBS Vision Mixer client"
