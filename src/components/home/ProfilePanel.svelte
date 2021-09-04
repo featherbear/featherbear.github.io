@@ -103,12 +103,10 @@
         margin: 0.5vh auto;
         display: block;
         text-rendering: auto;
-        color: dimgrey !important;
 
         > span {
           word-wrap: break-word;
-          font-size: 1em;
-          color: grey;
+          font-size: 1.2em;
           opacity: 0.6;
           -o-transition: opacity 0.5s;
           -ms-transition: opacity 0.5s;
