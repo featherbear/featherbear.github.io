@@ -93,18 +93,19 @@
 
 <div class="coverImage" />
 
-# Hey there! 👋
+# Hey there 👋
 
-_You've probably found my site from Google, a friend, one of my [UNSW course note sites](/blog/post/unsw/), or maybe you're a bot. Either way, welcome!_
+_You've probably found this site from Google, a friend, one of my [UNSW course note sites](/blog/post/unsw/), or maybe you're a bot. Either way, welcome!_
 
 ## About Me
 
 I'm currently a fourth year Computer Engineering student at the University of New South Wales in Sydney, Australia.  
 My main passions are [programming](/programming), [photography](/photos) and [stage production](/blog/categories/audio-visual/) (audio/visual stuff).
 
-Sports? Table Tennis, and going on hikes/walks - if you consider that a sport...  
-Music? I fiddle on my guitar from time to time. I'm also trying to learn piano...  
-Windows or Mac? Depends what I'm doing. Mac for multimedia, Windows for games, Linux on my laptop.  
+🏓 Sports? Table Tennis, and going on hikes/walks (if you consider that a sport...)  
+🎸 Music? I fiddle on my guitar from time to time. I'm also trying to learn piano...  
+💻 Windows vs Mac? Depends what I'm doing. Mac for multimedia, Windows for games, Linux on my laptop.  
+
 Sleep deprived? Absolutely.  
 Hotel? Trivago.
 
@@ -129,6 +130,8 @@ If you're looking for my resume, you can find it **[here](/resume)**.
 	</div>
 </a>
 
-If you're looking for the end of this file, it's _here_ :)
+## That's all
+
+If you're looking for the end of this file, it's here :)
 
 <!-- I'm available for freelace work -->
