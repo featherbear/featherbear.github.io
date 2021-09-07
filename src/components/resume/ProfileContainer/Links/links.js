@@ -6,7 +6,10 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 export default [
-  { icon: faEnvelopeSquare, b64text: 'YW5kcmV3Lmoud29uZ0BvdXRsb29rLmNvbQ' },
+  { icon: faEnvelopeSquare,
+    b64text: 'YW5kcmV3Lmoud29uZ0BvdXRsb29rLmNvbQ',
+    b64link: 'bWFpbHRvOmFuZHJldy5qLndvbmdAb3V0bG9vay5jb20/Y2M9aGVsbG9AZmVhdGhlcmJlYXIuY2M'
+  },
   {
     icon: faLinkedin,
     text: 'andrewjinmengwong',
