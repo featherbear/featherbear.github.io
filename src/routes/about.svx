@@ -11,6 +11,25 @@
 <style>
 .coverImage {
 	width: 100%;
+	height: 280px;
+	background-image: url(/assets/images/cover.jpg);
+	background-position: 100% 30%;
+	background-size: cover;
+	position: relative;
+	box-shadow: none;
+	margin: 2em 0;
+	border-radius: 10px;
+}
+
+.coverImage::before {
+	content: ' ';
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	background: inherit;
+	filter: blur(0.8em);
+}
+
 .resumeContainer {
 	position: relative;
 	padding: 15px 5px;
@@ -72,11 +91,13 @@
 
 </style>
 
+<div class="coverImage" />
+
 # Hey there! 👋
 
-<img src="/assets/images/cover.jpg" class="coverImage" draggable="false" alt="" />
+_You've probably found my site from Google, a friend, one of my [UNSW course note sites](/blog/post/unsw/), or maybe you're a bot. Either way, welcome!_
 
-_You've probably found my site from Google, a friend, one of my [UNSW course note sites](/blog/post/unsw/), or you're a bot. Either way, welcome!_
+## About Me
 
 I'm currently a fourth year Computer Engineering student at the University of New South Wales in Sydney, Australia.  
 My main passions are [programming](/programming), [photography](/photos) and [stage production](/blog/categories/audio-visual/) (audio/visual stuff).
