@@ -20,8 +20,8 @@
 
     div {
       display: grid;
-      grid-template-columns: repeat(auto-fill, 32%);
-      grid-gap: 1%;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
       align-content: flex-start;
 
       @media (max-width: 480px) {
