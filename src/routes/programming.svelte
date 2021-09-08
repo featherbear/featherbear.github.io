@@ -4,7 +4,7 @@
 
   // import fetch from "node-fetch";
   
-  import _data from "../data/programming.json";
+  import _data from "../data/programming.hjson";
 
   /* Modify the data to order it by <hasImageOrPreview>, <Name> */
   async function generateData() {

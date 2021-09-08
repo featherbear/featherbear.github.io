@@ -4,6 +4,7 @@ import commonjs from '@rollup/plugin-commonjs'
 import svelte from 'rollup-plugin-svelte'
 import babel from '@rollup/plugin-babel'
 import json from '@rollup/plugin-json'
+import HJSON from 'hjson'
 import { terser } from 'rollup-plugin-terser'
 import { mdsvex } from 'mdsvex'
 import config from 'sapper/config/rollup.js'
@@ -13,6 +14,15 @@ import pkg from './package.json'
 const mode = process.env.NODE_ENV
 const dev = mode === 'development'
 const legacy = !!process.env.SAPPER_LEGACY_BUILD
+
+let json_plugin = json({ compact: true })
+let hjson_plugin = {
+  name: 'hjson',
+  transform(hjson, id) {
+    if (id.slice(-6) !== '.hjson') return null;
+    return json_plugin.transform(JSON.stringify(HJSON.parse(hjson)), id + ".json" )
+  }
+}
 
 const onwarn = (warning, onwarn) => {
   if (
@@ -53,7 +63,8 @@ module.exports = {
         },
         preventAssignment: true
       }),
-      json({ compact: true }),
+      hjson_plugin,     
+      json_plugin,
       svelte({
         compilerOptions: {
           dev,
@@ -114,7 +125,8 @@ module.exports = {
         },
         preventAssignment: true
       }),
-      json({ compact: true }),
+      hjson_plugin,     
+      json_plugin,
       svelte({
         compilerOptions: { dev, generate: 'ssr' },
         extensions: ['.svelte', '.svx'],
