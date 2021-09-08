@@ -6,40 +6,40 @@
       {
         title: facebook-messenger-puppeteer
         stack: ["Node.js", "Puppeteer"]
-        description: API for Messenger Chat via Puppeteer
+        description: A Node.js Puppeteer API for user-mode interaction on Facebook Messenger Chat
         repo: https://github.com/featherbear/facebook-messenger-puppeteer
         blog: https://featherbear.cc/blog/post/facebook-messenger-puppeteer/
       }
       {
         title: react-native-mifare-classic-wrapper
         repo: https://github.com/featherbear/react-native-mifare-classic-wrapper/
-        description: Wrapper over the react-native-nfc-manager package to provide streamlined Mifare Classic functionality
+        description: A wrapper over the react-native-nfc-manager package to provide streamlined Mifare Classic functionality
       }
       {
         title: PreSonus StudioLive API
         stack: ["Node.js", "Python"]
         repo: https://github.com/featherbear/PreSonus-StudioLive-API
         blog: https://featherbear.cc/blog/post/presonus-studiolive-api/
-        description: Exploring the PreSonus network control protocol from a StudioLive Series III
+        description: Reverse engineered PreSonus network control protocol for the StudioLive Series III product family
         image: https://featherbear.cc/blog/post/presonus-studiolive-api/20190513_174229.jpg
       }
       {
         title: fastify-slate
         stack: ["Node.js"]
         repo: https://github.com/featherbear/fastify-slate
-        description: Slate documentation generator for Fastify
+        description: Slate API document generator for Fastify framework routes
       }
       {
         title: node-ltc
         repo: https://github.com/featherbear/node-ltc
-        description: Node.js Foreign Function Interface for libltc
+        description: Node.js Foreign Function Interface for the libltc package
         stack: ["Node.js", "ffi"]
       }
       {
         title: flutter-ndi
         repo: https://github.com/featherbear/flutter-ndi
         blog: https://featherbear.cc/blog/post/andi-ndi-tools-for-android/
-        description: Flutter bindings for the NewTek NDI SDK
+        description: Flutter Foreign Function Interface bindings for the NewTek NDI SDK
         stack: ["Dart", "ffi"]
       }
     ]
@@ -55,7 +55,7 @@
         blog: https://featherbear.cc/UNSW-COMP6441/blog/post/job-application/something_awesome/
         preview: https://featherbear.cc/UNSW-COMP6441-RATtata/
         stack: ["Node.js", "Vue", "Electron"]
-        description: Remote administration tool project for COMP6441
+        description: A remote administration tool project for the UNSW COMP6441 course.
       }
       {
         title: Project Securitears
@@ -63,19 +63,19 @@
         repo: https://github.com/featherbear/UNSW-COMP6447-ass
         site: https://featherbear.github.io/UNSW-COMP6447-ass
         preview: https://featherbear.cc/UNSW-COMP6447-ass/
-        description: Blackbox input fuzzer for COMP6447
-      }
-      {
-        title: CSE x SecSoc CTF 2021
-        blog: https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2021/
-        image: https://featherbear.cc/blog/uploads/screely-1627038994988.png
-        description: Did another CTF and (unofficially) came first!
+        description: A blackbox binary application input fuzzer for the UNSW COMP6447 course.
       }
       {
         title: CSE x SecSoc CTF 2020
         blog: https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/
         image: https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/team.png
         description: Not actually a project, but an honourable mention. I came first in this CTF!
+      }
+      {
+        title: CSE x SecSoc CTF 2021
+        blog: https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2021/
+        image: https://featherbear.cc/blog/uploads/screely-1627038994988.png
+        description: Did another CTF and (unofficially) came first!
       }
       {
         title: UNSW COMP6443
@@ -90,14 +90,18 @@
         blog: https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/
         repo: https://github.com/featherbear/UNSW-CompClub2019Summer-CTF
         site: https://featherbear.cc/UNSW-CompClub2019Summer-CTF/
-        description: Custom CTF server for UNSW CompClub
+        description:
+          '''
+          A custom Capture The Flag server written for UNSW CompClub.
+          Adopted by CSESoc, and has also been used externally
+          '''
       }
       {
         title: Project CTF² (WIP)
         stack: ["Node.js", "Svelte", "SQLite", "MongoDB", "NeutralinoJS"]
         image: https://github.com/featherbear/CTF2-server-slate/raw/master/images/logo.png
         repo: https://github.com/featherbear/CTF2
-        description: Custom Capture The Flag competition server
+        description: A remake of my original Capture The Flag server
       }
     ]
   }
@@ -111,12 +115,12 @@
         repo: https://github.com/featherbear/learn-c/
         site: https://featherbear.cc/learn-c/
       }
-      {
-        title: Learn Data Structures and Algorithms
-        description: A primer to common computer data structures and algorithms
-        repo: https://github.com/featherbear/learn-data-structures-algorithms/
-        site: https://featherbear.cc/learn-data-structures-algorithms/
-      }
+      // {
+      //   title: Learn Data Structures and Algorithms
+      //   description: A primer to common computer data structures and algorithms
+      //   repo: https://github.com/featherbear/learn-data-structures-algorithms/
+      //   site: https://featherbear.cc/learn-data-structures-algorithms/
+      // }
       {
         title: Learn System Internals
         description: A primer to how CPUs and Operating Systems work
@@ -129,12 +133,12 @@
         repo: https://github.com/featherbear/learn-python-proficiency/
         site: https://featherbear.cc/learn-python-proficiency/
       }
-      {
-        title: JavaScript Proficiency
-        description: "Snippets of knowledge about JavaScript "
-        repo: https://github.com/featherbear/learn-javascript-proficiency/
-        site: https://featherbear.cc/learn-javascript-proficiency/
-      }
+      // {
+      //   title: JavaScript Proficiency
+      //   description: Snippets of knowledge about JavaScript
+      //   repo: https://github.com/featherbear/learn-javascript-proficiency/
+      //   site: https://featherbear.cc/learn-javascript-proficiency/
+      // }
       {
         title: Learn CSS - Hover Buttons
         description: Demonstration on the effects of the placement of the transition style attribute
@@ -196,7 +200,7 @@
         stack: ["JavaScript"]
         image: https://featherbear.cc/blog/post/unsw-scientia-signage/Snipaste_2019-12-09_19-33-07.png
         blog: https://featherbear.cc/blog/post/unsw-scientia-signage/
-        description: SPA page to control PiSignage devices
+        description: An SPA to easily manage and control multiple PiSignage devices
       }
       {
         title: South-West Evangelical Church
@@ -222,7 +226,7 @@
         image: https://featherbear.cc/blog/post/e-paper/20191211_221809.jpg
         repo: https://github.com/featherbear/trello-epd
         blog: https://featherbear.cc/blog/post/e-paper/
-        description: Physical to-do list on an e-Paper display
+        description: A physical todo list on an e-Paper display
       }
       {
         title: Filmstrip Messages
@@ -262,7 +266,7 @@
         stack: ["TypeScript", "Svelte"]
         site: https://featherbear.cc/spit/
         repo: https://github.com/featherbear/spit
-        description: Data massaging tool
+        description: A data massaging tool to convert between various formats
       }
       {
         title: Wakey
@@ -270,33 +274,33 @@
         image: https://featherbear.cc/blog/post/wakey/Snipaste_2020-11-16_22-37-12.png
         blog: https://featherbear.cc/blog/post/wakey/
         repo: https://github.com/featherbear/wakey
-        description: Wake On LAN web application
+        description: A Wake On LAN web interface
       }
       {
         title: Go Links
         stack: ["JavaScript", "Python"]
         blog: https://featherbear.cc/blog/post/featherbear.cc-go/
         repo: https://github.com/featherbear/go-links
-        description: Static link shortener service via GitHub Pages
+        description: Self-hosted static link shortener service via GitHub Pages
         image: https://featherbear.cc/blog/uploads/screely-1612249310864.png
       }
       {
         title: Templables (WIP)
         stack: ["TypeScript", "Svelte"]
         repo: https://github.com/featherbear/templables
-        description: Form creation and collection framework
+        description: Reusable form creation and collection framework
       }
-      {
-        title: Wyd? (WIP)
-        stack: ["TypeScript", "Svelte"]
-        repo: https://github.com/featherbear/wyd
-        description: Public daily agenda
-      }
+      // {
+      //   title: Wyd? (WIP)
+      //   stack: ["TypeScript", "Svelte"]
+      //   repo: https://github.com/featherbear/wyd
+      //   description: Public daily agenda
+      // }
       {
         title: Monosodium (WIP)
         stack: ["TypeScript", "Svelte"]
         repo: https://github.com/featherbear/monosodium
-        description: Facebook Messenger client
+        description: A Facebook Messenger client wrapper with useful features
       }
       {
         title: BlueClick BLE
@@ -353,7 +357,7 @@
         stack: ["C#", ".NET"]
         repo: https://github.com/featherbear/propresenter-local-sync-tool
         image: https://raw.githubusercontent.com/featherbear/propresenter-local-sync-tool/master/logo.ico
-        description: A buggy file synchronisation tool that's less buggy than ProPresenter 6's inbuilt one
+        description: A buggy file synchronisation tool that's still less buggy than ProPresenter 6's inbuilt one
       }
       {
         title: OnCue Projector
@@ -370,7 +374,11 @@
         stack: ["C++"]
         blog: https://featherbear.cc/blog/post/ndi-streamer/
         repo: https://github.com/featherbear/ndi-streamer
-        description: Cross-platform display sharing over NDI. Intended for Linux, since Windows and Mac have the free official Scan Converter
+        description: 
+          '''
+          Cross-platform display sharing over NDI.
+          Intended for Linux, since Windows and Mac have official software
+          '''
       }
       {
         title: Talyte
@@ -378,7 +386,7 @@
         blog: https://featherbear.cc/blog/post/talyte/
         image: https://featherbear.cc/blog/uploads/20210510_234112.jpg
         repo: https://github.com/featherbear/talyte/
-        description: OBS tally light library / software
+        description: Tally light library / software for OBS
       }
       {
         title: Splitify
@@ -387,20 +395,24 @@
         site: https://splitify.github.io
         blog: https://featherbear.cc/blog/post/splitify/
         repo: https://github.com/Splitify/
-        description: Spotify playlist manager and creator. UNSW SENG4920 group project
+        description:
+          '''
+          Spotify playlist manager and creator.
+          UNSW SENG4920 group project
+          '''
       }
       {
         title: Bitfocus Companion: PreSonus StudioLive III Module
         stack: ["TypeScript"]
         blog: https://featherbear.cc/blog/post/presonus-studiolive-api-ii/
         repo: https://github.com/featherbear/bitfocus-companion-module-presonus-studiolive-iii
-        description: Integration of my PreSonus StudioLive III API for the Elgato Streamdeck, with the Bitfocus Companion software
+        description: Integration of my PreSonus StudioLive III API for the Bitfocus Companion (for the Elgato Streamdeck)
       }
       {
         title: PreSonus StudioLive III Console Advertisement
         stack: ["C"]
         repo: https://github.com/featherbear/presonus-studiolive-console-advertisement
-        description: UDP discovery packet spoofer for communication between remote StudioLive III consoles
+        description: UDP discovery packet spoofer for notifying clients of networked StudioLive III consoles over challenging network configurations
       }
       {
         title: aNDI
@@ -408,7 +420,7 @@
         repo: https://github.com/featherbear/aNDI
         blog: https://featherbear.cc/blog/post/andi-ndi-tools-for-android/
         image: https://featherbear.cc/blog/uploads/img_0047.JPG
-        description: NDI Tools for Android
+        description: NDI tool application for Android
       }
       {
         title: NDI Telestrator
@@ -424,7 +436,7 @@
         repo: https://github.com/featherbear/obs-vix
         blog: https://featherbear.cc/blog/post/obs-vix/
         image: https://featherbear.cc/blog/uploads/20210904-snipaste_2021-09-05_01-43-46.png
-        description: OBS Vision Mixer client
+        description: An opinionated vision mixer and switcher client for OBS
       }
     ]
   }
@@ -473,7 +485,7 @@
         repo: https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/
         blog: https://featherbear.cc/blog/post/dungeon-console/
         image: https://raw.githubusercontent.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/master/demo_advanced.gif
-        description: Alternative client for my UNSW COMP2511 group project
+        description: Alternative text-based client for my UNSW COMP2511 group project
       }
       {
         title: Balloon Shooting Game
@@ -481,7 +493,7 @@
         blog: https://featherbear.cc/blog/post/smallbasic-balloon-shooting-game/
         repo: https://github.com/featherbear/smallbasic-balloon-shooting-game
         image: https://featherbear.cc/blog/post/smallbasic-balloon-shooting-game/animation.gif
-        description: Making a game in Small Basic. Oh boy.
+        description: A game I made in Small Basic for some educational course. Oh boy.
       }
       {
         title: Whoops! There Goes My AI
@@ -489,7 +501,7 @@
         blog: https://featherbear.cc/blog/post/whoops-there-goes-my-ai/
         image: https://featherbear.cc/blog/post/whoops-there-goes-my-ai/preview.apng
         repo: https://github.com/featherbear/Whoops-There-Goes-My-AI/
-        description: Computer vision game automator
+        description: An attempt at computer vision, to automate a mobile phone game
       }
     ]
   }
@@ -501,20 +513,20 @@
         title: zt.py
         stack: ["Python"]
         repo: https://github.com/featherbear/zt.py
-        description: CLI wrapper for ZeroTier Linux
+        description: Linux CLI wrapper for managing ZeroTier networks
       }
       {
         title: Netlify DDNS Updater
         stack: ["Python"]
         repo: https://github.com/featherbear/netlify-ddns-updater
-        description: Yet another DDNS updater for Netlify DNS
+        description: Yet another dynamic DNS updater for Netlify DNS
       }
       {
         title: Threes
         stack: ["Python"]
         repo: https://github.com/featherbear/threes
         blog: https://featherbear.cc/blog/post/instagram-layouts-offsets-grids-code/
-        description: Instagram 3 x n content spacer
+        description: A content spacer tool for Instagram to maintain 3 x n layouts
         image: https://featherbear.cc/blog/uploads/sxs.gif
       }
       {
