@@ -9,6 +9,11 @@
   });
 </script>
 
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, user-scalable=no"
+/>
+
 <div id="container">
   <div class="contentCover content">
     <section>
@@ -70,6 +75,11 @@
   div#container {
     font-size: 20px;
 
+    /* TODO: Get rid of this ... */
+    @media only screen and (max-width: 600px) {
+      font-size: 18px;
+    }
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,6 +87,7 @@
     background-image: url(/assets/images/bg/bg19-min.jpg);
     background-position: center;
     background-size: cover;
+
     top: 0;
     left: 0;
     right: 0;
@@ -108,14 +119,16 @@
 
     > section:nth-child(1) {
       flex: 1;
-      margin: 1.5em;
+      margin-left: 0.5em;
+      padding: 1em;
 
       .nameBlockContainer {
-        font-size: 1.5em;
+        font-size: clamp(1em, 2vw, 1.5em);
       }
 
       ul.links {
         margin: 0;
+        margin-bottom: 1em;
         padding: 0;
         list-style-type: none;
 
@@ -155,15 +168,15 @@
       ul.socialLinks {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
 
         padding: 0;
         // margin: 0;
         list-style-type: none;
 
         img {
-          width: 2em;
-          height: 2em;
+          width: 1.6em;
+          height: 1.6em;
 
           aspect-ratio: 1;
         }
@@ -177,12 +190,15 @@
         background-size: cover;
 
         background-position-x: center;
-        border-top-left-radius: var(--border-radius);
-        border-bottom-left-radius: var(--border-radius);
+
+        border-top-left-radius: calc(2 * var(--border-radius));
+        border-bottom-left-radius: calc(2 * var(--border-radius));
+
+        border-top-right-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
 
         height: 100%;
-        max-width: 600px;
-        width: 25vw;
+        width: clamp(120px, 25vw, 600px);
 
         //   aspect-ratio: 1;
       }
