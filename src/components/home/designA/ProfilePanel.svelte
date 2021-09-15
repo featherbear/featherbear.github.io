@@ -2,8 +2,8 @@
   let emailElem;
 
   import { onMount } from "svelte";
-  import NameBlock from "../NameBlock.svelte";
-  import Button from "../Button.svelte";
+  import NameBlock from "../../NameBlock.svelte";
+  import Button from "../../Button.svelte";
   
   onMount(() => {
     let email = atob("aGVsbG9AZmVhdGhlcmJlYXIuY2M");
