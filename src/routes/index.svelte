@@ -4,17 +4,21 @@
   import DesignA from "../components/home/designA/_DesignA.svelte";
   import DesignB from "../components/home/designB/_DesignB.svelte";
 
-  let page;
+  let _resolve;
+  let page = new Promise((resolve, reject) => {
+    _resolve = resolve;
+  });
   onMount(() => {
-    let usePageB = Math.random() >= 0.5;
-    page = usePageB ? DesignB : DesignA;
+    let isPageA = Math.random() >= 0.5;
+    _resolve(isPageA ? DesignA : DesignB);
+
     if (
       process.browser &&
       process.env.NODE_ENV !== "development" &&
       location.hostname !== "localhost"
     ) {
       window.fathom("trackPageview", {
-        path: "#abtest-" + (usePageB ? "B" : "A"),
+        path: "/#abtest-" + (isPageA ? "A" : "B"),
       });
     }
   });
@@ -24,6 +28,8 @@
   <title>Andrew Wong | featherbear</title>
 </svelte:head>
 
-{#if page}
+{#await page}
+  <div style="display: none"><DesignA /></div>
+{:then page}
   <svelte:component this={page} />
-{/if}
+{/await}
