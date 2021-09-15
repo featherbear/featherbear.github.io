@@ -18,7 +18,7 @@
       location.hostname !== "localhost"
     ) {
       window.fathom("trackPageview", {
-        path: "/stats/abtest-" + (isPageA ? "A" : "B"),
+        path: "/#abtest-" + (isPageA ? "A" : "B"),
       });
     }
   });
