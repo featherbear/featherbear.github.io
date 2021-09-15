@@ -1,0 +1,171 @@
+<script>
+  import { onMount } from "svelte";
+
+  import NameBlock from "../../NameBlock.svelte";
+
+  let emailElem;
+  onMount(() => {
+    emailElem.href += atob("aGVsbG9AZmVhdGhlcmJlYXIuY2M");
+  });
+</script>
+
+<div id="container">
+  <div class="contentCover content">
+    <section>
+      <div class="nameBlockContainer">
+        <NameBlock />
+      </div>
+      <ul class="socialLinks">
+        <li>
+          <a bind:this={emailElem} href="mailto:">
+            <img alt="mail" src="/assets/icons/mail-squircle.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="//linkedin.com/in/andrewjinmengwong">
+            <img alt="linkedin" src="/assets/icons/linkedin-squircle.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="//facebook.com/andrewjinmengwong">
+            <img alt="facebook" src="/assets/icons/facebook-squircle.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="//github.com/featherbear">
+            <img alt="github" src="/assets/icons/code-squircle.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="//instagram.com/_andrewjwong">
+            <img alt="instagram" src="/assets/icons/instagram.svg" />
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <div class="profileImageContainer" />
+    </section>
+  </div>
+</div>
+
+<style lang="scss">
+  :root {
+    --border-radius: 10px;
+  }
+  div#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(/assets/images/bg/bg19-min.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+
+    &::before {
+      content: " ";
+      background: linear-gradient(
+        157deg,
+        rgba(128, 185, 228, 1) 0%,
+        rgba(93, 73, 145, 1) 100%
+      );
+      position: absolute;
+      mix-blend-mode: hue;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      opacity: 0.1;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    > section:nth-child(1) {
+      flex: 1;
+      margin: 20px;
+
+      .nameBlockContainer {
+        font-size: 1.5em;
+      }
+
+      ul.socialLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        padding: 0;
+        // margin: 0;
+        list-style-type: none;
+
+        img {
+          width: 2em;
+          height: 2em;
+
+          aspect-ratio: 1;
+        }
+      }
+    }
+
+    > section:nth-child(2) {
+      .profileImageContainer {
+        background-image: url(/assets/images/bg/bg17-min.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-position-x: center;
+        border-top-left-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+
+        height: 100%;
+        max-width: 600px;
+        width: 25vw;
+
+        //   aspect-ratio: 1;
+      }
+    }
+  }
+
+  .contentCover {
+    width: 75vw;
+    max-width: 960px;
+
+    background: inherit;
+    // isolation: isolate;
+
+    box-shadow: 0;
+    position: relative;
+    z-index: 0;
+    border-radius: var(--border-radius);
+
+    &::before,
+    &::after {
+      transform: rotate(180deg);
+      content: " ";
+      position: absolute;
+      background: inherit;
+    }
+
+    &::before {
+      inset: 0;
+      z-index: -1;
+      border-radius: var(--border-radius);
+      filter: contrast(0.85);
+    }
+
+    &::after {
+      inset: 0;
+      filter: blur(5px);
+      z-index: -2;
+    }
+  }
+</style>
