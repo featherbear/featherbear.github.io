@@ -15,6 +15,20 @@
       <div class="nameBlockContainer">
         <NameBlock />
       </div>
+      <ul class="links">
+        <li>
+          <a href="about"> about </a>
+        </li>
+        <li>
+          <a href="blog"> blog </a>
+        </li>
+        <li>
+          <a href="programming"> portfolio </a>
+        </li>
+        <li>
+          <a href="resume"> resume </a>
+        </li>
+      </ul>
       <ul class="socialLinks">
         <li>
           <a bind:this={emailElem} href="mailto:">
@@ -54,6 +68,8 @@
     --border-radius: 10px;
   }
   div#container {
+    font-size: 20px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,10 +108,48 @@
 
     > section:nth-child(1) {
       flex: 1;
-      margin: 20px;
+      margin: 1.5em;
 
       .nameBlockContainer {
         font-size: 1.5em;
+      }
+
+      ul.links {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+          &:not(:last-child) {
+            margin-bottom: 0.5em;
+          }
+          a {
+            --colour: whitesmoke;
+            color: var(--colour);
+
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              height: 0.1em;
+              background-color: var(--colour);
+              opacity: 0;
+              transition: opacity 300ms, transform 300ms;
+            }
+
+            &:hover,
+            &:focus {
+              &::after {
+                opacity: 1;
+                transform: translate3d(0, 0.2em, 0);
+              }
+            }
+          }
+        }
       }
 
       ul.socialLinks {
