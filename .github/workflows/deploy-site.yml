@@ -1,6 +1,9 @@
 name: deploy site to github pages
 
-on: push
+on:
+  push:
+    branches:
+    - master
 
 jobs:
   build-deploy:
