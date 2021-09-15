@@ -36,19 +36,18 @@
   {/each}
 </div>
 
-<div class="noprint">
+<div class="noprint categorySelect">
   <span>Filter Categories</span>
   <div>
-  {#each categories as category}
-    <button
-      class="categorySelect"
-      class:isActiveCategory={activeCategory == category || !activeCategory}
-      on:click={() =>
-        activeCategory == category
-          ? activeCategory = null
-          : (activeCategory = category)}>{category}</button
-    >
-  {/each}
+    {#each categories as category}
+      <button
+        class:isActiveCategory={activeCategory == category || !activeCategory}
+        on:click={() =>
+          activeCategory == category
+            ? (activeCategory = null)
+            : (activeCategory = category)}>{category}</button
+      >
+    {/each}
   </div>
 </div>
 
@@ -84,31 +83,40 @@
     margin-bottom: 1.5em;
     margin-top: 1em;
     &::before {
-      content: "$> "
+      content: "$> ";
     }
   }
 
   .categorySelect {
-    cursor: pointer;
+    margin-top: 10px;
+    div {
+      margin-top: 5px;
 
-    transition: opacity 0.2s;
-    opacity: 1;
+      button {
+        cursor: pointer;
 
-    border-radius: 6px;
-    border: none;
+        transition: opacity 0.2s;
+        opacity: 1;
 
-    padding: 5px;
-    margin: 0 5px;
+        border-radius: 6px;
+        border: none;
 
-    color: #fff;
-    background-color: #808080;
+        padding: 5px;
 
-    
-    &:not(.isActiveCategory) {
-      opacity: 0.6;
+        color: #fff;
+        background-color: #808080;
 
-      &:hover {
-        opacity: 0.9;
+        &:not(:first-child) {
+          margin-left: 10px;
+        }
+
+        &:not(.isActiveCategory) {
+          opacity: 0.6;
+
+          &:hover {
+            opacity: 0.9;
+          }
+        }
       }
     }
   }

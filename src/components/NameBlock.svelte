@@ -16,6 +16,8 @@
   }
 
   .nameBlock {
+    user-select: none;
+    
     font: normal normal normal 16px Coves;
 
     font-size: 4em;
