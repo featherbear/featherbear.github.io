@@ -46,12 +46,19 @@
 
   import { onMount } from "svelte";
   onMount(() => {
+    let interval;
     selectIdx(Math.floor(Math.random() * bgImages.length));
 
     if (bgImages.length > 1) {
-      setInterval(() => {
+      
+      interval = setInterval(() => {
         selectIdx((currentIdx + 1) % bgImages.length);
       }, 11 * 1000);
+    }
+
+    return function() {
+      // Cleanup routine
+      clearInterval(interval);
     }
   });
 </script>
