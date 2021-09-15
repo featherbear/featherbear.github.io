@@ -34,7 +34,7 @@
         preload.src = imageUrl;
 
         preload.addEventListener("load", () => {
-          items[i].style.backgroundImage = `url(${imageUrl})`;
+          items[i] && (items[i].style.backgroundImage = `url(${imageUrl})`);
           preload = null;
           resolve();
         });
@@ -50,16 +50,15 @@
     selectIdx(Math.floor(Math.random() * bgImages.length));
 
     if (bgImages.length > 1) {
-      
       interval = setInterval(() => {
         selectIdx((currentIdx + 1) % bgImages.length);
       }, 11 * 1000);
     }
 
-    return function() {
+    return () => {
       // Cleanup routine
       clearInterval(interval);
-    }
+    };
   });
 </script>
 
