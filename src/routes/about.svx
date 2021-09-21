@@ -109,6 +109,17 @@ My main passions are [programming](/programming), [photography](/photos) and [st
 Sleep deprived? Absolutely.  
 Hotel? Trivago.
 
+--
+
+## Services
+
+<!-- I'm available for freelace work -->
+
+I provide freelance audio visual and livestreaming services - from corporate events (i.e. conferences) to weddings (i.e. livestreams), to mixing sound for concerts and performances.
+I also offer software consultations for the development and integration of new systems, as well as maintenance / upgrade of existing systems
+
+_Subject to availability_
+
 ---
 
 # Contact
@@ -134,4 +145,3 @@ If you're looking for my resume, you can find it **[here](/resume)**.
 
 If you're looking for the end of this file, it's here :)
 
-<!-- I'm available for freelace work -->
