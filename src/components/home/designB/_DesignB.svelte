@@ -14,7 +14,7 @@
   content="width=device-width, initial-scale=1, user-scalable=no"
 />
 
-<div style="display: absolute; top: 0; left: 0; right: 0; text-align: center; font-size: 0.8em;">
+<div style="z-index: 1; position: absolute; top: 0; left: 0; right: 0; text-align: center; font-size: 0.8em;">
   <p>This is an A/B test of a new homepage design.</p>
   <p>If you don't like it, refresh the page a couple times :)</p>
 </div> 
