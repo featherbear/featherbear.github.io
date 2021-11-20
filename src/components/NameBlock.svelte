@@ -1,10 +1,12 @@
 <script>
   export let rightAlign = false;
+  export let fullBlack = false;
+  export let glow = false;
 </script>
 
-<span class="nameBlock" class:rightAlign>
+<span class="nameBlock" class:rightAlign class:glow>
   Andrew
-  <span>Jin-Meng</span>
+  <span class:black={fullBlack}>Jin-Meng</span>
   Wong
 </span>
 
@@ -33,7 +35,10 @@
       display: block;
       color: grey;
 
-    }
+      &.black {
+        color: inherit;
+      }
+    }    
 
     &.rightAlign {
         text-align: right;
@@ -41,6 +46,10 @@
         > span {
             margin-right: 3px;
         }
+    }
+
+    &.glow {
+      text-shadow: rgba(255,255,255, 0.1) 0px 0px 10px;
     }
   }
 </style>

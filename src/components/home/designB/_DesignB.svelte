@@ -22,7 +22,7 @@
   <div class="contentCover content">
     <section>
       <div class="nameBlockContainer">
-        <NameBlock />
+        <NameBlock fullBlack={true} glow={true} />
       </div>
       <ul class="links">
         <li>
