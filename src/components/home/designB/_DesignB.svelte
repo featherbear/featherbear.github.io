@@ -210,8 +210,7 @@
   }
 
   .contentCover {
-    width: 75vw;
-    max-width: 960px;
+    width: clamp(320px, 75vw, 1024px);
 
     background: inherit;
     // isolation: isolate;
