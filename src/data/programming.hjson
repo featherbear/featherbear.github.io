@@ -388,9 +388,11 @@
         ]
       }
       {
-        title: You Up (WIP)
-        description: YouTube video uploader with template support
+        title: You Up
+        description: YouTube video uploader with templating support
         repo: https://github.com/featherbear/YouUp
+        image: https://featherbear.cc/blog/uploads/20211228-snipaste_2021-12-28_17-20-45.jpg
+        blog: https://featherbear.cc/blog/post/youup-youtube-video-uploader/
         stack: [
           TypeScript
           Svelte
