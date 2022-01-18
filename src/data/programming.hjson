@@ -24,7 +24,7 @@
           Python
         ]
         repo: https://github.com/featherbear/PreSonus-StudioLive-API
-        blog: https://featherbear.cc/blog/post/presonus-studiolive-api/
+        blog: https://featherbear.cc/blog/post/presonus-studiolive-api-iii-jan22/
         description: Reverse engineered PreSonus network control protocol for the StudioLive Series III product family
         image: https://featherbear.cc/blog/post/presonus-studiolive-api/20190513_174229.jpg
       }
