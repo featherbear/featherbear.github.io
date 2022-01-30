@@ -117,7 +117,8 @@ blockquote {
 
 _You might have found my site from Google, some code I wrote, a friend, one of my [UNSW course note sites](/blog/post/unsw/), or maybe you're a bot. Either way, welcome!_
 
-I'm currently a fifth year student at the [University of New South Wales](https://unsw.edu.au) in Sydney, Australia
+I'm currently a fifth year student at the [University of New South Wales](https://unsw.edu.au) in Sydney, Australia pursuing a degree in Computer Engineering.  
+Prior to that I did Electrical Engineering, but found myself more fascinated with hardware design.
 
 # Get to know me real quick
 
@@ -154,7 +155,7 @@ Sports? Table Tennis, and going on hikes/walks (if you consider that a sport...)
 Sleep deprived? Absolutely.  
 Hotel? Trivago.
 
---
+---
 
 # Services
 
