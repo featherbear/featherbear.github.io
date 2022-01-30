@@ -1,14 +1,12 @@
 <script>
-	import {onMount} from "svelte";
-	let emailElem;
-	onMount(() => {
+	function showEmail(elem) {
 		let address = atob("aGVsbG9AZmVhdGhlcmJlYXIuY2M")
-		emailElem.href = `mailto:${address}`
-		emailElem.innerText = address;
-	})
+		elem.href = `mailto:${address}`
+		elem.innerText = address;
+	}
 </script>
 
-<style>
+<style lang="scss">
 .coverImage {
 	width: 100%;
 	height: 280px;
@@ -19,51 +17,55 @@
 	box-shadow: none;
 	margin: 2em 0;
 	border-radius: 10px;
-}
 
-.coverImage::before {
-	content: ' ';
-	position: absolute;
-	inset: 0;
-	z-index: -1;
-	background: inherit;
-	filter: blur(0.8em);
+	&:before {
+		content: ' ';
+		position: absolute;
+		inset: 0;
+		z-index: -1;
+		background: inherit;
+		filter: blur(0.8em);
+	}
 }
 
 .resumeContainer {
 	position: relative;
 	padding: 15px 5px;
 	inline-size: min-content;
-}
-
-.resumeContainer::before, .resumeContainer::after  {
-	z-index: 1;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	bottom: 0;
-}
-.resumeContainer::before {
-	background: rgba(0, 0, 0, 0.01);
-	content: ' ';
-	border-radius: 5px;
-	filter: blur(10px);
-}
-.resumeContainer:hover::before {
-	background: rgba(0,0,0,.1);
-}
-
-.resumeContainer::after {
-	content: "Resume";
 	
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-transform: uppercase;
+	&:before, &:after  {
+		z-index: 1;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		bottom: 0;
+	}
 
-	mix-blend-mode: screen;
-	font-size: 3em;
+	& {
+		::before {
+			background: rgba(0, 0, 0, 0.01);
+			content: ' ';
+			border-radius: 5px;
+			filter: blur(10px);
+		}
+
+		:hover::before {
+			background: rgba(0,0,0,.1);
+		}
+		
+		::after {
+			content: "Resume";
+			
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-transform: uppercase;
+		
+			mix-blend-mode: screen;
+			font-size: 3em;
+		}
+	}
 }
 
 .preview {
@@ -71,60 +73,101 @@
 	--width: 256px;
 	width: var(--width);
 	overflow: hidden;
-}
-.preview iframe {
-	width: calc(var(--width) * 4);
-	height: 100vh;
-	
-	-ms-zoom: 0.25;
-	-moz-transform: scale(0.25) translateY(-70px);
-	-moz-transform-origin: 0 0;
-	-o-transform: scale(0.25) translateY(-70px);
-	-o-transform-origin: 0 0;
-	-webkit-transform: scale(0.25) translateY(-70px);
-	-webkit-transform-origin: 0 0;
-	
-	border: none;
-	overflow: hidden;
-	pointer-events: none;
+
+	iframe {
+
+		width: calc(var(--width) * 4);
+		height: 100vh;
+		
+		-ms-zoom: 0.25;
+		-moz-transform: scale(0.25) translateY(-70px);
+		-moz-transform-origin: 0 0;
+		-o-transform: scale(0.25) translateY(-70px);
+		-o-transform-origin: 0 0;
+		-webkit-transform: scale(0.25) translateY(-70px);
+		-webkit-transform-origin: 0 0;
+		
+		border: none;
+		overflow: hidden;
+		pointer-events: none;
+	}
 }
 
+a {
+	text-decoration: dotted underline
+}
+
+blockquote {
+	border-left: 5px solid #cb9c68;
+	border-radius: 2.5px;
+	margin: 0;
+	padding: 0.5em;
+	padding-right: 0;
+
+	p {
+		margin: 0;
+		color: #21252b;
+	}
+}
 </style>
 
 <div class="coverImage" />
 
 # Hey there 👋
 
-_You've probably found this site from Google, a friend, one of my [UNSW course note sites](/blog/post/unsw/), or maybe you're a bot. Either way, welcome!_
+_You might have found my site from Google, some code I wrote, a friend, one of my [UNSW course note sites](/blog/post/unsw/), or maybe you're a bot. Either way, welcome!_
 
-## About Me
+I'm currently a fifth year student at the [University of New South Wales](https://unsw.edu.au) in Sydney, Australia
 
-I'm currently a fourth year Computer Engineering student at the University of New South Wales in Sydney, Australia.  
-My main passions are [programming](/programming), [photography](/photos) and [stage production](/blog/categories/audio-visual/) (audio/visual stuff).
+# Get to know me real quick
 
-🏓 Sports? Table Tennis, and going on hikes/walks (if you consider that a sport...)  
-🎸 Music? I fiddle on my guitar from time to time. I'm also trying to learn piano...  
-💻 Windows vs Mac? Depends what I'm doing. Mac for multimedia, Windows for games, Linux on my laptop.  
+## 💻 [Hardware & Software](/programming)
 
+> Code monkey, hardware hacker... I make and break things - though mainly the latter...
+
+My interests lie in multimedia, networking, and dev o(o)ps though REALLY I write software so I don't have to pay for them.  
+_Supposedly I also do something involved with cyber security, but like you don't need to know that 🕵️‍♀️_  
+
+## 📸 [Photography](https://www.instagram.com/_andrewjwong/)
+
+> “Alright on three... three!”
+
+When I'm not doing wedding photography, you can probably find me spending hours and hours in the exact same spot capturing the gorgeous landscapes and sceneries around us. _Or..._ perhaps looking like a lunatic whilst carrying around a bunch of random lights for some creative portraits or light paintings.  
+
+## 🎬 [Audio / Visual Production](/blog/categories/audio-visual/)  
+
+> “Camera 2, iris up.”
+
+I'm one of those people who you don't know exist, until we mess up.  
+
+There's no hope for me in front of a camera or microphone, but I can sure make others look and sound good!  
+From corporate events like conferences, to weddings, to concerts and festivals, I mainly work as a live sound engineer (mixing audio) and broadcast engineer (video production and livestreaming), but basically I'm a _"jack of all trades, master of <s>none</s> some"_.  
+
+## 🎸 Music
+
+When I was younger I was forced to learn piano, then I was forced to learn clarinet, and then I was forced to learn saxophone.  
+Nowadays I may or may not have an unhealthy amount of guitars..
+
+## 🤷‍♀️ Misc
+
+Sports? Table Tennis, and going on hikes/walks (if you consider that a sport...)  
 Sleep deprived? Absolutely.  
 Hotel? Trivago.
 
 --
 
-## Services
+# Services
 
-<!-- I'm available for freelace work -->
+I offer consultation services for software development and IT system deployments.  
+I'm also available for audio visual and livestreaming services: operation, systems integrations and/or training.  
 
-I provide freelance audio visual and livestreaming services - from corporate events (i.e. conferences) to weddings (i.e. livestreams), to mixing sound for concerts and performances.
-I also offer software consultations for the development and integration of new systems, as well as maintenance / upgrade of existing systems
-
-_Subject to availability_
+For other services like wedding coverage, please get in touch below.
 
 ---
 
 # Contact
 
-If you need to get in touch with me, you can reach me at <u style="text-decoration: dotted underline"><a href="." bind:this={emailElem}>...</a></u>
+If you need to get in touch with me, you can reach me at <a href="." use:showEmail >...</a>
 
 ## Resume
 
@@ -141,7 +184,7 @@ If you're looking for my resume, you can find it **[here](/resume)**.
 	</div>
 </a>
 
-## That's all
+## That's all folks
 
-If you're looking for the end of this file, it's here :)
+If you're looking for the end of this page, it's here :)
 
