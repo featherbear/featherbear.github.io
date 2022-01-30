@@ -44,6 +44,8 @@
       }
 
     }
+
+    box-shadow: 0 2px 3px -3px #21252b;
   }
 </style>
 
