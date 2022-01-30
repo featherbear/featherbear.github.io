@@ -133,6 +133,8 @@
 
       .nameBlockContainer {
         font-size: clamp(1em, 2vw, 1.5em);
+        filter: invert(1);
+        opacity: 0.9;
       }
 
       ul.links {
@@ -188,6 +190,8 @@
           height: 1.6em;
 
           aspect-ratio: 1;
+
+          filter: invert(1);
         }
       }
     }
@@ -226,7 +230,8 @@
     border-radius: var(--border-radius);
 
     &::before,
-    &::after {
+    &::after 
+    {
       transform: rotate(180deg);
       content: " ";
       position: absolute;
@@ -237,7 +242,7 @@
       inset: 0;
       z-index: -1;
       border-radius: var(--border-radius);
-      filter: contrast(0.85);
+      filter: contrast(0.85) brightness(0.95);
     }
 
     &::after {
