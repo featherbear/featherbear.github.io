@@ -37,6 +37,8 @@
       padding-left: 0.75rem;
       padding-right: 0.75rem;
     }
+
+    margin-bottom: 2em;
   }
 
   @media print {
