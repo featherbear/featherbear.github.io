@@ -185,6 +185,14 @@
         // margin: 0;
         list-style-type: none;
 
+        li {
+          transition: transform 0.2s ease-in;
+          
+          &:hover {
+            transform: translateY(-0.25em);
+          }
+        }
+
         img {
           width: 1.6em;
           height: 1.6em;
