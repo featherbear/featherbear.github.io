@@ -43,18 +43,18 @@
 	}
 
 	& {
-		::before {
+		&::before {
 			background: rgba(0, 0, 0, 0.01);
 			content: ' ';
 			border-radius: 5px;
 			filter: blur(10px);
 		}
 
-		:hover::before {
+		&:hover::before {
 			background: rgba(0,0,0,.1);
 		}
 		
-		::after {
+		&::after {
 			content: "Resume";
 			
 			display: flex;
