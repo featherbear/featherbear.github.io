@@ -7,6 +7,11 @@
   onMount(() => {
     emailElem.href += atob("aGVsbG9AZmVhdGhlcmJlYXIuY2M");
   });
+
+  function setProfileImage(elem) {
+    let images = ['bg17-min.jpg', '2022/0T4A9920.jpg']
+    elem.style.backgroundImage = `url(/assets/images/bg/${images[Math.floor(Math.random() * images.length)]})`
+  }
 </script>
 
 <meta
@@ -67,7 +72,7 @@
       </ul>
     </section>
     <section>
-      <div class="profileImageContainer" />
+      <div class="profileImageContainer" use:setProfileImage />
     </section>
   </div>
 </div>

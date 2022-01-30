@@ -9,18 +9,27 @@
     _resolve = resolve;
   });
   onMount(() => {
-    let isPageA = Math.random() >= 0.5;
-    _resolve(isPageA ? DesignA : DesignB);
-
-    if (
-      process.browser &&
-      process.env.NODE_ENV !== "development" &&
-      location.hostname !== "localhost"
-    ) {
-      window.fathom("trackPageview", {
-        path: "/#abtest-" + (isPageA ? "A" : "B"),
-      });
+    let hash = location.hash.slice(1)
+    if (hash) {
+      _resolve({
+         a: DesignA,
+         b: DesignB
+       }[hash] ?? DesignA)
+    } else {
+      let isPageA = Math.random() >= 0.5;
+      _resolve(isPageA ? DesignA : DesignB);
+      
+      if (
+        process.browser &&
+        process.env.NODE_ENV !== "development" &&
+        location.hostname !== "localhost"
+      ) {
+        window.fathom("trackPageview", {
+          path: "/#abtest-" + (isPageA ? "A" : "B"),
+        });
+      }
     }
+
   });
 </script>
 
