@@ -16,7 +16,7 @@
          b: DesignB
        }[hash] ?? DesignA)
     } else {
-      let isPageA = Math.random() >= 0.5;
+      let isPageA = Math.random() < 0.3;
       _resolve(isPageA ? DesignA : DesignB);
       
       if (
