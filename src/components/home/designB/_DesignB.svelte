@@ -9,8 +9,10 @@
   });
 
   function setProfileImage(elem) {
-    let images = ['bg17-min.jpg', '2022/0T4A9920.jpg']
-    elem.style.backgroundImage = `url(/assets/images/bg/${images[Math.floor(Math.random() * images.length)]})`
+    let images = ['bg17-min.jpg', '2022/0T4A9920.jpg'];
+    let chosenImageIdx = (Math.random() >= 0.3) ? 1 : 0;
+    
+    elem.style.backgroundImage = `url(/assets/images/bg/${images[chosenImageIdx]})`
   }
 </script>
 
