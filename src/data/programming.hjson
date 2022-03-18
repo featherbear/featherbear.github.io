@@ -252,6 +252,11 @@
         description: A physical todo list on an e-Paper display
       }
       {
+        title: Commentree
+        description: Plain-text file documentation tool
+        repo: https://github.com/featherbear/commentree
+      }
+      {
         title: Filmstrip Messages
         stack: [
           Svelte
