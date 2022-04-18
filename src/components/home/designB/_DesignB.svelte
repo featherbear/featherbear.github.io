@@ -8,11 +8,47 @@
     emailElem.href += atob("aGVsbG9AZmVhdGhlcmJlYXIuY2M");
   });
 
-  function setProfileImage(elem) {
-    let images = ['bg17-min.jpg', '2022/0T4A9920.jpg'];
-    let chosenImageIdx = (Math.random() >= 0.3) ? 1 : 0;
+  let imageSet = (function () {
+    const backgroundImages = [
+      "bg19-min.jpg",
+      'bg08-min.jpg',
+      '2022/IMG_4060.JPG',
+      '2022/IMG_4060_exp.jpg',
+      
+    ] 
     
-    elem.style.backgroundImage = `url(/assets/images/bg/${images[chosenImageIdx]})`
+    let profileImages = [
+      "bg17-min.jpg",
+      "2022/0T4A9920.jpg",
+      "2022/20220413-0t4a9037_exp.jpg",
+    ];
+
+    const profileOverrides = {
+      '2022/IMG_4060_exp.jpg': ["2022/0T4A9920.jpg"]
+    };
+
+    let background =
+      backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
+
+    if (profileOverrides[background]) {
+      profileImages = profileOverrides[background];
+    }
+
+    let profile =
+      profileImages[Math.floor(Math.random() * profileImages.length)];
+
+    return {
+      foreground: profile,
+      background,
+    };
+  })();
+
+  function setBackgroundImage(elem) {
+    elem.style.backgroundImage = `url(/assets/images/bg/${imageSet.background})`;
+  }
+
+  function setProfileImage(elem) {
+    elem.style.backgroundImage = `url(/assets/images/bg/${imageSet.foreground})`;
   }
 </script>
 
@@ -21,11 +57,7 @@
   content="width=device-width, initial-scale=1, user-scalable=no"
 />
 
-<div style="z-index: 1; position: absolute; top: 0; left: 0; right: 0; text-align: center; font-size: 0.8em;">
-  <p>This is an A/B test of a new homepage design.</p>
-  <p>If you don't like it, refresh the page a couple times :)</p>
-</div> 
-<div id="container">
+<div id="container" use:setBackgroundImage>
   <div class="contentCover content">
     <section>
       <div class="nameBlockContainer">
@@ -189,7 +221,7 @@
 
         li {
           transition: transform 0.2s ease-in;
-          
+
           &:hover {
             transform: translateY(-0.25em);
           }
@@ -240,8 +272,7 @@
     border-radius: var(--border-radius);
 
     &::before,
-    &::after 
-    {
+    &::after {
       transform: rotate(180deg);
       content: " ";
       position: absolute;
