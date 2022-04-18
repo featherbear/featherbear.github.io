@@ -16,7 +16,7 @@
          b: DesignB
        }[hash] ?? DesignA)
     } else {
-      let isPageA = Math.random() < 0.3;
+      let isPageA = Math.random() < 0.01;
       _resolve(isPageA ? DesignA : DesignB);
       
       if (
@@ -38,7 +38,7 @@
 </svelte:head>
 
 {#await page}
-  <div style="display: none"><DesignA /></div>
+  <div style="display: none"><DesignB /></div>
 {:then page}
   <svelte:component this={page} />
 {/await}
