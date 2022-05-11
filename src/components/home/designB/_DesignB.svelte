@@ -9,13 +9,19 @@
   });
 
   let imageSet = (function () {
-    const backgroundImages = [
-      "bg19-min.jpg",
-      'bg08-min.jpg',
-      '2022/IMG_4060.JPG',
-      '2022/IMG_4060_exp.jpg',
-      
-    ] 
+    /*
+      Effect bits:
+      0 - base
+      1 - background blur
+      2 - foreground blur
+      4 - foreground unrotate
+    */
+    const backgroundImages = {
+      "bg19-min.jpg": 0b010,
+      'bg08-min.jpg': 0b010,
+      '2022/IMG_4060.JPG': 0b001,
+      '2022/IMG_4060_exp.jpg': 0b101,
+    }
     
     let profileImages = [
       "bg17-min.jpg",
@@ -27,9 +33,11 @@
       '2022/IMG_4060_exp.jpg': ["2022/0T4A9920.jpg"]
     };
 
-    let background =
-      backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
-
+    let [background, backgroundOpts] = (function() {
+      const keys = Object.entries(backgroundImages)
+      return keys[Math.floor(Math.random() * keys.length)];
+    })();
+    
     if (profileOverrides[background]) {
       profileImages = profileOverrides[background];
     }
@@ -40,11 +48,17 @@
     return {
       foreground: profile,
       background,
+      backgroundOpts
     };
   })();
 
   function setBackgroundImage(elem) {
     elem.style.backgroundImage = `url(/assets/images/bg/${imageSet.background})`;
+    
+    if   (imageSet.backgroundOpts & 0b001) elem.setAttribute('blur', '')
+    if   (imageSet.backgroundOpts & 0b010) elem.querySelector('.contentCover').setAttribute('blur', '')
+    if (!(imageSet.backgroundOpts & 0b100)) elem.querySelector('.contentCover').setAttribute('rotated', '')
+    
   }
 
   function setProfileImage(elem) {
@@ -152,6 +166,14 @@
       height: 100%;
 
       opacity: 0.1;
+    }
+    
+    :global(&[blur]::before) {
+      background: inherit !important;
+      opacity: 1 !important;
+      filter: blur(6px) !important;
+      mix-blend-mode: revert !important;
+      transform: scale(1.02) !important;
     }
   }
 
@@ -271,9 +293,20 @@
     z-index: 0;
     border-radius: var(--border-radius);
 
+    :global(&[rotated]::before),
+    :global(&[rotated]::after) {
+      transform: rotate(180deg);
+    }
+    
+    $filterValues: contrast(0.85) brightness(0.95);
+
+    :global(&[blur]::before) {
+      filter: blur(5px) $filterValues !important;
+    }
+    
+    
     &::before,
     &::after {
-      transform: rotate(180deg);
       content: " ";
       position: absolute;
       background: inherit;
@@ -283,7 +316,7 @@
       inset: 0;
       z-index: -1;
       border-radius: var(--border-radius);
-      filter: contrast(0.85) brightness(0.95);
+      filter: $filterValues;
     }
 
     &::after {
