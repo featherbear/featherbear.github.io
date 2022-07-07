@@ -115,10 +115,13 @@ blockquote {
 
 # Hey there 👋
 
-_You might have found my site from Google, some code I wrote, a friend, one of my [UNSW course note sites](/blog/post/unsw/), or maybe you're a bot. Either way, welcome!_
-
 I'm currently a fifth year student at the [University of New South Wales](https://unsw.edu.au) in Sydney, Australia pursuing a degree in Computer Engineering.  
 Prior to that I did Electrical Engineering, but found myself more fascinated with hardware design.
+
+You might have found my site from Google, some code I wrote, a friend, one of my [UNSW course note sites](/blog/post/unsw/)... or maybe you're a bot.  
+Either way, welcome!
+
+---
 
 # Get to know me real quick
 
@@ -126,14 +129,15 @@ Prior to that I did Electrical Engineering, but found myself more fascinated wit
 
 > Code monkey, hardware hacker... I make and break things - though mainly the latter...
 
-My interests lie in multimedia, networking, and dev o(o)ps though REALLY I write software so I don't have to pay for them.  
-_Supposedly I also do something involved with cyber security, but like you don't need to know that 🕵️‍♀️_  
+My interests lie in multimedia, networking, and dev o(o)ps - though realistically the reason I write software is so that I don't have to pay for them.  
+I also do something involved with cyber security, but like you don't need to know that 🕵️‍♀️
 
 ## 📸 [Photography](https://www.instagram.com/_andrewjwong/)
 
 > “Alright on three... three!”
 
-When I'm not doing wedding photography, you can probably find me spending hours and hours in the exact same spot capturing the gorgeous landscapes and sceneries around us. _Or..._ perhaps looking like a lunatic whilst carrying around a bunch of random lights for some creative portraits or light paintings.  
+When I'm not doing wedding photography, you can probably find me spending hours and hours in the exact same spot capturing the gorgeous landscapes and sceneries around us.  
+_Or..._ looking like a lunatic whilst carrying around a bunch of random lights for some creative portraits or light paintings.  
 
 ## 🎬 [Audio / Visual Production](/blog/categories/audio-visual/)  
 
@@ -141,7 +145,7 @@ When I'm not doing wedding photography, you can probably find me spending hours 
 
 I'm one of those people who you don't know exist, until we mess up.  
 
-There's no hope for me performing in front of a camera or microphone, but I can sure make others look and sound good!  
+There's no hope for me in front of a camera or microphone, but I can sure make others look and sound good!  
 From corporate events like conferences, to weddings, to concerts and festivals, I mainly work as a live sound engineer (mixing audio) and broadcast engineer (video production and livestreaming), but basically I'm a _"jack of all trades, master of <s>none</s> some"_.  
 
 ## 🎸 Music
@@ -154,6 +158,8 @@ Nowadays I may or may not have an unhealthy amount of guitars..
 Sports? Table Tennis, and going on hikes/walks (if you consider that a sport...)  
 Sleep deprived? Absolutely.  
 Hotel? Trivago.
+
+Favourite Emoji: 🔥
 
 ---
 
@@ -183,7 +189,7 @@ _jk haha.. unless..?_
 💻 Laptop - Yeah I don't actually have my own.. shock horror!  
 🎁 Surprise me
 
-> What's even better than partnering with me? Partnering in the gospel!
+> Charity / Appeal
 
 Money just sitting in the bank is money just sitting in the bank 🤷‍♂️  
 I'd love for you to partner with a charity organisation like [Compassion](https://www.compassion.com.au/) to improve the lives of third-world citizens
