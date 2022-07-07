@@ -1,1 +1,0 @@
-import{S as e,i as s,s as n}from"./client.c36b257f.js";async function t(e,s){return this.redirect(301,"Andrew Jin-Meng Wong - Resume.pdf")}export default class extends e{constructor(e){super(),s(this,e,null,null,n,{})}}export{t as preload};
