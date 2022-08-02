@@ -32,7 +32,7 @@ export default [
       'Computing'
     ]),
     createEntry(
-      'Thesis',
+      'Thesis Publication',
       "", [
         'Computing',
         'Security'
