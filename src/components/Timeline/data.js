@@ -28,10 +28,14 @@ export default [
     createEntry('Vivado', "± 2% success rate", [
       'Computing'
     ]),
-    createEntry('Thesis', "'Smart' Vacuum Cleaners", [
-      'Computing',
-      'Security'
-    ]),
+    createEntry(
+      'Thesis',
+      "", [
+        'Computing',
+        'Security'
+      ],
+      "“Smart” Vacuum Cleaners - An Audit Into The Security and Integrity of IoT Systems"
+    ),
   ]),
   
   createSection('2021', [
