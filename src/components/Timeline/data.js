@@ -21,7 +21,10 @@ function createEntry (
 
 export default [
   createSection('2022', [
-    
+    createEntry('Software Engineer @ Audinate', "Internship", [
+      'Audio/Visual',
+      'Computing'
+    ]),
     /*createEntry('Graduated UNSW', "BE (Hons) CompEng", [
       'Computing'
     ]),*/
@@ -85,7 +88,7 @@ export default [
       'Computer Science Tutor @ UNSW Sydney',
       '2019 - present',
       ['Computing', 'Security'],
-      'Courses tutored in 2021:\nCOMP6[84]41 - [Extended] Security Engineering and Cyber Security\nCOMP6[84]43 - [Extended] Web Application Security Testing\nCOMP6447 - System and Software Security Assessment'
+      'Teaching of higher level computing courses and extended UG/PG cyber security streams'
     ),
     createEntry(
       'Workshop Content Writer @ CSE CompClub 2019 Summer',
@@ -124,7 +127,7 @@ export default [
         'Sound and Lighting Crew Director'
       ]
     ),
-    createEntry('AV Technician @ RICE Movement', '2017 - present', [
+    createEntry('AV Technician @ RICE Movement', '2017 - 2022', [
       'Audio/Visual'
     ])
   ])
