@@ -20,6 +20,20 @@ function createEntry (
 }
 
 export default [
+  createSection('2022', [
+    
+    /*createEntry('Graduated UNSW', "BE (Hons) CompEng", [
+      'Computing'
+    ]),*/
+    createEntry('Vivado', "± 2% success rate", [
+      'Computing'
+    ]),
+    createEntry('Thesis', "'Smart' Vacuum Cleaners", [
+      'Computing',
+      'Security'
+    ]),
+  ]),
+  
   createSection('2021', [
     createEntry('Security Engineer @ Atlassian', "2021/2022 Summer Program", [
       'Security',
@@ -40,10 +54,8 @@ export default [
       'Broadcast Engineer @ UNSW Sydney',
       null,
       ['Audio/Visual'],
-      'Livestreaming of university course lectures'
+      'Livestreaming of university events and lectures'
     ),
-
-    createEntry('IMAG Camera Operator @ KCC KYCK', null, ['Audio/Visual'])
   ]),
   createSection('2020', [
     createEntry(
