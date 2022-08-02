@@ -88,7 +88,7 @@ export default [
       'Computer Science Tutor @ UNSW Sydney',
       '2019 - present',
       ['Computing', 'Security'],
-      'Teaching of higher level computing courses and extended UG/PG cyber security streams'
+      'Teaching of higher level Computer Science courses and extended UG/PG Cyber Security streams'
     ),
     createEntry(
       'Workshop Content Writer @ CSE CompClub 2019 Summer',
