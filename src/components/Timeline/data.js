@@ -28,9 +28,9 @@ export default [
     /*createEntry('Graduated UNSW', "BE (Hons) CompEng", [
       'Computing'
     ]),*/
-    createEntry('Vivado', "± 2% success rate", [
+    /* createEntry('Vivado', "± 2% success rate", [
       'Computing'
-    ]),
+    ]), */
     createEntry(
       'Thesis Publication',
       "", [
