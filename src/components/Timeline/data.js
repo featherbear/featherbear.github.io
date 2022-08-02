@@ -54,7 +54,7 @@ export default [
       'CommBank Cyber Prize',
       null,
       ['Security'],
-      'Received an award in recognition for SECedu course excellence '
+      'Received an award in recognition of excellence in COMP6843 (Extended Web Application Security)'
     ),
 
     createEntry(
