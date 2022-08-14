@@ -10,7 +10,7 @@
         ]
         description: A Node.js Puppeteer API for user-mode interaction on Facebook Messenger Chat
         repo: https://github.com/featherbear/facebook-messenger-puppeteer
-        blog: https://featherbear.cc/blog/post/facebook-messenger-puppeteer/
+        blog: https://blog.featherbear.cc/post/facebook-messenger-puppeteer/
       }
       {
         title: react-native-mifare-classic-wrapper
@@ -24,9 +24,9 @@
           Python
         ]
         repo: https://github.com/featherbear/PreSonus-StudioLive-API
-        blog: https://featherbear.cc/blog/post/presonus-studiolive-api-iii-jan22/
+        blog: https://blog.featherbear.cc/post/presonus-studiolive-api-iii-jan22/
         description: Reverse engineered PreSonus network control protocol for the StudioLive Series III product family
-        image: https://featherbear.cc/blog/post/presonus-studiolive-api/20190513_174229.jpg
+        image: https://blog.featherbear.cc/post/presonus-studiolive-api/20190513_174229.jpg
       }
       {
         title: fastify-slate
@@ -48,7 +48,7 @@
       {
         title: flutter-ndi
         repo: https://github.com/featherbear/flutter-ndi
-        blog: https://featherbear.cc/blog/post/andi-ndi-tools-for-android/
+        blog: https://blog.featherbear.cc/post/andi-ndi-tools-for-android/
         description: Flutter Foreign Function Interface bindings for the NewTek NDI SDK
         stack: [
           Dart
@@ -85,21 +85,21 @@
       }
       {
         title: CSE x SecSoc CTF 2020
-        blog: https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/
-        image: https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2020/team.png
+        blog: https://blog.featherbear.cc/post/csesoc-secsoc-ctf-2020/
+        image: https://blog.featherbear.cc/post/csesoc-secsoc-ctf-2020/team.png
         description: Not actually a project, but an honourable mention. I came first in this CTF!
       }
       {
         title: CSE x SecSoc CTF 2021
-        blog: https://featherbear.cc/blog/post/csesoc-secsoc-ctf-2021/
-        image: https://featherbear.cc/blog/uploads/screely-1627038994988.png
+        blog: https://blog.featherbear.cc/post/csesoc-secsoc-ctf-2021/
+        image: https://blog.featherbear.cc/uploads/screely-1627038994988.png
         description: Did another CTF and (unofficially) came first!
       }
       {
         title: UNSW COMP6443
         site: https://featherbear.cc/UNSW-COMP6443/
         description: Another honourable mention - I placed first in my university's Web Application Security and Testing course! I was additionally a recipient of the CommBank Cyber Prize
-        image: https://featherbear.cc/blog/uploads/1625470416790.jpg
+        image: https://blog.featherbear.cc/uploads/1625470416790.jpg
       }
       {
         title: UNSW CompClub 2019 CTF Server
@@ -108,8 +108,8 @@
           SQLite
           JavaScript
         ]
-        image: https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/title_small.gif
-        blog: https://featherbear.cc/blog/post/unsw-compclub2019summer-ctf/
+        image: https://blog.featherbear.cc/post/unsw-compclub2019summer-ctf/title_small.gif
+        blog: https://blog.featherbear.cc/post/unsw-compclub2019summer-ctf/
         repo: https://github.com/featherbear/UNSW-CompClub2019Summer-CTF
         site: https://featherbear.cc/UNSW-CompClub2019Summer-CTF/
         description:
@@ -163,8 +163,8 @@
       {
         title: Learn CSS - Hover Buttons
         description: Demonstration on the effects of the placement of the transition style attribute
-        image: https://featherbear.cc/blog/post/hover-buttons/preview.png
-        blog: https://featherbear.cc/blog/post/hover-buttons/
+        image: https://blog.featherbear.cc/post/hover-buttons/preview.png
+        blog: https://blog.featherbear.cc/post/hover-buttons/
         repo: https://github.com/featherbear/hover-buttons
         site: https://featherbear.cc/hover-buttons/
       }
@@ -175,8 +175,8 @@
           Workshop for secondary school students about LSB Image Steganography.
           UNSW CompClub 2019 Summer
           '''
-        blog: https://featherbear.cc/blog/post/unsw-compclub2019summer/
-        image: https://featherbear.cc/blog/post/unsw-compclub2019summer/steganography_preview.png
+        blog: https://blog.featherbear.cc/post/unsw-compclub2019summer/
+        image: https://blog.featherbear.cc/post/unsw-compclub2019summer/steganography_preview.png
         site: https://docs.google.com/presentation/d/1kyRsC1-PMJu4UndE6psUHJHuTHX7W6cuYRod1jq3QJY/edit?usp=sharing
         repo: https://github.com/featherbear/UNSW-CompClub2019Summer-SecurityWorkshop/tree/master/image_steganography
       }
@@ -187,8 +187,8 @@
           Presentation for secondary school students about the importance of HTTPS.
           UNSW CompClub 2019 Summer
           '''
-        blog: https://featherbear.cc/blog/post/unsw-compclub2019summer/
-        image: https://featherbear.cc/blog/post/unsw-compclub2019summer/https_preview.png
+        blog: https://blog.featherbear.cc/post/unsw-compclub2019summer/
+        image: https://blog.featherbear.cc/post/unsw-compclub2019summer/https_preview.png
         repo: https://github.com/featherbear/UNSW-CompClub2019Summer-SecurityWorkshop/tree/master/http_mitm
         site: https://docs.google.com/presentation/d/1ykIUm1xAKMforvTPeqvXMdC4DZlnWOg604ekaybhiOs/edit?usp=sharing
       }
@@ -220,8 +220,8 @@
         stack: [
           JavaScript
         ]
-        image: https://featherbear.cc/blog/post/unsw-scientia-signage/Snipaste_2019-12-09_19-33-07.png
-        blog: https://featherbear.cc/blog/post/unsw-scientia-signage/
+        image: https://blog.featherbear.cc/post/unsw-scientia-signage/Snipaste_2019-12-09_19-33-07.png
+        blog: https://blog.featherbear.cc/post/unsw-scientia-signage/
         description: An SPA to easily manage and control multiple PiSignage devices
       }
       {
@@ -246,9 +246,9 @@
         stack: [
           Python
         ]
-        image: https://featherbear.cc/blog/post/e-paper/20191211_221809.jpg
+        image: https://blog.featherbear.cc/post/e-paper/20191211_221809.jpg
         repo: https://github.com/featherbear/trello-epd
-        blog: https://featherbear.cc/blog/post/e-paper/
+        blog: https://blog.featherbear.cc/post/e-paper/
         description: A physical todo list on an e-Paper display
       }
       {
@@ -261,8 +261,8 @@
         stack: [
           Svelte
         ]
-        image: https://featherbear.cc/blog/post/filmstrip-messages/preview.png
-        blog: https://featherbear.cc/blog/post/filmstrip-messages/
+        image: https://blog.featherbear.cc/post/filmstrip-messages/preview.png
+        blog: https://blog.featherbear.cc/post/filmstrip-messages/
         site: https://featherbear.cc/filmstrip-messages/
         repo: https://github.com/featherbear/filmstrip-messages
         description: Photostrip project to house a collection of photos, videos and text notes
@@ -274,7 +274,7 @@
         ]
         repo: https://github.com/featherbear/deliverytrack
         site: https://featherbear.cc/deliverytrack/
-        image: https://featherbear.cc/blog/post/delivery-track/preview.png
+        image: https://blog.featherbear.cc/post/delivery-track/preview.png
         description: Postal delivery tracking web application with synchronisation between devices
       }
       {
@@ -292,10 +292,10 @@
         stack: [
           p5.js
         ]
-        image: https://featherbear.cc/blog/post/processing-twinkle/preview.apng
+        image: https://blog.featherbear.cc/post/processing-twinkle/preview.apng
         site: https://featherbear.github.io/processing-twinkle/
         repo: https://github.com/featherbear/processing-twinkle
-        blog: https://featherbear.cc/blog/post/processing-twinkle/
+        blog: https://blog.featherbear.cc/post/processing-twinkle/
       }
       {
         title: Spit
@@ -313,8 +313,8 @@
           Node.js
           Svelte
         ]
-        image: https://featherbear.cc/blog/post/wakey/Snipaste_2020-11-16_22-37-12.png
-        blog: https://featherbear.cc/blog/post/wakey/
+        image: https://blog.featherbear.cc/post/wakey/Snipaste_2020-11-16_22-37-12.png
+        blog: https://blog.featherbear.cc/post/wakey/
         repo: https://github.com/featherbear/wakey
         description: A Wake On LAN web interface
       }
@@ -324,10 +324,10 @@
           JavaScript
           Python
         ]
-        blog: https://featherbear.cc/blog/post/featherbear.cc-go/
+        blog: https://blog.featherbear.cc/post/featherbear.cc-go/
         repo: https://github.com/featherbear/go-links
         description: Self-hosted static link shortener service via GitHub Pages
-        image: https://featherbear.cc/blog/uploads/screely-1612249310864.png
+        image: https://blog.featherbear.cc/uploads/screely-1612249310864.png
       }
       {
         title: Templables (WIP)
@@ -352,8 +352,8 @@
         stack: [
           Arduino
         ]
-        image: https://featherbear.cc/blog/post/blueclick/logic-board/20201205_180608.jpg
-        blog: https://featherbear.cc/blog/post/blueclick/
+        image: https://blog.featherbear.cc/post/blueclick/logic-board/20201205_180608.jpg
+        blog: https://blog.featherbear.cc/post/blueclick/
         repo: https://github.com/featherbear/BlueClick_BLE
         description: Page turner for OnSong, through sending MIDI notes over Bluetooth Low Energy
       }
@@ -373,9 +373,9 @@
           Arduino
           Svelte
         ]
-        image: https://featherbear.cc/blog/uploads/20210820_052448.jpg
+        image: https://blog.featherbear.cc/uploads/20210820_052448.jpg
         repo: https://github.com/featherbear/zifon-yt1000-wifi-acu
-        blog: https://featherbear.cc/blog/post/zifon-yt-1000-wifi-acu/
+        blog: https://blog.featherbear.cc/post/zifon-yt-1000-wifi-acu/
         description: WiFi Auxiliary Control Unit for the Zifon YT-1000 Pan-Tilt Head
       }
     ]
@@ -396,8 +396,8 @@
         title: You Up
         description: YouTube video uploader with templating support
         repo: https://github.com/featherbear/YouUp
-        image: https://featherbear.cc/blog/uploads/20211228-snipaste_2021-12-28_17-20-45.jpg
-        blog: https://featherbear.cc/blog/post/youup-youtube-video-uploader/
+        image: https://blog.featherbear.cc/uploads/20211228-snipaste_2021-12-28_17-20-45.jpg
+        blog: https://blog.featherbear.cc/post/youup-youtube-video-uploader/
         stack: [
           TypeScript
           Svelte
@@ -420,8 +420,8 @@
           JavaScript
         ]
         site: http://pp6sdm.apps.navhaxs.au.eu.org/
-        image: https://featherbear.cc/blog/post/propresenter6-stage-display-messages-client/screenshot.png
-        blog: https://featherbear.cc/blog/post/propresenter6-stage-display-messages-client/
+        image: https://blog.featherbear.cc/post/propresenter6-stage-display-messages-client/screenshot.png
+        blog: https://blog.featherbear.cc/post/propresenter6-stage-display-messages-client/
         repo: https://github.com/featherbear/propresenter-stagemessages
         description: Remote stage message client for ProPresenter 6/7
       }
@@ -461,7 +461,7 @@
         stack: [
           C++
         ]
-        blog: https://featherbear.cc/blog/post/ndi-streamer/
+        blog: https://blog.featherbear.cc/post/ndi-streamer/
         repo: https://github.com/featherbear/ndi-streamer
         description:
           '''
@@ -476,8 +476,8 @@
           Arduino
           Svelte
         ]
-        blog: https://featherbear.cc/blog/post/talyte/
-        image: https://featherbear.cc/blog/uploads/20210510_234112.jpg
+        blog: https://blog.featherbear.cc/post/talyte/
+        image: https://blog.featherbear.cc/uploads/20210510_234112.jpg
         repo: https://github.com/featherbear/talyte/
         description: Tally light library / software for OBS
       }
@@ -489,7 +489,7 @@
         ]
         image: https://splitify.github.io/branding/banner/banner@72.png
         site: https://splitify.github.io
-        blog: https://featherbear.cc/blog/post/splitify/
+        blog: https://blog.featherbear.cc/post/splitify/
         repo: https://github.com/Splitify/
         description:
           '''
@@ -502,7 +502,7 @@
         stack: [
           TypeScript
         ]
-        blog: https://featherbear.cc/blog/post/presonus-studiolive-api-ii/
+        blog: https://blog.featherbear.cc/post/presonus-studiolive-api-ii/
         repo: https://github.com/featherbear/bitfocus-companion-module-presonus-studiolive-iii
         description: Integration of my PreSonus StudioLive III API for the Bitfocus Companion (for the Elgato Streamdeck)
       }
@@ -521,8 +521,8 @@
           Dart
         ]
         repo: https://github.com/featherbear/aNDI
-        blog: https://featherbear.cc/blog/post/andi-ndi-tools-for-android/
-        image: https://featherbear.cc/blog/uploads/img_0047.JPG
+        blog: https://blog.featherbear.cc/post/andi-ndi-tools-for-android/
+        image: https://blog.featherbear.cc/uploads/img_0047.JPG
         description: NDI tool application for Android
       }
       {
@@ -532,8 +532,8 @@
           C#
         ]
         repo: https://github.com/featherbear/NDI-Telestrator
-        blog: https://featherbear.cc/blog/post/ndi-telestrator/
-        image: https://featherbear.cc/blog/uploads/snipaste_2021-06-25_22-32-19.png
+        blog: https://blog.featherbear.cc/post/ndi-telestrator/
+        image: https://blog.featherbear.cc/uploads/snipaste_2021-06-25_22-32-19.png
       }
       {
         title: Vix
@@ -542,8 +542,8 @@
           Dart
         ]
         repo: https://github.com/featherbear/obs-vix
-        blog: https://featherbear.cc/blog/post/obs-vix/
-        image: https://featherbear.cc/blog/uploads/20210904-snipaste_2021-09-05_01-43-46.png
+        blog: https://blog.featherbear.cc/post/obs-vix/
+        image: https://blog.featherbear.cc/uploads/20210904-snipaste_2021-09-05_01-43-46.png
         description: An opinionated vision mixer and switcher client for OBS
       }
     ]
@@ -556,8 +556,8 @@
         stack: [
           p5.js
         ]
-        image: https://featherbear.cc/blog/post/p5-stack-queue-games/preview_stack.apng
-        blog: https://featherbear.cc/blog/post/p5-stack-queue-games
+        image: https://blog.featherbear.cc/post/p5-stack-queue-games/preview_stack.apng
+        blog: https://blog.featherbear.cc/post/p5-stack-queue-games
         site: https://featherbear.cc/p5-stacker-game/
         repo: https://github.com/featherbear/p5-stacker-game/
       }
@@ -566,8 +566,8 @@
         stack: [
           p5.js
         ]
-        image: https://featherbear.cc/blog/post/p5-stack-queue-games/preview_queue.apng
-        blog: https://featherbear.cc/blog/post/p5-stack-queue-games
+        image: https://blog.featherbear.cc/post/p5-stack-queue-games/preview_queue.apng
+        blog: https://blog.featherbear.cc/post/p5-stack-queue-games
         site: https://featherbear.cc/p5-queuer-game/
         repo: https://github.com/featherbear/p5-queuer-game/
       }
@@ -602,7 +602,7 @@
           JNA
         ]
         repo: https://github.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/
-        blog: https://featherbear.cc/blog/post/dungeon-console/
+        blog: https://blog.featherbear.cc/post/dungeon-console/
         image: https://raw.githubusercontent.com/featherbear/UNSW-COMP2511-ass2-DungeonConsole/master/demo_advanced.gif
         description: Alternative text-based client for my UNSW COMP2511 group project
       }
@@ -611,9 +611,9 @@
         stack: [
           SmallBasic
         ]
-        blog: https://featherbear.cc/blog/post/smallbasic-balloon-shooting-game/
+        blog: https://blog.featherbear.cc/post/smallbasic-balloon-shooting-game/
         repo: https://github.com/featherbear/smallbasic-balloon-shooting-game
-        image: https://featherbear.cc/blog/post/smallbasic-balloon-shooting-game/animation.gif
+        image: https://blog.featherbear.cc/post/smallbasic-balloon-shooting-game/animation.gif
         description: A game I made in Small Basic for some educational course. Oh boy.
       }
       {
@@ -623,8 +623,8 @@
           wxPython
           OpenCV
         ]
-        blog: https://featherbear.cc/blog/post/whoops-there-goes-my-ai/
-        image: https://featherbear.cc/blog/post/whoops-there-goes-my-ai/preview.apng
+        blog: https://blog.featherbear.cc/post/whoops-there-goes-my-ai/
+        image: https://blog.featherbear.cc/post/whoops-there-goes-my-ai/preview.apng
         repo: https://github.com/featherbear/Whoops-There-Goes-My-AI/
         description: An attempt at computer vision, to automate a mobile phone game
       }
@@ -661,9 +661,9 @@
           Python
         ]
         repo: https://github.com/featherbear/threes
-        blog: https://featherbear.cc/blog/post/instagram-layouts-offsets-grids-code/
+        blog: https://blog.featherbear.cc/post/instagram-layouts-offsets-grids-code/
         description: A content spacer tool for Instagram to maintain 3 x n layouts
-        image: https://featherbear.cc/blog/uploads/sxs.gif
+        image: https://blog.featherbear.cc/uploads/sxs.gif
       }
       {
         title: Facebook Marketplace Helper
@@ -671,9 +671,9 @@
           JavaScript
         ]
         repo: https://github.com/featherbear/facebook-marketplace-helper
-        blog: https://featherbear.cc/blog/post/facebook-marketplace-helper-script
+        blog: https://blog.featherbear.cc/post/facebook-marketplace-helper-script
         description: Remove sponsored ads and mark previously viewed classified listings
-        image: https://featherbear.cc/blog/uploads/snipaste_2021-07-10_00-05-39.png
+        image: https://blog.featherbear.cc/uploads/snipaste_2021-07-10_00-05-39.png
       }
     ]
   }

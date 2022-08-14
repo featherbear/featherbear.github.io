@@ -4,7 +4,7 @@ This `v3` branch contains the source code for my personal website, available at 
 
 Being a git repo and all, you can also find the older website revisions in the `archive_v*` branches.  
 _It's probably not very interesting to do that though..._  
-You'll probably find much more interest in reading through **[this blog post](https://featherbear.cc/blog/post/site-redesign/)**
+You'll probably find much more interest in reading through **[this blog post](https://blog.featherbear.cc/post/site-redesign/)**
 
 ---
 
