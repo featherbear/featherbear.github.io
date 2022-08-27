@@ -19,7 +19,7 @@
 		['/assets/images/bg/other/IMG_8914.jpg', '100% 40%'],
 	]
 
-	let selectedCoverImage = -1
+	let selectedCoverImage = Math.trunc(Math.random() * images.length)
 	// let cache = {}
 
 	function newImage() {
@@ -30,9 +30,6 @@
 
 		selectedCoverImage = newIdx
 	}
-
-	newImage()
-
 </script>
 
 <style lang="scss">
