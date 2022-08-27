@@ -1,4 +1,8 @@
 <script>
+	import { onMount } from 'svelte';
+
+	// import Thief from '../components/_util/colours'
+
 	function showEmail(elem) {
 		let address = atob("aGVsbG9AZmVhdGhlcmJlYXIuY2M")
 		elem.href = `mailto:${address}`
@@ -15,14 +19,19 @@
 		['/assets/images/bg/other/IMG_8914.jpg', '100% 40%'],
 	]
 
-	
-	let selectedCoverImage = Math.trunc(Math.random() * images.length)
+	let selectedCoverImage = -1
+	// let cache = {}
+
 	function newImage() {
-		let newIdx;
-		while ((newIdx = Math.trunc(Math.random() * images.length)) == selectedCoverImage);
-		console.log(newIdx);
+		let newIdx
+		do {
+			newIdx = Math.trunc(Math.random() * images.length)
+		} while (newIdx == selectedCoverImage)
+
 		selectedCoverImage = newIdx
 	}
+
+	newImage()
 
 </script>
 
@@ -238,4 +247,3 @@ If you're looking for my resume, you can find it **[here](/resume)**.
 ## That's all folks
 
 If you're looking for the end of this page, it's here :)
-
