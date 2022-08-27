@@ -4,19 +4,39 @@
 		elem.href = `mailto:${address}`
 		elem.innerText = address;
 	}
+
+	let images = [
+		/* URL, background-position */
+		['/assets/images/cover.jpg', '100% 30%'],
+		['/assets/images/bg/2022/0T4A9896.jpg', '100% 30%'],
+		['/assets/images/bg/2022/IMG_4060_exp.jpg', '100% 50%'],
+		['/assets/images/bg/other/IMG_0082_DxO.jpg', '100% 35%'],
+		['/assets/images/bg/other/IMG_1328.jpg', '100% 50%'],
+		['/assets/images/bg/other/IMG_8914.jpg', '100% 40%'],
+	]
+
+	
+	let selectedCoverImage = Math.trunc(Math.random() * images.length)
+	function newImage() {
+		let newIdx;
+		while ((newIdx = Math.trunc(Math.random() * images.length)) == selectedCoverImage);
+		console.log(newIdx);
+		selectedCoverImage = newIdx
+	}
+
 </script>
 
 <style lang="scss">
 .coverImage {
 	width: 100%;
 	height: 280px;
-	background-image: url(/assets/images/cover.jpg);
-	background-position: 100% 30%;
 	background-size: cover;
 	position: relative;
 	box-shadow: none;
 	margin: 2em 0;
 	border-radius: 10px;
+
+	cursor: pointer;
 
 	&:before {
 		content: ' ';
@@ -111,7 +131,7 @@ blockquote {
 }
 </style>
 
-<div class="coverImage" />
+<div on:click={newImage} class="coverImage" style="background-image: url({images[selectedCoverImage][0]}); background-position: {images[selectedCoverImage][1]};" />
 
 # Hey there 👋
 

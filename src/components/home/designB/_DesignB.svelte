@@ -19,18 +19,18 @@
     const backgroundImages = {
       "bg19-min.jpg": 0b010,
       'bg08-min.jpg': 0b010,
-      '2022/IMG_4060.JPG': 0b001,
       '2022/IMG_4060_exp.jpg': 0b101,
     }
     
     let profileImages = [
       "bg17-min.jpg",
       "2022/0T4A9920.jpg",
+      "2022/0T4A9896.jpg",
       "2022/20220413-0t4a9037_exp.jpg",
     ];
 
     const profileOverrides = {
-      '2022/IMG_4060_exp.jpg': ["2022/0T4A9920.jpg"]
+      '2022/IMG_4060_exp.jpg': ["2022/0T4A9920.jpg", "2022/0T4A9896.jpg"]
     };
 
     let [background, backgroundOpts] = (function() {
