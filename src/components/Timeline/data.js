@@ -21,7 +21,7 @@ function createEntry (
 
 export default [
   createSection('2022', [
-    createEntry('Software Engineer @ Audinate', "Internship", [
+    createEntry('Software Engineer @ Audinate', "R&D Engineer", [
       'Audio/Visual',
       'Computing'
     ]),
