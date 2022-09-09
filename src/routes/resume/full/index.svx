@@ -53,7 +53,8 @@ Electrical Engineering / Computer Science (2018 - 2019)
 Interested in things related to security, multimedia and communications.  
 
 **Security**  
-In this day and age, information security has been the forefront of attention time and time again. I've come to appreciate the necessity to both understand and promote cyber vigilance to all. I've written a RAT, fuzzer, and even my very own Capture The Flag server, as well as having taught several security courses at UNSW. Oh and I once came first in a CTF!
+Cyber security risks and concerns for information security have become so prevalent in this day and age. I've come to appreciate the necessity to both understand and promote cyber vigilance to all. I've had my fair share of fun in writing my own C2, RAT, fuzzer and even my very own Capture The Flag server! I also used to teach the cyber security undergraduate and postgraduate courses to UNSW.  
+Oh, I also wrote a [thesis paper](https://featherbear.cc/UNSW-CSE-Thesis/) about hacking into a vacuum cleaner!
 
 **Multimedia**  
 Giant LED walls, live show programming, geeking out on new microphones, cameras, stacking layers of compression... Digital technology has continued to improve the production value of TV, music, videos, theatre, concerts and so much more. These have been my creative outlets - spending time doing AVL, photography, videography and music. Combine these things with tech, and it gets so much more interesting! I've worked on several projects that have enabled me to tie my interests together and enjoy them simultaneously!
@@ -65,6 +66,7 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 ### Experience
 
 - Software
+  - R&D Engineer @ Audinate (2022)
   - Security Engineer @ Atlassian (2021/2022 Summer Program)
   - Ryndeum (2019 - 2021)
   - UNSW Hospitality (2019 - 2020)
