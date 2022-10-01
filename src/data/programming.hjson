@@ -37,6 +37,11 @@
         description: Reverse engineered Wi-Fi protocol to control multiple Canon EOS R cameras
       }
       {
+        title: Niimbot D101 Proto
+        repo: https://github.com/featherbear/niimbot-d101-proto
+        description: Reverse engineered BLE protocol to control the Niimbot D101 label printer, because the company said it wasn't possible.
+      }
+      {
         title: fastify-slate
         stack: [
           Node.js
