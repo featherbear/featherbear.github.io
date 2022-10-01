@@ -29,6 +29,14 @@
         image: https://blog.featherbear.cc/post/presonus-studiolive-api/20190513_174229.jpg
       }
       {
+        title: EOS PTP
+        stack: [
+          Node.js
+        ]
+        repo: https://github.com/featherbear/eos-ptp
+        description: Reverse engineered Wi-Fi protocol to control multiple Canon EOS R cameras
+      }
+      {
         title: fastify-slate
         stack: [
           Node.js
