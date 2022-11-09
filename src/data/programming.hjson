@@ -321,6 +321,16 @@
         description: A data massaging tool to convert between various formats
       }
       {
+        title: getopt generator
+        stack: [
+          TypeScript
+          Svelte
+        ]
+        site: https://featherbear.cc/getopt-generator/
+        repo: https://github.com/featherbear/getopt-generator
+        description: getopt function utility helper
+      }
+      {
         title: Wakey
         stack: [
           Node.js
@@ -687,6 +697,16 @@
         blog: https://blog.featherbear.cc/post/facebook-marketplace-helper-script
         description: Remove sponsored ads and mark previously viewed classified listings
         image: https://blog.featherbear.cc/uploads/snipaste_2021-07-10_00-05-39.png
+      }
+      {
+        title: Raincheck
+        stack: [
+          TypeScript
+          Svelte
+        ]
+        site: https://featherbear.cc/raincheck/
+        repo: https://github.com/featherbear/raincheck
+        description: "Quick rain checker - Plans cancelled? Or is it raining? Or both 🤷\u200d♂️"
       }
     ]
   }
