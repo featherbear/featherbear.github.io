@@ -141,10 +141,10 @@ blockquote {
 
 # Hey there 👋
 
-You might have found my site from Google, some dodgy code I wrote, one of my [UNSW course note sites](/blog/post/unsw/)... or maybe you're a bot.  
+You might have found this site from Google, some dodgy code I wrote, my [UNSW course notes](/blog/post/unsw/)... or maybe you're a bot.  
 Either way, welcome!
 
-Currently I'm a Research and Development Engineer at [Audinate](https://www.audinate.com/), and a Security Engineer at [Atlassian](https://www.atlassian.com).
+Currently I'm a Research and Development Engineer at [Audinate](https://www.audinate.com/), and a Security Engineer at [Atlassian](https://www.atlassian.com). I also do wedding photography and event production stuff!
 
 I studied Computer Engineering at the [University of New South Wales](https://unsw.edu.au) in Sydney, Australia.  
 Formerly I did Electrical Engineering, but I eventually found myself more fascinated with hardware design.
@@ -153,14 +153,15 @@ Currently I have no idea what I really want to do with my life, but don't we all
 
 ---
 
-# Get to know me real quick
+# My life, sort of categorised..
 
 ## 💻 [Hardware & Software](/programming)
 
 > Code monkey, hardware hacker... I make and break things - though mainly the latter...
 
-My interests lie in multimedia, networking, and dev o(o)ps - though realistically the reason I write software is so that I don't have to pay for them.  
-I also do something involved with cyber security, but like you don't need to know that 🕵️‍♀️
+My interests lie in network technologies, multimedia systems and dev o(o)ps - though realistically the reason I write software is so that I don't have to pay for them.  
+
+I also do something involved with cyber security, but shh let's keep that a ... _secret_ ... between you and me🕵️‍♀️
 
 ## 📸 [Photography](https://www.instagram.com/_andrewjwong/)
 
@@ -176,7 +177,9 @@ _Or..._ looking like a lunatic whilst carrying around a bunch of random lights f
 I'm one of those people who you don't know exist, until we mess up.  
 
 There's no hope for me in front of a camera or microphone, but I can sure make others look and sound good!  
-From corporate events like conferences, to weddings, to concerts and festivals, I mainly work as a live sound engineer (mixing audio) and broadcast engineer (video production and livestreaming), but basically I'm a _"jack of all trades, master of <s>none</s> some"_.  
+From corporate events like conferences, to weddings, to concerts, theatre and festivals - I mainly work as a live sound engineer (mixing audio) and broadcast engineer (video production and livestreaming), but basically I'm a _"jack of all trades, master of <s>none</s> some"_.  
+
+I program light shows from time to time but audio is definitely my strongest domain. 
 
 ## 🎸 Music
 
@@ -214,7 +217,7 @@ Here's a non-exhaustive list of things that I sort of want to buy, that maybe yo
 _jk haha.. unless..?_
 
 🧦 Socks - Yes I've reached that age in life where I value these as gifts  
-🧵 CAT6 Ethernet cables - The best type of wireless is the hard-wired ones  
+🧵 CAT6 Ethernet cables - The best type of wireless devices are the ones that you can plug in  
 📷 Camera stuff - Buy me some Canon LP-E6NH batteries please, or maybe an EF lens..  
 💻 Laptop - Yeah I don't actually have my own.. shock horror!  
 🎁 Surprise me
