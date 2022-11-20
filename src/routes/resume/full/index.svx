@@ -66,8 +66,8 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 ### Experience
 
 - Software
-  - R&D Engineer @ Audinate (2022)
-  - Security Engineer @ Atlassian (2021/2022 Summer Program)
+  - Research & Development Engineer @ Audinate (2022)
+  - Security Engineer @ Atlassian (2021 - 2022)
   - Ryndeum (2019 - 2021)
   - UNSW Hospitality (2019 - 2020)
   - RICE Movement (2017 - 2019)
@@ -76,7 +76,7 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 
 - Teaching
   - Private Tutor
-  - Casual Academic @ UNSW Sydney (2019 - present)
+  - Casual Academic @ UNSW Sydney (2019 - 2022)
   - Workshop Organiser @ CSE CompClub (2019 Summer)
   - Mentor @ CSE CompClub (2018 Winter)
 
@@ -86,6 +86,7 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
   - First in CSE x SecSoc CTF 2021 Competition
   - First in CSE x SecSoc CTF 2020 Competition
   - First in Web Application Security and Testing course (COMP6[84]43)
+  - First in Operating Systems (COMP3231)
   - CommBank Cyber Security Prize (2020)
 - High School
   - First in HSC Software Design & Development (2016)
