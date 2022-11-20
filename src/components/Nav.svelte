@@ -72,11 +72,11 @@
 
     <div class:is-active={hamburgerOpen} class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" class:active={segment === 'blog'} href="/blog">
-          blog
-        </a>
         <a class="navbar-item" class:active={segment === 'about'} href="/about">
           about me
+        </a>
+        <a class="navbar-item" class:active={segment === 'blog'} href="/blog">
+          blog
         </a>
         <a class="navbar-item" href="https://www.instagram.com/_andrewjwong/">
           photography<!-- class:active={segment === 'photos'} href="/photos" -->
