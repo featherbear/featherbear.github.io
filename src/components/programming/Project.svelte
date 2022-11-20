@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+
   type URL = string;
 
   export let data: Partial<{
@@ -18,13 +20,27 @@
   import Button from "./Button.svelte";
   import SpinLoader from "./SpinLoader.svelte";
 
-  let mediaLoaded = !(data.preview || data.image);
+  let shouldDisplay = !(data.preview || data.image);
+  let mediaReady = shouldDisplay;
+  let mediaLoadTimeout: ReturnType<typeof setTimeout>;
   function handleResourceLoad() {
-    mediaLoaded = true
+    clearTimeout(mediaLoadTimeout);
+    shouldDisplay = true;
+    mediaReady = true;
   }
+
+  onMount(() => {
+    const timeout = 10 * 1000;
+    if (!mediaReady) {
+      mediaLoadTimeout = setTimeout(() => {
+        console.warn("Exceeded timeout, forcing display but keeping loader");
+        shouldDisplay = true;
+      }, timeout);
+    }
+  });
 </script>
 
-<article class:isLoading={!mediaLoaded}>
+<article class:isLoading={!shouldDisplay}>
   {#if data.preview || data.image}
     <div
       use:backgroundImageLoad={data.image || null}
@@ -40,8 +56,10 @@
           on:load={handleResourceLoad}
         />
       {/if}
-      {#if !mediaLoaded}
-        <SpinLoader />
+      {#if !mediaReady}
+        <div class="spinContainer">
+          <SpinLoader />
+        </div>
       {/if}
     </div>
   {/if}
@@ -93,8 +111,10 @@
       background-size: cover;
       background-position: center;
 
-      position: relative;
-      display: flex;
+      .spinContainer {
+        height: 100%;
+        display: flex;
+      }
 
       iframe {
         max-width: initial;
@@ -120,7 +140,7 @@
       transition: filter 2s;
     }
     &.isLoading {
-      filter: blur(2px) grayscale(1);
+      filter: blur(3px) grayscale(0.8);
     }
 
     .content {
