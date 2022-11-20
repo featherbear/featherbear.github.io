@@ -71,7 +71,7 @@
 
       content: "";
       border-left: $lineWidth solid $lineColour;
-      margin-left: calc(#{$dotSize / 2} - #{$lineWidth / 2});
+      margin-left: calc(#{$dotSize * 0.5} - #{$lineWidth * 0.5});
     }
   }
 
