@@ -62,7 +62,7 @@
         title: flutter-ndi
         repo: https://github.com/featherbear/flutter-ndi
         blog: https://blog.featherbear.cc/post/andi-ndi-tools-for-android/
-        description: Flutter Foreign Function Interface bindings for the NewTek NDI SDK
+        description: Flutter Foreign Function Interface bindings for the NewTek NDI® SDK
         stack: [
           Dart
           ffi
@@ -222,6 +222,15 @@
         description: An introduction to web-related vulnerabilities, exploits and mitigations
         repo: https://github.com/featherbear/tutoring-unsw-21t2-cs6443-cs6843
         site: https://featherbear.cc/tutoring-unsw-21t2-cs6443-cs6843/
+      }
+      {
+        title: Legacy VNC Password Utility
+        stack: [
+          WebAssembly
+          TypeScript
+        ]
+        description: Experimentation with WebAssembly to perform encryption and decryption of legacy VNC passwords
+        repo: https://github.com/featherbear/vncpasswd-js
       }
     ]
   }
@@ -488,7 +497,7 @@
         repo: https://github.com/featherbear/ndi-streamer
         description:
           '''
-          Cross-platform display sharing over NDI.
+          Cross-platform display sharing over NDI®.
           Intended for Linux, since Windows and Mac have official software
           '''
       }
@@ -546,13 +555,13 @@
         repo: https://github.com/featherbear/aNDI
         blog: https://blog.featherbear.cc/post/andi-ndi-tools-for-android/
         image: https://blog.featherbear.cc/uploads/img_0047.JPG
-        description: NDI tool application for Android
+        description: NDI® tool application for Android
       }
       {
         title: NDI Telestrator
-        description: Whiteboard annotation tool using NDI
+        description: Whiteboard annotation tool using NDI®
         stack: [
-          C#
+          C#, 
         ]
         repo: https://github.com/featherbear/NDI-Telestrator
         blog: https://blog.featherbear.cc/post/ndi-telestrator/
