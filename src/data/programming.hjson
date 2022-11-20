@@ -25,7 +25,7 @@
         ]
         repo: https://github.com/featherbear/PreSonus-StudioLive-API
         blog: https://blog.featherbear.cc/post/presonus-studiolive-api-iii-jan22/
-        description: Reverse engineered PreSonus network control protocol for the StudioLive Series III product family
+        description: Reverse engineered PreSonus UCNet protocol to integrate with the StudioLive Series III console line
         image: https://blog.featherbear.cc/post/presonus-studiolive-api/20190513_174229.jpg
       }
       {
@@ -34,7 +34,7 @@
           Node.js
         ]
         repo: https://github.com/featherbear/eos-ptp
-        description: Reverse engineered Wi-Fi protocol to control multiple Canon EOS R cameras
+        description: Reverse engineered Canon EOS Wi-Fi protocol to control multiple cameras
       }
       {
         title: Niimbot D101 Proto
