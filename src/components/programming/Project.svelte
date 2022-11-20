@@ -14,14 +14,22 @@
 
   let stack = typeof data.stack === "string" ? [data.stack] : data.stack;
 
+  import backgroundImageLoad from "./BackgroundImagePreload";
   import Button from "./Button.svelte";
+  import SpinLoader from "./SpinLoader.svelte";
+
+  let mediaLoaded = !(data.preview || data.image);
+  function handleResourceLoad() {
+    mediaLoaded = true
+  }
 </script>
 
-<article>
+<article class:isLoading={!mediaLoaded}>
   {#if data.preview || data.image}
     <div
+      use:backgroundImageLoad={data.image || null}
       class="preview"
-      style={data.image ? `background-image: url(${data.image});` : ""}
+      on:load={handleResourceLoad}
     >
       {#if data.preview}
         <iframe
@@ -29,7 +37,11 @@
           scrolling="no"
           title="preview"
           sandbox="allow-scripts allow-same-origin"
+          on:load={handleResourceLoad}
         />
+      {/if}
+      {#if !mediaLoaded}
+        <SpinLoader />
       {/if}
     </div>
   {/if}
@@ -81,6 +93,9 @@
       background-size: cover;
       background-position: center;
 
+      position: relative;
+      display: flex;
+
       iframe {
         max-width: initial;
         width: 400%;
@@ -99,6 +114,13 @@
 
         pointer-events: none;
       }
+    }
+
+    &:not(.isLoading) {
+      transition: filter 2s;
+    }
+    &.isLoading {
+      filter: blur(2px) grayscale(1);
     }
 
     .content {
