@@ -7,6 +7,24 @@
   import { fade } from "svelte/transition";
 </script>
 
+<section>
+  <h2
+    class:collapsible
+    on:click={() => collapsible && (opened = !opened)}
+  >
+    {title}
+  </h2>
+
+  {#if description}
+    <p>{description}</p>
+  {/if}
+  {#if opened}
+    <div transition:fade|local>
+      <slot />
+    </div>
+  {/if}
+</section>
+
 <style lang="scss">
   section {
     h2 {
@@ -30,24 +48,3 @@
     }
   }
 </style>
-
-<section>
-  <h2
-    class:collapsible
-    on:click={() => {
-      if (collapsible) {
-        opened = !opened;
-      }
-    }}>
-    {title}
-  </h2>
-
-  {#if description}
-    <p>{description}</p>
-  {/if}
-  {#if opened}
-    <div transition:fade|local>
-      <slot />
-    </div>
-  {/if}
-</section>
