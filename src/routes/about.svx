@@ -148,6 +148,7 @@ Currently I'm a Research and Development Engineer at [Audinate](https://www.audi
 
 I studied Computer Engineering at the [University of New South Wales](https://unsw.edu.au) in Sydney, Australia.  
 Formerly I did Electrical Engineering, but I eventually found myself more fascinated with hardware design.
+
 Currently I have no idea what I really want to do with my life, but don't we all 🤷‍♂️
 
 ---
