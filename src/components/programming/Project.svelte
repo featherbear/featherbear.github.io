@@ -109,6 +109,7 @@
 
     --radius: 8px;
     border-radius: var(--radius);
+    overflow: hidden;
 
     .preview {
       height: 180px;
