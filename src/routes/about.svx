@@ -141,11 +141,14 @@ blockquote {
 
 # Hey there 👋
 
-I'm currently a fifth year student at the [University of New South Wales](https://unsw.edu.au) in Sydney, Australia pursuing a degree in Computer Engineering.  
-Prior to that I did Electrical Engineering, but found myself more fascinated with hardware design.
-
-You might have found my site from Google, some code I wrote, a friend, one of my [UNSW course note sites](/blog/post/unsw/)... or maybe you're a bot.  
+You might have found my site from Google, some dodgy code I wrote, one of my [UNSW course note sites](/blog/post/unsw/)... or maybe you're a bot.  
 Either way, welcome!
+
+Currently I'm a Research and Development Engineer at [Audinate](https://www.audinate.com/), and a Security Engineer at [Atlassian](https://www.atlassian.com).
+
+I studied Computer Engineering at the [University of New South Wales](https://unsw.edu.au) in Sydney, Australia.
+Formerly I did Electrical Engineering, but I eventually found myself more fascinated with hardware design.
+Currently I have no idea what I really want to do with my life, but don't we all 🤷‍♂️
 
 ---
 
