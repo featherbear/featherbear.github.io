@@ -107,7 +107,7 @@
     display: flex;
     flex-direction: column;
 
-    --radius: 8px;
+    --radius: 4px;
     border-radius: var(--radius);
     overflow: hidden;
 
