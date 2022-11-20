@@ -21,19 +21,19 @@ function createEntry (
 
 export default [
   createSection('2022', [
-    createEntry('Software Engineer @ Audinate', "R&D Engineer", [
+    createEntry('Software Engineer @ Audinate', "Research & Development Engineer", [
       'Audio/Visual',
       'Computing'
     ]),
-    /*createEntry('Graduated UNSW', "BE (Hons) CompEng", [
+    createEntry('Graduated UNSW', "BE (Hons) CompEng", [
       'Computing'
-    ]),*/
+    ]),
     /* createEntry('Vivado', "± 2% success rate", [
       'Computing'
     ]), */
     createEntry(
       'Thesis Publication',
-      "", [
+      null, [
         'Computing',
         'Security'
       ],
@@ -42,7 +42,7 @@ export default [
   ]),
   
   createSection('2021', [
-    createEntry('Security Engineer @ Atlassian', "2021/2022 Summer Program", [
+    createEntry('Security Engineer @ Atlassian', null, [
       'Security',
       'Computing'
     ]),
