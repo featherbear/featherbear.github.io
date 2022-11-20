@@ -96,14 +96,28 @@
     box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
       0 0px 0 1px rgba(10, 10, 10, 0.02);
 
+    &:hover {
+      box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.3),
+      0 0px 0 1px rgba(10, 10, 10, 0.06);
+    }
+
     cursor: default;
     user-select: none;
 
     display: flex;
     flex-direction: column;
 
+    --radius: 8px;
+    border-radius: var(--radius);
+
     .preview {
       height: 180px;
+
+      
+      border-top-left-radius: var(--radius);
+      border-top-right-radius: var(--radius);
+      border-bottom-right-radius: calc(var(--radius) * 3);
+      border-bottom-left-radius: 0;
 
       overflow: hidden;
 
@@ -136,8 +150,11 @@
       }
     }
 
+    --defaultTransition: box-shadow 0.3s;
+    transition: var(--defaultTransition);
+
     &:not(.isLoading) {
-      transition: filter 2s;
+      transition: var(--defaultTransition), filter 2s;
     }
     &.isLoading {
       filter: blur(3px) grayscale(0.8);
