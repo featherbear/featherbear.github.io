@@ -42,15 +42,7 @@
     <Section title={section.title}>
       {#if section.items}
         {#each section.items as entry}
-          <Project
-            title={entry.title}
-            description={entry.description}
-            image={entry.image}
-            preview={entry.preview}
-            repo={entry.repo}
-            site={entry.site}
-            blog={entry.blog}
-            stack={entry.stack} />
+          <Project data={entry} />
         {/each}
       {/if}
     </Section>

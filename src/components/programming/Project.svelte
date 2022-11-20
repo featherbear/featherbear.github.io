@@ -1,21 +1,63 @@
-<script>
-  export let title; // String
-  export let description; // String
+<script lang="ts">
+  type URL = string;
 
-  export let image; // "image link"
-  export let preview; // "iframe link"
+  export let data: Partial<{
+    title: string;
+    description: string;
+    image: URL;
+    preview: URL;
+    repo: URL;
+    site: URL;
+    blog: URL;
+    stack: string | string[];
+  }>;
 
-  export let repo; // "Link"
-  export let site; // "Link"
-  export let blog; // "Link"
-  export let stack; // [String]
-
-  if (typeof stack === "string") {
-    stack = [stack];
-  }
+  let stack = typeof data.stack === "string" ? [data.stack] : data.stack;
 
   import Button from "./Button.svelte";
 </script>
+
+<article>
+  {#if data.preview || data.image}
+    <div
+      class="preview"
+      style={data.image ? `background-image: url(${data.image});` : ""}
+    >
+      {#if data.preview}
+        <iframe
+          src={data.preview}
+          scrolling="no"
+          title="preview"
+          sandbox="allow-scripts allow-same-origin"
+        />
+      {/if}
+    </div>
+  {/if}
+  <div class="content">
+    <h4>{data.title}</h4>
+
+    {#if stack}
+      <span>Technology stack: {stack.join(", ")}</span>
+    {/if}
+
+    {#if data.description}
+      <p>{data.description}</p>
+    {/if}
+  </div>
+  {#if data.repo || data.site || data.blog}
+    <div class="buttons">
+      {#if data.repo}
+        <Button href={data.repo}>GitHub</Button>
+      {/if}
+      {#if data.site}
+        <Button href={data.site}>Site</Button>
+      {/if}
+      {#if data.blog}
+        <Button href={data.blog}>Blog</Button>
+      {/if}
+    </div>
+  {/if}
+</article>
 
 <style lang="scss">
   article {
@@ -86,45 +128,3 @@
     }
   }
 </style>
-
-<article>
-  {#if preview || image}
-    <div
-      class="preview"
-      style={image ? `background-image: url(${image});` : ''}>
-      {#if preview}
-        <iframe
-          src={preview}
-          scrolling="no"
-          title="preview"
-          sandbox="allow-scripts allow-same-origin" />
-      {/if}
-
-    </div>
-  {/if}
-  <div class="content">
-    <h4>{title}</h4>
-
-    {#if stack}
-      <span>Technology stack: {stack.join(', ')}</span>
-    {/if}
-
-    {#if description}
-      <p>{description}</p>
-    {/if}
-
-  </div>
-  {#if repo || site || blog}
-    <div class="buttons">
-      {#if repo}
-        <Button href={repo}>GitHub</Button>
-      {/if}
-      {#if site}
-        <Button href={site}>Site</Button>
-      {/if}
-      {#if blog}
-        <Button href={blog}>Blog</Button>
-      {/if}
-    </div>
-  {/if}
-</article>
