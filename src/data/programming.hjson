@@ -715,7 +715,15 @@
         ]
         site: https://featherbear.cc/raincheck/
         repo: https://github.com/featherbear/raincheck
-        description: "Quick rain checker - Plans cancelled? Or is it raining? Or both 🤷\u200d♂️"
+        description: "Quick rain checker - Plans cancelled? Or is it raining? Or both 🤷"
+      }
+      {
+        title: Should I Buy It
+        stack: [
+          Cutting-edge machine learning and AI technology
+        ]
+        site: https://featherbear.cc/shouldibuyit/
+        description: The last definitive piece of financial advice you don't need
       }
     ]
   }
