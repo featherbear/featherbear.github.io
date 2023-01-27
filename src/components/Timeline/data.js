@@ -20,12 +20,18 @@ function createEntry (
 }
 
 export default [
+  createSection('2023', [
+    createEntry('Security Engineer @ Atlassian', null, [
+      'Security',
+      'Computing'
+    ])
+  ]),
   createSection('2022', [
-    createEntry('Software Engineer @ Audinate', "Research & Development Engineer", [
+    createEntry('Research & Development Engineer @ Audinate', null, [
       'Audio/Visual',
       'Computing'
     ]),
-    createEntry('Graduated UNSW', "BE (Hons) CompEng", [
+    createEntry('Graduated from UNSW', "BE (Hons) Computer Engineering (Honours Class 1)", [
       'Computing'
     ]),
     /* createEntry('Vivado', "± 2% success rate", [
