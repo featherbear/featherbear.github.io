@@ -33,6 +33,7 @@ const BASE_HOST = `http://localhost:${PORT}/`
 let server = polka()
   .use(sirv('./__sapper__/export'))
   .listen(PORT, async () => {
+    console.log("Web server running")
     const browser = await puppeteer.launch({ headless: true })
 
     let pages = {}
@@ -65,7 +66,20 @@ let server = polka()
           new Promise(async function (resolve, reject) {
             console.log('Fetching page >> ' + address)
             const page = await browser.newPage()
-            await page.goto(address, { waitUntil: 'networkidle0' })
+            
+            let navigationTimeout;
+            let navigationTimeoutPromise = new Promise((resolve) => {
+              navigationTimeout = setTimeout(() => {
+                console.log("Navigation to", address, "timed out")
+                resolve(null)
+              }, 60*1000)
+            })
+            
+            await Promise.any([
+              page.goto(address, { waitUntil: 'networkidle0' }),
+              navigationTimeoutPromise
+            ])
+            clearTimeout(navigationTimeout)
 
             resolve(
               (pages[address] = await page.pdf({
