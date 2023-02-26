@@ -144,10 +144,15 @@ blockquote {
 You might have found this site from Google, some dodgy code I wrote, my [UNSW course notes](/blog/post/unsw/)... or maybe you're a bot.  
 Either way, welcome!
 
-Currently I'm a Research and Development Engineer at [Audinate](https://www.audinate.com/), and a Security Engineer at [Atlassian](https://www.atlassian.com). I also do wedding photography and event production stuff!
+During the week I work as a Security Engineer at [Atlassian](https://www.atlassian.com).  
+During the weekend, I do wedding photography and event production stuff, or sleep!
+
+It's hard to explain my jobs and hobbies, because there's too many, and too many of them are intertwined...  
+But it's basically a mixture of software, audio, lighting, video, photos, computer networks, and security.
 
 I studied Computer Engineering at the [University of New South Wales](https://unsw.edu.au) in Sydney, Australia.  
-Formerly I did Electrical Engineering, but I eventually found myself more fascinated with hardware design.
+Formerly I did Electrical Engineering, but I eventually found myself more fascinated with hardware design.  
+I wrote a [thesis](https://featherbear.cc/UNSW-CSE-Thesis/) as part of my honours degree, if you want to read that!
 
 Currently I have no idea what I really want to do with my life, but don't we all 🤷‍♂️
 
