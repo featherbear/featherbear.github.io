@@ -66,8 +66,8 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 ### Experience
 
 - Software
-  - Research & Development Engineer @ Audinate (2022)
-  - Security Engineer @ Atlassian (2021 - 2022)
+  - Research & Development Engineer @ Audinate (2022 - 2023)
+  - Security Engineer @ Atlassian (2021 - present)
   - Ryndeum (2019 - 2021)
   - UNSW Hospitality (2019 - 2020)
   - RICE Movement (2017 - 2019)
@@ -76,13 +76,14 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 
 - Teaching
   - Private Tutor
-  - Casual Academic @ UNSW Sydney (2019 - 2022)
+  - Casual Academic @ UNSW Sydney (2019 - 2023)
   - Workshop Organiser @ CSE CompClub (2019 Summer)
   - Mentor @ CSE CompClub (2018 Winter)
 
 ### Awards
 
 - UNSW
+  - Computer Engineering (Honours Class One)
   - First in CSE x SecSoc CTF 2021 Competition
   - First in CSE x SecSoc CTF 2020 Competition
   - First in Web Application Security and Testing course (COMP6[84]43)
@@ -104,13 +105,13 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 
 ### Experience
 
-- Two Hands Lifted (2020 - 2022)
+- Two Hands Lifted (2020 - 2023)
   - Consultation for the sales and installation of audio/visual gear
   - Livestreaming services for weddings and corporate functions.
 - Sound Engineer @ CSE Revue (2021)
-- Camera Operator @ KCC KYCK (2021 - 2022)
-- Broadcast Engineer @ UNSW Sydney (2021 - 2022)
-- Production Co-ordinator @ South-West Evangelical Church (2018 - 2022)
+- Camera Operator @ KCC KYCK (2021 - 2023)
+- Broadcast Engineer @ UNSW Sydney (2021 - 2023)
+- Production Co-ordinator @ South-West Evangelical Church (2018 - 2023)
   - Planning and integration AVL and networking equipment
   - Training of volunteers to operate software and equipment
 - Event Technician @ UNSW Hospitality Sydney (2018 - 2020)
