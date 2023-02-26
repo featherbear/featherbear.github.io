@@ -27,18 +27,18 @@
 
 ## Education
 
-### University - UNSW Sydney (current)
+### University | UNSW Sydney
 
-Expected Graduation: 2022
-
-Computer Engineering (2020 - present)  
+Computer Engineering (2020 - 2023)  
 Electrical Engineering / Computer Science (2018 - 2019)  
 
+- First Class Honours
+  - Thesis: [“Smart” Vacuum Cleaners - An Audit Into The Security and Integrity of IoT Systems](featherbear.cc/UNSW-CSE-Thesis/)
 - First place in CSE x SecSoc CTF 2021
 - First place in CSE x SecSoc CTF 2020
 - First place in Web Application Security and Testing / COMP6[84]43
 
-### High School - Sydney Technical High School
+### High School | Sydney Technical High School
 
 - First place in Electronics
 - First place in Software Design and Development
@@ -48,16 +48,11 @@ Electrical Engineering / Computer Science (2018 - 2019)
 
 ---
 
-## 💻 Computing
+<br /> 
+<br /> 
+<br /> 
 
-Interested in things related to security, multimedia and communications.  
-
-**Security**  
-Cyber security risks and concerns for information security have become so prevalent in this day and age. I've come to appreciate the necessity to both understand and promote cyber vigilance to all. I've had my fair share of fun in writing my own C2, RAT, fuzzer and even my very own Capture The Flag server! I also used to teach the cyber security undergraduate and postgraduate courses to UNSW.  
-Oh, I also wrote a [thesis paper](https://featherbear.cc/UNSW-CSE-Thesis/) about hacking into a vacuum cleaner!
-
-**Multimedia**  
-Giant LED walls, live show programming, geeking out on new microphones, cameras, stacking layers of compression... Digital technology has continued to improve the production value of TV, music, videos, theatre, concerts and so much more. These have been my creative outlets - spending time doing AVL, photography, videography and music. Combine these things with tech, and it gets so much more interesting! I've worked on several projects that have enabled me to tie my interests together and enjoy them simultaneously!
+## 💻 About Me | Computing and "Cyber"
 
 ### Showcase
 
@@ -66,12 +61,12 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 ### Experience
 
 - Software
-  - Research & Development Engineer @ Audinate (2022 - 2023)
   - Security Engineer @ Atlassian (2021 - present)
-  - Ryndeum (2019 - 2021)
-  - UNSW Hospitality (2019 - 2020)
-  - RICE Movement (2017 - 2019)
-  - South-West Evangelical Church (2017 - 2018)
+  - Research & Development Engineer @ Audinate (2022 - 2023)
+  - Software Engineer @ Ryndeum (2019 - 2021)
+  - Software Engineer @ UNSW Hospitality (2019 - 2020)
+  - Systems Administrator @ RICE Movement (2017 - 2019)
+  - Systems Administrator @ South-West Evangelical Church (2017 - 2018)
   - Freelance
 
 - Teaching
@@ -83,7 +78,7 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 ### Awards
 
 - UNSW
-  - Computer Engineering (Honours Class One)
+  - Computer Engineering (First Class Honours)
   - First in CSE x SecSoc CTF 2021 Competition
   - First in CSE x SecSoc CTF 2020 Competition
   - First in Web Application Security and Testing course (COMP6[84]43)
@@ -101,7 +96,15 @@ Giant LED walls, live show programming, geeking out on new microphones, cameras,
 
 ---
 
-## 🎤 Audio / Visual 📸
+
+<br /> 
+<br /> 
+<br /> 
+
+## 🎤 About Me | Audio / Visual 📸
+
+**Multimedia**  
+Giant LED walls, live show programming, geeking out on new microphones, cameras, stacking layers of compression... Digital technology has continued to improve the production value of TV, music, videos, theatre, concerts and so much more. These have been my creative outlets - spending time doing AVL, photography, videography and music. Combine these things with tech, and it gets so much more interesting! I've worked on several projects that have enabled me to tie my interests together and enjoy them simultaneously!
 
 ### Experience
 
