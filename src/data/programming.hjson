@@ -281,6 +281,7 @@
         description: SQL sandbox and SQLi demonstration
         repo: https://github.com/featherbear/demo-sqli
       }
+    ]
   }
   {
     title: Client Work
