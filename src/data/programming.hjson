@@ -233,51 +233,28 @@
         repo: https://github.com/featherbear/vncpasswd-js
       }
       {
-        title: Clickjacking Demo
-        stack: [
-          Cyber Security
-        ]
-        description: Clickjacking demonstration
-        repo: https://github.com/featherbear/demo-response-header-splitting
-      }
-      {
-        title: Clickjacking Demo
-        stack: [
-          Cyber Security
-        ]
+        title: (Cyber Security) Clickjacking Demo
         description: Clickjacking vulnerability (partial) demonstration
         site: https://featherbear.cc/demo-js-clickjack/
         repo: https://github.com/featherbear/demo-js-clickjack
       }
       {
-        title: HTTP Response Splitting Demo
-        stack: [
-          Cyber Security
-        ]
+        title: (Cyber Security) HTTP Response Splitting Demo
         description: HTTP Response header splitting demonstration
         repo: https://github.com/featherbear/demo-response-header-splitting
       }
       {
-        title: XSS Demo
-        stack: [
-          Cyber Security
-        ]
+        title: (Cyber Security) XSS Demo
         description: Cross Site Scripting demonstration
         repo: https://github.com/featherbear/demo-xss
       }
       {
-        title: Broken Session Management Demo
-        stack: [
-          Cyber Security
-        ]
+        title: (Cyber Security) Broken Session Management Demo
         description: Broken sesison management demonstration
         repo: https://github.com/featherbear/demo-broken-session-management
       }
       {
-        title: SQLi Demo
-        stack: [
-          Cyber Security
-        ]
+        title: (Cyber Security) SQLi Demo
         description: SQL sandbox and SQLi demonstration
         repo: https://github.com/featherbear/demo-sqli
       }
