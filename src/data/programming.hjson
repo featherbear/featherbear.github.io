@@ -150,6 +150,15 @@
         image: https://featherbear.cc/UNSW-CSE-Thesis/uploads/covers/0T4A9791.JPG
         description: A security and privacy audit of the Roborock S6 robot vacuum cleaner
       }
+      {
+        title: Legacy VNC Password Utility
+        stack: [
+          WebAssembly
+          TypeScript
+        ]
+        description: Experimentation with WebAssembly to perform encryption and decryption of legacy VNC passwords
+        repo: https://github.com/featherbear/vncpasswd-js
+      }
     ]
   }
   {
@@ -224,13 +233,9 @@
         site: https://featherbear.cc/tutoring-unsw-21t2-cs6443-cs6843/
       }
       {
-        title: Legacy VNC Password Utility
-        stack: [
-          WebAssembly
-          TypeScript
-        ]
-        description: Experimentation with WebAssembly to perform encryption and decryption of legacy VNC passwords
-        repo: https://github.com/featherbear/vncpasswd-js
+        title: Learn Password Cracking
+        description: A tutorial on how to use Hashcat to crack passwords
+        site: https://github.com/featherbear/UNSW-COMP6845-password-cracking
       }
       {
         title: (Cyber Security) Clickjacking Demo
@@ -303,6 +308,14 @@
         title: Commentree
         description: Plain-text file documentation tool
         repo: https://github.com/featherbear/commentree
+      }
+      {
+        title: Slacksender
+        stack: [
+          Go
+        ]
+        description: A Slack bot for performing scheduled tasks
+        repo: https://github.com/featherbear/slacksender
       }
       {
         title: Filmstrip Messages
@@ -750,6 +763,16 @@
         ]
         site: https://featherbear.cc/shouldibuyit/
         description: The last definitive piece of financial advice you don't need
+      }
+      {
+        title: Financial Year
+        stack: [
+          TypeScript
+          Svelte
+        ]
+        site: https://featherbear.cc/financial-year
+        repo: https://github.com/featherbear/financial-year
+        description:  What financial year is it 
       }
     ]
   }
