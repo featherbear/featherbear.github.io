@@ -235,7 +235,7 @@
       {
         title: Learn Password Cracking
         description: A tutorial on how to use Hashcat to crack passwords
-        site: https://github.com/featherbear/UNSW-COMP6845-password-cracking
+        site: https://featherbear.cc/UNSW-COMP6845-password-cracking/
       }
       {
         title: (Cyber Security) Clickjacking Demo
