@@ -238,6 +238,11 @@
         site: https://featherbear.cc/UNSW-COMP6845-password-cracking/
       }
       {
+        title: Learn Splunk
+        description: A tutorial on how to set up Splunk from scratch to perform basic HTTP server access.log analysis. Also includes the integration of the AWS Splunk application to parse Boss of the SOC v3 (botsv3) AWS logs, and a section on timeline analysis.
+        site: https://featherbear.cc/UNSW-COMP6845-splunk/
+      }
+      {
         title: (Cyber Security) Clickjacking Demo
         description: Clickjacking vulnerability (partial) demonstration
         site: https://featherbear.cc/demo-js-clickjack/
