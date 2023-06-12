@@ -27,16 +27,9 @@ export default [
     ])
   ]),
   createSection('2022', [
-    createEntry('Research & Development Engineer @ Audinate', null, [
-      'Audio/Visual',
-      'Computing'
-    ]),
     createEntry('Graduated from UNSW', "BE (Hons) Computer Engineering (Honours Class 1)", [
       'Computing'
     ]),
-    /* createEntry('Vivado', "± 2% success rate", [
-      'Computing'
-    ]), */
     createEntry(
       'Thesis Publication',
       null, [
@@ -45,6 +38,10 @@ export default [
       ],
       "“Smart” Vacuum Cleaners - An Audit Into The Security and Integrity of IoT Systems"
     ),
+    createEntry('Research & Development Engineer @ Audinate', null, [
+      'Audio/Visual',
+      'Computing'
+    ])
   ]),
   
   createSection('2021', [
