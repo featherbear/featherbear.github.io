@@ -24,7 +24,7 @@ import puppeteer from 'puppeteer'
 import queue from 'queue'
 import PDFMerger from 'pdf-merger-js'
 
-process.chdir(path.join(process.cwd(), '..'))
+process.chdir(path.join(import.meta.dirname, '..'))
 
 const PORT = process.env['PORT'] || 3000
 const BASE_HOST = `http://localhost:${PORT}/`
