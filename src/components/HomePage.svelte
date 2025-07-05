@@ -111,7 +111,6 @@
           </a>
         </li>
         <li>
-        <li>
           <a href="//github.com/featherbear">
             <img alt="github" src="/assets/icons/code-squircle.svg" />
           </a>
