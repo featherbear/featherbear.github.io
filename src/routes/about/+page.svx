@@ -1,0 +1,252 @@
+<script>
+	import { onMount } from 'svelte';
+
+	// import Thief from '../components/_util/colours'
+
+	function showEmail(elem) {
+		let address = atob("aGVsbG9AZmVhdGhlcmJlYXIuY2M")
+		elem.href = `mailto:${address}`
+		elem.innerText = address;
+	}
+
+	let images = [
+		/* URL, background-position */
+		['/assets/images/cover.jpg', '100% 30%'],
+		['/assets/images/bg/2022/0T4A9896.jpg', '100% 30%'],
+		['/assets/images/bg/2022/IMG_4060_exp.jpg', '100% 50%'],
+		['/assets/images/bg/other/IMG_0082_DxO.jpg', '100% 35%'],
+		['/assets/images/bg/other/IMG_1328.jpg', '100% 50%'],
+		['/assets/images/bg/other/IMG_8914.jpg', '100% 40%'],
+	]
+
+	let selectedCoverImage = Math.trunc(Math.random() * images.length)
+	// let cache = {}
+
+	function newImage() {
+		let newIdx
+		do {
+			newIdx = Math.trunc(Math.random() * images.length)
+		} while (newIdx == selectedCoverImage)
+
+		selectedCoverImage = newIdx
+	}
+</script>
+
+<style lang="scss">
+.coverImage {
+	width: 100%;
+	height: 280px;
+	background-size: cover;
+	position: relative;
+	box-shadow: none;
+	margin: 2em 0;
+	border-radius: 10px;
+
+	cursor: pointer;
+
+	&:before {
+		content: ' ';
+		position: absolute;
+		inset: 0;
+		z-index: -1;
+		background: inherit;
+		filter: blur(0.8em);
+	}
+}
+
+.resumeContainer {
+	position: relative;
+	padding: 15px 5px;
+	inline-size: min-content;
+	
+	&:before, &:after  {
+		z-index: 1;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		bottom: 0;
+	}
+
+	& {
+		&::before {
+			background: rgba(0, 0, 0, 0.01);
+			content: ' ';
+			border-radius: 5px;
+			filter: blur(10px);
+		}
+
+		&:hover::before {
+			background: rgba(0,0,0,.1);
+		}
+		
+		&::after {
+			content: "Resume";
+			
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-transform: uppercase;
+		
+			mix-blend-mode: screen;
+			font-size: 3em;
+		}
+	}
+}
+
+.preview {
+	height: 230px;
+	--width: 256px;
+	width: var(--width);
+	overflow: hidden;
+
+	iframe {
+
+		width: calc(var(--width) * 4);
+		height: 100vh;
+		
+		-ms-zoom: 0.25;
+		-moz-transform: scale(0.25) translateY(-70px);
+		-moz-transform-origin: 0 0;
+		-o-transform: scale(0.25) translateY(-70px);
+		-o-transform-origin: 0 0;
+		-webkit-transform: scale(0.25) translateY(-70px);
+		-webkit-transform-origin: 0 0;
+		
+		border: none;
+		overflow: hidden;
+		pointer-events: none;
+	}
+}
+
+a {
+	text-decoration: dotted underline
+}
+
+blockquote {
+	border-left: 5px solid #cb9c68;
+	border-radius: 2.5px;
+	margin: 0;
+	padding: 0.5em;
+	padding-right: 0;
+
+	p {
+		margin: 0;
+		color: #21252b;
+	}
+}
+</style>
+
+<div on:click={newImage} class="coverImage" style="background-image: url({images[selectedCoverImage][0]}); background-position: {images[selectedCoverImage][1]};" />
+
+# Hey there 👋
+
+You might have found this site from Google, some [code](http://github.com/featherbear/) I wrote, my [UNSW course notes](/blog/post/unsw/)... or maybe you're a robot?  
+Either way, welcome!
+
+During the week I work as a Security Engineer at [Atlassian](https://www.atlassian.com).  
+During the weekend, I do wedding photography and event production stuff, or catch up on sleep!
+
+The rest of my life is basically a mixture of software, audio, lighting, video, photos, computer networks, and security.
+
+I studied Computer Engineering at the [University of New South Wales](https://unsw.edu.au) in Sydney, Australia.  
+Formerly I did Electrical Engineering, but I eventually found myself more fascinated with hardware design (and I hate maths).  
+I wrote a [thesis](https://featherbear.cc/UNSW-CSE-Thesis/) about hacking into robotic vacuum cleaners, if you want to read that!
+
+---
+
+# My life, sort of categorised..
+
+## 💻 [Hardware & Software](/programming)
+
+> I make and break things - though mainly the latter...
+
+My interests lie in network technologies, multimedia systems and dev o(o)ps - though realistically the reason I write software is so that I don't have to pay for them.  
+
+I also supposedly do something involved with cyber security, but let's keep that a ... `c2VjcmV0==` ... between you and me 🕵️‍♀️
+
+## 📸 [Photography](https://www.instagram.com/_andrewjwong/)
+
+> “Alright on three... three!”
+
+When I'm not doing wedding photography, you can probably find me standing in the exact same spot for hours upon hours capturing the landscapes.  
+_That, or..._ looking like a lunatic carrying around a bunch of random lights for some creative portraits or light paintings.  
+
+## 🎬 [Audio / Visual Production](/blog/categories/audio-visual/)  
+
+> “Camera 2, iris up.” × “Is this thing on?”
+
+I'm one of those people who you don't know exist, until we mess up.  
+
+Whilst there's no hope for me in front of a camera or microphone, I can sure make the talent look and sound good!  
+From corporate events like conferences, to weddings, to concerts, theatre and festivals - I mainly work as a live sound engineer (mixing audio) and broadcast engineer (video production and livestreaming), but basically I'm a _"jack of all trades, master of <s>none</s> some"_.  
+
+I also do some local systems integrations for churches and venues, if you need help with that..
+
+## 🎸 Music
+
+When I was younger I was forced to learn piano, then I was forced to learn clarinet, and then I was forced to learn saxophone.  
+I don't remember how to play any of them, but these days I own an unhealthy number of guitars..
+
+## 🤷‍♀️ Misc
+
+Sports? Table Tennis, and going on hikes/walks (if you consider that a sport...)  
+Sleep deprived? Absolutely.  
+Hotel? Trivago.
+
+Favourite Emoji: 🔥
+
+---
+
+# Services
+
+I'm pretty busy, but I'd love to have a chat with you if the request is interesting!
+
+I offer consultation services for software development and IT deployments.  
+I'm also available for audio/visual, photography and livestreaming services: operation, systems integrations and/or training.  
+
+---
+
+# Donations / Sponsor / Surprise me?
+
+If you'd like to financially partner with me in the FOSS work that I do, I've set up some links here.  
+Whether it be a one-time donation or a recurring backing, I'd be nonetheless grateful!
+
+* [PayPal Donation](https://www.paypal.com/donate/?business=377GC53T5VG9L&no_recurring=0&currency_code=AUD)
+* [GitHub Sponsor](https://github.com/sponsors/featherbear/)
+
+## Wishlist
+
+Here's a non-exhaustive list of things that I sort of want to buy, that maybe you could.. buy?  
+_jk haha.. unless..?_
+
+🧦 Socks - I've reached that age in life where I value these as gifts  
+🧵 CAT6 Ethernet cables - The best kinds of wireless devices are the ones that you plug in  
+📷 Camera stuff - Buy me some Canon LP-E6NH batteries please...  
+💻 Laptop - Yeah I don't actually have my own.. shock horror!  
+🎁 Surprise me
+
+---
+
+# Contact
+
+If you need to get in touch with me, you can reach me at <a href="." use:showEmail >...</a>
+
+## Resume
+
+If you're looking for my resume, you can find it **[here](/resume)**.  
+
+<!-- 
+	Now I could totally just add the Svelte components instead of embedding an iframe... but hah!
+ -->
+<a href="/resume">
+	<div class="resumeContainer">
+		<div class="preview">
+			<iframe src="resume" scrolling="no" title="resume" sandbox="allow-scripts allow-same-origin" />
+		</div>
+	</div>
+</a>
+
+## That's all folks
+
+If you're looking for the end of this page, it's here :)

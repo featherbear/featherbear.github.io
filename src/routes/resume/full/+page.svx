@@ -1,0 +1,170 @@
+<script>
+    import ProfileContainer from "../../../components/resume/ProfileContainer/ProfileContainer.svelte"
+    import aboutText from "../../../data/aboutText"
+    import Button from "../../../components/Button.svelte"
+</script>
+
+<style>
+    a {
+      text-decoration: underline dotted;
+    }
+
+    p.spaced  {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+</style>
+
+# Andrew Jin-Meng Wong
+
+<p style="padding-bottom: 20px"><ProfileContainer /></p>
+
+<p class="spaced">
+  {aboutText}
+</p>
+
+---
+
+## Education
+
+### University | UNSW Sydney, Australia (2018 - 2022)
+
+Computer Engineering (First Class Honours) (2020 - 2022)  
+Electrical Engineering / Computer Science (2018 - 2019)  
+
+- Thesis: [“Smart” Vacuum Cleaners - An Audit Into The Security and Integrity of IoT Systems](https://featherbear.cc/UNSW-CSE-Thesis/)
+- First in Extended Web Application Security and Testing - COMP6443 / COMP6843
+- First in Operating Systems - COMP3231
+- CommBank Cyber Security Prize (2020)
+
+### High School | Sydney Technical High School, Australia (2012 - 2017)
+
+- First in Electronics
+- First in Software Design and Development
+- First in Information Processes & Technology
+- Deputy Principals' Prize for Senior Contribution to School Life (2017)
+- School Prefect (2017)
+
+---
+
+<br /> 
+<br /> 
+<br /> 
+
+## 💻 About Me | Computing and "Cyber"
+
+### Showcase
+
+📂 Portfolio available at [featherbear.cc/programming](https://featherbear.cc/programming)
+
+### Experience
+
+- Software
+  - Security Engineer @ Atlassian (2021, 2023 - present)
+  - Research & Development Engineer @ Audinate (2022 - 2023)
+  - Software Engineer @ Ryndeum (2019 - 2021)
+  - Software Engineer @ UNSW Hospitality (2019 - 2020)
+  - Systems Administrator @ RICE Movement (2017 - 2019)
+  - Systems Administrator @ South-West Evangelical Church (2017 - 2018)
+  - Freelance
+
+- Teaching
+  - Private Tutor
+  - Casual Academic @ UNSW Sydney (2019 - 2023)
+  - Computing Workshop Organiser @ CSE CompClub (2019 Summer)
+  - Computing Mentor @ CSE CompClub (2018 Winter)
+
+### Awards
+
+- UNSW
+  - Computer Engineering (First Class Honours)
+  - First in CSE x SecSoc CTF 2021 Cyber Security Competition
+  - First in CSE x SecSoc CTF 2020 Cyber Security Competition
+  - First in Web Application Security and Testing course (COMP6[84]43)
+  - First in Operating Systems (COMP3231)
+  - CommBank Cyber Security Prize (2020)
+- High School
+  - First in HSC Software Design & Development (2016)
+  - First in HSC Information Processes & Technology (2015)
+  - First in Electronics (2014, 2015)
+- ICAS Computer Skills High Distinction (2008 - 2015)
+- NCSS/Grok Python Programming Challenge
+  - Advanced Award - High Distinction (2015 - 2016)
+  - Intermediate Award - Perfect Score (2012 - 2014)
+  - Beginners Award - Perfect Score (2011)
+
+---
+
+
+<br /> 
+<br /> 
+<br /> 
+
+## 🎤 About Me | Audio / Visual 📸
+
+**Multimedia**  
+Giant LED walls, live show programming, geeking out on new microphones, cameras, stacking layers of compression... Digital technology has continued to improve the production value of TV, music, videos, theatre, concerts and so much more. These have been my creative outlets - spending time doing AVL, photography, videography and music. Combine these things with tech, and it gets so much more interesting! I've worked on several projects that have enabled me to tie my interests together and enjoy them simultaneously!
+
+### Experience
+
+- Two Hands Lifted (2020 - present)
+  - Consultation for the sales and installation of audio/visual gear
+  - Livestreaming services for weddings and corporate functions.
+- Sound Engineer @ CSE Revue (2021)
+- Camera Operator @ KCC KYCK (2021 - 2023)
+- Broadcast Engineer @ UNSW Sydney (2021 - 2023)
+- Production Co-ordinator @ South-West Evangelical Church (2018 - 2023)
+  - Planning and integration AVL and networking equipment
+  - Training of volunteers to operate software and equipment
+- Event Technician @ UNSW Hospitality Sydney (2018 - 2020)
+- AV Technician @ RICE Movement (2017 - 2022)
+- Service Technician @ Lightsounds (2015 - 2016)
+  - Maintenance and repair of AVL equipment
+  - Preparation, check-out and check-in of hire equipment
+- Production Head @ STHS Sound & Lighting Crew (2014 - 2017)
+
+---
+
+## Other Cool Stuff
+
+### 🎧 Music
+
+Clarinet, Saxophone, Trumpet and Guitar!  
+Currently figuring out how to hold a violin...
+
+- High School Concert Band, Stage Band, Strings Ensemble, Guitar Ensemble
+- OBU Music Trophy - "Most Improved Instrumentalist" (2015)
+- Engadine Music Bandfest (2009 - 2016)
+
+### 🏓 Sports!
+
+Table Tennis! I also got into bouldering and climbing recently...  
+
+Back in highschool, I represented my school in their 1st Grade Opens A team for multiple years. Whilst younger, I also represented them in the Under 14s A team.  
+
+### 🤼 Community
+
+- Jericho Road Park Patrol (29/04/15)
+  - Preparation and delivery of free hampers to homeless people around the Sydney CBD
+- Office Assistant @ Kirkplace Presbyterian Church (2015)
+- Sculptures By The Sea @ Bondi (2015, 2019)
+  - Selling of merchandise
+  - Collection of pedestrian traffic metrics
+  - Direction and flow control of visitors
+- Leichardt Charity Concert Band (2010)
+  - Collaborated with other local school bands to play music in a charity fundraising event
+- Gannon Gardens Hurstville Carols (2008)
+  - Sung Christmas carols to residents of an age care facility
+- High School
+  - Yearbook Committee (2017)
+  - Dance Committee (2015 - 2016)
+  - Christian Group Leader (2014 - 2017)
+  - Peer Support Leader (2014 - 2015)
+
+<article class="noprint" style="text-align: center">
+  <hr>
+  <p>
+    <Button href="resume/full/pdf" openInNewTab={true}>Download as PDF</Button>
+    <Button href="resume">View summary resume</Button>
+  </p>
+</article>

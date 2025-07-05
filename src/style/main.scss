@@ -1,0 +1,26 @@
+@import 'theme';
+@import 'font';
+
+body {
+  color: var(--font-color);
+  background-color: var(--background-color);
+
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+img {
+  -webkit-user-drag: none; 
+  -khtml-user-drag: none; 
+  -moz-user-drag: none; 
+  -o-user-drag: none; 
+  user-drag: none; 
+}
