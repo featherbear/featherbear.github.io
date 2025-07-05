@@ -25,7 +25,7 @@ jobs:
     - name: Install scripts packages
       run: |
         cd scripts
-        pnpm install --frozen-lockfile
+        pnpm install --frozen-lockfile --dangerously-allow-all-builds
 
     - name: Build
       run: pnpm run build
