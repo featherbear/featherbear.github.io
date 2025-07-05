@@ -11,8 +11,8 @@
   <ProfileContainer />
   <Timeline {data} preContent={aboutText} />
   <p class="noprint" style="text-align: center">
-    <Button href="resume/pdf" openInNewTab={true}>Download as PDF</Button>
-    <Button href="resume/full">View complete resume</Button>
+    <Button href="/resume/pdf" openInNewTab={true}>Download as PDF</Button>
+    <Button href="/resume/full">View complete resume</Button>
   </p>
 </div>
 

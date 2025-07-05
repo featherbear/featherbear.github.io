@@ -10,10 +10,12 @@
   });
 
   $: {
-    if (!import.meta.env.SSR && location.hostname !== "localhost") {
-      window.fathom("trackPageview");
-    } else {
-      console.info("Fathom tracking is not available in this environment.");
+    if (!import.meta.env.SSR) {
+      if (location.hostname !== "localhost") {
+        window.fathom("trackPageview");
+      } else {
+        console.info("Fathom tracking is not available in this environment.");
+      }
     }
   }
 </script>
@@ -30,6 +32,13 @@
 <style lang="scss">
   :global {
     @import "../style/main.scss";
+
+    @media print {
+      .noprint {
+        visibility: hidden;
+        display: none;
+      }
+    }
   }
 
   @import "bulma/sass/layout/container.scss";
@@ -41,12 +50,5 @@
     }
 
     margin-bottom: 2em;
-  }
-
-  @media print {
-    .noprint {
-      visibility: hidden;
-      display: none;
-    }
   }
 </style>

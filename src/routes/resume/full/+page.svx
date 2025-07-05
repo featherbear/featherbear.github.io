@@ -17,7 +17,9 @@
 
 # Andrew Jin-Meng Wong
 
-<p style="padding-bottom: 20px"><ProfileContainer /></p>
+<div style="padding-bottom: 20px">
+  <ProfileContainer />
+</div>
 
 <p class="spaced">
   {aboutText}
@@ -164,7 +166,7 @@ Back in highschool, I represented my school in their 1st Grade Opens A team for 
 <article class="noprint" style="text-align: center">
   <hr>
   <p>
-    <Button href="resume/full/pdf" openInNewTab={true}>Download as PDF</Button>
-    <Button href="resume">View summary resume</Button>
+    <Button href="/resume/full/pdf" openInNewTab={true}>Download as PDF</Button>
+    <Button href="/resume">View summary resume</Button>
   </p>
 </article>
