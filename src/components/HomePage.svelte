@@ -111,10 +111,6 @@
           </a>
         </li>
         <li>
-          <a href="//facebook.com/andrewjinmengwong">
-            <img alt="facebook" src="/assets/icons/facebook-squircle.svg" />
-          </a>
-        </li>
         <li>
           <a href="//github.com/featherbear">
             <img alt="github" src="/assets/icons/code-squircle.svg" />
