@@ -33,11 +33,6 @@ jobs:
     - name: Generate PDFs
       run: pnpm run export:pdf
 
-    - name: Set GitHub files
-      run: |
-        echo featherbear.cc > ./build/CNAME
-        touch ./build/.nojekyll
-
     - name: Upload static files as artifact
       id: deployment
       uses: actions/upload-pages-artifact@v3
