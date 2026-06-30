@@ -103,7 +103,7 @@ export default [
       ['Security', 'Computing'],
       'Created workshop content about information security and security engineering.'
     ),
-    createEntry('Ryndeum', '2019 - 2024', ['Computing'], 'Software Solutions')
+    createEntry('Ryndeum', '2019 - 2022', ['Computing'], 'Software Solutions')
   ]),
   createSection('2018', [
     createEntry('Mentor @ CSE CompClub 2018 Winter', "", [
