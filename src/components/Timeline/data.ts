@@ -21,7 +21,11 @@ function createEntry (
 
 export default [
   createSection('2023', [
-    createEntry('Security Engineer @ Atlassian', "", [
+    createEntry('Security Engineer @ Atlassian', "2023 - present", [
+      'Security',
+      'Computing'
+    ]),
+    createEntry('Casual Lecturer @ UNSW', "2023 - 2025", [
       'Security',
       'Computing'
     ])
@@ -91,7 +95,7 @@ export default [
       'Computer Science Tutor @ UNSW Sydney',
       '2019 - present',
       ['Computing', 'Security'],
-      'Teaching of higher level Computer Science courses and extended UG/PG Cyber Security streams'
+      'Teaching of higher-level Computer Science and Cyber Security courses'
     ),
     createEntry(
       'Workshop Content Writer @ CSE CompClub 2019 Summer',
@@ -99,7 +103,7 @@ export default [
       ['Security', 'Computing'],
       'Created workshop content about information security and security engineering.'
     ),
-    createEntry('Ryndeum', '2019 - present', ['Computing'], 'Software Solutions')
+    createEntry('Ryndeum', '2019 - 2024', ['Computing'], 'Software Solutions')
   ]),
   createSection('2018', [
     createEntry('Mentor @ CSE CompClub 2018 Winter', "", [
