@@ -25,7 +25,7 @@ export default [
       'Security',
       'Computing'
     ]),
-    createEntry('Casual Lecturer @ UNSW', "2023 - 2025", [
+    createEntry('Casual Lecturer @ UNSW', "2023 - present", [
       'Security',
       'Computing'
     ])
